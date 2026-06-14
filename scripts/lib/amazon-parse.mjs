@@ -9,10 +9,19 @@
 export function parseMoney(v) {
   if (v == null) return null;
   if (typeof v === "number") return Number.isFinite(v) && v > 0 ? v : null;
-  // Take the first $-style number in the string (handles "$114.99", "114.99", "$1,149.00").
-  const m = String(v).replace(/,/g, "").match(/([0-9]+(?:\.[0-9]{1,2})?)/);
-  const n = m ? Number(m[1]) : NaN;
-  return Number.isFinite(n) && n > 0 ? n : null;
+  const s = String(v).replace(/,/g, "");
+  // Prefer a $-anchored amount so strings like "2 offers from $99.00" parse as
+  // 99, not 2. Fall back to the largest bare number (the price, not a count like
+  // "1486 Pcs" — though those are usually separate fields).
+  const dollar = s.match(/\$\s*([0-9]+(?:\.[0-9]{1,2})?)/);
+  if (dollar) {
+    const n = Number(dollar[1]);
+    return Number.isFinite(n) && n > 0 ? n : null;
+  }
+  const nums = [...s.matchAll(/([0-9]+(?:\.[0-9]{1,2})?)/g)]
+    .map((m) => Number(m[1]))
+    .filter((n) => Number.isFinite(n) && n > 0);
+  return nums.length ? Math.max(...nums) : null;
 }
 
 const pick = (obj, keys) => {
@@ -66,7 +75,9 @@ export function titleMatchScore(setTitle, amazonTitle) {
   const norm = (s) =>
     s
       .toLowerCase()
-      .replace(/lumibricks|lighting|building|bricks?|set|led|light|kit|pcs|for adults?/g, " ")
+      // Strip generic filler words — with \b boundaries so we don't gut real
+      // words ("Sunset" -> "Sun", "Sled" -> "S" without them).
+      .replace(/\b(?:lumibricks|lighting|building|bricks?|set|led|light|kit|pcs|for adults?)\b/g, " ")
       .replace(/[^a-z0-9 ]/g, " ")
       .split(/\s+/)
       .filter((w) => w.length > 2);

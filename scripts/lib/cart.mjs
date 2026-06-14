@@ -70,8 +70,11 @@ export async function fetchCartDiscounts(store, pairs, { delayMs = 1000 } = {}) 
         const vid = String(numFromGid(node.merchandise?.id));
         const productId = variantToProduct.get(vid);
         if (!productId) continue;
-        const original = Number(node.cost.amountPerQuantity.amount);
-        const final = Number(node.cost.totalAmount.amount); // quantity 1
+        // Guard each field: a single malformed line must not throw and take the
+        // other ~49 lines in this chunk down with it.
+        const original = Number(node.cost?.amountPerQuantity?.amount);
+        const final = Number(node.cost?.totalAmount?.amount); // quantity 1
+        if (!Number.isFinite(original) || !Number.isFinite(final)) continue;
         const title = node.discountAllocations?.[0]?.title || null;
         map.set(productId, { original, final, title });
       }

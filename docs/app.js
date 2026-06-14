@@ -44,18 +44,27 @@ const PREFS = { q: "", theme: "", watchedOnly: false, onSaleOnly: false, inStock
 const isWatched = (id) => PREFS.watch.has(String(id));
 
 function loadPrefs() {
-  let raw = null;
+  // Start from stored prefs (localStorage).
+  let stored = null;
+  try { stored = JSON.parse(localStorage.getItem(PREFS_KEY) || "null"); } catch { /* ignore */ }
+
+  // Overlay ONLY recognized keys that are actually present in the URL hash. A
+  // bare anchor like "#activity" must NOT be parsed as an empty pref set — doing
+  // so used to wipe every filter and, via the next savePrefs(), erase the saved
+  // watchlist from localStorage too.
+  const overlay = {};
   if (location.hash.length > 1) {
     const p = new URLSearchParams(location.hash.slice(1));
-    raw = {
-      q: p.get("q") || "", theme: p.get("theme") || "",
-      watchedOnly: p.get("watched") === "1", onSaleOnly: p.get("onsale") === "1", inStockOnly: p.get("instock") === "1",
-      watch: (p.get("watch") || "").split(",").filter(Boolean),
-    };
-  } else {
-    try { raw = JSON.parse(localStorage.getItem(PREFS_KEY) || "null"); } catch { /* ignore */ }
+    if (p.has("q")) overlay.q = p.get("q") || "";
+    if (p.has("theme")) overlay.theme = p.get("theme") || "";
+    if (p.has("watched")) overlay.watchedOnly = p.get("watched") === "1";
+    if (p.has("onsale")) overlay.onSaleOnly = p.get("onsale") === "1";
+    if (p.has("instock")) overlay.inStockOnly = p.get("instock") === "1";
+    if (p.has("watch")) overlay.watch = (p.get("watch") || "").split(",").filter(Boolean);
   }
-  if (!raw) return;
+
+  if (!stored && Object.keys(overlay).length === 0) return; // nothing to apply
+  const raw = { ...(stored || {}), ...overlay }; // URL prefs win over stored
   PREFS.q = raw.q || "";
   PREFS.theme = raw.theme || "";
   PREFS.watchedOnly = !!raw.watchedOnly;
@@ -158,7 +167,9 @@ function mergeAmazon(products, amazon) {
 }
 
 function renderUpdated(iso, amazonIso) {
-  let txt = `Last checked ${timeAgo(iso)} · ${new Date(iso).toLocaleString()}`;
+  // "Updated", not "Last checked": the checker now only rewrites data (and bumps
+  // generatedAt) when something actually changed, so this is the last-change time.
+  let txt = `Updated ${timeAgo(iso)} · ${new Date(iso).toLocaleString()}`;
   if (amazonIso) txt += ` · Amazon ${timeAgo(amazonIso)}`;
   $("#updated").textContent = txt;
 }

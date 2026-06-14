@@ -2,10 +2,13 @@
 // One-time-ish ASIN discovery. For each trackable Shopify set without a mapping,
 // search Amazon (via ScraperAPI's structured search) and record the best ASIN.
 //
-// Runs intentionally (manual workflow_dispatch), not on a schedule, because it
-// spends scraper credits. Re-running only fills in gaps — existing matches and
-// any "manual" overrides are left untouched. Review docs/data/asin-map.json
-// afterward and fix any low-confidence rows by hand (set status:"manual").
+// Two modes (both spend scraper credits, so coverage is bounded):
+//   - Scheduled (weekly, DISCOVER_NEW_ONLY=1): maps only brand-new sets with no
+//     entry yet — auto-handles new LumiBricks launches at ~0 cost when nothing's
+//     new, and never re-burns credits on the known "not on Amazon" sets.
+//   - Manual (workflow_dispatch, full): also retries "unmatched"/"error" sets.
+// Existing "matched"/"manual"/"skip" rows are always left untouched. Review
+// docs/data/asin-map.json afterward and fix low-confidence rows (set status:"manual").
 //
 // Env:
 //   SCRAPERAPI_KEY       required
@@ -42,13 +45,18 @@ async function main() {
 
   // Only work on sets we haven't resolved. "matched"/"manual" are kept; "skip"
   // means a human rejected the match (no good Amazon listing) — never re-search it.
+  // NEW_ONLY (scheduled runs): only brand-new sets with no entry at all — so we
+  // auto-map new launches without re-burning credits on the known-unmatched ones.
+  // Full mode (manual runs): also retry "unmatched"/"error" sets.
+  const newOnly = process.env.DISCOVER_NEW_ONLY === "1";
   const KEEP = new Set(["matched", "manual", "skip"]);
   const todo = sets.filter((s) => {
     const e = map[String(s.id)];
-    return !e || !KEEP.has(e.status);
+    return newOnly ? !e : (!e || !KEEP.has(e.status));
   });
 
-  console.log(`${sets.length} trackable sets, ${todo.length} unmapped. Searching up to ${MAX} this run.`);
+  console.log(`${sets.length} trackable sets, ${todo.length} ${newOnly ? "brand-new" : "unmapped"}. Searching up to ${MAX} this run.`);
+  if (todo.length === 0) { console.log("Nothing to discover."); }
   let used = 0;
 
   for (const s of todo) {

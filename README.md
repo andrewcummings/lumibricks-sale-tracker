@@ -83,6 +83,10 @@ you add a key, the Amazon workflows no-op and the dashboard stays LumiBricks-onl
 3. **Build the ASIN map:** **Actions tab → "Discover Amazon ASINs" → Run workflow.** 💡 Do this in your **first 7 days** — new accounts get a 5,000-credit trial that week, so discovery (~5 credits/set) won't eat your recurring 1,000/mo. Re-run to finish any gaps. Then skim `docs/data/asin-map.json` — for any wrong/low-confidence row, set the right `asin` and `"status": "manual"` to lock it in.
 4. Done. The **"Check Amazon prices"** workflow runs on the 1st & 15th and fills in the Amazon columns.
 
+### New sets
+- **LumiBricks side is automatic:** the hourly checker pulls the whole catalog, so a new set appears on the dashboard within an hour, gets tracked from day one, and fires a "✨ New set" event.
+- **Amazon side self-heals weekly:** the "Discover Amazon ASINs" workflow also runs on a schedule (Mondays) in **new-sets-only** mode — it maps any brand-new set's ASIN (~0 credits when nothing's new) and never re-searches the known "not on Amazon" sets. The next price sweep then prices it. Run the workflow **manually** anytime to do a full pass that also retries the unmatched ones.
+
 ### Notes & tuning
 - **Budget math:** 1,000 credits/mo ÷ 5 = ~200 Amazon lookups. Two full sweeps of ~90 sets ≈ 900 credits. Discovery is one-time (~450 credits) — best spent during the trial week.
 - **Want more frequent checks?** Either narrow to a watchlist (delete/`"status":"skip"` rows in `asin-map.json`) and raise the `cron` frequency in `amazon.yml`, or upgrade your ScraperAPI plan. Volume per run is capped by `AMAZON_MAX` (env in `amazon.yml`); discovery by `DISCOVER_MAX` / `DISCOVER_MIN_SCORE`.

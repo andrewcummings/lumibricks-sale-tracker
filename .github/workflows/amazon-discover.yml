@@ -5,6 +5,10 @@ name: Discover Amazon ASINs
 # matched and manual rows are left untouched. Review docs/data/asin-map.json after.
 
 on:
+  # Weekly auto-map of *brand-new* sets only (cheap: ~0 credits unless LumiBricks
+  # launched something). Manual runs do a full pass that also retries "unmatched".
+  schedule:
+    - cron: "0 8 * * 1" # Mondays 08:00 UTC
   workflow_dispatch:
     inputs:
       max:
@@ -27,7 +31,9 @@ jobs:
       - name: Discover ASINs
         env:
           SCRAPERAPI_KEY: ${{ secrets.SCRAPERAPI_KEY }}
-          DISCOVER_MAX: ${{ github.event.inputs.max }}
+          # Scheduled run: new sets only, small cap. Manual run: full pass, input cap.
+          DISCOVER_NEW_ONLY: ${{ github.event_name == 'schedule' && '1' || '' }}
+          DISCOVER_MAX: ${{ github.event.inputs.max || '20' }}
         run: node scripts/discover-asins.mjs
 
       - name: Commit ASIN map

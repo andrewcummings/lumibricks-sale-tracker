@@ -66,7 +66,17 @@ h2 { font-size: 20px; margin: 34px 0 14px; }
 .tag.promo { background: rgba(61,220,132,.18); color: var(--good); }
 
 /* Activity */
-.activity { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 8px; }
+.activity {
+  list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 8px;
+  /* Compact scrolling panel so a long feed never pushes the table down. ~6 rows. */
+  max-height: 300px; overflow-y: auto; padding-right: 6px;
+  scrollbar-width: thin; scrollbar-color: var(--line) transparent;
+  -webkit-mask-image: linear-gradient(to bottom, #000 calc(100% - 24px), transparent);
+          mask-image: linear-gradient(to bottom, #000 calc(100% - 24px), transparent);
+}
+.activity::-webkit-scrollbar { width: 8px; }
+.activity::-webkit-scrollbar-thumb { background: var(--line); border-radius: 8px; }
+.activity li:last-child { margin-bottom: 18px; } /* room for the fade mask */
 .activity li {
   display: flex; align-items: center; gap: 12px; background: var(--panel);
   border: 1px solid var(--line); border-radius: 10px; padding: 10px 14px;

@@ -208,6 +208,7 @@ function renderSales(products) {
 }
 
 function renderActivity(events) {
+  $("#activity-count").textContent = events.length ? `(${events.length})` : "";
   $("#no-activity").hidden = events.length > 0;
   $("#activity").innerHTML = events
     .slice(0, 40)

@@ -28,13 +28,20 @@ has a `price` and an optional `compare_at_price`. A set is **on sale** when
 `(compare_at − price) / compare_at`. Sets have regional variants (US/EU/CA/UK/Global),
 so the checker aggregates them into one representative price and the **best** discount.
 
-**Automatic (cart-level) discounts too.** Some LumiBricks promos (e.g. a Father's Day
-10% off) are Shopify *automatic discounts* applied at checkout — they never set
-`compare_at_price`, so they're invisible in `products.json`. The checker also adds one
-variant per set to a throwaway cart and reads `/cart.js`, which exposes `original_price`
-vs `final_price` and the promo name. Those are merged into sale detection and shown with
-the promo label (e.g. `🏷️ FATHERS_DAY10`). This step is best-effort — the cart endpoints
-are rate-limited, so if it's throttled the checker falls back to `compare_at` only.
+**Automatic (cart-level) discounts too — this is where most LumiBricks sales live.**
+Many promos (e.g. `FATHERS_DAY10` 10% off, `SPECIALOFF30` 30% off) are Shopify
+*automatic discounts* applied at checkout. They never set `compare_at_price`, so they're
+invisible in `products.json` — a set can be 30% off and still look full-price there.
+The checker reads them via the official **Storefront GraphQL API**: it creates a cart
+(one stateless `cartCreate` call per ~50 variants, no cookies) and reads each line's
+`discountAllocations` — the discounted price and promo title. These merge into sale
+detection and show with a promo label (e.g. `🏷️ FATHERS_DAY10`).
+
+Why the Storefront API and not the AJAX cart (`/cart.js`)? The AJAX cart endpoints are
+bot-protected and return `429` from datacenter/CI IPs. The Storefront API is the
+supported headless interface — not bot-blocked — using a public storefront token read
+from the theme (overridable via the `STOREFRONT_TOKEN` env var). Still best-effort: if it
+ever fails, the checker falls back to `compare_at`-only detection.
 
 ## Run it locally
 

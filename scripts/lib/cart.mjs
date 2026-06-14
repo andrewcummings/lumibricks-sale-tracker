@@ -1,85 +1,86 @@
-// Detect Shopify *automatic* (cart-level) discounts — the kind that don't appear
-// in products.json (compare_at_price stays null) but are applied at checkout,
-// e.g. "FATHERS_DAY10, 10% off". The only public way to see them is the AJAX
-// cart API: add a variant, then read /cart.js, where each line exposes
-// original_price vs final_price + line_level_discount_allocations.
+// Detect Shopify *automatic* (cart-level) discounts — promos applied at checkout
+// that never set compare_at_price, so they're invisible in products.json
+// (e.g. SPECIALOFF30 30% off, FATHERS_DAY10 10% off).
 //
-// Best-effort and gentle: the cart endpoints are rate-limited and bot-sensitive,
-// so we do one batched add (in chunks) + one read + one clear per run, with
-// delays, a browser-like UA, and an accumulating cookie jar. Any failure (429,
-// HTML challenge, non-JSON) returns an empty map so the caller falls back to
-// compare_at-only detection instead of breaking.
+// We use the official **Storefront GraphQL API**, not the AJAX cart endpoints.
+// The AJAX cart (/cart/add.js, /cart.js) is bot-protected and returns 429 from
+// datacenter/CI IPs. The Storefront API is the supported headless interface:
+// it's stateless (one cartCreate returns the discounted prices — no cookies),
+// not bot-blocked, and exposes each line's discountAllocations with the promo
+// title. A public storefront access token is read straight from the theme.
 
-const UA =
-  "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0 Safari/537.36";
+const API_VERSION = "2024-10";
+// Public Storefront access token exposed in the LumiBricks theme. If it ever
+// rotates, the cart step fails gracefully (falls back to compare_at) and logs
+// the error — grab the new one from the homepage HTML ("accessToken":"…") or set
+// the STOREFRONT_TOKEN env var.
+const FALLBACK_TOKEN = "551a08f708b1f079fb488a510f7b5646";
+const CHUNK = 50; // ~9.5 query-cost per line → ~475 per call, under the 1000 cap
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+const gidVariant = (id) => `gid://shopify/ProductVariant/${id}`;
+const numFromGid = (gid) => Number(String(gid).split("/").pop());
 
-function makeJar() {
-  const jar = {};
-  return {
-    header: () => Object.entries(jar).map(([k, v]) => `${k}=${v}`).join("; "),
-    stash: (res) => {
-      for (const c of res.headers.getSetCookie?.() || []) {
-        const kv = c.split(";")[0];
-        const i = kv.indexOf("=");
-        if (i > 0) jar[kv.slice(0, i)] = kv.slice(i + 1);
-      }
-    },
-  };
+async function tokenFor(store) {
+  if (process.env.STOREFRONT_TOKEN) return process.env.STOREFRONT_TOKEN;
+  try {
+    const html = await (await fetch(store, { headers: { "User-Agent": "lumibricks-sale-tracker" } })).text();
+    const m = html.match(/"accessToken":"([a-f0-9]{32})"/i);
+    if (m) return m[1];
+  } catch { /* fall through */ }
+  return FALLBACK_TOKEN;
 }
 
-// Returns { ok, map, error }. map: productId(string) -> { original, final, title, valueType, value } (dollars).
-export async function fetchCartDiscounts(store, pairs, { chunkSize = 50, delayMs = 1500 } = {}) {
-  const jar = makeJar();
-  const H = (extra = {}) => ({ "User-Agent": UA, Accept: "application/json", Cookie: jar.header(), ...extra });
-  const map = new Map();
-
-  try {
-    // Establish session cookies like a browser would.
-    jar.stash(await fetch(`${store}/`, { headers: { "User-Agent": UA } }));
-    await sleep(delayMs);
-    // Start from a clean cart so stale lines don't skew results.
-    jar.stash(await fetch(`${store}/cart/clear.js`, { headers: H() }));
-    await sleep(delayMs);
-
-    for (let i = 0; i < pairs.length; i += chunkSize) {
-      const items = pairs.slice(i, i + chunkSize).map((p) => ({ id: p.variantId, quantity: 1 }));
-      const res = await fetch(`${store}/cart/add.js`, {
-        method: "POST",
-        headers: H({ "Content-Type": "application/json" }),
-        body: JSON.stringify({ items }),
-      });
-      jar.stash(res);
-      if (res.status !== 200) {
-        const body = await res.text();
-        return { ok: false, map, error: `cart/add.js HTTP ${res.status} (${body.slice(0, 80).replace(/\s+/g, " ")})` };
-      }
-      await sleep(delayMs);
-    }
-
-    const cartRes = await fetch(`${store}/cart.js`, { headers: H() });
-    if (!(cartRes.headers.get("content-type") || "").includes("json")) {
-      return { ok: false, map, error: "cart.js returned non-JSON (likely a bot challenge)" };
-    }
-    const cart = await cartRes.json();
-    for (const it of cart.items || []) {
-      const alloc = it.line_level_discount_allocations?.[0]?.discount_application;
-      map.set(String(it.product_id), {
-        original: it.original_price / 100,
-        final: it.final_price / 100,
-        title: alloc?.title || null,
-        valueType: alloc?.value_type || null,
-        value: alloc?.value != null ? Number(alloc.value) : null,
-      });
-    }
-
-    // Tidy up so we don't leave a fat cart around for this session cookie.
-    await sleep(delayMs);
-    await fetch(`${store}/cart/clear.js`, { headers: H() }).catch(() => {});
-
-    return { ok: true, map, error: null };
-  } catch (err) {
-    return { ok: false, map, error: String(err?.message || err) };
+const QUERY = (lines) => `mutation {
+  cartCreate(input: { lines: [${lines}] }) {
+    cart { lines(first: ${CHUNK}) { edges { node {
+      cost { amountPerQuantity { amount } totalAmount { amount } }
+      discountAllocations { discountedAmount { amount } ... on CartAutomaticDiscountAllocation { title } }
+      merchandise { ... on ProductVariant { id } }
+    } } } }
+    userErrors { message }
   }
+}`;
+
+// Returns { ok, map, error }. map: productId(string) -> { original, final, title } (dollars).
+export async function fetchCartDiscounts(store, pairs, { delayMs = 1000 } = {}) {
+  const map = new Map();
+  if (pairs.length === 0) return { ok: true, map, error: null };
+
+  const token = await tokenFor(store);
+  const variantToProduct = new Map(pairs.map((p) => [String(p.variantId), String(p.productId)]));
+  const endpoint = `${store}/api/${API_VERSION}/graphql.json`;
+  let firstError = null;
+  let okChunks = 0;
+
+  for (let i = 0; i < pairs.length; i += CHUNK) {
+    const batch = pairs.slice(i, i + CHUNK);
+    const lines = batch.map((p) => `{ quantity: 1, merchandiseId: "${gidVariant(p.variantId)}" }`).join(", ");
+    try {
+      const res = await fetch(endpoint, {
+        method: "POST",
+        headers: { "Content-Type": "application/json", "X-Shopify-Storefront-Access-Token": token },
+        body: JSON.stringify({ query: QUERY(lines) }),
+      });
+      if (!res.ok) { firstError ||= `Storefront HTTP ${res.status}`; continue; }
+      const json = await res.json();
+      const cart = json?.data?.cartCreate?.cart;
+      if (!cart) { firstError ||= json?.errors?.[0]?.message || json?.data?.cartCreate?.userErrors?.[0]?.message || "no cart in response"; continue; }
+      for (const { node } of cart.lines.edges) {
+        const vid = String(numFromGid(node.merchandise?.id));
+        const productId = variantToProduct.get(vid);
+        if (!productId) continue;
+        const original = Number(node.cost.amountPerQuantity.amount);
+        const final = Number(node.cost.totalAmount.amount); // quantity 1
+        const title = node.discountAllocations?.[0]?.title || null;
+        map.set(productId, { original, final, title });
+      }
+      okChunks++;
+    } catch (err) {
+      firstError ||= String(err?.message || err);
+    }
+    if (i + CHUNK < pairs.length) await sleep(delayMs);
+  }
+
+  return { ok: okChunks > 0, map, error: okChunks > 0 ? null : firstError };
 }

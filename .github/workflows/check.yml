@@ -35,11 +35,17 @@ jobs:
         run: |
           git config user.name "lumibricks-bot"
           git config user.email "actions@github.com"
-          if [ -n "$(git status --porcelain docs/data)" ]; then
-            git add docs/data
-            git commit -m "data: refresh sales snapshot ($(date -u +%Y-%m-%dT%H:%MZ))"
-            git push
-            echo "Pushed updated data."
-          else
+          if [ -z "$(git status --porcelain docs/data)" ]; then
             echo "No data changes — nothing to commit."
+            exit 0
           fi
+          git add docs/data
+          git commit -m "data: refresh sales snapshot ($(date -u +%Y-%m-%dT%H:%MZ))"
+          # Retry around races with the other scheduled jobs; our fresh data wins on conflict.
+          for attempt in 1 2 3 4 5; do
+            if git push; then echo "Pushed updated data."; exit 0; fi
+            echo "push rejected — rebasing onto latest (attempt $attempt)…"
+            git fetch origin main && git rebase -X theirs origin/main || git rebase --abort
+            sleep $((RANDOM % 5 + 2))
+          done
+          echo "Failed to push after retries"; exit 1

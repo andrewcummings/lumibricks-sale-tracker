@@ -33,11 +33,16 @@ jobs:
         run: |
           git config user.name "lumibricks-bot"
           git config user.email "actions@github.com"
-          if [ -n "$(git status --porcelain docs/data)" ]; then
-            git add docs/data
-            git commit -m "data: refresh Amazon prices ($(date -u +%Y-%m-%dT%H:%MZ))"
-            git push
-            echo "Pushed updated Amazon data."
-          else
+          if [ -z "$(git status --porcelain docs/data)" ]; then
             echo "No Amazon data changes (or SCRAPERAPI_KEY not set yet)."
+            exit 0
           fi
+          git add docs/data
+          git commit -m "data: refresh Amazon prices ($(date -u +%Y-%m-%dT%H:%MZ))"
+          for attempt in 1 2 3 4 5; do
+            if git push; then echo "Pushed updated Amazon data."; exit 0; fi
+            echo "push rejected — rebasing onto latest (attempt $attempt)…"
+            git fetch origin main && git rebase -X theirs origin/main || git rebase --abort
+            sleep $((RANDOM % 5 + 2))
+          done
+          echo "Failed to push after retries"; exit 1

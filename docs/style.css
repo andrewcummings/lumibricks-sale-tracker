@@ -112,6 +112,22 @@ td.num { text-align: right; white-space: nowrap; font-variant-numeric: tabular-n
 .out { color: var(--sale); }
 .lowflag { color: var(--good); font-weight: 700; }
 
+/* Cross-channel (Amazon) bits */
+td.best { background: rgba(61,220,132,.10); }
+.src { font-size: 10px; font-weight: 700; padding: 1px 5px; border-radius: 4px; vertical-align: middle; }
+.src.shopify { background: rgba(255,176,32,.18); color: var(--accent); }
+.src.amazon { background: rgba(106,176,255,.18); color: var(--link); }
+.cheap { color: var(--good); font-weight: 700; }
+.chan { font-size: 10px; font-weight: 700; padding: 1px 6px; border-radius: 4px; }
+.chan.lb { background: rgba(255,176,32,.16); color: var(--accent); }
+.chan.amz { background: rgba(106,176,255,.16); color: var(--link); }
+.amz-links { font-size: 13px; color: var(--muted); margin: 14px 0 0; }
+/* Hide the Amazon/Best columns until Amazon data exists, so the table reads cleanly pre-integration */
+body:not(.has-amazon) th[data-sort="amazonPrice"],
+body:not(.has-amazon) th[data-sort="bestPrice"],
+body:not(.has-amazon) td.amz-col,
+body:not(.has-amazon) #all-body td:nth-child(6) { display: none; }
+
 .empty { color: var(--muted); background: var(--panel); border: 1px dashed var(--line); border-radius: var(--radius); padding: 18px; }
 
 .foot { color: var(--muted); font-size: 13px; padding: 40px 20px 60px; }

@@ -171,7 +171,7 @@ async function main() {
 
     // Emit semantic events (skip first-ever sighting unless it's already on sale).
     const push = (type, extra) =>
-      newEvents.push({ t: NOW, type, id: c.id, title: c.title, url: c.url, image: c.image, ...extra });
+      newEvents.push({ t: NOW, source: "shopify", type, id: c.id, title: c.title, url: c.url, image: c.image, ...extra });
 
     if (!prev) {
       if (!coldStart) push("NEW_PRODUCT", { price: c.price, available: c.available });

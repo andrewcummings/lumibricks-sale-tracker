@@ -1,0 +1,41 @@
+name: Check Amazon prices
+
+on:
+  schedule:
+    - cron: "0 7 * * *" # once a day (UTC). Daily ~90 reqs ≈ 2,700/mo, inside the 5,000 free tier.
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: lumibricks-amazon
+  cancel-in-progress: false
+
+jobs:
+  amazon:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Check Amazon prices
+        env:
+          WEBSCRAPING_API_KEY: ${{ secrets.WEBSCRAPING_API_KEY }}
+          AMAZON_MAX: "120"
+        run: node scripts/amazon.mjs
+
+      - name: Commit data changes (only if anything changed)
+        run: |
+          git config user.name "lumibricks-bot"
+          git config user.email "actions@github.com"
+          if [ -n "$(git status --porcelain docs/data)" ]; then
+            git add docs/data
+            git commit -m "data: refresh Amazon prices ($(date -u +%Y-%m-%dT%H:%MZ))"
+            git push
+            echo "Pushed updated Amazon data."
+          else
+            echo "No Amazon data changes (or WEBSCRAPING_API_KEY not set yet)."
+          fi

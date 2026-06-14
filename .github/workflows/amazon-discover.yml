@@ -1,0 +1,44 @@
+name: Discover Amazon ASINs
+
+# Run this manually (Actions tab → Run workflow) to build/extend the set→ASIN map.
+# It spends scraper credits, so it is NOT scheduled. Re-run to fill remaining gaps;
+# matched and manual rows are left untouched. Review docs/data/asin-map.json after.
+
+on:
+  workflow_dispatch:
+    inputs:
+      max:
+        description: "Max Amazon searches this run (protects your free quota)"
+        required: false
+        default: "40"
+
+permissions:
+  contents: write
+
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Discover ASINs
+        env:
+          WEBSCRAPING_API_KEY: ${{ secrets.WEBSCRAPING_API_KEY }}
+          DISCOVER_MAX: ${{ github.event.inputs.max }}
+        run: node scripts/discover-asins.mjs
+
+      - name: Commit ASIN map
+        run: |
+          git config user.name "lumibricks-bot"
+          git config user.email "actions@github.com"
+          if [ -n "$(git status --porcelain docs/data/asin-map.json)" ]; then
+            git add docs/data/asin-map.json
+            git commit -m "data: update Amazon ASIN map ($(date -u +%Y-%m-%dT%H:%MZ))"
+            git push
+            echo "Pushed updated ASIN map."
+          else
+            echo "No ASIN map changes (or WEBSCRAPING_API_KEY not set yet)."
+          fi

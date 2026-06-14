@@ -32,40 +32,74 @@ function thumb(url) {
   return url.replace(/(\.[a-z]+)(\?.*)?$/i, "_400x$1$2");
 }
 
-let STATE = { products: [], history: { products: {} } };
+let STATE = { products: [], history: { products: {} }, amazonHistory: { products: {} } };
 let sortKey = "discountPct";
 let sortDir = "desc";
 
 async function load() {
   try {
-    const [current, events, history] = await Promise.all([
+    const [current, events, history, amazon, amazonHistory] = await Promise.all([
       fetch("./data/current.json").then((r) => r.json()),
       fetch("./data/events.json").then((r) => r.json()).catch(() => ({ events: [] })),
       fetch("./data/history.json").then((r) => r.json()).catch(() => ({ products: {} })),
+      fetch("./data/amazon-current.json").then((r) => r.json()).catch(() => ({ products: {} })),
+      fetch("./data/amazon-history.json").then((r) => r.json()).catch(() => ({ products: {} })),
     ]);
-    STATE = { products: current.products, history };
-    renderUpdated(current.generatedAt);
-    renderStats(current.totals);
+    mergeAmazon(current.products, amazon);
+    const amazonActive = Object.keys(amazon.products || {}).length > 0;
+    STATE = { products: current.products, history, amazonHistory };
+    document.body.classList.toggle("has-amazon", amazonActive);
+    renderUpdated(current.generatedAt, amazonActive ? amazon.generatedAt : null);
+    renderStats(current.totals, current.products, amazonActive);
     renderSales(current.products);
     renderActivity(events.events || []);
     renderTable();
-    $("#product-count").textContent = `Tracking ${current.products.length} sets.`;
+    $("#product-count").textContent =
+      `Tracking ${current.products.length} sets` +
+      (amazonActive ? ` · Amazon prices on ${Object.keys(amazon.products).length}.` : ".");
   } catch (err) {
     $("#updated").textContent = "Couldn't load data yet — the first check may not have run.";
     console.error(err);
   }
 }
 
-function renderUpdated(iso) {
-  $("#updated").textContent = `Last checked ${timeAgo(iso)} · ${new Date(iso).toLocaleString()}`;
+// Attach Amazon prices to each Shopify product and compute the lowest channel.
+function mergeAmazon(products, amazon) {
+  const amap = amazon.products || {};
+  for (const p of products) {
+    const a = amap[String(p.id)] || null;
+    p.amazon = a;
+    p.amazonPrice = a && a.price != null ? a.price : null;
+    const cands = [];
+    if (p.available && p.price != null) cands.push({ price: p.price, source: "shopify" });
+    if (a && a.available && a.price != null) cands.push({ price: a.price, source: "amazon" });
+    if (cands.length === 0) { // nothing in stock — compare listed prices anyway
+      if (p.price != null) cands.push({ price: p.price, source: "shopify" });
+      if (a && a.price != null) cands.push({ price: a.price, source: "amazon" });
+    }
+    cands.sort((x, y) => x.price - y.price);
+    p.bestPrice = cands.length ? cands[0].price : null;
+    p.bestSource = cands.length ? cands[0].source : null;
+    p.cheaperOnAmazon = a && a.price != null && p.price != null && a.price < p.price;
+  }
 }
 
-function renderStats(t) {
+function renderUpdated(iso, amazonIso) {
+  let txt = `Last checked ${timeAgo(iso)} · ${new Date(iso).toLocaleString()}`;
+  if (amazonIso) txt += ` · Amazon ${timeAgo(amazonIso)}`;
+  $("#updated").textContent = txt;
+}
+
+function renderStats(t, products, amazonActive) {
   const items = [
     { big: t.products, lbl: "sets tracked" },
-    { big: t.onSale, lbl: "on sale now", hot: t.onSale > 0 },
+    { big: t.onSale, lbl: amazonActive ? "on sale (LumiBricks)" : "on sale now", hot: t.onSale > 0 },
     { big: t.maxDiscountPct ? `${t.maxDiscountPct}%` : "—", lbl: "biggest discount", hot: t.maxDiscountPct > 0 },
   ];
+  if (amazonActive) {
+    const cheaper = products.filter((p) => p.cheaperOnAmazon).length;
+    items.push({ big: cheaper, lbl: "cheaper on Amazon", hot: cheaper > 0 });
+  }
   $("#stats").innerHTML = items
     .map((s) => `<div class="stat ${s.hot ? "hot" : ""}"><div class="big">${s.big}</div><div class="lbl">${s.lbl}</div></div>`)
     .join("");
@@ -104,13 +138,26 @@ function renderActivity(events) {
       else if (e.type === "PRICE_DROP") detail = `${money(e.from)} → <b>${money(e.price)}</b>`;
       else if (e.type === "PRICE_RISE") detail = `${money(e.from)} → ${money(e.price)}`;
       else if (e.price != null) detail = money(e.price);
+      const chan = e.source === "amazon"
+        ? '<span class="chan amz">Amazon</span>'
+        : '<span class="chan lb">LumiBricks</span>';
       return `<li>
         <span class="ev-ico">${m.ico}</span>
-        <span class="ev-text"><span class="tag ${m.tag}">${m.word}</span> <b><a href="${e.url}" target="_blank" rel="noopener">${esc(e.title)}</a></b> ${detail}</span>
+        <span class="ev-text">${chan} <span class="tag ${m.tag}">${m.word}</span> <b><a href="${e.url}" target="_blank" rel="noopener">${esc(e.title)}</a></b> ${detail}</span>
         <span class="ev-time">${timeAgo(e.t)}</span>
       </li>`;
     })
     .join("");
+}
+
+function amazonCell(p) {
+  const a = p.amazon;
+  if (!a || a.price == null) return '<span class="dash">—</span>';
+  const link = `<a href="${a.url}" target="_blank" rel="noopener">${money(a.price)}</a>`;
+  const disc = a.discountPct ? ` <span class="disc">-${a.discountPct}%</span>` : "";
+  const flag = p.cheaperOnAmazon ? ' <span class="cheap" title="Cheaper on Amazon">▼</span>' : "";
+  const oos = a.available === false ? ' <span class="out">·out</span>' : "";
+  return link + disc + flag + oos;
 }
 
 function renderTable() {
@@ -138,9 +185,10 @@ function renderTable() {
         <td><img class="row-thumb" loading="lazy" src="${thumb(p.image)}" alt=""></td>
         <td><span class="row-name" data-id="${p.id}">${esc(p.title)}</span></td>
         <td>${esc(p.productType) || '<span class="dash">—</span>'}</td>
-        <td class="num">${money(p.price)}${p.onSale ? `<span class="was-sm">${money(p.compareAt)}</span>` : ""}</td>
+        <td class="num ${p.bestSource === "shopify" ? "best" : ""}">${money(p.price)}${p.onSale ? `<span class="was-sm">${money(p.compareAt)}</span>` : ""}</td>
+        <td class="num amz-col ${p.bestSource === "amazon" ? "best" : ""}">${amazonCell(p)}</td>
+        <td class="num">${p.bestPrice != null ? `${money(p.bestPrice)} <span class="src ${p.bestSource}">${p.bestSource === "amazon" ? "AMZ" : "LB"}</span>` : '<span class="dash">—</span>'}</td>
         <td class="num">${p.discountPct ? `<span class="disc">-${p.discountPct}%</span>` : '<span class="dash">—</span>'}</td>
-        <td class="num">${money(p.lowestEver)}${p.atLowestEver ? ' <span class="lowflag">●</span>' : ""}</td>
         <td>${p.available ? '<span class="in">In stock</span>' : '<span class="out">Out</span>'}</td>
       </tr>`
     )
@@ -160,48 +208,62 @@ function renderTable() {
 
 function openModal(id) {
   const p = STATE.products.find((x) => x.id === id);
-  const entry = STATE.history.products[String(id)];
   if (!p) return;
-  const points = (entry?.points || []).filter((pt) => pt.price != null);
+  const shop = (STATE.history.products[String(id)]?.points || []).filter((pt) => pt.price != null);
+  const amz = (STATE.amazonHistory?.products?.[String(id)]?.points || []).filter((pt) => pt.price != null);
+  const series = [];
+  if (shop.length) series.push({ label: "LumiBricks", color: "#ffb020", points: shop });
+  if (amz.length) series.push({ label: "Amazon", color: "#6ab0ff", points: amz });
+
+  const metaBits = [`LumiBricks ${money(p.price)}`];
+  if (p.amazon?.price != null) metaBits.push(`Amazon ${money(p.amazon.price)}`);
+  metaBits.push(`all-time low ${money(p.lowestEver)}`);
+
+  const hasChart = series.some((s) => s.points.length >= 2);
   $("#modal-body").innerHTML = `
     <h3><a href="${p.url}" target="_blank" rel="noopener">${esc(p.title)}</a></h3>
-    <div class="meta">${money(p.price)} now · all-time low ${money(p.lowestEver)} · ${points.length} price point${points.length === 1 ? "" : "s"} recorded</div>
-    ${points.length >= 2 ? chartSVG(points) : '<p class="empty">Not enough history yet — points accumulate over time as prices change.</p>'}
+    <div class="meta">${metaBits.join(" · ")}</div>
+    ${hasChart ? chartSVG(series) : '<p class="empty">Not enough history yet — points accumulate over time as prices change.</p>'}
+    ${p.amazon?.asin ? `<p class="amz-links">Amazon: <a href="${p.amazon.url}" target="_blank" rel="noopener">view listing</a> · <a href="https://keepa.com/#!product/1-${p.amazon.asin}" target="_blank" rel="noopener">full price history on Keepa</a></p>` : ""}
   `;
   $("#modal").hidden = false;
 }
 
-function chartSVG(points) {
-  const W = 500, H = 200, pad = 34;
-  const xs = points.map((p) => new Date(p.t).getTime());
-  const ys = points.map((p) => p.price);
-  const cmp = points.map((p) => p.compareAt).filter((v) => v != null);
+// Multi-series step chart (prices hold until the next recorded change).
+function chartSVG(series) {
+  const W = 500, H = 210, pad = 34;
+  const all = series.flatMap((s) => s.points);
+  const xs = all.map((p) => new Date(p.t).getTime());
+  const ys = all.map((p) => p.price);
   const minX = Math.min(...xs), maxX = Math.max(...xs);
-  const minY = Math.min(...ys, ...(cmp.length ? cmp : ys)) * 0.95;
-  const maxY = Math.max(...ys, ...(cmp.length ? cmp : ys)) * 1.05;
+  const minY = Math.min(...ys) * 0.95, maxY = Math.max(...ys) * 1.05;
   const sx = (x) => pad + ((x - minX) / (maxX - minX || 1)) * (W - pad * 2);
   const sy = (y) => H - pad - ((y - minY) / (maxY - minY || 1)) * (H - pad * 2);
 
-  // Step line (prices hold until the next recorded change).
-  let d = "";
-  points.forEach((p, i) => {
-    const x = sx(xs[i]), y = sy(p.price);
-    if (i === 0) d += `M ${x} ${y}`;
-    else d += ` L ${x} ${sy(points[i - 1].price)} L ${x} ${y}`;
-  });
-  d += ` L ${sx(maxX)} ${sy(points[points.length - 1].price)}`;
-
-  const dots = points.map((p, i) => `<circle class="dot" cx="${sx(xs[i])}" cy="${sy(p.price)}" r="3" />`).join("");
-  const yTicks = [minY, (minY + maxY) / 2, maxY]
-    .map((v) => `<text x="4" y="${sy(v) + 4}">$${v.toFixed(0)}</text>`)
+  const lines = series
+    .map((s) => {
+      const pts = s.points.slice().sort((a, b) => new Date(a.t) - new Date(b.t));
+      let d = "";
+      pts.forEach((p, i) => {
+        const x = sx(new Date(p.t).getTime()), y = sy(p.price);
+        if (i === 0) d += `M ${x} ${y}`;
+        else d += ` L ${x} ${sy(pts[i - 1].price)} L ${x} ${y}`;
+      });
+      d += ` L ${sx(maxX)} ${sy(pts[pts.length - 1].price)}`;
+      const dots = pts.map((p) => `<circle cx="${sx(new Date(p.t).getTime())}" cy="${sy(p.price)}" r="2.5" fill="${s.color}" />`).join("");
+      return `<path d="${d}" fill="none" stroke="${s.color}" stroke-width="2" />${dots}`;
+    })
     .join("");
+
+  const yTicks = [minY, (minY + maxY) / 2, maxY].map((v) => `<text x="4" y="${sy(v) + 4}">$${v.toFixed(0)}</text>`).join("");
   const xLabels = `<text x="${pad}" y="${H - 8}">${new Date(minX).toLocaleDateString()}</text>
     <text x="${W - pad}" y="${H - 8}" text-anchor="end">${new Date(maxX).toLocaleDateString()}</text>`;
+  const legend = series
+    .map((s, i) => `<g transform="translate(${pad + i * 120}, 14)"><rect width="11" height="11" rx="2" fill="${s.color}" /><text x="16" y="10">${s.label}</text></g>`)
+    .join("");
 
   return `<svg class="chart" viewBox="0 0 ${W} ${H}" preserveAspectRatio="none">
-    ${yTicks}${xLabels}
-    <path class="line" d="${d}" />
-    ${dots}
+    ${legend}${yTicks}${xLabels}${lines}
   </svg>`;
 }
 

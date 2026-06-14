@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-14T17:42:56.681Z",
+  "generatedAt": "2026-06-14T18:49:00.026Z",
   "map": {
     "7933167501548": {
       "title": "A-Frame Cabin",
@@ -7,7 +7,7 @@
       "amazonTitle": "FUNWHOLE A-Frame Cabin (Lumibricks sells the FUNWHOLE A-Frame Cabin)",
       "status": "manual",
       "checkedAt": "2026-06-14T17:42:56.681Z",
-      "note": "manual override \u2014 auto-match was a different/cheaper cabin"
+      "note": "manual override — auto-match was a different/cheaper cabin"
     },
     "9027576955116": {
       "title": "Alchemist's Moving Castle",
@@ -35,11 +35,11 @@
     },
     "8702752784620": {
       "title": "Apartment",
-      "asin": "B0DDK53G6M",
-      "amazonTitle": "FUNWHOLE Cyberpunk Mansion Lighting Building-Bricks Set - 2524 Pcs Future City Modular Buildings Set Display Idea for Adults and Sci-fi Lovers Global Recycled Standard Global Recycled Standard Global Recycled Standard",
+      "asin": "B0GBVDDY4K",
+      "amazonTitle": "Lumibricks Garden Cottage Lighting Building Bricks Set - 2787 Pcs Retro Garden Cabin House Construction Building Model Set for Adults and Cabin Model Lovers",
       "score": 0,
       "status": "unmatched",
-      "checkedAt": "2026-06-14T17:42:56.681Z"
+      "checkedAt": "2026-06-14T18:49:00.026Z"
     },
     "9004266225900": {
       "title": "Aurora Cabin",
@@ -163,12 +163,11 @@
     },
     "8636093825260": {
       "title": "Cow Barn",
-      "asin": "B0DX9VS6LF",
-      "amazonTitle": "OWNONE 1 Windmill Farm Building Set with LED Lights, 1310 PCS Red Barn Building Blocks Toy with Cows Animals, Farm Model Building Bricks Set, Home Decor Gift for Adults Teens Kids Boys Girls",
-      "score": 0.5,
-      "status": "skip",
-      "checkedAt": "2026-06-14T17:42:56.681Z",
-      "note": "auto-skipped: low-confidence/wrong match \u2014 set asin + status:\"manual\" if it is on Amazon"
+      "asin": "B0FJFQ1KK9",
+      "amazonTitle": "Lumibricks Cowboy Camp Lighting Building-Bricks Set - The Old West Shelter with Covered Wagon and Horse 542 Pcs Collection Display Set for Adults and West Lovers",
+      "score": 0,
+      "status": "unmatched",
+      "checkedAt": "2026-06-14T18:49:00.026Z"
     },
     "8885918302444": {
       "title": "Cowboy Camp",
@@ -288,7 +287,7 @@
       "amazonTitle": "Lumibricks Street-Fusion Graffiti-Crew Lighting Building-Bricks-Set - 575 PCS American Urban Style Vehicle Model Kit for Adults, Modular Car, Creative Decorations for Street Art Fans",
       "score": 0.33,
       "status": "unmatched",
-      "checkedAt": "2026-06-14T17:42:56.681Z"
+      "checkedAt": "2026-06-14T18:49:00.026Z"
     },
     "9210632143084": {
       "title": "Graffiti Crew",
@@ -316,21 +315,19 @@
     },
     "8774298861804": {
       "title": "Home Greenhouse",
-      "asin": "B0BS2PDTW8",
-      "amazonTitle": "Flower House Building Set, Creative Garden Playset with LED Light, Build a Greenhouse Model Toy, Great Gift for Mothers Day, Friends or Girls, for Birthday, Valentine and Festivals (597 Pieces)",
+      "asin": "B0GD677TNN",
+      "amazonTitle": "Lumibricks Wheat Field with Cypresses Building Blocks Set with Lights - 3D Wall Art Home & Office Decor - Gift for Adults & Visual Art Lovers",
       "score": 0.5,
-      "status": "skip",
-      "checkedAt": "2026-06-14T17:42:56.681Z",
-      "note": "auto-skipped: low-confidence/wrong match \u2014 set asin + status:\"manual\" if it is on Amazon"
+      "status": "matched",
+      "checkedAt": "2026-06-14T18:49:00.026Z"
     },
     "8941147521260": {
       "title": "Horse Stable",
       "asin": "B0FJFMB6ZB",
       "amazonTitle": "Lumibricks Western Stagecoach Lighting Building-Bricks Set - Old West Carriage and Horse 293 Pcs Collection Display Set for West Lovers",
       "score": 0.5,
-      "status": "skip",
-      "checkedAt": "2026-06-14T17:42:56.681Z",
-      "note": "auto-skipped: low-confidence/wrong match \u2014 set asin + status:\"manual\" if it is on Amazon"
+      "status": "matched",
+      "checkedAt": "2026-06-14T18:49:00.026Z"
     },
     "8023667507436": {
       "title": "Hunting Cabin",
@@ -351,7 +348,7 @@
     "9074919669996": {
       "title": "Italian Homestyle Restaurant",
       "asin": "B0FVXWKW9C",
-      "amazonTitle": "Lumibricks Italian Homestyle Restaurant Lighting Building-Bricks Set \u2013 City Town Modular Italian Trattoria & Caf\u00e9 LED Light Building Kit 2868 Pcs Construction Set for Adults and Teens",
+      "amazonTitle": "Lumibricks Italian Homestyle Restaurant Lighting Building-Bricks Set – City Town Modular Italian Trattoria & Café LED Light Building Kit 2868 Pcs Construction Set for Adults and Teens",
       "score": 1,
       "status": "matched",
       "checkedAt": "2026-06-14T17:42:56.681Z"
@@ -382,11 +379,11 @@
     },
     "8756237271276": {
       "title": "Medieval Tailor Shop",
-      "asin": "B0GHMNK42G",
-      "amazonTitle": "Lumibricks Medieval Ranger-Camp Lighting Building-Bricks-Set - 500 Pcs Middle Ages Modular Collection Display Kit with Minifigures for Home Decor - Amazing Gift Idea for Boys & Girls, Adults",
-      "score": 0.33,
-      "status": "unmatched",
-      "checkedAt": "2026-06-14T17:42:56.681Z"
+      "asin": "B0GFSBQVRG",
+      "amazonTitle": "PANTASY Retro Building Set, Vintage Hand Crank Sewing Machine Brick Model, Collectible with Functional Gear Linkage, Hidden Mini Tailor Shop Scene, Adult Display and Desk Decor Gift",
+      "score": 0.67,
+      "status": "matched",
+      "checkedAt": "2026-06-14T18:49:00.026Z"
     },
     "8973539115244": {
       "title": "Medieval Troupe Carriage",
@@ -422,11 +419,11 @@
     },
     "9146344898796": {
       "title": "Moon Bar",
-      "asin": "B0GDD6Y4G1",
-      "amazonTitle": "Lumibricks Beach Lifeguard Tower Lighting Building Bricks Set - 1015 Pcs Road Trip Lifeguard Tower Light Construction Building Model Set for Adults and Travelling Lovers",
-      "score": 0,
-      "status": "unmatched",
-      "checkedAt": "2026-06-14T17:42:56.681Z"
+      "asin": "B0GHM1CQQG",
+      "amazonTitle": "Lumibricks Moon Bar Lighting Building Bricks Set - Road Trip Modular Collection Display Kit with LED and Minifigures 2186 Pcs for Adults & Teens & Marine Enthusiasts",
+      "score": 1,
+      "status": "matched",
+      "checkedAt": "2026-06-14T18:49:00.026Z"
     },
     "8627552911596": {
       "title": "Mountain Cabin",
@@ -463,7 +460,7 @@
     "8905360408812": {
       "title": "Old West Gold Mine",
       "asin": "B0FH2N7T84",
-      "amazonTitle": "Lumibricks Wild West Gold Mine Lighting Building-Bricks Set - Western Prospector\u2019s Dig Entrance 658 Pcs Mining Playset for Adults and West Lovers",
+      "amazonTitle": "Lumibricks Wild West Gold Mine Lighting Building-Bricks Set - Western Prospector’s Dig Entrance 658 Pcs Mining Playset for Adults and West Lovers",
       "score": 0.75,
       "status": "matched",
       "checkedAt": "2026-06-14T17:42:56.681Z"
@@ -489,9 +486,8 @@
       "asin": "B0GQ32Q9CN",
       "amazonTitle": "ROKR Dream Coffee Factory, Wooden Music Box Model, Mechanical 3D Wooden Puzzles for Adults, Building Kit with Moving LED Lights, Miniature House Kits, Desk Decor Gift",
       "score": 0.5,
-      "status": "skip",
-      "checkedAt": "2026-06-14T17:42:56.681Z",
-      "note": "auto-skipped: low-confidence/wrong match \u2014 set asin + status:\"manual\" if it is on Amazon"
+      "status": "matched",
+      "checkedAt": "2026-06-14T18:49:00.026Z"
     },
     "9233541857516": {
       "title": "Pocket Garden",
@@ -515,7 +511,7 @@
       "amazonTitle": "Lumibricks Cyberpunk Police-HQ Lighting-Building Bricks-Set - 1716 Pcs Police Station Model Kit for Adults, Future Style Toy for Home Decor - Amazing Gift Idea for Boys, Adults & Sci-fi Lovers",
       "score": 0.33,
       "status": "unmatched",
-      "checkedAt": "2026-06-14T17:42:56.681Z"
+      "checkedAt": "2026-06-14T18:49:00.026Z"
     },
     "9199088697580": {
       "title": "Ranger Camp",
@@ -578,9 +574,8 @@
       "asin": "B0GD6HJBK9",
       "amazonTitle": "Lumibricks Skate Park Lighting Building Blocks Set - Street Fusion City Town Modular Playset Collection Display kit with Minifigures 1903 Pcs for Adults & Teens & Life Enthusiasts",
       "score": 0.5,
-      "status": "skip",
-      "checkedAt": "2026-06-14T17:42:56.681Z",
-      "note": "auto-skipped: low-confidence/wrong match \u2014 set asin + status:\"manual\" if it is on Amazon"
+      "status": "matched",
+      "checkedAt": "2026-06-14T18:49:00.026Z"
     },
     "8685511246060": {
       "title": "Ski Lodge",
@@ -608,11 +603,11 @@
     },
     "9074917966060": {
       "title": "Steamphant",
-      "asin": "B0FNQNLPK4",
-      "amazonTitle": "Lumibricks Mecha-Alchemist's Moving Castle Lighting Building-Bricks Set, 2690 Pcs Gearwerk Alchemy Lab Collection Display Set for Adults and Steampunk Lovers",
-      "score": 0,
-      "status": "unmatched",
-      "checkedAt": "2026-06-14T17:42:56.681Z"
+      "asin": "B0FW45CYSC",
+      "amazonTitle": "Lumibricks Steampunk Steamphant Lighting Building Bricks Set - Mammoth Model Playset Collection Display kit with Minifigures 1055 Pcs for Adults & Teens & Steampunk Lovers",
+      "score": 1,
+      "status": "matched",
+      "checkedAt": "2026-06-14T18:49:00.026Z"
     },
     "8714054861036": {
       "title": "Steampunk Flying Club",
@@ -640,11 +635,11 @@
     },
     "8808104657132": {
       "title": "Steampunk Motorcycle Pursuit",
-      "asin": "B0FNQNLPK4",
-      "amazonTitle": "Lumibricks Mecha-Alchemist's Moving Castle Lighting Building-Bricks Set, 2690 Pcs Gearwerk Alchemy Lab Collection Display Set for Adults and Steampunk Lovers",
+      "asin": "B0FW3WVG5R",
+      "amazonTitle": "Lumibricks Steampunk Mechanical Workshop Lighting Building-Bricks Set, 2006 Pcs The Sky-Lane Repair Shop Modular Building from Aeronauts Collection Display Set for Adults and Steampunk Lovers",
       "score": 0.33,
       "status": "unmatched",
-      "checkedAt": "2026-06-14T17:42:56.681Z"
+      "checkedAt": "2026-06-14T18:49:00.026Z"
     },
     "9146343686380": {
       "title": "Steampunk Time Opera House",
@@ -665,7 +660,7 @@
     "7774482497772": {
       "title": "Steampunk Train Station",
       "asin": "B0FLQQGWDP",
-      "amazonTitle": "DIY Miniature House Kit with Light, Dollhouse Kit \u2013 Wood 3D Puzzles Tiny House Book Nook for Adult Christmas Halloween Birthday Gift (Victorian Fantasy Steampunk Train Station Phantom City)",
+      "amazonTitle": "DIY Miniature House Kit with Light, Dollhouse Kit – Wood 3D Puzzles Tiny House Book Nook for Adult Christmas Halloween Birthday Gift (Victorian Fantasy Steampunk Train Station Phantom City)",
       "score": 1,
       "status": "matched",
       "checkedAt": "2026-06-14T17:42:56.681Z"
@@ -732,7 +727,7 @@
       "amazonTitle": "Lumibricks Garden Cottage Lighting Building Bricks Set - 2787 Pcs Retro Garden Cabin House Construction Building Model Set for Adults and Cabin Model Lovers",
       "score": 0.33,
       "status": "unmatched",
-      "checkedAt": "2026-06-14T17:42:56.681Z"
+      "checkedAt": "2026-06-14T18:49:00.026Z"
     },
     "8885338276076": {
       "title": "The Sailboat: La Brisa",
@@ -745,7 +740,7 @@
     "9004353388780": {
       "title": "Toy Store",
       "asin": "B0FKMPYFNX",
-      "amazonTitle": "Lumibricks Toy-Store Lighting Building-Bricks Set \u2013 City Town Modular Townhouse Toy Shop Dollhouse LED Light Display Model 3086 Pcs Construction Kit for Adults and Teens",
+      "amazonTitle": "Lumibricks Toy-Store Lighting Building-Bricks Set – City Town Modular Townhouse Toy Shop Dollhouse LED Light Display Model 3086 Pcs Construction Kit for Adults and Teens",
       "score": 1,
       "status": "matched",
       "checkedAt": "2026-06-14T17:42:56.681Z"
@@ -788,7 +783,7 @@
       "amazonTitle": "Lumibricks City Sunset-Stopover Lighting-Building-Bricks Set - Road Trip Car Station Modular Collection LED Light Building Set 455 Pcs for Adults, Teen and Travelling Enthusiasts",
       "score": 0,
       "status": "unmatched",
-      "checkedAt": "2026-06-14T17:42:56.681Z"
+      "checkedAt": "2026-06-14T18:49:00.026Z"
     },
     "8986609090796": {
       "title": "Vineyard Estate",
@@ -805,6 +800,70 @@
       "score": 1,
       "status": "matched",
       "checkedAt": "2026-06-14T17:42:56.681Z"
+    },
+    "9210634567916": {
+      "title": "Wild West Meeting Hall",
+      "asin": "B0GSYP4YVH",
+      "amazonTitle": "Lumibricks Old West Meeting Hall Lighting Building Bricks Set - 2556 Pcs Western Hope Hall Light Construction Building Model Set for Adults and The Old West Lovers",
+      "score": 0.75,
+      "status": "matched",
+      "checkedAt": "2026-06-14T18:49:00.026Z"
+    },
+    "9132934070508": {
+      "title": "Western Carpentry Workshop",
+      "asin": "B0GBV1VYH8",
+      "amazonTitle": "Lumibricks Western Carpentry Workshop Lighting Building Bricks Set - 1832 Pcs The Old West Blacksmith-Shop Light Construction Building Model Set for Adults and West Lovers",
+      "score": 1,
+      "status": "matched",
+      "checkedAt": "2026-06-14T18:49:00.026Z"
+    },
+    "9132933677292": {
+      "title": "Wheat Field with Cypresses",
+      "asin": "B0GD677TNN",
+      "amazonTitle": "Lumibricks Wheat Field with Cypresses Building Blocks Set with Lights - 3D Wall Art Home & Office Decor - Gift for Adults & Visual Art Lovers",
+      "score": 1,
+      "status": "matched",
+      "checkedAt": "2026-06-14T18:49:00.026Z"
+    },
+    "9041065279724": {
+      "title": "Western Bank Heist",
+      "asin": "B0FNMXGHXF",
+      "amazonTitle": "Lumibricks Western Bank Heist Lighting Building-Bricks Set - Wild West Outlaw Gold Heist 2875 Pcs Collection Display Set for West Lovers",
+      "score": 1,
+      "status": "matched",
+      "checkedAt": "2026-06-14T18:49:00.026Z"
+    },
+    "8704413663468": {
+      "title": "Western Stagecoach",
+      "asin": "B0FJFMB6ZB",
+      "amazonTitle": "Lumibricks Western Stagecoach Lighting Building-Bricks Set - Old West Carriage and Horse 293 Pcs Collection Display Set for West Lovers",
+      "score": 1,
+      "status": "matched",
+      "checkedAt": "2026-06-14T18:49:00.026Z"
+    },
+    "8666696483052": {
+      "title": "West Train Station",
+      "asin": "B0DBYZF295",
+      "amazonTitle": "FUNWHOLE Wild West Train Station Lighting Building-Bricks Set - 1975 Pcs Collectible Train Playset for Adults and Teens Global Recycled Standard Global Recycled Standard Global Recycled Standard",
+      "score": 1,
+      "status": "matched",
+      "checkedAt": "2026-06-14T18:49:00.026Z"
+    },
+    "8635832565996": {
+      "title": "Western Freight Train",
+      "asin": "B0FJFLXJ31",
+      "amazonTitle": "Lumibricks Wild West Freight Train Lighting Building-Bricks Set - Classic 4-4-0 Locomotive Model 1524 Pcs Ideas Kit for Adult and Teens",
+      "score": 0.67,
+      "status": "matched",
+      "checkedAt": "2026-06-14T18:49:00.026Z"
+    },
+    "8073892102380": {
+      "title": "Western Saloon",
+      "asin": "B0CJB6DJG9",
+      "amazonTitle": "FUNWHOLE Western-Saloon Lighting Building-Bricks Set - The Old West Saloon LED Light Construction Building Model Set 2026 Pcs for Adults and Teen Global Recycled Standard Global Recycled Standard Global Recycled Standard",
+      "score": 1,
+      "status": "matched",
+      "checkedAt": "2026-06-14T18:49:00.026Z"
     }
   }
 }

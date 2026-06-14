@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 // One-time-ish ASIN discovery. For each trackable Shopify set without a mapping,
-// search Amazon (via WebScrapingAPI) and record the best-matching ASIN.
+// search Amazon (via ScraperAPI's structured search) and record the best ASIN.
 //
 // Runs intentionally (manual workflow_dispatch), not on a schedule, because it
 // spends scraper credits. Re-running only fills in gaps — existing matches and
@@ -8,15 +8,15 @@
 // afterward and fix any low-confidence rows by hand (set status:"manual").
 //
 // Env:
-//   WEBSCRAPING_API_KEY  required
+//   SCRAPERAPI_KEY       required
 //   DISCOVER_MAX         max searches this run (default 40) — protects the quota
 //   DISCOVER_MIN_SCORE   min title-match score to accept (default 0.34)
 
 import { readFile, writeFile, mkdir } from "node:fs/promises";
 import { fileURLToPath } from "node:url";
 import { dirname, join } from "node:path";
-import { scrapeUrl, amazonSearchUrl, hasApiKey } from "./lib/webscraping.mjs";
-import { parseAsinsFromSearch, titleMatchScore } from "./lib/amazon-parse.mjs";
+import { searchAmazon, hasApiKey } from "./lib/scraperapi.mjs";
+import { extractSearchResults, titleMatchScore } from "./lib/amazon-parse.mjs";
 import { isTrackableSet } from "./lib/sets.mjs";
 
 const DATA_DIR = join(dirname(fileURLToPath(import.meta.url)), "..", "docs", "data");
@@ -31,7 +31,7 @@ const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
 async function main() {
   if (!hasApiKey()) {
-    console.log("WEBSCRAPING_API_KEY not set — skipping ASIN discovery (nothing to do).");
+    console.log("SCRAPERAPI_KEY not set — skipping ASIN discovery (nothing to do).");
     return;
   }
 
@@ -54,21 +54,15 @@ async function main() {
     used++;
 
     const query = `lumibricks ${s.title}`;
-    const res = await scrapeUrl(amazonSearchUrl(query));
+    const res = await searchAmazon(query);
     if (!res.ok) {
-      console.log(`  ✗ ${s.title} — scraper error: ${res.error}`);
+      console.log(`  ✗ ${s.title} — search error: ${res.error}`);
       map[String(s.id)] = { title: s.title, asin: null, status: "error", error: res.error, checkedAt: NOW };
       await sleep(1500);
       continue;
     }
 
-    const { blocked, results } = parseAsinsFromSearch(res.html, 8);
-    if (blocked) {
-      console.log(`  ✗ ${s.title} — blocked page returned`);
-      map[String(s.id)] = { title: s.title, asin: null, status: "blocked", checkedAt: NOW };
-      await sleep(2000);
-      continue;
-    }
+    const results = extractSearchResults(res.json, 8);
 
     // Pick the result with the best title overlap.
     let best = null;

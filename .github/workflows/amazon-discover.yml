@@ -26,7 +26,7 @@ jobs:
 
       - name: Discover ASINs
         env:
-          WEBSCRAPING_API_KEY: ${{ secrets.WEBSCRAPING_API_KEY }}
+          SCRAPERAPI_KEY: ${{ secrets.SCRAPERAPI_KEY }}
           DISCOVER_MAX: ${{ github.event.inputs.max }}
         run: node scripts/discover-asins.mjs
 
@@ -40,5 +40,5 @@ jobs:
             git push
             echo "Pushed updated ASIN map."
           else
-            echo "No ASIN map changes (or WEBSCRAPING_API_KEY not set yet)."
+            echo "No ASIN map changes (or SCRAPERAPI_KEY not set yet)."
           fi

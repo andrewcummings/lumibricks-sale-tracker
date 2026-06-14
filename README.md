@@ -11,7 +11,7 @@ A zero-cost, zero-server tracker that watches **every set on [lumibricks.com](ht
 scripts/check.mjs              # the LumiBricks (Shopify) price checker
 scripts/amazon.mjs             # daily Amazon price checker (optional, needs an API key)
 scripts/discover-asins.mjs     # one-time-ish: maps each set to its Amazon ASIN
-scripts/lib/                   # amazon-parse, webscraping, sets helpers
+scripts/lib/                   # scraperapi client, amazon-parse, sets helpers
 docs/index.html                # dashboard (served by GitHub Pages)
 docs/app.js, docs/style.css
 docs/data/*.json               # current/history/events + amazon-* + asin-map (auto-updated)
@@ -56,21 +56,22 @@ LumiBricks also sells on Amazon, often at different prices. The dashboard can sh
 history, and link to the full Keepa chart per set.
 
 Amazon has no clean public feed and blocks direct scraping, so this routes through
-[WebScrapingAPI](https://www.webscrapingapi.com) — its free tier renews **5,000
-requests/month** and bills Amazon at the flat 1-credit rate, so a daily check of
-~90 sets (~2,700/mo) fits comfortably. **Until you add a key, the Amazon workflows
-no-op and the dashboard stays LumiBricks-only.**
+[ScraperAPI](https://www.scraperapi.com)'s **structured Amazon endpoint** (returns
+clean JSON — no HTML parsing). Its free tier is **permanent: 1,000 credits/month,
+renews, no credit card**. Amazon costs 5 credits/request, so ~200 lookups/month —
+enough for a **full-catalog sweep ~twice a month** (the default cadence). **Until
+you add a key, the Amazon workflows no-op and the dashboard stays LumiBricks-only.**
 
 ### Setup
-1. **Get a free key:** sign up at [webscrapingapi.com](https://www.webscrapingapi.com) (no card) and copy your API key.
-2. **Add it as a secret:** repo **Settings → Secrets and variables → Actions → New repository secret**, name **`WEBSCRAPING_API_KEY`**, paste the key.
-3. **Build the ASIN map:** **Actions tab → "Discover Amazon ASINs" → Run workflow** (start with the default cap of 40; re-run to finish the rest). Then skim `docs/data/asin-map.json` — for any row with a wrong/low-confidence match, set the right `asin` and `"status": "manual"` so it's locked in and re-checked daily.
-4. Done. The **"Check Amazon prices"** workflow then runs daily and the dashboard fills in the Amazon columns.
+1. **Get a free key:** sign up at [scraperapi.com](https://www.scraperapi.com) (no card) and copy your API key from the dashboard.
+2. **Add it as a secret:** repo **Settings → Secrets and variables → Actions → New repository secret**, name **`SCRAPERAPI_KEY`**, paste the key.
+3. **Build the ASIN map:** **Actions tab → "Discover Amazon ASINs" → Run workflow.** 💡 Do this in your **first 7 days** — new accounts get a 5,000-credit trial that week, so discovery (~5 credits/set) won't eat your recurring 1,000/mo. Re-run to finish any gaps. Then skim `docs/data/asin-map.json` — for any wrong/low-confidence row, set the right `asin` and `"status": "manual"` to lock it in.
+4. Done. The **"Check Amazon prices"** workflow runs on the 1st & 15th and fills in the Amazon columns.
 
 ### Notes & tuning
-- **ASIN discovery cost:** controlled by `DISCOVER_MAX` (workflow input) and `DISCOVER_MIN_SCORE` (env). Daily check volume is capped by `AMAZON_MAX` (env in `amazon.yml`).
-- **Cadence:** Amazon checks daily by default (`cron` in `amazon.yml`). Lower frequency = less quota used.
-- **Heads-up:** scraping Amazon is against Amazon's ToS regardless of the tool; this is intended for personal price-tracking. Free tiers are marketing funnels and can change — the cadence/scope are kept as easy-to-edit config.
+- **Budget math:** 1,000 credits/mo ÷ 5 = ~200 Amazon lookups. Two full sweeps of ~90 sets ≈ 900 credits. Discovery is one-time (~450 credits) — best spent during the trial week.
+- **Want more frequent checks?** Either narrow to a watchlist (delete/`"status":"skip"` rows in `asin-map.json`) and raise the `cron` frequency in `amazon.yml`, or upgrade your ScraperAPI plan. Volume per run is capped by `AMAZON_MAX` (env in `amazon.yml`); discovery by `DISCOVER_MAX` / `DISCOVER_MIN_SCORE`.
+- **Heads-up:** scraping Amazon is against Amazon's ToS regardless of the tool; this is intended for personal price-tracking. Free tiers can change — cadence/scope are kept as easy-to-edit config.
 
 ## Tuning
 

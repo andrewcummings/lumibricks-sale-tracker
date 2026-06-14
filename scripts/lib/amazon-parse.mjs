@@ -1,112 +1,66 @@
-// Pure (no-network) parsers for Amazon HTML. Kept separate so the logic can be
-// unit-tested against fixtures without hitting Amazon or the scraper API.
+// Normalizers for ScraperAPI's structured Amazon JSON, plus title matching for
+// ASIN discovery. Kept separate (no network) so it can be unit-tested.
 //
-// Amazon's markup shifts often, so every extractor uses several fallback
-// strategies and we treat "couldn't find a price" as a soft miss (null), never
-// a guess. Block/CAPTCHA pages are detected explicitly so we never record a
-// bogus $0 or mistake a robot-check for "unavailable".
+// ScraperAPI's structured product schema isn't fully documented and field names
+// vary, so every extractor checks several candidate names and parses prices that
+// may arrive as a number ("114.99") or a string ("$114.99"). amazon.mjs logs the
+// raw top-level keys on the first run so the mapping can be confirmed live.
 
-const num = (s) => {
-  if (s == null) return null;
-  const n = Number(String(s).replace(/[^0-9.]/g, ""));
+export function parseMoney(v) {
+  if (v == null) return null;
+  if (typeof v === "number") return Number.isFinite(v) && v > 0 ? v : null;
+  // Take the first $-style number in the string (handles "$114.99", "114.99", "$1,149.00").
+  const m = String(v).replace(/,/g, "").match(/([0-9]+(?:\.[0-9]{1,2})?)/);
+  const n = m ? Number(m[1]) : NaN;
   return Number.isFinite(n) && n > 0 ? n : null;
+}
+
+const pick = (obj, keys) => {
+  for (const k of keys) {
+    if (obj && obj[k] != null && obj[k] !== "") return obj[k];
+  }
+  return null;
 };
 
-// Did Amazon serve a CAPTCHA / robot wall instead of the product?
-export function isBlockPage(html) {
-  if (!html || html.length < 2000) return true; // real product pages are large
-  return /Enter the characters you see below|Type the characters you see in this image|api-services-support@amazon\.com|To discuss automated access|Robot Check|Sorry, we just need to make sure you're not a robot/i.test(
-    html
+// Map a structured product response → { price, compareAt, discountPct, available, title }.
+export function normalizeProduct(json) {
+  if (!json || typeof json !== "object") return { price: null, compareAt: null, discountPct: 0, available: false, title: null };
+
+  const price = parseMoney(
+    pick(json, ["pricing", "price", "current_price", "deal_price", "sale_price"]) ??
+      pick(json.buybox || {}, ["price", "current_price"])
   );
-}
-
-// Extract the active buy-box price, list/strikethrough price, availability, title.
-export function parseAmazonProduct(html) {
-  if (isBlockPage(html)) return { blocked: true, price: null, listPrice: null, available: false, title: null };
-
-  // 1) Embedded JSON is the most reliable when present.
-  let price = num((html.match(/"priceAmount"\s*:\s*([0-9.]+)/) || [])[1]);
-  let listPrice = num((html.match(/"basisPrice"\s*:\s*"?\$?([0-9.,]+)/) || [])[1]);
-
-  // 2) Core price display block → first a-offscreen inside it.
-  if (price == null) {
-    const core =
-      (html.match(/id="corePriceDisplay[^"]*"[\s\S]{0,1500}?<\/div>/) || [])[0] ||
-      (html.match(/id="corePrice_feature_div"[\s\S]{0,1500}?<\/div>/) || [])[0] ||
-      (html.match(/id="apex_desktop"[\s\S]{0,2000}?<\/div>/) || [])[0] ||
-      "";
-    price = num((core.match(/<span class="a-offscreen">\s*\$?([0-9,.]+)/) || [])[1]);
-  }
-
-  // 3) Legacy price block ids.
-  if (price == null) {
-    price = num(
-      (html.match(/id="priceblock_(?:ourprice|dealprice|saleprice)"[^>]*>\s*\$?([0-9,.]+)/) || [])[1]
-    );
-  }
-
-  // 4) Absolute fallback: the first reasonable a-offscreen on the page.
-  if (price == null) {
-    price = num((html.match(/<span class="a-offscreen">\s*\$([0-9,.]+)\s*<\/span>/) || [])[1]);
-  }
-
-  // List/strikethrough price for discount calc, if not already from JSON.
-  if (listPrice == null) {
-    const strike =
-      (html.match(/class="a-price a-text-price"[\s\S]{0,200}?<span class="a-offscreen">\s*\$?([0-9,.]+)/) ||
-        [])[1] ||
-      (html.match(/id="listPrice"[^>]*>\s*\$?([0-9,.]+)/) || [])[1];
-    listPrice = num(strike);
-  }
-
-  // Availability.
-  const unavailable = /Currently unavailable|currently not available|We don't know when or if this item/i.test(
-    html
-  );
-  const buyable = /id="add-to-cart-button"|id="buy-now-button"|Add to Cart|In Stock|Only \d+ left in stock/i.test(
-    html
-  );
-  const available = !unavailable && (buyable || price != null);
-
-  // Title.
-  let title =
-    (html.match(/id="productTitle"[^>]*>\s*([^<]+?)\s*</) || [])[1] ||
-    (html.match(/<title>\s*(?:Amazon\.com\s*:?\s*)?([^<|]+?)\s*(?:[:|]\s*[^<]*)?<\/title>/i) || [])[1] ||
-    null;
-  if (title) title = title.replace(/\s+/g, " ").trim();
-
-  // Only treat list price as a "compare at" when it's genuinely higher.
-  const compareAt = listPrice && price && listPrice > price ? listPrice : null;
+  const compareRaw = parseMoney(pick(json, ["list_price", "strikethrough_price", "was_price", "rrp", "original_price"]));
+  const compareAt = compareRaw && price && compareRaw > price ? compareRaw : null;
   const discountPct = compareAt ? Math.round(((compareAt - price) / compareAt) * 100) : 0;
 
-  return { blocked: false, price, listPrice, compareAt, discountPct, available, title };
+  const availRaw = pick(json, ["availability_status", "availability", "stock_status", "stock"]);
+  const inStockBool = typeof json.in_stock === "boolean" ? json.in_stock : null;
+  let available;
+  if (inStockBool != null) available = inStockBool;
+  else if (availRaw != null) available = !/unavailable|out of stock|currently not/i.test(String(availRaw));
+  else available = price != null; // fall back: if it has a price, treat as buyable
+
+  const title = pick(json, ["name", "title", "product_title"]);
+  return { price, compareAt, discountPct, available, title };
 }
 
-// Ordered, de-duplicated ASINs from an Amazon search results page, each with the
-// nearby result title when we can find it (used to sanity-check matches).
-export function parseAsinsFromSearch(html, limit = 10) {
-  if (isBlockPage(html)) return { blocked: true, results: [] };
-  const results = [];
+// Map a structured search response → ordered [{ asin, title }].
+export function extractSearchResults(json, limit = 10) {
+  const items = (json && (json.results || json.products || json.organic_results || json.data)) || [];
+  const out = [];
   const seen = new Set();
-  const re = /data-asin="(B0[A-Z0-9]{8})"([\s\S]{0,1200}?)(?=data-asin="B0[A-Z0-9]{8}"|$)/g;
-  let m;
-  while ((m = re.exec(html)) && results.length < limit) {
-    const asin = m[1];
-    if (seen.has(asin)) continue;
+  for (const it of Array.isArray(items) ? items : []) {
+    const asin = it.asin || it.ASIN || it.id;
+    if (!asin || !/^B0[A-Z0-9]{8}$/.test(asin) || seen.has(asin)) continue;
     seen.add(asin);
-    const block = m[2];
-    let title =
-      (block.match(/<h2[^>]*>[\s\S]*?<span[^>]*>\s*([^<]{6,200}?)\s*<\/span>/) || [])[1] ||
-      (block.match(/class="[^"]*a-text-normal[^"]*"[^>]*>\s*([^<]{6,200}?)\s*</) || [])[1] ||
-      null;
-    if (title) title = title.replace(/\s+/g, " ").trim();
-    results.push({ asin, title });
+    out.push({ asin, title: it.name || it.title || it.product_title || null });
+    if (out.length >= limit) break;
   }
-  return { blocked: false, results };
+  return out;
 }
 
-// Token-overlap score between a Shopify set name and an Amazon result title,
-// so discovery can reject obviously-wrong matches.
+// Token-overlap score between a Shopify set name and an Amazon result title.
 export function titleMatchScore(setTitle, amazonTitle) {
   if (!amazonTitle) return 0;
   const norm = (s) =>

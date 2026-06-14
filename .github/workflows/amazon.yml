@@ -2,7 +2,9 @@ name: Check Amazon prices
 
 on:
   schedule:
-    - cron: "0 7 * * *" # once a day (UTC). Daily ~90 reqs ≈ 2,700/mo, inside the 5,000 free tier.
+    # Twice a month (1st & 15th, UTC). Full sweep ≈ 90 reqs × 5 credits = 450;
+    # two sweeps ≈ 900 credits/mo, inside ScraperAPI's 1,000/mo free tier.
+    - cron: "0 7 1,15 * *"
   workflow_dispatch: {}
 
 permissions:
@@ -23,7 +25,7 @@ jobs:
 
       - name: Check Amazon prices
         env:
-          WEBSCRAPING_API_KEY: ${{ secrets.WEBSCRAPING_API_KEY }}
+          SCRAPERAPI_KEY: ${{ secrets.SCRAPERAPI_KEY }}
           AMAZON_MAX: "120"
         run: node scripts/amazon.mjs
 
@@ -37,5 +39,5 @@ jobs:
             git push
             echo "Pushed updated Amazon data."
           else
-            echo "No Amazon data changes (or WEBSCRAPING_API_KEY not set yet)."
+            echo "No Amazon data changes (or SCRAPERAPI_KEY not set yet)."
           fi

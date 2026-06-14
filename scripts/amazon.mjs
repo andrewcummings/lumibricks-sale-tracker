@@ -1,7 +1,7 @@
 #!/usr/bin/env node
-// Daily Amazon price check. For every set mapped to an ASIN (see
-// discover-asins.mjs), fetch the Amazon product page through WebScrapingAPI,
-// parse the price/availability, diff against history, and log events.
+// Amazon price check (scheduled twice a month). For every set mapped to an ASIN
+// (see discover-asins.mjs), fetch structured product data via ScraperAPI,
+// normalize price/availability, diff against history, and log events.
 //
 // Writes:
 //   docs/data/amazon-current.json  - latest Amazon price per Shopify set id
@@ -14,9 +14,11 @@
 import { readFile, writeFile, mkdir } from "node:fs/promises";
 import { fileURLToPath } from "node:url";
 import { dirname, join } from "node:path";
-import { scrapeUrl, amazonProductUrl, hasApiKey } from "./lib/webscraping.mjs";
-import { parseAmazonProduct } from "./lib/amazon-parse.mjs";
+import { fetchAmazonProduct, hasApiKey } from "./lib/scraperapi.mjs";
+import { normalizeProduct } from "./lib/amazon-parse.mjs";
 import { isTrackableSet } from "./lib/sets.mjs";
+
+const amazonUrl = (asin) => `https://www.amazon.com/dp/${asin}`;
 
 const DATA_DIR = join(dirname(fileURLToPath(import.meta.url)), "..", "docs", "data");
 const NOW = new Date().toISOString();
@@ -32,7 +34,7 @@ const money = (n) => (n == null ? "?" : `$${Number(n).toFixed(2)}`);
 
 async function main() {
   if (!hasApiKey()) {
-    console.log("WEBSCRAPING_API_KEY not set — skipping Amazon check (no-op).");
+    console.log("SCRAPERAPI_KEY not set — skipping Amazon check (no-op).");
     return;
   }
 
@@ -56,22 +58,23 @@ async function main() {
   const eventsFile = await loadJSON("events.json", { events: [] });
   const newEvents = [];
 
-  let okCount = 0, missCount = 0;
+  let okCount = 0, missCount = 0, loggedKeys = false;
   console.log(`Checking ${targets.length} mapped set(s) on Amazon…`);
 
   for (const [id, entry] of targets) {
     const set = setsById.get(id);
-    const url = amazonProductUrl(entry.asin);
-    const res = await scrapeUrl(url);
+    const url = amazonUrl(entry.asin);
+    const res = await fetchAmazonProduct(entry.asin);
 
     if (!res.ok) { console.log(`  ✗ ${set.title} (${entry.asin}) — ${res.error}`); missCount++; await sleep(800); continue; }
-    const parsed = parseAmazonProduct(res.html);
-    if (parsed.blocked) {
-      console.log(`  ✗ ${set.title} (${entry.asin}) — blocked/captcha page (snippet: ${res.html.slice(0, 120).replace(/\s+/g, " ")})`);
-      missCount++; await sleep(1200); continue;
+    // Log the raw field names once so the JSON→price mapping can be confirmed on the first live run.
+    if (!loggedKeys && res.json && typeof res.json === "object") {
+      console.log(`  (debug) ScraperAPI product fields: ${Object.keys(res.json).join(", ")}`);
+      loggedKeys = true;
     }
+    const parsed = normalizeProduct(res.json);
     if (parsed.price == null) {
-      console.log(`  ? ${set.title} (${entry.asin}) — no price found (markup may have changed; snippet: ${res.html.slice(0, 120).replace(/\s+/g, " ")})`);
+      console.log(`  ? ${set.title} (${entry.asin}) — no price in response (fields: ${Object.keys(res.json || {}).slice(0, 25).join(", ")})`);
       missCount++; await sleep(800); continue;
     }
     okCount++;

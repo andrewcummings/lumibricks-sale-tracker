@@ -1,6 +1,17 @@
 {
-  "generatedAt": "2026-06-14T19:37:36.480Z",
+  "generatedAt": "2026-06-14T20:04:03.495Z",
   "events": [
+    {
+      "t": "2026-06-14T20:04:03.495Z",
+      "source": "amazon",
+      "type": "PRICE_DROP",
+      "id": 9199088697580,
+      "title": "Ranger Camp",
+      "url": "https://www.amazon.com/dp/B0GHMNK42G",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/7aa9b238bc765e6ac8641e694ffbd757.webp?v=1777545603",
+      "price": 31.49,
+      "from": 34.99
+    },
     {
       "t": "2026-06-14T19:04:58.228Z",
       "source": "amazon",

@@ -40,10 +40,12 @@ async function main() {
   const file = await loadJSON("asin-map.json", { generatedAt: null, map: {} });
   const map = file.map;
 
-  // Only work on sets we haven't matched and that aren't manual overrides.
+  // Only work on sets we haven't resolved. "matched"/"manual" are kept; "skip"
+  // means a human rejected the match (no good Amazon listing) — never re-search it.
+  const KEEP = new Set(["matched", "manual", "skip"]);
   const todo = sets.filter((s) => {
     const e = map[String(s.id)];
-    return !e || (e.status !== "matched" && e.status !== "manual");
+    return !e || !KEEP.has(e.status);
   });
 
   console.log(`${sets.length} trackable sets, ${todo.length} unmapped. Searching up to ${MAX} this run.`);

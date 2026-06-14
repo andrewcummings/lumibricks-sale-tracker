@@ -72,7 +72,7 @@ function summarize(product, cart) {
   if (cart && cart.final != null && cart.original != null && cart.final < cart.original - 0.005) {
     cartFinal = cart.final;
     cartOriginal = cart.original;
-    promo = cart.title || "Automatic discount";
+    promo = cleanPromo(cart.title);
   }
 
   // Unify markdown + automatic discount: what you actually pay vs the "was" price.
@@ -101,6 +101,14 @@ function summarize(product, cart) {
 function cleanTitle(t) {
   // Strip marketing cruft some titles carry, e.g. "... - 👉 View Details".
   return t.replace(/\s*-\s*👉.*$/u, "").replace(/\s+/g, " ").trim();
+}
+
+// Tidy the promo label. Keep code-style names (FATHERS_DAY10, SPECIALOFF30);
+// collapse Shopify bundle/descriptive titles ("Apartment & Izakaya") to "Bundle".
+function cleanPromo(title) {
+  if (!title) return "Automatic discount";
+  if (/^[A-Z0-9][A-Z0-9_-]{2,}$/.test(title)) return title;
+  return "Bundle";
 }
 
 // ---------------------------------------------------------------------------

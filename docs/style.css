@@ -88,7 +88,30 @@ h2 { font-size: 20px; margin: 34px 0 14px; }
   border-radius: 10px; color: var(--text); padding: 10px 14px; font-size: 15px;
 }
 #search:focus { outline: none; border-color: var(--accent); }
-.toggle { color: var(--muted); font-size: 14px; display: flex; align-items: center; gap: 6px; cursor: pointer; }
+.toggle { color: var(--muted); font-size: 14px; display: flex; align-items: center; gap: 6px; cursor: pointer; white-space: nowrap; }
+.select {
+  background: var(--panel); border: 1px solid var(--line); border-radius: 10px;
+  color: var(--text); padding: 9px 12px; font-size: 14px; cursor: pointer;
+}
+.select:focus { outline: none; border-color: var(--accent); }
+.linkbtn {
+  background: var(--panel-2); border: 1px solid var(--line); border-radius: 10px;
+  color: var(--text); padding: 9px 14px; font-size: 13px; cursor: pointer; white-space: nowrap;
+}
+.linkbtn:hover { border-color: var(--accent); }
+.filter-summary { color: var(--muted); font-size: 13px; margin: 0 0 12px; }
+
+/* Watch stars */
+.star-col { width: 34px; text-align: center; }
+th.star-col { color: var(--muted); }
+.star {
+  background: none; border: none; cursor: pointer; font-size: 18px; line-height: 1;
+  color: var(--muted); padding: 2px 4px; transition: transform .1s, color .1s;
+}
+.star:hover { transform: scale(1.25); color: var(--accent); }
+.star.on { color: var(--accent); }
+.empty-row { text-align: center; color: var(--muted); padding: 28px; }
+.empty-row a { color: var(--link); }
 
 .table-wrap { overflow-x: auto; border: 1px solid var(--line); border-radius: var(--radius); }
 table { width: 100%; border-collapse: collapse; font-size: 14px; }
@@ -125,10 +148,10 @@ td.best { background: rgba(61,220,132,.10); }
 .chan.amz { background: rgba(106,176,255,.16); color: var(--link); }
 .amz-links { font-size: 13px; color: var(--muted); margin: 14px 0 0; }
 /* Hide the Amazon/Best columns until Amazon data exists, so the table reads cleanly pre-integration */
-body:not(.has-amazon) th[data-sort="amazonPrice"],
-body:not(.has-amazon) th[data-sort="bestPrice"],
+body:not(.has-amazon) th.amz-th,
+body:not(.has-amazon) th.best-th,
 body:not(.has-amazon) td.amz-col,
-body:not(.has-amazon) #all-body td:nth-child(6) { display: none; }
+body:not(.has-amazon) td.best-col { display: none; }
 
 .empty { color: var(--muted); background: var(--panel); border: 1px dashed var(--line); border-radius: var(--radius); padding: 18px; }
 

@@ -36,18 +36,26 @@
         <h2>📦 All Sets</h2>
         <div class="controls">
           <input type="search" id="search" placeholder="Search sets…" autocomplete="off" />
+          <select id="theme-filter" class="select" aria-label="Filter by theme">
+            <option value="">All themes</option>
+          </select>
+          <label class="toggle"><input type="checkbox" id="watched-only" /> ★ Watched only</label>
+          <label class="toggle"><input type="checkbox" id="onsale-only" /> On sale only</label>
           <label class="toggle"><input type="checkbox" id="instock-only" /> In stock only</label>
+          <button id="copy-link" class="linkbtn" title="Copy a link to this view — bookmark it to keep your filters &amp; watchlist">🔗 Copy view link</button>
         </div>
+        <p id="filter-summary" class="filter-summary"></p>
         <div class="table-wrap">
           <table id="all-table">
             <thead>
               <tr>
+                <th class="star-col" title="Watch">★</th>
                 <th></th>
                 <th data-sort="title" class="sortable">Set</th>
                 <th data-sort="productType" class="sortable">Theme</th>
                 <th data-sort="price" class="sortable num">LumiBricks</th>
-                <th data-sort="amazonPrice" class="sortable num">Amazon</th>
-                <th data-sort="bestPrice" class="sortable num">Best</th>
+                <th data-sort="amazonPrice" class="sortable num amz-th">Amazon</th>
+                <th data-sort="bestPrice" class="sortable num best-th">Best</th>
                 <th data-sort="discountPct" class="sortable num">Discount</th>
                 <th data-sort="available" class="sortable">Stock</th>
               </tr>

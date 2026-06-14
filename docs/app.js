@@ -36,6 +36,78 @@ let STATE = { products: [], history: { products: {} }, amazonHistory: { products
 let sortKey = "discountPct";
 let sortDir = "desc";
 
+// --- Preferences: theme filter, toggles, and a manual watchlist -------------
+// Persisted to localStorage AND encoded in the URL hash, so bookmarking the page
+// keeps your filters and watchlist.
+const PREFS_KEY = "lumibricks:prefs";
+const PREFS = { q: "", theme: "", watchedOnly: false, onSaleOnly: false, inStockOnly: false, watch: new Set() };
+const isWatched = (id) => PREFS.watch.has(String(id));
+
+function loadPrefs() {
+  let raw = null;
+  if (location.hash.length > 1) {
+    const p = new URLSearchParams(location.hash.slice(1));
+    raw = {
+      q: p.get("q") || "", theme: p.get("theme") || "",
+      watchedOnly: p.get("watched") === "1", onSaleOnly: p.get("onsale") === "1", inStockOnly: p.get("instock") === "1",
+      watch: (p.get("watch") || "").split(",").filter(Boolean),
+    };
+  } else {
+    try { raw = JSON.parse(localStorage.getItem(PREFS_KEY) || "null"); } catch { /* ignore */ }
+  }
+  if (!raw) return;
+  PREFS.q = raw.q || "";
+  PREFS.theme = raw.theme || "";
+  PREFS.watchedOnly = !!raw.watchedOnly;
+  PREFS.onSaleOnly = !!raw.onSaleOnly;
+  PREFS.inStockOnly = !!raw.inStockOnly;
+  PREFS.watch = new Set((raw.watch || []).map(String));
+}
+
+function savePrefs() {
+  const watch = [...PREFS.watch];
+  try {
+    localStorage.setItem(PREFS_KEY, JSON.stringify({ ...PREFS, watch }));
+  } catch { /* ignore */ }
+  const p = new URLSearchParams();
+  if (PREFS.q) p.set("q", PREFS.q);
+  if (PREFS.theme) p.set("theme", PREFS.theme);
+  if (PREFS.watchedOnly) p.set("watched", "1");
+  if (PREFS.onSaleOnly) p.set("onsale", "1");
+  if (PREFS.inStockOnly) p.set("instock", "1");
+  if (watch.length) p.set("watch", watch.join(","));
+  const hash = p.toString();
+  history.replaceState(null, "", hash ? "#" + hash : location.pathname + location.search);
+}
+
+function applyPrefsToControls() {
+  $("#search").value = PREFS.q;
+  $("#theme-filter").value = PREFS.theme;
+  $("#watched-only").checked = PREFS.watchedOnly;
+  $("#onsale-only").checked = PREFS.onSaleOnly;
+  $("#instock-only").checked = PREFS.inStockOnly;
+}
+
+function populateThemes(products) {
+  const themes = [...new Set(products.map((p) => p.productType).filter(Boolean))].sort();
+  $("#theme-filter").innerHTML =
+    '<option value="">All themes</option>' + themes.map((t) => `<option value="${esc(t)}">${esc(t)}</option>`).join("");
+  $("#theme-filter").value = PREFS.theme; // re-select now that the option exists
+}
+
+function toggleWatch(id) {
+  id = String(id);
+  if (PREFS.watch.has(id)) PREFS.watch.delete(id);
+  else PREFS.watch.add(id);
+  savePrefs();
+  renderAll();
+}
+
+function renderAll() {
+  renderSales(STATE.products);
+  renderTable();
+}
+
 async function load() {
   try {
     const [current, events, history, amazon, amazonHistory] = await Promise.all([
@@ -49,11 +121,12 @@ async function load() {
     const amazonActive = Object.keys(amazon.products || {}).length > 0;
     STATE = { products: current.products, history, amazonHistory };
     document.body.classList.toggle("has-amazon", amazonActive);
+    populateThemes(current.products);
+    applyPrefsToControls();
     renderUpdated(current.generatedAt, amazonActive ? amazon.generatedAt : null);
     renderStats(current.totals, current.products, amazonActive);
-    renderSales(current.products);
     renderActivity(events.events || []);
-    renderTable();
+    renderAll();
     $("#product-count").textContent =
       `Tracking ${current.products.length} sets` +
       (amazonActive ? ` · Amazon prices on ${Object.keys(amazon.products).length}.` : ".");
@@ -106,9 +179,15 @@ function renderStats(t, products, amazonActive) {
 }
 
 function renderSales(products) {
-  const onSale = products.filter((p) => p.onSale);
-  $("#sale-count").textContent = onSale.length ? `(${onSale.length})` : "";
+  const onSale = products.filter(
+    (p) => p.onSale && (!PREFS.theme || p.productType === PREFS.theme) && (!PREFS.watchedOnly || isWatched(p.id))
+  );
+  const filtered = PREFS.theme || PREFS.watchedOnly;
+  $("#sale-count").textContent = onSale.length ? `(${onSale.length}${filtered ? " filtered" : ""})` : "";
   $("#no-sales").hidden = onSale.length > 0;
+  $("#no-sales").textContent = filtered
+    ? "No sets match your filters are on sale right now."
+    : "No sets are on sale right now. This page updates automatically — check back soon.";
   $("#sales").innerHTML = onSale
     .map(
       (p) => `
@@ -162,13 +241,16 @@ function amazonCell(p) {
 }
 
 function renderTable() {
-  const q = $("#search").value.trim().toLowerCase();
-  const inStockOnly = $("#instock-only").checked;
+  const q = PREFS.q.trim().toLowerCase();
   let rows = STATE.products.filter((p) => {
-    if (inStockOnly && !p.available) return false;
+    if (PREFS.theme && p.productType !== PREFS.theme) return false;
+    if (PREFS.watchedOnly && !isWatched(p.id)) return false;
+    if (PREFS.onSaleOnly && !p.onSale) return false;
+    if (PREFS.inStockOnly && !p.available) return false;
     if (q && !(`${p.title} ${p.productType}`.toLowerCase().includes(q))) return false;
     return true;
   });
+  updateFilterSummary(rows.length);
 
   rows.sort((a, b) => {
     let av = a[sortKey], bv = b[sortKey];
@@ -180,15 +262,22 @@ function renderTable() {
     return a.title.localeCompare(b.title);
   });
 
+  if (rows.length === 0) {
+    $("#all-body").innerHTML = `<tr><td colspan="9" class="empty-row">No sets match your filters. <a href="#" id="clear-filters">Clear filters</a></td></tr>`;
+    $("#clear-filters")?.addEventListener("click", (e) => { e.preventDefault(); clearFilters(); });
+    return;
+  }
+
   $("#all-body").innerHTML = rows
     .map(
       (p) => `<tr>
+        <td class="star-col"><button class="star ${isWatched(p.id) ? "on" : ""}" data-id="${p.id}" aria-pressed="${isWatched(p.id)}" title="${isWatched(p.id) ? "Watching — click to unwatch" : "Watch this set"}">${isWatched(p.id) ? "★" : "☆"}</button></td>
         <td><img class="row-thumb" loading="lazy" src="${thumb(p.image)}" alt=""></td>
         <td><span class="row-name" data-id="${p.id}">${esc(p.title)}</span></td>
         <td>${esc(p.productType) || '<span class="dash">—</span>'}</td>
         <td class="num ${p.bestSource === "shopify" ? "best" : ""}">${money(p.price)}${p.onSale ? `<span class="was-sm">${money(p.compareAt)}</span>` : ""}</td>
         <td class="num amz-col ${p.bestSource === "amazon" ? "best" : ""}">${amazonCell(p)}</td>
-        <td class="num">${p.bestPrice != null ? `${money(p.bestPrice)} <span class="src ${p.bestSource}">${p.bestSource === "amazon" ? "AMZ" : "LB"}</span>` : '<span class="dash">—</span>'}</td>
+        <td class="num best-col">${p.bestPrice != null ? `${money(p.bestPrice)} <span class="src ${p.bestSource}">${p.bestSource === "amazon" ? "AMZ" : "LB"}</span>` : '<span class="dash">—</span>'}</td>
         <td class="num">${p.discountPct ? `<span class="disc">-${p.discountPct}%</span>` : '<span class="dash">—</span>'}</td>
         <td>${p.available ? '<span class="in">In stock</span>' : '<span class="out">Out</span>'}</td>
       </tr>`
@@ -197,6 +286,9 @@ function renderTable() {
 
   document.querySelectorAll("#all-body .row-name").forEach((el) =>
     el.addEventListener("click", () => openModal(Number(el.dataset.id)))
+  );
+  document.querySelectorAll("#all-body .star").forEach((el) =>
+    el.addEventListener("click", () => toggleWatch(el.dataset.id))
   );
 
   document.querySelectorAll("th.sortable").forEach((th) => {
@@ -272,10 +364,42 @@ function esc(s) {
   return String(s).replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
 }
 
+function updateFilterSummary(shown) {
+  const bits = [`Showing ${shown} of ${STATE.products.length}`, `${PREFS.watch.size} watched`];
+  const active = [];
+  if (PREFS.theme) active.push(`theme “${PREFS.theme}”`);
+  if (PREFS.watchedOnly) active.push("watched only");
+  if (PREFS.onSaleOnly) active.push("on sale only");
+  if (PREFS.inStockOnly) active.push("in stock only");
+  if (PREFS.q) active.push(`“${PREFS.q}”`);
+  $("#filter-summary").textContent = bits.join(" · ") + (active.length ? " · " + active.join(", ") : "");
+}
+
+function clearFilters() {
+  PREFS.q = ""; PREFS.theme = ""; PREFS.watchedOnly = false; PREFS.onSaleOnly = false; PREFS.inStockOnly = false;
+  applyPrefsToControls();
+  savePrefs();
+  renderAll();
+}
+
+function flashBtn(sel, msg) {
+  const el = $(sel); const orig = el.textContent;
+  el.textContent = msg; setTimeout(() => (el.textContent = orig), 2200);
+}
+
 // --- Wiring ------------------------------------------------------------------
 
-$("#search").addEventListener("input", renderTable);
-$("#instock-only").addEventListener("change", renderTable);
+$("#search").addEventListener("input", (e) => { PREFS.q = e.target.value; savePrefs(); renderAll(); });
+$("#theme-filter").addEventListener("change", (e) => { PREFS.theme = e.target.value; savePrefs(); renderAll(); });
+$("#watched-only").addEventListener("change", (e) => { PREFS.watchedOnly = e.target.checked; savePrefs(); renderAll(); });
+$("#onsale-only").addEventListener("change", (e) => { PREFS.onSaleOnly = e.target.checked; savePrefs(); renderAll(); });
+$("#instock-only").addEventListener("change", (e) => { PREFS.inStockOnly = e.target.checked; savePrefs(); renderAll(); });
+$("#copy-link").addEventListener("click", async () => {
+  savePrefs();
+  try { await navigator.clipboard.writeText(location.href); flashBtn("#copy-link", "✓ Copied — bookmark it!"); }
+  catch { flashBtn("#copy-link", "Press Cmd/Ctrl+D to bookmark"); }
+});
+
 document.querySelectorAll("th.sortable").forEach((th) =>
   th.addEventListener("click", () => {
     const k = th.dataset.sort;
@@ -284,8 +408,12 @@ document.querySelectorAll("th.sortable").forEach((th) =>
     renderTable();
   })
 );
+// React if the URL fragment changes (e.g. opening a bookmarked link in this tab).
+window.addEventListener("hashchange", () => { loadPrefs(); applyPrefsToControls(); renderAll(); });
+
 $("#modal-close").addEventListener("click", () => ($("#modal").hidden = true));
 $("#modal").addEventListener("click", (e) => { if (e.target.id === "modal") $("#modal").hidden = true; });
 document.addEventListener("keydown", (e) => { if (e.key === "Escape") $("#modal").hidden = true; });
 
+loadPrefs();
 load();

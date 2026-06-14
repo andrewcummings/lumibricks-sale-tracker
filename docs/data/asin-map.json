@@ -1,0 +1,805 @@
+{
+  "generatedAt": "2026-06-14T17:42:56.681Z",
+  "map": {
+    "7933167501548": {
+      "title": "A-Frame Cabin",
+      "asin": "B0DK179RJW",
+      "amazonTitle": "Vziimo A-Frame Cabin Building Set, MOC Ideas Cabin House Collectible Model Kit with LED for Adults and Kids Age 12+, Gifts for Nature and Architecture Lovers (1486 Pcs)",
+      "score": 1,
+      "status": "matched",
+      "checkedAt": "2026-06-14T17:42:56.681Z"
+    },
+    "9027576955116": {
+      "title": "Alchemist's Moving Castle",
+      "asin": "B0FNQNLPK4",
+      "amazonTitle": "Lumibricks Mecha-Alchemist's Moving Castle Lighting Building-Bricks Set, 2690 Pcs Gearwerk Alchemy Lab Collection Display Set for Adults and Steampunk Lovers",
+      "score": 1,
+      "status": "matched",
+      "checkedAt": "2026-06-14T17:42:56.681Z"
+    },
+    "8984717361388": {
+      "title": "Alpine Observatory",
+      "asin": "B0FGPFGPMZ",
+      "amazonTitle": "Lumibricks Alpine Observatory Lighting Building-Bricks Set with The Galaxy Projector, 2437 Pcs Space Themed Room Decor for Astronomy and Space Lovers",
+      "score": 1,
+      "status": "matched",
+      "checkedAt": "2026-06-14T17:42:56.681Z"
+    },
+    "8571602239724": {
+      "title": "Antique Store",
+      "asin": "B0FQTZHZ3C",
+      "amazonTitle": "Lumibricks Antique-Store Lighting Building-Bricks Set - City Town Corner Collectibles Shop LED Light Modular Building Model Set 2847 Pcs for Adults and Teen",
+      "score": 1,
+      "status": "matched",
+      "checkedAt": "2026-06-14T17:42:56.681Z"
+    },
+    "8702752784620": {
+      "title": "Apartment",
+      "asin": "B0DDK53G6M",
+      "amazonTitle": "FUNWHOLE Cyberpunk Mansion Lighting Building-Bricks Set - 2524 Pcs Future City Modular Buildings Set Display Idea for Adults and Sci-fi Lovers Global Recycled Standard Global Recycled Standard Global Recycled Standard",
+      "score": 0,
+      "status": "unmatched",
+      "checkedAt": "2026-06-14T17:42:56.681Z"
+    },
+    "9004266225900": {
+      "title": "Aurora Cabin",
+      "asin": "B0FKML73S5",
+      "amazonTitle": "LUMIBRICKS Aurora-Cabin Christmas Lighting-Building-Bricks Set - 2425 Pcs Retro House Winter Lodge LED Light Construction Building Christmas Village Model Set for Adults and Families",
+      "score": 1,
+      "status": "matched",
+      "checkedAt": "2026-06-14T17:42:56.681Z"
+    },
+    "8714194813164": {
+      "title": "Balcony Theatre",
+      "asin": "B0DGFQF9PL",
+      "amazonTitle": "FUNWHOLE Balcony-Theatre Lighting Building-Bricks Set - City Town Creator House with LED Light Multi-Form Modular Collectible Display Kit 2445 Pcs for Adults and Movie Lovers Global Recycled Standard Global Recycled Standard Global Recycled Standard",
+      "score": 1,
+      "status": "matched",
+      "checkedAt": "2026-06-14T17:42:56.681Z"
+    },
+    "8901501419756": {
+      "title": "Bamboo House",
+      "asin": "B0F21DRX47",
+      "amazonTitle": "Lumibricks Bamboo-House Lighting Building-Bricks Set - Retro Chinese Bamboo Cabin and Treehouse Collection LED Light Set 2432 Pcs for Adults and Retro House Building Collectors",
+      "score": 1,
+      "status": "matched",
+      "checkedAt": "2026-06-14T17:42:56.681Z"
+    },
+    "9146342244588": {
+      "title": "Barbershop",
+      "asin": "B0GC62KTFX",
+      "amazonTitle": "Lumibricks Barbershop Lighting Building Bricks Set - Street Fusion City Town Modular Playset Collection Display kit with Minifigures 2557 Pcs for Adults & Teens & Life Enthusiasts",
+      "score": 1,
+      "status": "matched",
+      "checkedAt": "2026-06-14T17:42:56.681Z"
+    },
+    "9132932694252": {
+      "title": "Beach Lifeguard Tower",
+      "asin": "B0GDD6Y4G1",
+      "amazonTitle": "Lumibricks Beach Lifeguard Tower Lighting Building Bricks Set - 1015 Pcs Road Trip Lifeguard Tower Light Construction Building Model Set for Adults and Travelling Lovers",
+      "score": 1,
+      "status": "matched",
+      "checkedAt": "2026-06-14T17:42:56.681Z"
+    },
+    "8768580944108": {
+      "title": "Bee Farm",
+      "asin": "B0FJ269NQH",
+      "amazonTitle": "INSOON Bee Farm House Building Set with Light, 1773PCS Honey Cabin Building Block Toy with Flower Botanical Animals, Home Decor Treehouse Construction Model Kit, Gift for for Adults Boys Girls 12+",
+      "score": 1,
+      "status": "matched",
+      "checkedAt": "2026-06-14T17:42:56.681Z"
+    },
+    "8615835566316": {
+      "title": "Book-Cafe",
+      "asin": "B0D8J92MC6",
+      "amazonTitle": "Funwhole Book-Cafe Lighting Building-Bricks Set - City Town Coffee House LED Light Modular Construction Building Model Sets 1718 Pcs for Adults and Teen Global Recycled Standard Global Recycled Standard Global Recycled Standard",
+      "score": 1,
+      "status": "matched",
+      "checkedAt": "2026-06-14T17:42:56.681Z"
+    },
+    "9074919735532": {
+      "title": "Boxing Club",
+      "asin": "B0FVWTDZXF",
+      "amazonTitle": "Lumibricks Street Fusion Boxing Club Lighting Building Bricks Set - City Town Modular Playset Collection Display kit with Minifigures 3036 Pcs for Adults & Teens & Life Enthusiasts",
+      "score": 1,
+      "status": "matched",
+      "checkedAt": "2026-06-14T17:42:56.681Z"
+    },
+    "8944774775020": {
+      "title": "Brick Art Gallery",
+      "asin": "B0FB3PCLC9",
+      "amazonTitle": "Lumibricks Brick Art Gallery Lighting Building Bricks Set - Town Life City Modular Collection Kit with Minifigures 3400 Pcs for Adults & Teen & Visual Art Lovers",
+      "score": 1,
+      "status": "matched",
+      "checkedAt": "2026-06-14T17:42:56.681Z"
+    },
+    "9027579216108": {
+      "title": "Castle Armory",
+      "asin": "B0FRMYM9RL",
+      "amazonTitle": "Lumibricks Medieval Castle Armory Lighting Building Bricks Set - Middle Ages City Town Modular Collection Display Kit with Minifigures 2895 Pcs for Adults & Teens",
+      "score": 1,
+      "status": "matched",
+      "checkedAt": "2026-06-14T17:42:56.681Z"
+    },
+    "8984028610796": {
+      "title": "Castle Banquet Hall",
+      "asin": "B0FB3S3KQM",
+      "amazonTitle": "Lumibricks Medieval Castle Banquet Hall Lighting Building Bricks Set - Middle Ages City Town Modular Collection Display Kit with Minifigures 3232 Pcs for Adults & Teens",
+      "score": 1,
+      "status": "matched",
+      "checkedAt": "2026-06-14T17:42:56.681Z"
+    },
+    "8732444786924": {
+      "title": "Chili Dog Trailer",
+      "asin": "B0DBZ5KW8D",
+      "amazonTitle": "FUNWHOLE Chili Dog Trailer Lighting Building Bricks Set - Street Fusion City Town Hot Food Truck with LED Light Display Kit 515 Pcs for Adults & Teens & Street Cultrue Lovers Global Recycled Standard Global Recycled Standard Global Recycled Standard",
+      "score": 1,
+      "status": "matched",
+      "checkedAt": "2026-06-14T17:42:56.681Z"
+    },
+    "9210633224428": {
+      "title": "Cleaning Squad",
+      "asin": "B0GSY98B1S",
+      "amazonTitle": "Lumibricks Street-Fusion Cleaning-Squad Lighting Building-Bricks-Set - 627 PCS American Urban Style Vehicle Model Kit for Adults, Modular Car, Creative Decorations for Street Art Fans",
+      "score": 1,
+      "status": "matched",
+      "checkedAt": "2026-06-14T17:42:56.681Z"
+    },
+    "8984717525228": {
+      "title": "Collectible Low Rider - Big Red",
+      "asin": "B0FGQ58SKY",
+      "amazonTitle": "Lumibricks Low Rider Big Red Car Building Bricks Set - Street Fusion Vehicle Engineering Lighting Model Modular Collection Kit 969 Pcs for Adults & Teens & Car Lovers",
+      "score": 0.8,
+      "status": "matched",
+      "checkedAt": "2026-06-14T17:42:56.681Z"
+    },
+    "9246451564780": {
+      "title": "Corner Photo Studio",
+      "asin": "B0GX5FCN31",
+      "amazonTitle": "Lumibricks Street-Fusion Corner-Photo-Studio Lighting Building-Bricks-Set - 1425 Pcs City Town Modular Street View Model for Adults - Home and Office Decor, Creative Educational Interactive Toys",
+      "score": 1,
+      "status": "matched",
+      "checkedAt": "2026-06-14T17:42:56.681Z"
+    },
+    "8636093825260": {
+      "title": "Cow Barn",
+      "asin": "B0DX9VS6LF",
+      "amazonTitle": "OWNONE 1 Windmill Farm Building Set with LED Lights, 1310 PCS Red Barn Building Blocks Toy with Cows Animals, Farm Model Building Bricks Set, Home Decor Gift for Adults Teens Kids Boys Girls",
+      "score": 0.5,
+      "status": "matched",
+      "checkedAt": "2026-06-14T17:42:56.681Z"
+    },
+    "8885918302444": {
+      "title": "Cowboy Camp",
+      "asin": "B0FJFQ1KK9",
+      "amazonTitle": "Lumibricks Cowboy Camp Lighting Building-Bricks Set - The Old West Shelter with Covered Wagon and Horse 542 Pcs Collection Display Set for Adults and West Lovers",
+      "score": 1,
+      "status": "matched",
+      "checkedAt": "2026-06-14T17:42:56.681Z"
+    },
+    "9089909588204": {
+      "title": "Cyber Couture Galleria",
+      "asin": "B0FVXSDKQB",
+      "amazonTitle": "Lumibricks Cyber Couture Galleria Building Set - Cyberpunk Neon City Future Style Toy with Light Kit for Home Decor - Amazing Gift Idea for Boys & Girls, Adults & Sci-fi Lovers, 2701 Pcs",
+      "score": 1,
+      "status": "matched",
+      "checkedAt": "2026-06-14T17:42:56.681Z"
+    },
+    "9199091482860": {
+      "title": "Cyberpunk Police HQ",
+      "asin": "B0GST173MN",
+      "amazonTitle": "Lumibricks Cyberpunk Police-HQ Lighting-Building Bricks-Set - 1716 Pcs Police Station Model Kit for Adults, Future Style Toy for Home Decor - Amazing Gift Idea for Boys, Adults & Sci-fi Lovers",
+      "score": 1,
+      "status": "matched",
+      "checkedAt": "2026-06-14T17:42:56.681Z"
+    },
+    "8838360432876": {
+      "title": "Factory House of Music",
+      "asin": "B0DW3WPT15",
+      "amazonTitle": "FUNWHOLE Factory House of Music Lighting Building Bricks Set - Street Fusion Music Club City Town Fully Accessible Multi-Form Modular Collection Kit 2654 Pcs for Adults & Teens & Street Culture Lovers Global Recycled Standard Global Recycled Standard Global Recycled Standard",
+      "score": 1,
+      "status": "matched",
+      "checkedAt": "2026-06-14T17:42:56.681Z"
+    },
+    "8238832812268": {
+      "title": "Farm Store",
+      "asin": "B0CSFVF6JC",
+      "amazonTitle": "Funwhole Farm-Store Lighting Building-Bricks Set - Farm Shop LED Light Construction Building Model Set 1523 Pcs for Adults and Teen Global Recycled Standard Global Recycled Standard Global Recycled Standard",
+      "score": 1,
+      "status": "matched",
+      "checkedAt": "2026-06-14T17:42:56.681Z"
+    },
+    "9004351619308": {
+      "title": "Floating Train Station",
+      "asin": "B0GH5HGZNC",
+      "amazonTitle": "Lumibricks Cyberpunk Floating-Train-Station and Couture Galleria Building Set",
+      "score": 1,
+      "status": "matched",
+      "checkedAt": "2026-06-14T17:42:56.681Z"
+    },
+    "9199088926956": {
+      "title": "Forest Outpost",
+      "asin": "B0GHM7VZRY",
+      "amazonTitle": "Lumibricks Medieval-Forest-Outpost Lighting Building-Blocks Set - 1419 Pcs Middle Ages Architecture Model Kit for Adults, Home Decor and Creative Display Gift",
+      "score": 1,
+      "status": "matched",
+      "checkedAt": "2026-06-14T17:42:56.681Z"
+    },
+    "8677550653676": {
+      "title": "Forge House",
+      "asin": "B0FJFGDP51",
+      "amazonTitle": "Lumibricks Medieval Forge House Lighting Building Bricks Set - Blacksmith kit Collectible Display LED Light Building Sets 1595 Pcs for Adults and Teen",
+      "score": 1,
+      "status": "matched",
+      "checkedAt": "2026-06-14T17:42:56.681Z"
+    },
+    "8875297669356": {
+      "title": "Future Bus",
+      "asin": "B0FJFHYM82",
+      "amazonTitle": "Lumibricks Cyberpunk Future-Bus Lighting-Building-Bricks Set - Cyberpunk City Future Vehicle Collection LED Light 2in1 Car Model Display Set 605 Pcs for Adults and Sci-fi Lovers",
+      "score": 1,
+      "status": "matched",
+      "checkedAt": "2026-06-14T17:42:56.681Z"
+    },
+    "9004339560684": {
+      "title": "Game Stack",
+      "asin": "B0FGPZYZ86",
+      "amazonTitle": "Lumibricks Cyberpunk Game Stack Lighting-Building-Bricks Set - 2580 Pcs Arcade MOC Architecture Model Kit- Cool Gamer Room Desktop Decor, Creative Gift for Adults and Sci-fi Lovers",
+      "score": 1,
+      "status": "matched",
+      "checkedAt": "2026-06-14T17:42:56.681Z"
+    },
+    "9146340933868": {
+      "title": "Garden Cottage",
+      "asin": "B0GBVDDY4K",
+      "amazonTitle": "Lumibricks Garden Cottage Lighting Building Bricks Set - 2787 Pcs Retro Garden Cabin House Construction Building Model Set for Adults and Cabin Model Lovers",
+      "score": 1,
+      "status": "matched",
+      "checkedAt": "2026-06-14T17:42:56.681Z"
+    },
+    "8868181836012": {
+      "title": "Gas Station",
+      "asin": "B0DYTYY8WG",
+      "amazonTitle": "FUNWHOLE City Gas-Station Lighting-Building-Bricks Set - Road Trip Modular Car Service Station Collection LED Light Building Set 1608 Pcs for Adults, Teen and Travelling Enthusiasts Global Recycled Standard Global Recycled Standard Global Recycled Standard",
+      "score": 1,
+      "status": "matched",
+      "checkedAt": "2026-06-14T17:42:56.681Z"
+    },
+    "8895713149164": {
+      "title": "Gelato Store",
+      "asin": "B0DZC4D7K2",
+      "amazonTitle": "FUNWHOLE Gelato-Store Lighting Building-Bricks Set - City Town Ice Cream Shop LED Light Modular Collection Kit 1948 Pcs Display Model for Adults and Dessert Lovers Global Recycled Standard Global Recycled Standard Global Recycled Standard",
+      "score": 1,
+      "status": "matched",
+      "checkedAt": "2026-06-14T17:42:56.681Z"
+    },
+    "8734292181228": {
+      "title": "General Store",
+      "asin": "B0DHXLSQSH",
+      "amazonTitle": "FUNWHOLE Western General Store Lighting Building-Bricks Set - 1895 Pcs The Old West Town Collection Display Set for Adults and West Lovers Global Recycled Standard Global Recycled Standard Global Recycled Standard",
+      "score": 1,
+      "status": "matched",
+      "checkedAt": "2026-06-14T17:42:56.681Z"
+    },
+    "8776890450156": {
+      "title": "Graffiti Bus Stop",
+      "asin": "B0GSYHLHGM",
+      "amazonTitle": "Lumibricks Street-Fusion Graffiti-Crew Lighting Building-Bricks-Set - 575 PCS American Urban Style Vehicle Model Kit for Adults, Modular Car, Creative Decorations for Street Art Fans",
+      "score": 0.33,
+      "status": "unmatched",
+      "checkedAt": "2026-06-14T17:42:56.681Z"
+    },
+    "9210632143084": {
+      "title": "Graffiti Crew",
+      "asin": "B0GSYHLHGM",
+      "amazonTitle": "Lumibricks Street-Fusion Graffiti-Crew Lighting Building-Bricks-Set - 575 PCS American Urban Style Vehicle Model Kit for Adults, Modular Car, Creative Decorations for Street Art Fans",
+      "score": 1,
+      "status": "matched",
+      "checkedAt": "2026-06-14T17:42:56.681Z"
+    },
+    "9233535140076": {
+      "title": "Greenway Clinic",
+      "asin": "B0GSYJ82XX",
+      "amazonTitle": "LUMIBRICKS City-Town Greenway-Clinic Lighting Building-Bricks -Set - 2985 Pcs Neo-Classical Architecture Model for Adults, Modular Community Clinic with Healing Gardens and 6 Minifigures",
+      "score": 1,
+      "status": "matched",
+      "checkedAt": "2026-06-14T17:42:56.681Z"
+    },
+    "8982836773100": {
+      "title": "Heritage Tram and Station",
+      "asin": "B0FF4FFCWH",
+      "amazonTitle": "Lumibricks Heritage Tram and Station Lighting Building-Bricks Set - 1274 Pcs City Streetcar Modular Collection Old Town Downtown Display Model for Adults & Teens & Tram Enthusiasts",
+      "score": 1,
+      "status": "matched",
+      "checkedAt": "2026-06-14T17:42:56.681Z"
+    },
+    "8774298861804": {
+      "title": "Home Greenhouse",
+      "asin": "B0BS2PDTW8",
+      "amazonTitle": "Flower House Building Set, Creative Garden Playset with LED Light, Build a Greenhouse Model Toy, Great Gift for Mothers Day, Friends or Girls, for Birthday, Valentine and Festivals (597 Pieces)",
+      "score": 0.5,
+      "status": "matched",
+      "checkedAt": "2026-06-14T17:42:56.681Z"
+    },
+    "8941147521260": {
+      "title": "Horse Stable",
+      "asin": "B0FJFMB6ZB",
+      "amazonTitle": "Lumibricks Western Stagecoach Lighting Building-Bricks Set - Old West Carriage and Horse 293 Pcs Collection Display Set for West Lovers",
+      "score": 0.5,
+      "status": "matched",
+      "checkedAt": "2026-06-14T17:42:56.681Z"
+    },
+    "8023667507436": {
+      "title": "Hunting Cabin",
+      "asin": "B0CFF3CKPN",
+      "amazonTitle": "FUNWHOLE Hunting-Cabin Lighting Building-Bricks Set - Retro Wooden Cabin LED Light Construction Building Model Set 2036 Pcs for Adults and Teen Global Recycled Standard Global Recycled Standard Global Recycled Standard",
+      "score": 1,
+      "status": "matched",
+      "checkedAt": "2026-06-14T17:42:56.681Z"
+    },
+    "9004365644012": {
+      "title": "Interstellar Drive-In",
+      "asin": "B0FNQNQ1Y3",
+      "amazonTitle": "Lumibricks Interstellar-Diner Lighting-Building-Bricks City Set - 2188 Pcs Road UFO Drive-in Restaurant Modular Collection LED Light Space Car Restaurant Set for Adults and Travelling Enthusiasts",
+      "score": 1,
+      "status": "matched",
+      "checkedAt": "2026-06-14T17:42:56.681Z"
+    },
+    "9074919669996": {
+      "title": "Italian Homestyle Restaurant",
+      "asin": "B0FVXWKW9C",
+      "amazonTitle": "Lumibricks Italian Homestyle Restaurant Lighting Building-Bricks Set – City Town Modular Italian Trattoria & Café LED Light Building Kit 2868 Pcs Construction Set for Adults and Teens",
+      "score": 1,
+      "status": "matched",
+      "checkedAt": "2026-06-14T17:42:56.681Z"
+    },
+    "8875237900524": {
+      "title": "Izakaya",
+      "asin": "B0DZM12T7W",
+      "amazonTitle": "FUNWHOLE Cyberpunk Japanese-Izakaya Lighting-Building-Bricks Set - Cyberpunk Neon City Future Pub Japanese Street View House Collection LED Light Model Set 1987 Pcs for Adults and Sci-fi Lovers Global Recycled Standard Global Recycled Standard Global Recycled Standard",
+      "score": 1,
+      "status": "matched",
+      "checkedAt": "2026-06-14T17:42:56.681Z"
+    },
+    "9004365775084": {
+      "title": "King's Castle Treasury",
+      "asin": "B0FNQGMPGL",
+      "amazonTitle": "Lumibricks Medieval King's Castle Treasury Building Bricks Set - Middle Ages City Town Modular Collection Display Kit with Minifigures 3209 Pcs for Adults & Teens",
+      "score": 1,
+      "status": "matched",
+      "checkedAt": "2026-06-14T17:42:56.681Z"
+    },
+    "9107108888812": {
+      "title": "Medieval Guard Post",
+      "asin": "B0G43945SF",
+      "amazonTitle": "Lumibricks Medieval Guard Post Lighting Building Bricks Set - Middle Ages Castle Modular Collection Display Kit with Minifigures 2945 Pcs for Adults & Teens",
+      "score": 1,
+      "status": "matched",
+      "checkedAt": "2026-06-14T17:42:56.681Z"
+    },
+    "8756237271276": {
+      "title": "Medieval Tailor Shop",
+      "asin": "B0GHMNK42G",
+      "amazonTitle": "Lumibricks Medieval Ranger-Camp Lighting Building-Bricks-Set - 500 Pcs Middle Ages Modular Collection Display Kit with Minifigures for Home Decor - Amazing Gift Idea for Boys & Girls, Adults",
+      "score": 0.33,
+      "status": "unmatched",
+      "checkedAt": "2026-06-14T17:42:56.681Z"
+    },
+    "8973539115244": {
+      "title": "Medieval Troupe Carriage",
+      "asin": "B0FB3QQCFD",
+      "amazonTitle": "Lumibricks Medieval Troupe Carriage Lighting Building Bricks Set - Middle Ages City Town Playset Multi-Form Modular Collection Display Kit with Minifigures 1248 Pcs for Adults & Teens",
+      "score": 1,
+      "status": "matched",
+      "checkedAt": "2026-06-14T17:42:56.681Z"
+    },
+    "8130969764076": {
+      "title": "Medieval Watchtower",
+      "asin": "B0CNPVMHRL",
+      "amazonTitle": "FUNWHOLE Medieval Watchtower Lighting Building-Bricks Set - Guardiance Castle with Soldier Farmer Minifigures Collectible Display Set 1625 Pcs for Adults and Teen Global Recycled Standard Global Recycled Standard Global Recycled Standard",
+      "score": 1,
+      "status": "matched",
+      "checkedAt": "2026-06-14T17:42:56.681Z"
+    },
+    "8737986019564": {
+      "title": "Medieval Water Mill",
+      "asin": "B0DKJK63Q1",
+      "amazonTitle": "FUNWHOLE Medieval Water-Mill Lighting Building-Bricks Set - Middle Age Milling House Collection LED Light Building Construction Model Sets 1278 Pcs for Adults and Teen Global Recycled Standard Global Recycled Standard Global Recycled Standard",
+      "score": 1,
+      "status": "matched",
+      "checkedAt": "2026-06-14T17:42:56.681Z"
+    },
+    "9004272648428": {
+      "title": "Midnight Haunted Mansion",
+      "asin": "B0FS75W94V",
+      "amazonTitle": "Lumibricks Halloween Midnight Haunted Mansion Lighting Building Bricks Set - Ghost Specter Phantom House City Town Modular Collection Kit 2617 Pcs for Adults & Teens",
+      "score": 1,
+      "status": "matched",
+      "checkedAt": "2026-06-14T17:42:56.681Z"
+    },
+    "9146344898796": {
+      "title": "Moon Bar",
+      "asin": "B0GDD6Y4G1",
+      "amazonTitle": "Lumibricks Beach Lifeguard Tower Lighting Building Bricks Set - 1015 Pcs Road Trip Lifeguard Tower Light Construction Building Model Set for Adults and Travelling Lovers",
+      "score": 0,
+      "status": "unmatched",
+      "checkedAt": "2026-06-14T17:42:56.681Z"
+    },
+    "8627552911596": {
+      "title": "Mountain Cabin",
+      "asin": "B0D97FH468",
+      "amazonTitle": "FUNWHOLE Mountain-Cabin House Lighting Building-Bricks Set - Friends Mountain House and Treehouse Collection LED Light Building Set 2255 Pcs for Adults and Teen Global Recycled Standard Global Recycled Standard Global Recycled Standard",
+      "score": 1,
+      "status": "matched",
+      "checkedAt": "2026-06-14T17:42:56.681Z"
+    },
+    "8101390680300": {
+      "title": "Newsstand",
+      "asin": "B0FJFGCVF9",
+      "amazonTitle": "Lumibricks Newsstand Lighting Building Bricks Set - City Town Life Newsstand LED Light Construction Building Model Set 556 Pcs for Adults and Teen",
+      "score": 1,
+      "status": "matched",
+      "checkedAt": "2026-06-14T17:42:56.681Z"
+    },
+    "8948785283308": {
+      "title": "Night Glow Drive-in",
+      "asin": "B0F6MQH4P3",
+      "amazonTitle": "Lumibricks City Drive-in Theater Lighting-Building-Bricks-Set - Road Trip Night Glow Car Cinema Modular Collection LED Light Building Set 1760 Pcs for Adults, Teen and Travelling Enthusiasts",
+      "score": 1,
+      "status": "matched",
+      "checkedAt": "2026-06-14T17:42:56.681Z"
+    },
+    "9003793350892": {
+      "title": "Old West Blacksmith",
+      "asin": "B0GBV1VYH8",
+      "amazonTitle": "Lumibricks Western Carpentry Workshop Lighting Building Bricks Set - 1832 Pcs The Old West Blacksmith-Shop Light Construction Building Model Set for Adults and West Lovers",
+      "score": 1,
+      "status": "matched",
+      "checkedAt": "2026-06-14T17:42:56.681Z"
+    },
+    "8905360408812": {
+      "title": "Old West Gold Mine",
+      "asin": "B0FH2N7T84",
+      "amazonTitle": "Lumibricks Wild West Gold Mine Lighting Building-Bricks Set - Western Prospector’s Dig Entrance 658 Pcs Mining Playset for Adults and West Lovers",
+      "score": 0.75,
+      "status": "matched",
+      "checkedAt": "2026-06-14T17:42:56.681Z"
+    },
+    "9107284263148": {
+      "title": "Old West Inn",
+      "asin": "B0G6YDB1H8",
+      "amazonTitle": "Lumibricks Western-Inn Lighting-Building-Bricks Set - 2682 Pcs The Old West Inn Light Construction Hotel Building Model Set for Adults and West Lovers",
+      "score": 1,
+      "status": "matched",
+      "checkedAt": "2026-06-14T17:42:56.681Z"
+    },
+    "8748520833260": {
+      "title": "Old West Post Office",
+      "asin": "B0DJSWLZ25",
+      "amazonTitle": "FUNWHOLE Old West Post Office Lighting Building-Bricks Set - 1692 Pcs The Wild West Town Collection Display Set for Adults and West Lovers Global Recycled Standard Global Recycled Standard Global Recycled Standard",
+      "score": 1,
+      "status": "matched",
+      "checkedAt": "2026-06-14T17:42:56.681Z"
+    },
+    "9004362825964": {
+      "title": "Ore Factory",
+      "asin": "B0GQ32Q9CN",
+      "amazonTitle": "ROKR Dream Coffee Factory, Wooden Music Box Model, Mechanical 3D Wooden Puzzles for Adults, Building Kit with Moving LED Lights, Miniature House Kits, Desk Decor Gift",
+      "score": 0.5,
+      "status": "matched",
+      "checkedAt": "2026-06-14T17:42:56.681Z"
+    },
+    "9233541857516": {
+      "title": "Pocket Garden",
+      "asin": "B0GSYYK1KG",
+      "amazonTitle": "Lumibricks City-Town Pocket-Garden Lighting Buildin-Bricks-Set -1649 Pcs French Parisian Style Corner Garden, Modular Park Model for Adults, Decorative Construction with Fountain and Seasonal Plants",
+      "score": 1,
+      "status": "matched",
+      "checkedAt": "2026-06-14T17:42:56.681Z"
+    },
+    "8704376045804": {
+      "title": "Police Patrol Car",
+      "asin": "B0DDKVM3D8",
+      "amazonTitle": "FUNWHOLE Police Patrol Car Lighting Building-Bricks Set - Cyberpunk City Car Chase Playkit with Officer 372 Pcs STEM Toys Global Recycled Standard Global Recycled Standard Global Recycled Standard",
+      "score": 1,
+      "status": "matched",
+      "checkedAt": "2026-06-14T17:42:56.681Z"
+    },
+    "9245937533164": {
+      "title": "Police Urban Convoy",
+      "asin": "B0GST173MN",
+      "amazonTitle": "Lumibricks Cyberpunk Police-HQ Lighting-Building Bricks-Set - 1716 Pcs Police Station Model Kit for Adults, Future Style Toy for Home Decor - Amazing Gift Idea for Boys, Adults & Sci-fi Lovers",
+      "score": 0.33,
+      "status": "unmatched",
+      "checkedAt": "2026-06-14T17:42:56.681Z"
+    },
+    "9199088697580": {
+      "title": "Ranger Camp",
+      "asin": "B0GHMNK42G",
+      "amazonTitle": "Lumibricks Medieval Ranger-Camp Lighting Building-Bricks-Set - 500 Pcs Middle Ages Modular Collection Display Kit with Minifigures for Home Decor - Amazing Gift Idea for Boys & Girls, Adults",
+      "score": 1,
+      "status": "matched",
+      "checkedAt": "2026-06-14T17:42:56.681Z"
+    },
+    "8740988616940": {
+      "title": "Record Store",
+      "asin": "B0FP4DTGLT",
+      "amazonTitle": "LUMIBRICKS Record Store Lighting Building Bricks Set - Street Fusion City Town Audio Shop Multi-Form Modular Collection Kit 1980 Pcs for Adults & Teen & Music Lovers",
+      "score": 1,
+      "status": "matched",
+      "checkedAt": "2026-06-14T17:42:56.681Z"
+    },
+    "9074919309548": {
+      "title": "Redbrick Row House",
+      "asin": "B0FVXFQ8RV",
+      "amazonTitle": "LUMIBRICKS Redbrick Row House Lighting Building Bricks Set - City Town LED Light Modular Construction Model Collection Display Kit with Minifigures 2663 Pcs for Adults & Teens",
+      "score": 1,
+      "status": "matched",
+      "checkedAt": "2026-06-14T17:42:56.681Z"
+    },
+    "9004358467820": {
+      "title": "Sequoia Bandit Camp",
+      "asin": "B0G1RMPDBS",
+      "amazonTitle": "Lumibricks Western Sequoia Bandit Outpost Lighting Building-Bricks Set & Cowboy Camp Lighting Building-Bricks Set",
+      "score": 1,
+      "status": "matched",
+      "checkedAt": "2026-06-14T17:42:56.681Z"
+    },
+    "9004326256876": {
+      "title": "Shepherd's Cottage",
+      "asin": "B0FGPSD875",
+      "amazonTitle": "Lumibricks Farm Shepherd's-Cottage Lighting Building-Bricks-Set - Farm Life Sheep Stone House Collection LED Light Cottage Model Display Set 2265 Pcs for Adults",
+      "score": 1,
+      "status": "matched",
+      "checkedAt": "2026-06-14T17:42:56.681Z"
+    },
+    "8127059034348": {
+      "title": "Sheriff's Office",
+      "asin": "B0CNR8DXN5",
+      "amazonTitle": "FUNWHOLE Sheriff's-Office Lighting Building-Bricks Set - The Old West Sheriff's Office LED Light Construction Building Model Set 1240 Pcs for Adults and Teen Global Recycled Standard Global Recycled Standard Global Recycled Standard",
+      "score": 1,
+      "status": "matched",
+      "checkedAt": "2026-06-14T17:42:56.681Z"
+    },
+    "9132931580140": {
+      "title": "Skate Park",
+      "asin": "B0GD6HJBK9",
+      "amazonTitle": "Lumibricks Skate Park Lighting Building Blocks Set - Street Fusion City Town Modular Playset Collection Display kit with Minifigures 1903 Pcs for Adults & Teens & Life Enthusiasts",
+      "score": 1,
+      "status": "matched",
+      "checkedAt": "2026-06-14T17:42:56.681Z"
+    },
+    "8707953656044": {
+      "title": "Skate Shop",
+      "asin": "B0GD6HJBK9",
+      "amazonTitle": "Lumibricks Skate Park Lighting Building Blocks Set - Street Fusion City Town Modular Playset Collection Display kit with Minifigures 1903 Pcs for Adults & Teens & Life Enthusiasts",
+      "score": 0.5,
+      "status": "matched",
+      "checkedAt": "2026-06-14T17:42:56.681Z"
+    },
+    "8685511246060": {
+      "title": "Ski Lodge",
+      "asin": "B0FKBFBLCR",
+      "amazonTitle": "PANTASY Winter Summit Ski Lodge Building Set,3-Story Mountain Cabin with Vintage Tram&Snowy Landscape,Modular Brick Architecture Model with Opening Wall,Ice Cave&Minifigures Holiday Display for Adults",
+      "score": 1,
+      "status": "matched",
+      "checkedAt": "2026-06-14T17:42:56.681Z"
+    },
+    "9004345327852": {
+      "title": "Spa Cabin",
+      "asin": "B0FKMDVHBZ",
+      "amazonTitle": "LUMIBRICKS Spa-Cabin Winter Lighting-Building-Bricks Set - 2235 Pcs Christmas House Winter Lodge LED Light Construction Building Christmas Village Model Set for Adults and Families",
+      "score": 1,
+      "status": "matched",
+      "checkedAt": "2026-06-14T17:42:56.681Z"
+    },
+    "9027578036460": {
+      "title": "Steamboat",
+      "asin": "B0FNQSJVWY",
+      "amazonTitle": "Lumibricks Steampunk Steamship Lighting Building Bricks Set - Steamboat Model Pirate Ship Destroyer Playset Collection Display kit with Minifigures 1792 Pcs for Adults & Teens & Steampunk Lovers",
+      "score": 1,
+      "status": "matched",
+      "checkedAt": "2026-06-14T17:42:56.681Z"
+    },
+    "9074917966060": {
+      "title": "Steamphant",
+      "asin": "B0FNQNLPK4",
+      "amazonTitle": "Lumibricks Mecha-Alchemist's Moving Castle Lighting Building-Bricks Set, 2690 Pcs Gearwerk Alchemy Lab Collection Display Set for Adults and Steampunk Lovers",
+      "score": 0,
+      "status": "unmatched",
+      "checkedAt": "2026-06-14T17:42:56.681Z"
+    },
+    "8714054861036": {
+      "title": "Steampunk Flying Club",
+      "asin": "B0FH2KMT8M",
+      "amazonTitle": "Lumibricks Steampunk Flying Club Lighting Building-Bricks Set - 1871 Pcs Modular Building Blocks Display Collectible Set for Adults",
+      "score": 1,
+      "status": "matched",
+      "checkedAt": "2026-06-14T17:42:56.681Z"
+    },
+    "9097945776364": {
+      "title": "Steampunk Mechanical Workshop",
+      "asin": "B0FW3WVG5R",
+      "amazonTitle": "Lumibricks Steampunk Mechanical Workshop Lighting Building-Bricks Set, 2006 Pcs The Sky-Lane Repair Shop Modular Building from Aeronauts Collection Display Set for Adults and Steampunk Lovers",
+      "score": 1,
+      "status": "matched",
+      "checkedAt": "2026-06-14T17:42:56.681Z"
+    },
+    "9074916917484": {
+      "title": "Steampunk Memory Magic Shop",
+      "asin": "B0FRMP6RSF",
+      "amazonTitle": "Lumibricks Steampunk Memory Magic Shop Lighting Building-Bricks Set, 2056 Pcs Modular Building from Chrono Custodians Collection Display Set for Adults and Steampunk Lovers",
+      "score": 1,
+      "status": "matched",
+      "checkedAt": "2026-06-14T17:42:56.681Z"
+    },
+    "8808104657132": {
+      "title": "Steampunk Motorcycle Pursuit",
+      "asin": "B0FNQNLPK4",
+      "amazonTitle": "Lumibricks Mecha-Alchemist's Moving Castle Lighting Building-Bricks Set, 2690 Pcs Gearwerk Alchemy Lab Collection Display Set for Adults and Steampunk Lovers",
+      "score": 0.33,
+      "status": "unmatched",
+      "checkedAt": "2026-06-14T17:42:56.681Z"
+    },
+    "9146343686380": {
+      "title": "Steampunk Time Opera House",
+      "asin": "B0GD6NJ2Y3",
+      "amazonTitle": "Lumibricks Steampunk Time-Opera-House Lighting Building-Set - 2810 Pcs Victorian Architecture Model Kit for Adults, Modular Theater with Mechanical Stage, Unique Home Decor Gift for Collectors",
+      "score": 1,
+      "status": "matched",
+      "checkedAt": "2026-06-14T17:42:56.681Z"
+    },
+    "9027581280492": {
+      "title": "Steampunk Time Rift Library",
+      "asin": "B0FRLY9PZ9",
+      "amazonTitle": "Lumibricks Steampunk Time-Rift Library Lighting Building-Bricks Set, 3187 Pcs Modular Building from Chrono Custodians Collection Display Set for Adults and Steampunk Lovers",
+      "score": 1,
+      "status": "matched",
+      "checkedAt": "2026-06-14T17:42:56.681Z"
+    },
+    "7774482497772": {
+      "title": "Steampunk Train Station",
+      "asin": "B0FLQQGWDP",
+      "amazonTitle": "DIY Miniature House Kit with Light, Dollhouse Kit – Wood 3D Puzzles Tiny House Book Nook for Adult Christmas Halloween Birthday Gift (Victorian Fantasy Steampunk Train Station Phantom City)",
+      "score": 1,
+      "status": "matched",
+      "checkedAt": "2026-06-14T17:42:56.681Z"
+    },
+    "8869585682668": {
+      "title": "Steampunk Watch Tower",
+      "asin": "B0FPWNP67M",
+      "amazonTitle": "Lumibricks Steampunk Observatory Tower Lighting Building-Bricks Set - Astronomy Tower 2744 Pcs Collection Display Set for Adults and Steampunk Lovers",
+      "score": 0.67,
+      "status": "matched",
+      "checkedAt": "2026-06-14T17:42:56.681Z"
+    },
+    "8981696512236": {
+      "title": "Street MOD Garage",
+      "asin": "B0FF3YXJ9J",
+      "amazonTitle": "Lumibricks Street MOD Garage Lighting Building Bricks Set - Street Fusion City Car Modification Shop Modular Building Collection Kit 1935 Pcs for Adults & Teen & Car Lovers",
+      "score": 1,
+      "status": "matched",
+      "checkedAt": "2026-06-14T17:42:56.681Z"
+    },
+    "9119253364972": {
+      "title": "Streetball Tour Bus",
+      "asin": "B0G6J61J8R",
+      "amazonTitle": "Lumibricks Street Fusion Streetball Tour Bus Lighting Building Bricks Set - City Town Modular Playset Collection Display kit with Minifigures 1170 Pcs for Adults & Teens & Life Enthusiasts",
+      "score": 1,
+      "status": "matched",
+      "checkedAt": "2026-06-14T17:42:56.681Z"
+    },
+    "9041051123948": {
+      "title": "Sunrise Lighthouse",
+      "asin": "B0FVDM4Q3D",
+      "amazonTitle": "Lumibricks City Sunrise Lighthouse Lighting-Building-Bricks-Set - 1632 Pcs Road Trip Lighthouse Modular Collection LED Light Building Set for Adults and Travelling Enthusiasts",
+      "score": 1,
+      "status": "matched",
+      "checkedAt": "2026-06-14T17:42:56.681Z"
+    },
+    "8945489543404": {
+      "title": "Sunset Stopover",
+      "asin": "B0F6MZLPX4",
+      "amazonTitle": "Lumibricks City Sunset-Stopover Lighting-Building-Bricks Set - Road Trip Car Station Modular Collection LED Light Building Set 455 Pcs for Adults, Teen and Travelling Enthusiasts",
+      "score": 1,
+      "status": "matched",
+      "checkedAt": "2026-06-14T17:42:56.681Z"
+    },
+    "9107108790508": {
+      "title": "Surf Shop",
+      "asin": "B0G57WQ367",
+      "amazonTitle": "Lumibricks Surf Shop Lighting Building Bricks Set - Coast Club Modular Collection Display Kit with LED and Minifigures 1752 Pcs for Adults & Teens & Marine Enthusiasts",
+      "score": 1,
+      "status": "matched",
+      "checkedAt": "2026-06-14T17:42:56.681Z"
+    },
+    "9027579347180": {
+      "title": "Sylvan Inn",
+      "asin": "B0FRMM7LND",
+      "amazonTitle": "Lumibricks Sylvan-Inn Treehouse Lighting Building-Bricks-Set - 3120 Pcs Elf Hotel Cabin Collection Tree House LED Light Set for Adults and Retro House Collectors",
+      "score": 1,
+      "status": "matched",
+      "checkedAt": "2026-06-14T17:42:56.681Z"
+    },
+    "8557541163244": {
+      "title": "The Hen House",
+      "asin": "B0GBVDDY4K",
+      "amazonTitle": "Lumibricks Garden Cottage Lighting Building Bricks Set - 2787 Pcs Retro Garden Cabin House Construction Building Model Set for Adults and Cabin Model Lovers",
+      "score": 0.33,
+      "status": "unmatched",
+      "checkedAt": "2026-06-14T17:42:56.681Z"
+    },
+    "8885338276076": {
+      "title": "The Sailboat: La Brisa",
+      "asin": "B0FH2HQ4TH",
+      "amazonTitle": "Lumibricks Sailboat La Brisa Lighting Building-Bricks Set - City Yacht 1640 Pcs Collection Display Set for Adults and Technic Lovers",
+      "score": 0.67,
+      "status": "matched",
+      "checkedAt": "2026-06-14T17:42:56.681Z"
+    },
+    "9004353388780": {
+      "title": "Toy Store",
+      "asin": "B0FKMPYFNX",
+      "amazonTitle": "Lumibricks Toy-Store Lighting Building-Bricks Set – City Town Modular Townhouse Toy Shop Dollhouse LED Light Display Model 3086 Pcs Construction Kit for Adults and Teens",
+      "score": 1,
+      "status": "matched",
+      "checkedAt": "2026-06-14T17:42:56.681Z"
+    },
+    "8968391819500": {
+      "title": "Traveling Circus",
+      "asin": "B0F6N2XK6X",
+      "amazonTitle": "Lumibricks Travelling Circus Lighting Building-Bricks Set - The Wild West Show 1962 Pcs Collection Display Set for Adults and West Lovers",
+      "score": 0.5,
+      "status": "matched",
+      "checkedAt": "2026-06-14T17:42:56.681Z"
+    },
+    "8989598351596": {
+      "title": "Treasure Stagecoach",
+      "asin": "B0FF4BSXSZ",
+      "amazonTitle": "Lumibricks Western Treasure Stagecoach Lighting Building-Bricks Set - Old West Carriage and Horse 307 Pcs Collection Display Set for West Lovers",
+      "score": 1,
+      "status": "matched",
+      "checkedAt": "2026-06-14T17:42:56.681Z"
+    },
+    "8905343009004": {
+      "title": "Turtle Reef Dream",
+      "asin": "B0DZ6QDZ92",
+      "amazonTitle": "FUNWHOLE Turtle Reef Dream Lighting Building-Bricks Set - 835 Pcs Ocean Plants Collection Ideas Set for Adult and Teens Global Recycled Standard Global Recycled Standard Global Recycled Standard",
+      "score": 1,
+      "status": "matched",
+      "checkedAt": "2026-06-14T17:42:56.681Z"
+    },
+    "8761014517996": {
+      "title": "Twilight Motel",
+      "asin": "B0DMF9B7GS",
+      "amazonTitle": "FUNWHOLE City Car-Hotel Lighting Building-Bricks Set - Road Trip Modular Twilight Motel Collection LED Light Car and Motorcycle Building Set 1970 Pcs for Adults and Teen Global Recycled Standard Global Recycled Standard Global Recycled Standard",
+      "score": 1,
+      "status": "matched",
+      "checkedAt": "2026-06-14T17:42:56.681Z"
+    },
+    "8826947895532": {
+      "title": "Underground Dance Battle",
+      "asin": "B0F6MZLPX4",
+      "amazonTitle": "Lumibricks City Sunset-Stopover Lighting-Building-Bricks Set - Road Trip Car Station Modular Collection LED Light Building Set 455 Pcs for Adults, Teen and Travelling Enthusiasts",
+      "score": 0,
+      "status": "unmatched",
+      "checkedAt": "2026-06-14T17:42:56.681Z"
+    },
+    "8986609090796": {
+      "title": "Vineyard Estate",
+      "asin": "B0FGQ16612",
+      "amazonTitle": "Lumibricks Farm Vineyard-Estate Lighting Building-Bricks-Set - 2800 Pcs Winery Chateau House Collection LED Light Wine Cottage Model Display Set for Adults and Farm Series Building Collectors",
+      "score": 1,
+      "status": "matched",
+      "checkedAt": "2026-06-14T17:42:56.681Z"
+    },
+    "8966977978604": {
+      "title": "Waterfall Cabin",
+      "asin": "B0FB3LX6WL",
+      "amazonTitle": "Lumibricks Waterfall-Cabin Lighting Building-Bricks Set - 2539 Pcs Retro Waterfall House Collection LED Light Set for Adults and Retro House Architecture Building Collectors",
+      "score": 1,
+      "status": "matched",
+      "checkedAt": "2026-06-14T17:42:56.681Z"
+    }
+  }
+}

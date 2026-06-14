@@ -166,8 +166,9 @@
       "asin": "B0DX9VS6LF",
       "amazonTitle": "OWNONE 1 Windmill Farm Building Set with LED Lights, 1310 PCS Red Barn Building Blocks Toy with Cows Animals, Farm Model Building Bricks Set, Home Decor Gift for Adults Teens Kids Boys Girls",
       "score": 0.5,
-      "status": "matched",
-      "checkedAt": "2026-06-14T17:42:56.681Z"
+      "status": "skip",
+      "checkedAt": "2026-06-14T17:42:56.681Z",
+      "note": "auto-skipped: low-confidence/wrong match \u2014 set asin + status:\"manual\" if it is on Amazon"
     },
     "8885918302444": {
       "title": "Cowboy Camp",
@@ -318,16 +319,18 @@
       "asin": "B0BS2PDTW8",
       "amazonTitle": "Flower House Building Set, Creative Garden Playset with LED Light, Build a Greenhouse Model Toy, Great Gift for Mothers Day, Friends or Girls, for Birthday, Valentine and Festivals (597 Pieces)",
       "score": 0.5,
-      "status": "matched",
-      "checkedAt": "2026-06-14T17:42:56.681Z"
+      "status": "skip",
+      "checkedAt": "2026-06-14T17:42:56.681Z",
+      "note": "auto-skipped: low-confidence/wrong match \u2014 set asin + status:\"manual\" if it is on Amazon"
     },
     "8941147521260": {
       "title": "Horse Stable",
       "asin": "B0FJFMB6ZB",
       "amazonTitle": "Lumibricks Western Stagecoach Lighting Building-Bricks Set - Old West Carriage and Horse 293 Pcs Collection Display Set for West Lovers",
       "score": 0.5,
-      "status": "matched",
-      "checkedAt": "2026-06-14T17:42:56.681Z"
+      "status": "skip",
+      "checkedAt": "2026-06-14T17:42:56.681Z",
+      "note": "auto-skipped: low-confidence/wrong match \u2014 set asin + status:\"manual\" if it is on Amazon"
     },
     "8023667507436": {
       "title": "Hunting Cabin",
@@ -348,7 +351,7 @@
     "9074919669996": {
       "title": "Italian Homestyle Restaurant",
       "asin": "B0FVXWKW9C",
-      "amazonTitle": "Lumibricks Italian Homestyle Restaurant Lighting Building-Bricks Set – City Town Modular Italian Trattoria & Café LED Light Building Kit 2868 Pcs Construction Set for Adults and Teens",
+      "amazonTitle": "Lumibricks Italian Homestyle Restaurant Lighting Building-Bricks Set \u2013 City Town Modular Italian Trattoria & Caf\u00e9 LED Light Building Kit 2868 Pcs Construction Set for Adults and Teens",
       "score": 1,
       "status": "matched",
       "checkedAt": "2026-06-14T17:42:56.681Z"
@@ -460,7 +463,7 @@
     "8905360408812": {
       "title": "Old West Gold Mine",
       "asin": "B0FH2N7T84",
-      "amazonTitle": "Lumibricks Wild West Gold Mine Lighting Building-Bricks Set - Western Prospector’s Dig Entrance 658 Pcs Mining Playset for Adults and West Lovers",
+      "amazonTitle": "Lumibricks Wild West Gold Mine Lighting Building-Bricks Set - Western Prospector\u2019s Dig Entrance 658 Pcs Mining Playset for Adults and West Lovers",
       "score": 0.75,
       "status": "matched",
       "checkedAt": "2026-06-14T17:42:56.681Z"
@@ -486,8 +489,9 @@
       "asin": "B0GQ32Q9CN",
       "amazonTitle": "ROKR Dream Coffee Factory, Wooden Music Box Model, Mechanical 3D Wooden Puzzles for Adults, Building Kit with Moving LED Lights, Miniature House Kits, Desk Decor Gift",
       "score": 0.5,
-      "status": "matched",
-      "checkedAt": "2026-06-14T17:42:56.681Z"
+      "status": "skip",
+      "checkedAt": "2026-06-14T17:42:56.681Z",
+      "note": "auto-skipped: low-confidence/wrong match \u2014 set asin + status:\"manual\" if it is on Amazon"
     },
     "9233541857516": {
       "title": "Pocket Garden",
@@ -574,8 +578,9 @@
       "asin": "B0GD6HJBK9",
       "amazonTitle": "Lumibricks Skate Park Lighting Building Blocks Set - Street Fusion City Town Modular Playset Collection Display kit with Minifigures 1903 Pcs for Adults & Teens & Life Enthusiasts",
       "score": 0.5,
-      "status": "matched",
-      "checkedAt": "2026-06-14T17:42:56.681Z"
+      "status": "skip",
+      "checkedAt": "2026-06-14T17:42:56.681Z",
+      "note": "auto-skipped: low-confidence/wrong match \u2014 set asin + status:\"manual\" if it is on Amazon"
     },
     "8685511246060": {
       "title": "Ski Lodge",
@@ -660,7 +665,7 @@
     "7774482497772": {
       "title": "Steampunk Train Station",
       "asin": "B0FLQQGWDP",
-      "amazonTitle": "DIY Miniature House Kit with Light, Dollhouse Kit – Wood 3D Puzzles Tiny House Book Nook for Adult Christmas Halloween Birthday Gift (Victorian Fantasy Steampunk Train Station Phantom City)",
+      "amazonTitle": "DIY Miniature House Kit with Light, Dollhouse Kit \u2013 Wood 3D Puzzles Tiny House Book Nook for Adult Christmas Halloween Birthday Gift (Victorian Fantasy Steampunk Train Station Phantom City)",
       "score": 1,
       "status": "matched",
       "checkedAt": "2026-06-14T17:42:56.681Z"
@@ -740,7 +745,7 @@
     "9004353388780": {
       "title": "Toy Store",
       "asin": "B0FKMPYFNX",
-      "amazonTitle": "Lumibricks Toy-Store Lighting Building-Bricks Set – City Town Modular Townhouse Toy Shop Dollhouse LED Light Display Model 3086 Pcs Construction Kit for Adults and Teens",
+      "amazonTitle": "Lumibricks Toy-Store Lighting Building-Bricks Set \u2013 City Town Modular Townhouse Toy Shop Dollhouse LED Light Display Model 3086 Pcs Construction Kit for Adults and Teens",
       "score": 1,
       "status": "matched",
       "checkedAt": "2026-06-14T17:42:56.681Z"

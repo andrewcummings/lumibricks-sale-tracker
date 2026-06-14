@@ -79,8 +79,11 @@ function summarize(product, cart) {
   // (A cart discount stacks on the variant price, so cartFinal is the true price.)
   const payPrice = cartFinal != null ? cartFinal : (mdPct > 0 ? mdPrice : basePrice);
   const wasPrice = mdPct > 0 ? mdCompare : (cartFinal != null ? cartOriginal : null);
-  const onSale = wasPrice != null && payPrice != null && payPrice < wasPrice - 0.005;
-  const discountPct = onSale ? Math.round(((wasPrice - payPrice) / wasPrice) * 100) : 0;
+  const priceDrop = wasPrice != null && payPrice != null && payPrice < wasPrice - 0.005;
+  const discountPct = priceDrop ? Math.round(((wasPrice - payPrice) / wasPrice) * 100) : 0;
+  // Require a discount that rounds to ≥1% — otherwise we'd show a "-0%" badge for
+  // a sub-0.5% rounding artifact.
+  const onSale = priceDrop && discountPct >= 1;
 
   return {
     id: product.id,
@@ -123,6 +126,21 @@ async function loadJSON(name, fallback) {
   }
 }
 
+// Write only when the meaningful payload changed, ignoring the `generatedAt`
+// timestamp. Without this, every hourly run rewrites identical data with a fresh
+// timestamp → ~24 empty "data refresh" commits/day and a wider window for the
+// cross-job events.json race. Returns true if it wrote.
+async function writeIfChanged(name, obj, { pretty = true } = {}) {
+  const body = (o) => {
+    const { generatedAt, ...rest } = o;
+    return JSON.stringify(rest);
+  };
+  const prev = await loadJSON(name, null);
+  if (prev && body(prev) === body(obj)) return false;
+  await writeFile(join(DATA_DIR, name), pretty ? JSON.stringify(obj, null, 2) : JSON.stringify(obj));
+  return true;
+}
+
 function lastPoint(entry) {
   return entry?.points?.length ? entry.points[entry.points.length - 1] : null;
 }
@@ -145,6 +163,14 @@ function priceFmt(n) {
 async function main() {
   const products = await fetchAllProducts();
 
+  const history = await loadJSON("history.json", { generatedAt: null, products: {} });
+  // Cold start = no prior history. Record baseline points silently so the
+  // activity feed isn't flooded with "new set" events the first time we run.
+  const coldStart = Object.keys(history.products).length === 0;
+  const eventsFile = await loadJSON("events.json", { events: [] });
+  const events = eventsFile.events;
+  const newEvents = [];
+
   // Detect automatic (cart-level) discounts that products.json can't show.
   // One available variant per product; best-effort — falls back gracefully.
   const pairs = [];
@@ -153,23 +179,37 @@ async function main() {
     if (v) pairs.push({ variantId: v.id, productId: p.id });
   }
   const cartRes = await fetchCartDiscounts(STORE, pairs);
-  if (cartRes.ok) {
-    const promos = [...cartRes.map.values()].filter((c) => c.final < c.original - 0.005).length;
-    console.log(`Cart-discount check: ${promos} item(s) have an automatic discount.`);
-  } else {
-    console.log(`Cart-discount check skipped (${cartRes.error}); using compare_at only.`);
-  }
   const cartMap = cartRes.map;
+  if (cartRes.ok) {
+    const promos = [...cartMap.values()].filter((c) => c.final < c.original - 0.005).length;
+    console.log(`Cart-discount check: ${promos} item(s) have an automatic discount (${cartMap.size}/${pairs.length} variants covered).`);
+  } else {
+    console.log(`Cart-discount check FAILED (${cartRes.error}); preserving prior automatic-discount state.`);
+  }
 
-  const current = products.map((p) => summarize(p, cartMap.get(String(p.id))));
-
-  const history = await loadJSON("history.json", { generatedAt: null, products: {} });
-  // Cold start = no prior history. Record baseline points silently so the
-  // activity feed isn't flooded with "new set" events the first time we run.
-  const coldStart = Object.keys(history.products).length === 0;
-  const eventsFile = await loadJSON("events.json", { events: [] });
-  const events = eventsFile.events;
-  const newEvents = [];
+  // Build the live snapshot. A product's cart status is only trustworthy when its
+  // variant actually came back in the cart response (i.e. cartMap has it). When
+  // the cart check failed or skipped a product (a total or partial Storefront
+  // outage), DON'T treat "couldn't check" as "no discount" — almost every
+  // LumiBricks sale is cart-level, so that would flip every such sale OFF and
+  // flap SALE_END/SALE_START across ~all sets. Instead carry the last known
+  // automatic discount forward from history so the sale state is preserved until
+  // we can check again. (compare_at markdowns are read straight from
+  // products.json on every run, so they're never affected by this.)
+  let preserved = 0;
+  const current = products.map((p) => {
+    const key = String(p.id);
+    let cart = cartMap.get(key);
+    if (cart === undefined) {
+      const prev = lastPoint(history.products[key]);
+      if (prev?.promo && prev.onSale && prev.compareAt != null && prev.price != null) {
+        cart = { original: prev.compareAt, final: prev.price, title: prev.promo };
+        preserved++;
+      }
+    }
+    return summarize(p, cart);
+  });
+  if (preserved) console.log(`Preserved prior automatic-discount state for ${preserved} unchecked set(s).`);
 
   const seenIds = new Set();
 
@@ -213,8 +253,13 @@ async function main() {
       newEvents.push({ t: NOW, source: "shopify", type, id: c.id, title: c.title, url: c.url, image: c.image, ...extra });
 
     if (!prev) {
-      if (!coldStart) push("NEW_PRODUCT", { price: c.price, available: c.available });
-      if (c.onSale) push("SALE_START", { price: c.price, compareAt: c.compareAt, discountPct: c.discountPct, promo: c.promo });
+      // First sighting. On a cold start (no history at all) stay silent — otherwise
+      // a fresh deploy floods the feed with a NEW_PRODUCT *and* a SALE_START for
+      // every set that happens to be discounted right now.
+      if (!coldStart) {
+        push("NEW_PRODUCT", { price: c.price, available: c.available });
+        if (c.onSale) push("SALE_START", { price: c.price, compareAt: c.compareAt, discountPct: c.discountPct, promo: c.promo });
+      }
     } else {
       if (!prev.onSale && c.onSale)
         push("SALE_START", { price: c.price, compareAt: c.compareAt, discountPct: c.discountPct, promo: c.promo });
@@ -244,7 +289,10 @@ async function main() {
     const pts = history.products[String(c.id)].points;
     const prices = pts.map((p) => p.price).filter((n) => n != null);
     c.lowestEver = prices.length ? Math.min(...prices) : c.price;
-    c.atLowestEver = c.price != null && c.price <= c.lowestEver;
+    // "Lowest ever" is only meaningful once we've recorded more than one price
+    // point — on a product's first sighting its sole point is trivially the
+    // lowest, which would stamp LOWEST EVER on every brand-new sale.
+    c.atLowestEver = prices.length >= 2 && c.price != null && c.price <= c.lowestEver;
     c.saleSince = c.onSale ? saleSince(pts) : null;
     c.firstSeen = pts[0]?.t ?? NOW;
   }
@@ -275,11 +323,13 @@ async function main() {
   };
 
   await mkdir(DATA_DIR, { recursive: true });
-  await writeFile(join(DATA_DIR, "current.json"), JSON.stringify(snapshot, null, 2));
-  await writeFile(join(DATA_DIR, "history.json"), JSON.stringify(history));
-  await writeFile(join(DATA_DIR, "events.json"), JSON.stringify({ generatedAt: NOW, events: allEvents }, null, 2));
+  const wrote = [];
+  if (await writeIfChanged("current.json", snapshot)) wrote.push("current");
+  if (await writeIfChanged("history.json", history, { pretty: false })) wrote.push("history");
+  if (await writeIfChanged("events.json", { generatedAt: NOW, events: allEvents })) wrote.push("events");
 
   // Console summary for the Actions log.
+  console.log(wrote.length ? `Wrote: ${wrote.join(", ")}.` : "No data changes — files left untouched (no commit).");
   console.log(`Checked ${current.length} products — ${onSaleCount} on sale.`);
   if (newEvents.length) {
     console.log(`${newEvents.length} new event(s):`);

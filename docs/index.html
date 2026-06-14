@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LumiBricks Sale Tracker</title>
+    <meta name="description" content="Tracks prices and sales across every LumiBricks set." />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💡</text></svg>" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="wrap">
+        <h1>💡 LumiBricks Sale Tracker</h1>
+        <p class="sub">Watching every set on <a href="https://www.lumibricks.com" target="_blank" rel="noopener">lumibricks.com</a> for price drops and sales.</p>
+        <p class="updated" id="updated">Loading…</p>
+      </div>
+    </header>
+
+    <main class="wrap">
+      <section id="stats" class="stats" aria-label="Summary"></section>
+
+      <section id="sales-section">
+        <h2>🔥 On Sale Now <span class="count" id="sale-count"></span></h2>
+        <div id="sales" class="cards"></div>
+        <p id="no-sales" class="empty" hidden>No sets are on sale right now. This page updates automatically — check back soon.</p>
+      </section>
+
+      <section id="activity-section">
+        <h2>📈 Recent Activity</h2>
+        <ul id="activity" class="activity"></ul>
+        <p id="no-activity" class="empty" hidden>No recorded changes yet.</p>
+      </section>
+
+      <section id="all-section">
+        <h2>📦 All Sets</h2>
+        <div class="controls">
+          <input type="search" id="search" placeholder="Search sets…" autocomplete="off" />
+          <label class="toggle"><input type="checkbox" id="instock-only" /> In stock only</label>
+        </div>
+        <div class="table-wrap">
+          <table id="all-table">
+            <thead>
+              <tr>
+                <th></th>
+                <th data-sort="title" class="sortable">Set</th>
+                <th data-sort="productType" class="sortable">Theme</th>
+                <th data-sort="price" class="sortable num">Price</th>
+                <th data-sort="discountPct" class="sortable num">Discount</th>
+                <th data-sort="lowestEver" class="sortable num">All-time low</th>
+                <th data-sort="available" class="sortable">Stock</th>
+              </tr>
+            </thead>
+            <tbody id="all-body"></tbody>
+          </table>
+        </div>
+      </section>
+    </main>
+
+    <footer class="wrap foot">
+      <p>
+        Unofficial price tracker. Data pulled from the public LumiBricks Shopify feed.
+        Not affiliated with LumiBricks. <span id="product-count"></span>
+      </p>
+    </footer>
+
+    <div id="modal" class="modal" hidden>
+      <div class="modal-card" role="dialog" aria-modal="true">
+        <button class="modal-close" id="modal-close" aria-label="Close">×</button>
+        <div id="modal-body"></div>
+      </div>
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,45 @@
+name: Check LumiBricks sales
+
+on:
+  schedule:
+    # Every hour, on the hour (UTC). GitHub may delay scheduled runs under load.
+    - cron: "0 * * * *"
+  workflow_dispatch: {} # lets you trigger a run manually from the Actions tab
+  push:
+    branches: [main]
+    paths:
+      - "scripts/**"
+      - ".github/workflows/check.yml"
+
+permissions:
+  contents: write # needed to commit the refreshed data files
+
+concurrency:
+  group: lumibricks-check
+  cancel-in-progress: false
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Run sale checker
+        run: node scripts/check.mjs
+
+      - name: Commit data changes (only if anything changed)
+        run: |
+          git config user.name "lumibricks-bot"
+          git config user.email "actions@github.com"
+          if [ -n "$(git status --porcelain docs/data)" ]; then
+            git add docs/data
+            git commit -m "data: refresh sales snapshot ($(date -u +%Y-%m-%dT%H:%MZ))"
+            git push
+            echo "Pushed updated data."
+          else
+            echo "No data changes — nothing to commit."
+          fi

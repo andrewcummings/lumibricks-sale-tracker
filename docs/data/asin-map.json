@@ -3,11 +3,11 @@
   "map": {
     "7933167501548": {
       "title": "A-Frame Cabin",
-      "asin": "B0DK179RJW",
-      "amazonTitle": "Vziimo A-Frame Cabin Building Set, MOC Ideas Cabin House Collectible Model Kit with LED for Adults and Kids Age 12+, Gifts for Nature and Architecture Lovers (1486 Pcs)",
-      "score": 1,
-      "status": "matched",
-      "checkedAt": "2026-06-14T17:42:56.681Z"
+      "asin": "B0CDFLBRTD",
+      "amazonTitle": "FUNWHOLE A-Frame Cabin (Lumibricks sells the FUNWHOLE A-Frame Cabin)",
+      "status": "manual",
+      "checkedAt": "2026-06-14T17:42:56.681Z",
+      "note": "manual override \u2014 auto-match was a different/cheaper cabin"
     },
     "9027576955116": {
       "title": "Alchemist's Moving Castle",

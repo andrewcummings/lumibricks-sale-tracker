@@ -19,6 +19,14 @@ on:
 permissions:
   contents: write
 
+# Serialize discovery runs: a scheduled (Mon 08:00) and a manual run could
+# otherwise overlap and double-burn scraper credits / clobber asin-map.json.
+# Its own group (not lumibricks-data) since it only writes asin-map.json, which
+# the hourly check/amazon jobs never touch.
+concurrency:
+  group: lumibricks-discover
+  cancel-in-progress: false
+
 jobs:
   discover:
     runs-on: ubuntu-latest

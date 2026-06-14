@@ -10,8 +10,10 @@ on:
 permissions:
   contents: write
 
+# Shared group with check.yml — see that file. Prevents the two jobs from
+# committing docs/data/events.json concurrently (which dropped events).
 concurrency:
-  group: lumibricks-amazon
+  group: lumibricks-data
   cancel-in-progress: false
 
 jobs:
@@ -26,7 +28,8 @@ jobs:
       - name: Check Amazon prices
         env:
           SCRAPERAPI_KEY: ${{ secrets.SCRAPERAPI_KEY }}
-          AMAZON_MAX: "120"
+          # 2 sweeps/mo × 90 × 5 credits = 900, inside the 1,000/mo free tier.
+          AMAZON_MAX: "90"
         run: node scripts/amazon.mjs
 
       - name: Commit data changes (only if anything changed)

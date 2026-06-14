@@ -14,8 +14,12 @@ on:
 permissions:
   contents: write # needed to commit the refreshed data files
 
+# Shared group with amazon.yml: both read-merge-write docs/data/events.json, so
+# they must never commit concurrently (they used to collide at 07:00 on the
+# 1st/15th and the rebase -X theirs dropped one job's events). Serializing the
+# two workflows closes that race.
 concurrency:
-  group: lumibricks-check
+  group: lumibricks-data
   cancel-in-progress: false
 
 jobs:

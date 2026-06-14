@@ -62,6 +62,8 @@ h2 { font-size: 20px; margin: 34px 0 14px; }
 .card .now { font-size: 20px; font-weight: 700; color: var(--accent); }
 .card .was { color: var(--muted); text-decoration: line-through; font-size: 14px; }
 .card .since { color: var(--muted); font-size: 12px; }
+.card .promo { font-size: 12px; font-weight: 700; color: var(--good); }
+.tag.promo { background: rgba(61,220,132,.18); color: var(--good); }
 
 /* Activity */
 .activity { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 8px; }

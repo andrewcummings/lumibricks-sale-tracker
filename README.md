@@ -28,6 +28,14 @@ has a `price` and an optional `compare_at_price`. A set is **on sale** when
 `(compare_at − price) / compare_at`. Sets have regional variants (US/EU/CA/UK/Global),
 so the checker aggregates them into one representative price and the **best** discount.
 
+**Automatic (cart-level) discounts too.** Some LumiBricks promos (e.g. a Father's Day
+10% off) are Shopify *automatic discounts* applied at checkout — they never set
+`compare_at_price`, so they're invisible in `products.json`. The checker also adds one
+variant per set to a throwaway cart and reads `/cart.js`, which exposes `original_price`
+vs `final_price` and the promo name. Those are merged into sale detection and shown with
+the promo label (e.g. `🏷️ FATHERS_DAY10`). This step is best-effort — the cart endpoints
+are rate-limited, so if it's throttled the checker falls back to `compare_at` only.
+
 ## Run it locally
 
 ```bash

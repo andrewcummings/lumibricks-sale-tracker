@@ -120,6 +120,7 @@ function renderSales(products) {
         <div class="body">
           <div class="name">${esc(p.title)}</div>
           <div class="prices"><span class="now">${money(p.price)}</span><span class="was">${money(p.compareAt)}</span></div>
+          ${p.promo ? `<div class="promo">🏷️ ${esc(p.promo)}</div>` : ""}
           ${p.saleSince ? `<div class="since">since ${timeAgo(p.saleSince)}</div>` : ""}
         </div>
       </a>`
@@ -134,7 +135,7 @@ function renderActivity(events) {
     .map((e) => {
       const m = EVENT_META[e.type] || { ico: "•", tag: "mut", word: e.type };
       let detail = "";
-      if (e.type === "SALE_START") detail = `now ${money(e.price)} <span class="was-sm">${money(e.compareAt)}</span> <span class="tag sale">-${e.discountPct}%</span>`;
+      if (e.type === "SALE_START") detail = `now ${money(e.price)} <span class="was-sm">${money(e.compareAt)}</span> <span class="tag sale">-${e.discountPct}%</span>${e.promo ? ` <span class="tag promo">${esc(e.promo)}</span>` : ""}`;
       else if (e.type === "PRICE_DROP") detail = `${money(e.from)} → <b>${money(e.price)}</b>`;
       else if (e.type === "PRICE_RISE") detail = `${money(e.from)} → ${money(e.price)}`;
       else if (e.price != null) detail = money(e.price);

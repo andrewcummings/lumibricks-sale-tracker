@@ -16,6 +16,7 @@
 import { readFile, writeFile, mkdir } from "node:fs/promises";
 import { fileURLToPath } from "node:url";
 import { dirname, join } from "node:path";
+import { fetchCartDiscounts } from "./lib/cart.mjs";
 
 const STORE = "https://www.lumibricks.com";
 const DATA_DIR = join(dirname(fileURLToPath(import.meta.url)), "..", "docs", "data");
@@ -47,12 +48,12 @@ async function fetchAllProducts() {
 // Aggregate one product's variants into a single representative record
 // ---------------------------------------------------------------------------
 
-function summarize(product) {
+// `cart` (optional) = { original, final, title } in dollars, from the cart API —
+// captures Shopify *automatic* discounts that never appear in products.json.
+function summarize(product, cart) {
   let minPrice = Infinity;
-  let bestDiscountPct = 0;
-  let bestCompareAt = null;
-  let bestSalePrice = null;
   let anyAvailable = false;
+  let mdCompare = null, mdPrice = null, mdPct = 0; // best compare_at markdown
 
   for (const v of product.variants) {
     const price = Number(v.price);
@@ -61,15 +62,26 @@ function summarize(product) {
     if (v.available) anyAvailable = true;
     if (compareAt && compareAt > price) {
       const pct = Math.round(((compareAt - price) / compareAt) * 100);
-      if (pct > bestDiscountPct) {
-        bestDiscountPct = pct;
-        bestCompareAt = compareAt;
-        bestSalePrice = price;
-      }
+      if (pct > mdPct) { mdPct = pct; mdCompare = compareAt; mdPrice = price; }
     }
   }
+  const basePrice = Number.isFinite(minPrice) ? minPrice : null;
 
-  const onSale = bestDiscountPct > 0;
+  // Automatic (cart-level) discount, only if it actually reduces the price.
+  let promo = null, cartFinal = null, cartOriginal = null;
+  if (cart && cart.final != null && cart.original != null && cart.final < cart.original - 0.005) {
+    cartFinal = cart.final;
+    cartOriginal = cart.original;
+    promo = cart.title || "Automatic discount";
+  }
+
+  // Unify markdown + automatic discount: what you actually pay vs the "was" price.
+  // (A cart discount stacks on the variant price, so cartFinal is the true price.)
+  const payPrice = cartFinal != null ? cartFinal : (mdPct > 0 ? mdPrice : basePrice);
+  const wasPrice = mdPct > 0 ? mdCompare : (cartFinal != null ? cartOriginal : null);
+  const onSale = wasPrice != null && payPrice != null && payPrice < wasPrice - 0.005;
+  const discountPct = onSale ? Math.round(((wasPrice - payPrice) / wasPrice) * 100) : 0;
+
   return {
     id: product.id,
     title: cleanTitle(product.title),
@@ -77,11 +89,11 @@ function summarize(product) {
     url: `${STORE}/products/${product.handle}`,
     image: product.images?.[0]?.src ?? null,
     productType: product.product_type || "",
-    // When on sale, report the discounted price; otherwise the lowest list price.
-    price: onSale ? bestSalePrice : (Number.isFinite(minPrice) ? minPrice : null),
-    compareAt: onSale ? bestCompareAt : null,
+    price: onSale ? payPrice : basePrice,
+    compareAt: onSale ? wasPrice : null,
     onSale,
-    discountPct: bestDiscountPct,
+    discountPct,
+    promo: onSale ? promo : null, // e.g. "FATHERS_DAY10" for automatic discounts
     available: anyAvailable,
   };
 }
@@ -124,7 +136,24 @@ function priceFmt(n) {
 
 async function main() {
   const products = await fetchAllProducts();
-  const current = products.map(summarize);
+
+  // Detect automatic (cart-level) discounts that products.json can't show.
+  // One available variant per product; best-effort — falls back gracefully.
+  const pairs = [];
+  for (const p of products) {
+    const v = p.variants.find((x) => x.available);
+    if (v) pairs.push({ variantId: v.id, productId: p.id });
+  }
+  const cartRes = await fetchCartDiscounts(STORE, pairs);
+  if (cartRes.ok) {
+    const promos = [...cartRes.map.values()].filter((c) => c.final < c.original - 0.005).length;
+    console.log(`Cart-discount check: ${promos} item(s) have an automatic discount.`);
+  } else {
+    console.log(`Cart-discount check skipped (${cartRes.error}); using compare_at only.`);
+  }
+  const cartMap = cartRes.map;
+
+  const current = products.map((p) => summarize(p, cartMap.get(String(p.id))));
 
   const history = await loadJSON("history.json", { generatedAt: null, products: {} });
   // Cold start = no prior history. Record baseline points silently so the
@@ -157,7 +186,8 @@ async function main() {
       prev.price !== c.price ||
       prev.compareAt !== c.compareAt ||
       prev.onSale !== c.onSale ||
-      prev.available !== c.available;
+      prev.available !== c.available ||
+      (prev.promo ?? null) !== (c.promo ?? null);
 
     if (changed) {
       entry.points.push({
@@ -166,6 +196,7 @@ async function main() {
         compareAt: c.compareAt,
         onSale: c.onSale,
         available: c.available,
+        ...(c.promo ? { promo: c.promo } : {}),
       });
     }
 
@@ -175,10 +206,10 @@ async function main() {
 
     if (!prev) {
       if (!coldStart) push("NEW_PRODUCT", { price: c.price, available: c.available });
-      if (c.onSale) push("SALE_START", { price: c.price, compareAt: c.compareAt, discountPct: c.discountPct });
+      if (c.onSale) push("SALE_START", { price: c.price, compareAt: c.compareAt, discountPct: c.discountPct, promo: c.promo });
     } else {
       if (!prev.onSale && c.onSale)
-        push("SALE_START", { price: c.price, compareAt: c.compareAt, discountPct: c.discountPct });
+        push("SALE_START", { price: c.price, compareAt: c.compareAt, discountPct: c.discountPct, promo: c.promo });
       else if (prev.onSale && !c.onSale) push("SALE_END", { price: c.price });
       else if (prev.price != null && c.price != null && c.price < prev.price)
         push("PRICE_DROP", { price: c.price, from: prev.price });
@@ -254,7 +285,12 @@ async function main() {
   }
 }
 
-main().catch((err) => {
-  console.error("check.mjs failed:", err);
-  process.exit(1);
-});
+export { summarize }; // exported for unit tests
+
+// Only run the check when invoked directly (so tests can import summarize).
+if (process.argv[1] && import.meta.url === `file://${process.argv[1]}`) {
+  main().catch((err) => {
+    console.error("check.mjs failed:", err);
+    process.exit(1);
+  });
+}

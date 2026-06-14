@@ -1,6 +1,39 @@
 {
-  "generatedAt": "2026-06-14T18:55:28.506Z",
+  "generatedAt": "2026-06-14T19:04:58.228Z",
   "events": [
+    {
+      "t": "2026-06-14T19:04:58.228Z",
+      "source": "amazon",
+      "type": "PRICE_RISE",
+      "id": 9199088697580,
+      "title": "Ranger Camp",
+      "url": "https://www.amazon.com/dp/B0GHMNK42G",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/7aa9b238bc765e6ac8641e694ffbd757.webp?v=1777545603",
+      "price": 34.99,
+      "from": 31.49
+    },
+    {
+      "t": "2026-06-14T19:04:58.228Z",
+      "source": "amazon",
+      "type": "PRICE_DROP",
+      "id": 9199088926956,
+      "title": "Forest Outpost",
+      "url": "https://www.amazon.com/dp/B0GHM7VZRY",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/1_45266e34-0636-4b29-a7fd-2bf7c2c99753.webp?v=1777549144",
+      "price": 62.99,
+      "from": 69.99
+    },
+    {
+      "t": "2026-06-14T19:04:58.228Z",
+      "source": "amazon",
+      "type": "PRICE_DROP",
+      "id": 8238832812268,
+      "title": "Farm Store",
+      "url": "https://www.amazon.com/dp/B0CSFVF6JC",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/1_cb96f23c-e036-48a2-88f7-9dd5057b68f2.jpg?v=1710411824",
+      "price": 71.99,
+      "from": 79.99
+    },
     {
       "t": "2026-06-14T18:18:51.284Z",
       "source": "shopify",

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-14T19:37:36.480Z",
+  "generatedAt": "2026-06-14T20:03:37.538Z",
   "store": "https://www.lumibricks.com",
   "totals": {
     "products": 121,
@@ -1911,7 +1911,7 @@
       "promo": null,
       "available": true,
       "lowestEver": 9.99,
-      "atLowestEver": true,
+      "atLowestEver": false,
       "saleSince": null,
       "firstSeen": "2026-06-14T16:21:48.924Z"
     },
@@ -1929,7 +1929,7 @@
       "promo": null,
       "available": true,
       "lowestEver": 10.99,
-      "atLowestEver": true,
+      "atLowestEver": false,
       "saleSince": null,
       "firstSeen": "2026-06-14T16:21:48.924Z"
     },
@@ -1947,7 +1947,7 @@
       "promo": null,
       "available": true,
       "lowestEver": 13.99,
-      "atLowestEver": true,
+      "atLowestEver": false,
       "saleSince": null,
       "firstSeen": "2026-06-14T16:21:48.924Z"
     },
@@ -1965,7 +1965,7 @@
       "promo": null,
       "available": false,
       "lowestEver": 99.99,
-      "atLowestEver": true,
+      "atLowestEver": false,
       "saleSince": null,
       "firstSeen": "2026-06-14T16:21:48.924Z"
     },
@@ -1983,7 +1983,7 @@
       "promo": null,
       "available": false,
       "lowestEver": 114.99,
-      "atLowestEver": true,
+      "atLowestEver": false,
       "saleSince": null,
       "firstSeen": "2026-06-14T16:21:48.924Z"
     },
@@ -2001,7 +2001,7 @@
       "promo": null,
       "available": false,
       "lowestEver": 79.99,
-      "atLowestEver": true,
+      "atLowestEver": false,
       "saleSince": null,
       "firstSeen": "2026-06-14T16:21:48.924Z"
     },
@@ -2019,7 +2019,7 @@
       "promo": null,
       "available": false,
       "lowestEver": 14.99,
-      "atLowestEver": true,
+      "atLowestEver": false,
       "saleSince": null,
       "firstSeen": "2026-06-14T16:21:48.924Z"
     },
@@ -2037,7 +2037,7 @@
       "promo": null,
       "available": false,
       "lowestEver": 48.99,
-      "atLowestEver": true,
+      "atLowestEver": false,
       "saleSince": null,
       "firstSeen": "2026-06-14T16:21:48.924Z"
     },
@@ -2055,7 +2055,7 @@
       "promo": null,
       "available": true,
       "lowestEver": 29.99,
-      "atLowestEver": true,
+      "atLowestEver": false,
       "saleSince": null,
       "firstSeen": "2026-06-14T16:21:48.924Z"
     },
@@ -2073,7 +2073,7 @@
       "promo": null,
       "available": true,
       "lowestEver": 29.99,
-      "atLowestEver": true,
+      "atLowestEver": false,
       "saleSince": null,
       "firstSeen": "2026-06-14T16:21:48.924Z"
     },
@@ -2091,7 +2091,7 @@
       "promo": null,
       "available": false,
       "lowestEver": 89.99,
-      "atLowestEver": true,
+      "atLowestEver": false,
       "saleSince": null,
       "firstSeen": "2026-06-14T16:21:48.924Z"
     },
@@ -2109,7 +2109,7 @@
       "promo": null,
       "available": true,
       "lowestEver": 11.89,
-      "atLowestEver": true,
+      "atLowestEver": false,
       "saleSince": null,
       "firstSeen": "2026-06-14T16:21:48.924Z"
     },
@@ -2127,7 +2127,7 @@
       "promo": null,
       "available": true,
       "lowestEver": 74.99,
-      "atLowestEver": true,
+      "atLowestEver": false,
       "saleSince": null,
       "firstSeen": "2026-06-14T16:21:48.924Z"
     },
@@ -2145,7 +2145,7 @@
       "promo": null,
       "available": true,
       "lowestEver": 99.99,
-      "atLowestEver": true,
+      "atLowestEver": false,
       "saleSince": null,
       "firstSeen": "2026-06-14T16:21:48.924Z"
     },
@@ -2163,7 +2163,7 @@
       "promo": null,
       "available": true,
       "lowestEver": 13.99,
-      "atLowestEver": true,
+      "atLowestEver": false,
       "saleSince": null,
       "firstSeen": "2026-06-14T16:21:48.924Z"
     },
@@ -2181,7 +2181,7 @@
       "promo": null,
       "available": true,
       "lowestEver": 29.99,
-      "atLowestEver": true,
+      "atLowestEver": false,
       "saleSince": null,
       "firstSeen": "2026-06-14T16:21:48.924Z"
     }

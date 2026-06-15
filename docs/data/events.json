@@ -1,6 +1,15 @@
 {
-  "generatedAt": "2026-06-15T11:16:19.588Z",
+  "generatedAt": "2026-06-15T21:57:12.657Z",
   "events": [
+    {
+      "t": "2026-06-15T21:57:12.657Z",
+      "source": "shopify",
+      "type": "OUT_OF_STOCK",
+      "id": 8901501419756,
+      "title": "Bamboo House",
+      "url": "https://www.lumibricks.com/products/bamboo-house-l9075",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/Lumibricks_Bamboo_House_L9075_-_2.jpg?v=1757389767"
+    },
     {
       "t": "2026-06-15T11:16:19.588Z",
       "source": "shopify",

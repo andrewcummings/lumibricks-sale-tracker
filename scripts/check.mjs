@@ -17,6 +17,8 @@ import { readFile, writeFile, mkdir } from "node:fs/promises";
 import { fileURLToPath } from "node:url";
 import { dirname, join } from "node:path";
 import { fetchCartDiscounts } from "./lib/cart.mjs";
+import { harvestCodes, fetchCodeDiscounts } from "./lib/codes.mjs";
+import { readInboxCodes } from "./lib/inbox.mjs";
 
 const STORE = "https://www.lumibricks.com";
 const DATA_DIR = join(dirname(fileURLToPath(import.meta.url)), "..", "docs", "data");
@@ -160,6 +162,84 @@ function priceFmt(n) {
   return n == null ? "?" : `$${Number(n).toFixed(2)}`;
 }
 
+const MAX_CODES = 30; // ceiling on codes tested per run (bandwidth + politeness)
+
+// Sort object entries by key so a stable code landscape serializes identically
+// run-to-run — otherwise writeIfChanged would churn a commit every hour just
+// from key-order drift.
+const sortKeys = (o) => Object.fromEntries(Object.entries(o).sort(([a], [b]) => (a < b ? -1 : 1)));
+
+// Source + validate discount codes, mutating `codeCache` (status bookkeeping +
+// last-known discounts) and folding the best code discount per set into
+// `cartMap` (lower final wins over any automatic discount). Best-effort: on any
+// failure it preserves the last-known code discounts so a transient Storefront
+// blip doesn't flap every code-sale OFF.
+async function detectCodes(codeCache, pairs, cartMap) {
+  let codeRes = null;
+  try {
+    // Candidate sources: store homepage + the subscribed inbox (off-site
+    // exclusives). Track where each first came from for the cache `source` field.
+    const harvested = await harvestCodes(STORE);
+    const inbox = await readInboxCodes();
+    if (inbox.skipped) { /* no IMAP secrets — inbox channel disabled */ }
+    else if (inbox.ok) console.log(`Inbox check: ${inbox.codes.length} candidate(s) from ${inbox.count} email(s) [${inbox.codes.sort().join(", ") || "none"}].`);
+    else console.log(`Inbox check FAILED (${inbox.error}); continuing without email codes.`);
+
+    const sources = new Map();
+    for (const c of harvested) sources.set(c, "homepage");
+    for (const c of inbox.codes) if (!sources.has(c)) sources.set(c, "email");
+
+    // Test: freshly sourced ∪ known-active ∪ human-seeded `manual`. `dead`
+    // codes are NOT retried unless re-sourced (mirrors asin-map's `skip`), so
+    // per-run cost stays bounded.
+    const wanted = new Set([...harvested, ...inbox.codes]);
+    for (const [code, meta] of Object.entries(codeCache.codes)) {
+      if (meta.status === "active" || meta.status === "manual") wanted.add(code);
+    }
+    let candidates = [...wanted];
+    if (candidates.length > MAX_CODES) {
+      console.log(`Code check: ${candidates.length} candidates — testing ${MAX_CODES}, dropping ${candidates.length - MAX_CODES}.`);
+      candidates = candidates.slice(0, MAX_CODES);
+    }
+    codeRes = await fetchCodeDiscounts(STORE, pairs, candidates);
+
+    if (codeRes.ok) {
+      // Refresh status for every code we tested; carry untested ones forward.
+      const codes = {};
+      for (const code of candidates) {
+        const prev = codeCache.codes[code] || {};
+        const worked = codeRes.active.has(code);
+        const status = prev.status === "manual" ? "manual" : worked ? "active" : "dead";
+        const source = prev.source || sources.get(code) || "unknown";
+        codes[code] = { status, source, firstSeen: prev.firstSeen || NOW };
+      }
+      for (const [code, meta] of Object.entries(codeCache.codes)) {
+        if (!codes[code]) codes[code] = meta;
+      }
+      const lastDiscounts = {};
+      for (const [pid, d] of codeRes.map) lastDiscounts[pid] = d;
+      codeCache.codes = sortKeys(codes);
+      codeCache.lastDiscounts = sortKeys(lastDiscounts);
+      console.log(
+        `Code check: ${codeRes.map.size} set(s) discounted by ${codeRes.active.size} working code(s)` +
+          ` [${[...codeRes.active].sort().join(", ") || "none"}].`
+      );
+    } else {
+      console.log(`Code check FAILED (${codeRes.error}); preserving last-known code discounts.`);
+    }
+  } catch (err) {
+    console.log(`Code check errored (${err?.message || err}); continuing with automatic discounts only.`);
+  }
+
+  // Fold code discounts into cartMap. On success use this run's results; on
+  // failure fall back to the cache so code-sales survive a Storefront blip.
+  const src = codeRes?.ok ? codeRes.map : new Map(Object.entries(codeCache.lastDiscounts || {}));
+  for (const [pid, d] of src) {
+    const cur = cartMap.get(pid);
+    if (!cur || d.final < cur.final) cartMap.set(pid, { original: d.original, final: d.final, title: d.code });
+  }
+}
+
 async function main() {
   const products = await fetchAllProducts();
 
@@ -186,6 +266,15 @@ async function main() {
   } else {
     console.log(`Cart-discount check FAILED (${cartRes.error}); preserving prior automatic-discount state.`);
   }
+
+  // Detect *discount codes* (coupon codes typed at checkout, e.g. BESTDEAL15) —
+  // a third sale mechanism beyond compare_at markdowns and automatic discounts.
+  // We source candidates (store homepage + the human seed list in
+  // code-cache.json) and validate each by applying it to the cart, then fold the
+  // result into cartMap so the rest of the pipeline — summarize(), events,
+  // outage-preservation — treats a code-sale exactly like an automatic one.
+  const codeCache = await loadJSON("code-cache.json", { generatedAt: null, codes: {}, lastDiscounts: {} });
+  await detectCodes(codeCache, pairs, cartMap);
 
   // Build the live snapshot. A product's cart status is only trustworthy when its
   // variant actually came back in the cart response (i.e. cartMap has it). When
@@ -327,6 +416,8 @@ async function main() {
   if (await writeIfChanged("current.json", snapshot)) wrote.push("current");
   if (await writeIfChanged("history.json", history, { pretty: false })) wrote.push("history");
   if (await writeIfChanged("events.json", { generatedAt: NOW, events: allEvents })) wrote.push("events");
+  codeCache.generatedAt = NOW;
+  if (await writeIfChanged("code-cache.json", codeCache)) wrote.push("code-cache");
 
   // Console summary for the Actions log.
   console.log(wrote.length ? `Wrote: ${wrote.join(", ")}.` : "No data changes — files left untouched (no commit).");

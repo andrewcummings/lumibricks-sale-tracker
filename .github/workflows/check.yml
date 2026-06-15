@@ -34,6 +34,11 @@ jobs:
 
       - name: Run sale checker
         run: node scripts/check.mjs
+        env:
+          # Dedicated inbox for discount-code emails. Unset → inbox channel is
+          # skipped (no-op). IMAP_HOST/IMAP_FROM are optional overrides.
+          IMAP_USER: ${{ secrets.IMAP_USER }}
+          IMAP_PASS: ${{ secrets.IMAP_PASS }}
 
       - name: Commit data changes (only if anything changed)
         run: |

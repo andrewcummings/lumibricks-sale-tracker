@@ -18,10 +18,12 @@ const FALLBACK_TOKEN = "551a08f708b1f079fb488a510f7b5646";
 const CHUNK = 50; // ~9.5 query-cost per line → ~475 per call, under the 1000 cap
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
-const gidVariant = (id) => `gid://shopify/ProductVariant/${id}`;
-const numFromGid = (gid) => Number(String(gid).split("/").pop());
+// Shared with codes.mjs (discount-code validation reuses the same Storefront
+// plumbing): variant gid <-> numeric id, and the public storefront token.
+export const gidVariant = (id) => `gid://shopify/ProductVariant/${id}`;
+export const numFromGid = (gid) => Number(String(gid).split("/").pop());
 
-async function tokenFor(store) {
+export async function tokenFor(store) {
   if (process.env.STOREFRONT_TOKEN) return process.env.STOREFRONT_TOKEN;
   try {
     const html = await (await fetch(store, { headers: { "User-Agent": "lumibricks-sale-tracker" } })).text();

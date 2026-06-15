@@ -151,10 +151,13 @@ async function main() {
   const carried = Object.keys(amzProducts).filter((id) => !freshById[id]).length;
 
   // Enrich with all-time low from history. atLowestEver needs >=2 recorded points
-  // so a single data point doesn't trivially read as the lowest ever.
+  // so a single data point doesn't trivially read as the lowest ever. keepaLow is
+  // a one-time Keepa backfill (true all-time low predating our logs); fold it in
+  // as an extra floor so it survives every run (see scripts/keepa-backfill.mjs).
   for (const [id, c] of Object.entries(amzProducts)) {
-    const pts = history.products[id]?.points || [];
-    const prices = pts.map((p) => p.price).filter((n) => n != null);
+    const h = history.products[id];
+    const prices = (h?.points || []).map((p) => p.price).filter((n) => n != null);
+    if (h?.keepaLow?.price != null) prices.push(h.keepaLow.price);
     c.lowestEver = prices.length ? Math.min(...prices) : c.price;
     c.atLowestEver = prices.length >= 2 && c.price != null && c.price <= c.lowestEver;
   }

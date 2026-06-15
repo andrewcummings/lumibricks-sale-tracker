@@ -11,10 +11,12 @@ build step, no framework. Repo is **public**; dashboard at
 scripts/check.mjs            # LumiBricks checker (hourly): products.json + cart discounts → summarize → data
 scripts/amazon.mjs           # Amazon price check (1st & 15th): ScraperAPI structured endpoint
 scripts/discover-asins.mjs   # set→ASIN map; NEW_ONLY (scheduled weekly) vs full (manual)
+scripts/keepa-backfill.mjs   # ONE-TIME: seed true all-time-low Amazon price from Keepa (KEEPA_KEY)
 scripts/lib/cart.mjs         # Shopify Storefront GraphQL cart-discount detection (cartCreate)
 scripts/lib/scraperapi.mjs   # ScraperAPI client (structured Amazon product/search)
 scripts/lib/amazon-parse.mjs # parseMoney / normalizeProduct / extractSearchResults / titleMatchScore
 scripts/lib/sets.mjs         # isTrackableSet (skips accessories/points-only items)
+scripts/lib/keepa.mjs        # Keepa product API client + lowestNewFromProduct (all-time low)
 docs/index.html|app.js|style.css   # dashboard (served by Pages from /docs)
 docs/data/*.json             # AUTO-GENERATED, committed by workflows — do NOT hand-edit except asin-map.json
 .github/workflows/*.yml      # check (hourly), amazon (1st/15th), amazon-discover (weekly + manual)
@@ -43,6 +45,15 @@ docs/data/*.json             # AUTO-GENERATED, committed by workflows — do NOT
 - `docs/data/events.json` is **written by BOTH check.mjs and amazon.mjs**
   (read-merge-write, `source: "shopify"|"amazon"`, sliced to `MAX_EVENTS=500`).
 - `amazon.mjs` reads `current.json` (produced by check.mjs) and `asin-map.json`.
+- `lowestEver`/`atLowestEver` (in `amazon-current.json`) = min over that set's
+  logged `amazon-history.json` points **plus** an optional `keepaLow` floor on the
+  history entry (one-time Keepa backfill — true all-time low predating our logs).
+  `amazon.mjs` re-folds `keepaLow` every run so the floor survives; `keepaLow` is a
+  metadata field, NOT a charted point, so the modal price chart stays our-data-only.
+  Status: **dormant** — needs a paid `KEEPA_KEY` nobody's added yet, so no entry
+  carries `keepaLow` and the fold is a no-op. For the visual all-time low without a
+  key, the modal embeds Keepa's free chart image (`graph.keepa.com/pricehistory.png`,
+  see `keepaChart` in `app.js`) — no key, no credits, not numeric.
 - `app.js` fetches current/history/events + amazon-current/amazon-history and
   merges client-side (`mergeAmazon`); preferences persist in localStorage **and**
   the URL hash (bookmarkable).
@@ -51,6 +62,9 @@ docs/data/*.json             # AUTO-GENERATED, committed by workflows — do NOT
 - **`SCRAPERAPI_KEY`** — GitHub Actions secret (free tier: 1,000 credits/mo,
   renews; Amazon = 5 credits/req). Was pasted in an old chat once → **rotate it**.
 - **`STOREFRONT_TOKEN`** — optional override; otherwise scraped from the theme.
+- **`KEEPA_KEY`** — only for `keepa-backfill.mjs` (one-time, run locally). Keepa is
+  a paid token-bucket API; the backfill is ~1 token/ASIN (~96 total, one request).
+  Not used by any workflow — no GitHub secret needed unless you re-run it in CI.
 - Budget: twice-monthly Amazon sweep ≈ 96×5×2 = 960 credits/mo (tight vs 1,000).
 
 ## New sets

@@ -311,6 +311,22 @@ function renderTable() {
 
 // --- Price history modal -----------------------------------------------------
 
+// Keepa's interactive product page (domain 1 = amazon.com).
+const keepaUrl = (asin) => `https://keepa.com/#!product/1-${asin}`;
+
+// Keepa publishes free, embeddable price-history charts (no API key). This reaches
+// back the full life of the listing — i.e. the TRUE all-time low — which our own
+// logged history can't, since it only starts when we began tracking. amazon=1&new=1
+// = Amazon + lowest 3rd-party-new; range=3650d ≈ all-time; salesrank hidden.
+const keepaChart = (asin, title) => `
+    <figure class="keepa">
+      <figcaption>Full Amazon price history — true all-time low (source: Keepa)</figcaption>
+      <a href="${keepaUrl(asin)}" target="_blank" rel="noopener">
+        <img loading="lazy" alt="Keepa Amazon price history for ${esc(title)}"
+          src="https://graph.keepa.com/pricehistory.png?asin=${asin}&domain=1&amazon=1&new=1&used=0&salesrank=0&range=3650&width=500&height=200" />
+      </a>
+    </figure>`;
+
 function openModal(id) {
   const p = STATE.products.find((x) => x.id === id);
   if (!p) return;
@@ -322,14 +338,17 @@ function openModal(id) {
 
   const metaBits = [`LumiBricks ${money(p.price)}`];
   if (p.amazon?.price != null) metaBits.push(`Amazon ${money(p.amazon.price)}`);
-  metaBits.push(`all-time low ${money(p.lowestEver)}`);
+  // "logged", not "all-time": this is the min over our own recorded history. The
+  // embedded Keepa chart below shows the true all-time low (it predates our logs).
+  metaBits.push(`lowest logged ${money(p.lowestEver)}`);
 
   const hasChart = series.some((s) => s.points.length >= 2);
   $("#modal-body").innerHTML = `
     <h3><a href="${p.url}" target="_blank" rel="noopener">${esc(p.title)}</a></h3>
     <div class="meta">${metaBits.join(" · ")}</div>
     ${hasChart ? chartSVG(series) : '<p class="empty">Not enough history yet — points accumulate over time as prices change.</p>'}
-    ${p.amazon?.asin ? `<p class="amz-links">Amazon: <a href="${p.amazon.url}" target="_blank" rel="noopener">view listing</a> · <a href="https://keepa.com/#!product/1-${p.amazon.asin}" target="_blank" rel="noopener">full price history on Keepa</a></p>` : ""}
+    ${p.amazon?.asin ? `<p class="amz-links">Amazon: <a href="${p.amazon.url}" target="_blank" rel="noopener">view listing</a> · <a href="${keepaUrl(p.amazon.asin)}" target="_blank" rel="noopener">interactive history on Keepa</a></p>
+    ${keepaChart(p.amazon.asin, p.title)}` : ""}
   `;
   $("#modal").hidden = false;
 }

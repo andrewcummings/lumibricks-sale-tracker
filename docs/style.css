@@ -180,6 +180,10 @@ body:not(.has-amazon) td.best-col { display: none; }
 .chart .line { fill: none; stroke: var(--accent); stroke-width: 2; }
 .chart .dot { fill: var(--accent); }
 .chart .cmp { fill: none; stroke: var(--muted); stroke-width: 1; stroke-dasharray: 4 3; }
+.keepa { margin: 14px 0 0; }
+.keepa figcaption { color: var(--muted); font-size: 12px; margin-bottom: 6px; }
+/* Keepa serves the chart on a white canvas — pad it so it reads as a card on the dark modal. */
+.keepa img { display: block; width: 100%; height: auto; background: #fff; border-radius: 10px; padding: 6px; }
 
 @media (max-width: 540px) {
   .topbar h1 { font-size: 24px; }

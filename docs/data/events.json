@@ -1,6 +1,17 @@
 {
-  "generatedAt": "2026-06-15T09:12:03.584Z",
+  "generatedAt": "2026-06-15T11:16:19.588Z",
   "events": [
+    {
+      "t": "2026-06-15T11:16:19.588Z",
+      "source": "shopify",
+      "type": "NEW_PRODUCT",
+      "id": 8759354589420,
+      "title": "Building Block Organizer-Not for sale, points redemption only",
+      "url": "https://www.lumibricks.com/products/building-block-organizer-not-for-sale-points-redemption-only",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/20241231-171506-Photoroom.png?v=1735636590",
+      "price": 25.99,
+      "available": true
+    },
     {
       "t": "2026-06-15T09:12:03.584Z",
       "source": "amazon",

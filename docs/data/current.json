@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-06-15T08:25:12.725Z",
+  "generatedAt": "2026-06-15T11:16:19.588Z",
   "store": "https://www.lumibricks.com",
   "totals": {
-    "products": 121,
+    "products": 122,
     "onSale": 109,
     "maxDiscountPct": 30
   },
@@ -2022,6 +2022,24 @@
       "atLowestEver": false,
       "saleSince": null,
       "firstSeen": "2026-06-14T16:21:48.924Z"
+    },
+    {
+      "id": 8759354589420,
+      "title": "Building Block Organizer-Not for sale, points redemption only",
+      "handle": "building-block-organizer-not-for-sale-points-redemption-only",
+      "url": "https://www.lumibricks.com/products/building-block-organizer-not-for-sale-points-redemption-only",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/20241231-171506-Photoroom.png?v=1735636590",
+      "productType": "POINTS REDEMPTION",
+      "price": 25.99,
+      "compareAt": null,
+      "onSale": false,
+      "discountPct": 0,
+      "promo": null,
+      "available": true,
+      "lowestEver": 25.99,
+      "atLowestEver": false,
+      "saleSince": null,
+      "firstSeen": "2026-06-15T11:16:19.588Z"
     },
     {
       "id": 8636093825260,

@@ -1,19 +1,6 @@
 {
-  "generatedAt": "2026-06-14T20:04:03.495Z",
+  "generatedAt": "2026-06-15T09:12:03.584Z",
   "products": {
-    "7933167501548": {
-      "asin": "B0DK179RJW",
-      "url": "https://www.amazon.com/dp/B0DK179RJW",
-      "title": "A-Frame Cabin",
-      "amazonTitle": "Vziimo A-Frame Cabin Building Set, MOC Ideas Cabin House Collectible Model Kit with LED for Adults and Kids Age 12+, Gifts for Nature and Architecture Lovers (1486 Pcs)",
-      "price": 31.44,
-      "compareAt": 33.29,
-      "discountPct": 6,
-      "available": true,
-      "lastChecked": "2026-06-14T17:54:05.516Z",
-      "lowestEver": 31.44,
-      "atLowestEver": false
-    },
     "9027576955116": {
       "asin": "B0FNQNLPK4",
       "url": "https://www.amazon.com/dp/B0FNQNLPK4",
@@ -23,7 +10,7 @@
       "compareAt": 145.99,
       "discountPct": 10,
       "available": true,
-      "lastChecked": "2026-06-14T20:04:03.495Z",
+      "lastChecked": "2026-06-15T09:12:03.584Z",
       "lowestEver": 131.39,
       "atLowestEver": false
     },
@@ -36,7 +23,7 @@
       "compareAt": 134.99,
       "discountPct": 15,
       "available": true,
-      "lastChecked": "2026-06-14T20:04:03.495Z",
+      "lastChecked": "2026-06-15T09:12:03.584Z",
       "lowestEver": 114.74,
       "atLowestEver": false
     },
@@ -49,7 +36,7 @@
       "compareAt": 159.99,
       "discountPct": 15,
       "available": true,
-      "lastChecked": "2026-06-14T20:04:03.495Z",
+      "lastChecked": "2026-06-15T09:12:03.584Z",
       "lowestEver": 135.99,
       "atLowestEver": false
     },
@@ -75,7 +62,7 @@
       "compareAt": 149.99,
       "discountPct": 10,
       "available": true,
-      "lastChecked": "2026-06-14T20:04:03.495Z",
+      "lastChecked": "2026-06-15T09:12:03.584Z",
       "lowestEver": 134.99,
       "atLowestEver": false
     },
@@ -97,11 +84,11 @@
       "url": "https://www.amazon.com/dp/B0GC62KTFX",
       "title": "Barbershop",
       "amazonTitle": "Lumibricks Barbershop Lighting Building Bricks Set - Street Fusion City Town Modular Playset Collection Display kit with Minifigures 2557 Pcs for Adults & Teens & Life Enthusiasts",
-      "price": 134.99,
-      "compareAt": 149.99,
-      "discountPct": 10,
+      "price": 149.99,
+      "compareAt": null,
+      "discountPct": 0,
       "available": true,
-      "lastChecked": "2026-06-14T19:04:58.228Z",
+      "lastChecked": "2026-06-15T09:12:03.584Z",
       "lowestEver": 134.99,
       "atLowestEver": false
     },
@@ -114,7 +101,7 @@
       "compareAt": 64.99,
       "discountPct": 10,
       "available": true,
-      "lastChecked": "2026-06-14T20:04:03.495Z",
+      "lastChecked": "2026-06-15T09:12:03.584Z",
       "lowestEver": 58.49,
       "atLowestEver": false
     },
@@ -127,7 +114,7 @@
       "compareAt": 69.99,
       "discountPct": 15,
       "available": true,
-      "lastChecked": "2026-06-14T20:04:03.495Z",
+      "lastChecked": "2026-06-15T09:12:03.584Z",
       "lowestEver": 59.39,
       "atLowestEver": false
     },
@@ -140,7 +127,7 @@
       "compareAt": 89.99,
       "discountPct": 10,
       "available": true,
-      "lastChecked": "2026-06-14T20:04:03.495Z",
+      "lastChecked": "2026-06-15T09:12:03.584Z",
       "lowestEver": 80.99,
       "atLowestEver": false
     },
@@ -153,7 +140,7 @@
       "compareAt": 149.99,
       "discountPct": 10,
       "available": true,
-      "lastChecked": "2026-06-14T20:04:03.495Z",
+      "lastChecked": "2026-06-15T09:12:03.584Z",
       "lowestEver": 134.99,
       "atLowestEver": false
     },
@@ -166,7 +153,7 @@
       "compareAt": 179.99,
       "discountPct": 10,
       "available": true,
-      "lastChecked": "2026-06-14T20:04:03.495Z",
+      "lastChecked": "2026-06-15T09:12:03.584Z",
       "lowestEver": 161.99,
       "atLowestEver": false
     },
@@ -192,7 +179,7 @@
       "compareAt": 169.99,
       "discountPct": 10,
       "available": true,
-      "lastChecked": "2026-06-14T20:04:03.495Z",
+      "lastChecked": "2026-06-15T09:12:03.584Z",
       "lowestEver": 152.99,
       "atLowestEver": false
     },
@@ -205,7 +192,7 @@
       "compareAt": null,
       "discountPct": 0,
       "available": true,
-      "lastChecked": "2026-06-14T20:04:03.495Z",
+      "lastChecked": "2026-06-15T09:12:03.584Z",
       "lowestEver": 33.99,
       "atLowestEver": false
     },
@@ -218,7 +205,7 @@
       "compareAt": 37.99,
       "discountPct": 10,
       "available": true,
-      "lastChecked": "2026-06-14T20:04:03.495Z",
+      "lastChecked": "2026-06-15T09:12:03.584Z",
       "lowestEver": 34.19,
       "atLowestEver": false
     },
@@ -231,7 +218,7 @@
       "compareAt": 53.99,
       "discountPct": 10,
       "available": true,
-      "lastChecked": "2026-06-14T20:04:03.495Z",
+      "lastChecked": "2026-06-15T09:12:03.584Z",
       "lowestEver": 48.59,
       "atLowestEver": false
     },
@@ -244,7 +231,7 @@
       "compareAt": null,
       "discountPct": 0,
       "available": true,
-      "lastChecked": "2026-06-14T20:04:03.495Z",
+      "lastChecked": "2026-06-15T09:12:03.584Z",
       "lowestEver": 79.99,
       "atLowestEver": false
     },
@@ -257,7 +244,7 @@
       "compareAt": 34.99,
       "discountPct": 10,
       "available": true,
-      "lastChecked": "2026-06-14T20:04:03.495Z",
+      "lastChecked": "2026-06-15T09:12:03.584Z",
       "lowestEver": 31.49,
       "atLowestEver": false
     },
@@ -283,7 +270,7 @@
       "compareAt": 109.99,
       "discountPct": 10,
       "available": true,
-      "lastChecked": "2026-06-14T20:04:03.495Z",
+      "lastChecked": "2026-06-15T09:12:03.584Z",
       "lowestEver": 98.99,
       "atLowestEver": false
     },
@@ -296,7 +283,7 @@
       "compareAt": 164.99,
       "discountPct": 10,
       "available": true,
-      "lastChecked": "2026-06-14T20:04:03.495Z",
+      "lastChecked": "2026-06-15T09:12:03.584Z",
       "lowestEver": 148.49,
       "atLowestEver": false
     },
@@ -309,7 +296,7 @@
       "compareAt": 79.99,
       "discountPct": 10,
       "available": true,
-      "lastChecked": "2026-06-14T20:04:03.495Z",
+      "lastChecked": "2026-06-15T09:12:03.584Z",
       "lowestEver": 71.99,
       "atLowestEver": true
     },
@@ -322,7 +309,7 @@
       "compareAt": 339.98,
       "discountPct": 15,
       "available": true,
-      "lastChecked": "2026-06-14T19:04:58.228Z",
+      "lastChecked": "2026-06-15T09:12:03.584Z",
       "lowestEver": 289.99,
       "atLowestEver": false
     },
@@ -335,7 +322,7 @@
       "compareAt": 69.99,
       "discountPct": 10,
       "available": true,
-      "lastChecked": "2026-06-14T20:04:03.495Z",
+      "lastChecked": "2026-06-15T09:12:03.584Z",
       "lowestEver": 62.99,
       "atLowestEver": true
     },
@@ -348,7 +335,7 @@
       "compareAt": 89.99,
       "discountPct": 10,
       "available": true,
-      "lastChecked": "2026-06-14T20:04:03.495Z",
+      "lastChecked": "2026-06-15T09:12:03.584Z",
       "lowestEver": 80.99,
       "atLowestEver": false
     },
@@ -361,7 +348,7 @@
       "compareAt": 39.99,
       "discountPct": 10,
       "available": true,
-      "lastChecked": "2026-06-14T20:04:03.495Z",
+      "lastChecked": "2026-06-15T09:12:03.584Z",
       "lowestEver": 35.99,
       "atLowestEver": false
     },
@@ -374,7 +361,7 @@
       "compareAt": 129.99,
       "discountPct": 10,
       "available": true,
-      "lastChecked": "2026-06-14T20:04:03.495Z",
+      "lastChecked": "2026-06-15T09:12:03.584Z",
       "lowestEver": 116.99,
       "atLowestEver": false
     },
@@ -387,7 +374,7 @@
       "compareAt": 109.99,
       "discountPct": 10,
       "available": true,
-      "lastChecked": "2026-06-14T20:04:03.495Z",
+      "lastChecked": "2026-06-15T09:12:03.584Z",
       "lowestEver": 98.99,
       "atLowestEver": false
     },
@@ -400,7 +387,7 @@
       "compareAt": 94.99,
       "discountPct": 10,
       "available": true,
-      "lastChecked": "2026-06-14T20:04:03.495Z",
+      "lastChecked": "2026-06-15T09:12:03.584Z",
       "lowestEver": 85.49,
       "atLowestEver": false
     },
@@ -413,7 +400,7 @@
       "compareAt": 99.99,
       "discountPct": 10,
       "available": true,
-      "lastChecked": "2026-06-14T20:04:03.495Z",
+      "lastChecked": "2026-06-15T09:12:03.584Z",
       "lowestEver": 89.99,
       "atLowestEver": false
     },
@@ -426,7 +413,7 @@
       "compareAt": 99.99,
       "discountPct": 10,
       "available": true,
-      "lastChecked": "2026-06-14T20:04:03.495Z",
+      "lastChecked": "2026-06-15T09:12:03.584Z",
       "lowestEver": 89.99,
       "atLowestEver": false
     },
@@ -439,7 +426,7 @@
       "compareAt": 37.99,
       "discountPct": 10,
       "available": true,
-      "lastChecked": "2026-06-14T20:04:03.495Z",
+      "lastChecked": "2026-06-15T09:12:03.584Z",
       "lowestEver": 34.19,
       "atLowestEver": false
     },
@@ -448,11 +435,11 @@
       "url": "https://www.amazon.com/dp/B0GSYJ82XX",
       "title": "Greenway Clinic",
       "amazonTitle": "LUMIBRICKS City-Town Greenway-Clinic Lighting Building-Bricks -Set - 2985 Pcs Neo-Classical Architecture Model for Adults, Modular Community Clinic with Healing Gardens and 6 Minifigures",
-      "price": 134.99,
-      "compareAt": 149.99,
-      "discountPct": 10,
+      "price": 149.99,
+      "compareAt": null,
+      "discountPct": 0,
       "available": true,
-      "lastChecked": "2026-06-14T20:04:03.495Z",
+      "lastChecked": "2026-06-15T09:12:03.584Z",
       "lowestEver": 134.99,
       "atLowestEver": false
     },
@@ -478,7 +465,7 @@
       "compareAt": null,
       "discountPct": 0,
       "available": true,
-      "lastChecked": "2026-06-14T20:04:03.495Z",
+      "lastChecked": "2026-06-15T09:12:03.584Z",
       "lowestEver": 99.99,
       "atLowestEver": false
     },
@@ -491,7 +478,7 @@
       "compareAt": 119.99,
       "discountPct": 15,
       "available": true,
-      "lastChecked": "2026-06-14T20:04:03.495Z",
+      "lastChecked": "2026-06-15T09:12:03.584Z",
       "lowestEver": 101.99,
       "atLowestEver": false
     },
@@ -504,7 +491,7 @@
       "compareAt": 141.99,
       "discountPct": 10,
       "available": true,
-      "lastChecked": "2026-06-14T20:04:03.495Z",
+      "lastChecked": "2026-06-15T09:12:03.584Z",
       "lowestEver": 127.79,
       "atLowestEver": false
     },
@@ -517,7 +504,7 @@
       "compareAt": 129.99,
       "discountPct": 10,
       "available": true,
-      "lastChecked": "2026-06-14T20:04:03.495Z",
+      "lastChecked": "2026-06-15T09:12:03.584Z",
       "lowestEver": 116.99,
       "atLowestEver": false
     },
@@ -530,7 +517,7 @@
       "compareAt": 164.99,
       "discountPct": 10,
       "available": true,
-      "lastChecked": "2026-06-14T20:04:03.495Z",
+      "lastChecked": "2026-06-15T09:12:03.584Z",
       "lowestEver": 148.49,
       "atLowestEver": false
     },
@@ -543,7 +530,7 @@
       "compareAt": 149.99,
       "discountPct": 15,
       "available": true,
-      "lastChecked": "2026-06-14T19:04:58.228Z",
+      "lastChecked": "2026-06-15T09:12:03.584Z",
       "lowestEver": 127.49,
       "atLowestEver": false
     },
@@ -582,7 +569,7 @@
       "compareAt": 89.99,
       "discountPct": 10,
       "available": true,
-      "lastChecked": "2026-06-14T20:04:03.495Z",
+      "lastChecked": "2026-06-15T09:12:03.584Z",
       "lowestEver": 80.99,
       "atLowestEver": false
     },
@@ -595,7 +582,7 @@
       "compareAt": 74.99,
       "discountPct": 24,
       "available": true,
-      "lastChecked": "2026-06-14T20:04:03.495Z",
+      "lastChecked": "2026-06-15T09:12:03.584Z",
       "lowestEver": 56.99,
       "atLowestEver": false
     },
@@ -608,7 +595,7 @@
       "compareAt": 129.99,
       "discountPct": 10,
       "available": true,
-      "lastChecked": "2026-06-14T20:04:03.495Z",
+      "lastChecked": "2026-06-15T09:12:03.584Z",
       "lowestEver": 116.99,
       "atLowestEver": false
     },
@@ -621,7 +608,7 @@
       "compareAt": 119.99,
       "discountPct": 10,
       "available": true,
-      "lastChecked": "2026-06-14T20:04:03.495Z",
+      "lastChecked": "2026-06-15T09:12:03.584Z",
       "lowestEver": 107.99,
       "atLowestEver": false
     },
@@ -634,7 +621,7 @@
       "compareAt": 109.99,
       "discountPct": 10,
       "available": true,
-      "lastChecked": "2026-06-14T20:04:03.495Z",
+      "lastChecked": "2026-06-15T09:12:03.584Z",
       "lowestEver": 98.99,
       "atLowestEver": false
     },
@@ -647,7 +634,7 @@
       "compareAt": 34.99,
       "discountPct": 10,
       "available": true,
-      "lastChecked": "2026-06-14T20:04:03.495Z",
+      "lastChecked": "2026-06-15T09:12:03.584Z",
       "lowestEver": 31.49,
       "atLowestEver": false
     },
@@ -660,7 +647,7 @@
       "compareAt": 109.99,
       "discountPct": 15,
       "available": true,
-      "lastChecked": "2026-06-14T20:04:03.495Z",
+      "lastChecked": "2026-06-15T09:12:03.584Z",
       "lowestEver": 93.49,
       "atLowestEver": false
     },
@@ -673,7 +660,7 @@
       "compareAt": 39.99,
       "discountPct": 10,
       "available": true,
-      "lastChecked": "2026-06-14T20:04:03.495Z",
+      "lastChecked": "2026-06-15T09:12:03.584Z",
       "lowestEver": 35.99,
       "atLowestEver": false
     },
@@ -686,7 +673,7 @@
       "compareAt": 139.99,
       "discountPct": 10,
       "available": true,
-      "lastChecked": "2026-06-14T20:04:03.495Z",
+      "lastChecked": "2026-06-15T09:12:03.584Z",
       "lowestEver": 125.99,
       "atLowestEver": false
     },
@@ -699,7 +686,7 @@
       "compareAt": 89.99,
       "discountPct": 10,
       "available": true,
-      "lastChecked": "2026-06-14T20:04:03.495Z",
+      "lastChecked": "2026-06-15T09:12:03.584Z",
       "lowestEver": 80.99,
       "atLowestEver": false
     },
@@ -712,7 +699,7 @@
       "compareAt": 89.99,
       "discountPct": 10,
       "available": true,
-      "lastChecked": "2026-06-14T19:04:58.228Z",
+      "lastChecked": "2026-06-15T09:12:03.584Z",
       "lowestEver": 80.99,
       "atLowestEver": false
     },
@@ -725,7 +712,7 @@
       "compareAt": 36.99,
       "discountPct": 10,
       "available": true,
-      "lastChecked": "2026-06-14T20:04:03.495Z",
+      "lastChecked": "2026-06-15T09:12:03.584Z",
       "lowestEver": 33.29,
       "atLowestEver": false
     },
@@ -738,7 +725,7 @@
       "compareAt": 34.99,
       "discountPct": 10,
       "available": true,
-      "lastChecked": "2026-06-14T20:04:03.495Z",
+      "lastChecked": "2026-06-15T09:12:03.584Z",
       "lowestEver": 31.49,
       "atLowestEver": true
     },
@@ -751,7 +738,7 @@
       "compareAt": 134.99,
       "discountPct": 10,
       "available": true,
-      "lastChecked": "2026-06-14T20:04:03.495Z",
+      "lastChecked": "2026-06-15T09:12:03.584Z",
       "lowestEver": 121.49,
       "atLowestEver": false
     },
@@ -764,7 +751,7 @@
       "compareAt": 129.99,
       "discountPct": 10,
       "available": true,
-      "lastChecked": "2026-06-14T20:04:03.495Z",
+      "lastChecked": "2026-06-15T09:12:03.584Z",
       "lowestEver": 116.99,
       "atLowestEver": false
     },
@@ -777,7 +764,7 @@
       "compareAt": 99.98,
       "discountPct": 15,
       "available": true,
-      "lastChecked": "2026-06-14T20:04:03.495Z",
+      "lastChecked": "2026-06-15T09:12:03.584Z",
       "lowestEver": 84.98,
       "atLowestEver": false
     },
@@ -790,7 +777,7 @@
       "compareAt": 119.99,
       "discountPct": 10,
       "available": true,
-      "lastChecked": "2026-06-14T20:04:03.495Z",
+      "lastChecked": "2026-06-15T09:12:03.584Z",
       "lowestEver": 107.99,
       "atLowestEver": false
     },
@@ -803,7 +790,7 @@
       "compareAt": 69.99,
       "discountPct": 10,
       "available": true,
-      "lastChecked": "2026-06-14T20:04:03.495Z",
+      "lastChecked": "2026-06-15T09:12:03.584Z",
       "lowestEver": 62.99,
       "atLowestEver": false
     },
@@ -816,7 +803,7 @@
       "compareAt": 109.99,
       "discountPct": 10,
       "available": true,
-      "lastChecked": "2026-06-14T20:04:03.495Z",
+      "lastChecked": "2026-06-15T09:12:03.584Z",
       "lowestEver": 98.99,
       "atLowestEver": false
     },
@@ -829,7 +816,7 @@
       "compareAt": 149.99,
       "discountPct": 14,
       "available": true,
-      "lastChecked": "2026-06-14T20:04:03.495Z",
+      "lastChecked": "2026-06-15T09:12:03.584Z",
       "lowestEver": 128.99,
       "atLowestEver": false
     },
@@ -855,7 +842,7 @@
       "compareAt": 99.99,
       "discountPct": 15,
       "available": true,
-      "lastChecked": "2026-06-14T20:04:03.495Z",
+      "lastChecked": "2026-06-15T09:12:03.584Z",
       "lowestEver": 84.99,
       "atLowestEver": false
     },
@@ -868,7 +855,7 @@
       "compareAt": 54.99,
       "discountPct": 15,
       "available": true,
-      "lastChecked": "2026-06-14T20:04:03.495Z",
+      "lastChecked": "2026-06-15T09:12:03.584Z",
       "lowestEver": 46.74,
       "atLowestEver": false
     },
@@ -881,7 +868,7 @@
       "compareAt": 99.99,
       "discountPct": 15,
       "available": true,
-      "lastChecked": "2026-06-14T20:04:03.495Z",
+      "lastChecked": "2026-06-15T09:12:03.584Z",
       "lowestEver": 84.99,
       "atLowestEver": false
     },
@@ -894,7 +881,7 @@
       "compareAt": 109.99,
       "discountPct": 15,
       "available": true,
-      "lastChecked": "2026-06-14T20:04:03.495Z",
+      "lastChecked": "2026-06-15T09:12:03.584Z",
       "lowestEver": 93.49,
       "atLowestEver": false
     },
@@ -907,7 +894,7 @@
       "compareAt": 104.99,
       "discountPct": 10,
       "available": true,
-      "lastChecked": "2026-06-14T20:04:03.495Z",
+      "lastChecked": "2026-06-15T09:12:03.584Z",
       "lowestEver": 94.49,
       "atLowestEver": false
     },
@@ -920,7 +907,7 @@
       "compareAt": 139.99,
       "discountPct": 10,
       "available": true,
-      "lastChecked": "2026-06-14T20:04:03.495Z",
+      "lastChecked": "2026-06-15T09:12:03.584Z",
       "lowestEver": 125.99,
       "atLowestEver": false
     },
@@ -933,7 +920,7 @@
       "compareAt": 149.99,
       "discountPct": 10,
       "available": true,
-      "lastChecked": "2026-06-14T20:04:03.495Z",
+      "lastChecked": "2026-06-15T09:12:03.584Z",
       "lowestEver": 134.99,
       "atLowestEver": false
     },
@@ -946,7 +933,7 @@
       "compareAt": null,
       "discountPct": 0,
       "available": true,
-      "lastChecked": "2026-06-14T20:04:03.495Z",
+      "lastChecked": "2026-06-15T09:12:03.584Z",
       "lowestEver": 59.99,
       "atLowestEver": false
     },
@@ -985,7 +972,7 @@
       "compareAt": 74.99,
       "discountPct": 15,
       "available": true,
-      "lastChecked": "2026-06-14T20:04:03.495Z",
+      "lastChecked": "2026-06-15T09:12:03.584Z",
       "lowestEver": 63.74,
       "atLowestEver": false
     },
@@ -998,7 +985,7 @@
       "compareAt": 84.99,
       "discountPct": 10,
       "available": true,
-      "lastChecked": "2026-06-14T20:04:03.495Z",
+      "lastChecked": "2026-06-15T09:12:03.584Z",
       "lowestEver": 76.49,
       "atLowestEver": false
     },
@@ -1011,7 +998,7 @@
       "compareAt": 29.99,
       "discountPct": 15,
       "available": true,
-      "lastChecked": "2026-06-14T20:04:03.495Z",
+      "lastChecked": "2026-06-15T09:12:03.584Z",
       "lowestEver": 25.49,
       "atLowestEver": false
     },
@@ -1024,7 +1011,7 @@
       "compareAt": 109.99,
       "discountPct": 10,
       "available": true,
-      "lastChecked": "2026-06-14T20:04:03.495Z",
+      "lastChecked": "2026-06-15T09:12:03.584Z",
       "lowestEver": 98.99,
       "atLowestEver": false
     },
@@ -1037,7 +1024,7 @@
       "compareAt": 159.99,
       "discountPct": 10,
       "available": true,
-      "lastChecked": "2026-06-14T20:04:03.495Z",
+      "lastChecked": "2026-06-15T09:12:03.584Z",
       "lowestEver": 143.99,
       "atLowestEver": false
     },
@@ -1050,7 +1037,7 @@
       "compareAt": 99.99,
       "discountPct": 10,
       "available": true,
-      "lastChecked": "2026-06-14T20:04:03.495Z",
+      "lastChecked": "2026-06-15T09:12:03.584Z",
       "lowestEver": 89.99,
       "atLowestEver": false
     },
@@ -1063,7 +1050,7 @@
       "compareAt": 159.99,
       "discountPct": 10,
       "available": true,
-      "lastChecked": "2026-06-14T20:04:03.495Z",
+      "lastChecked": "2026-06-15T09:12:03.584Z",
       "lowestEver": 143.99,
       "atLowestEver": false
     },
@@ -1076,7 +1063,7 @@
       "compareAt": 109.99,
       "discountPct": 15,
       "available": true,
-      "lastChecked": "2026-06-14T20:04:03.495Z",
+      "lastChecked": "2026-06-15T09:12:03.584Z",
       "lowestEver": 93.49,
       "atLowestEver": false
     },
@@ -1089,7 +1076,7 @@
       "compareAt": 23.99,
       "discountPct": 10,
       "available": true,
-      "lastChecked": "2026-06-14T20:04:03.495Z",
+      "lastChecked": "2026-06-15T09:12:03.584Z",
       "lowestEver": 21.59,
       "atLowestEver": false
     },
@@ -1102,7 +1089,7 @@
       "compareAt": 42.99,
       "discountPct": 10,
       "available": true,
-      "lastChecked": "2026-06-14T20:04:03.495Z",
+      "lastChecked": "2026-06-15T09:12:03.584Z",
       "lowestEver": 38.69,
       "atLowestEver": false
     },
@@ -1167,7 +1154,7 @@
       "compareAt": 99.99,
       "discountPct": 10,
       "available": true,
-      "lastChecked": "2026-06-14T19:04:58.228Z",
+      "lastChecked": "2026-06-15T09:12:03.584Z",
       "lowestEver": 89.99,
       "atLowestEver": false
     },
@@ -1180,7 +1167,7 @@
       "compareAt": null,
       "discountPct": 0,
       "available": true,
-      "lastChecked": "2026-06-14T19:04:58.228Z",
+      "lastChecked": "2026-06-15T09:12:03.584Z",
       "lowestEver": 119.99,
       "atLowestEver": false
     },
@@ -1206,7 +1193,7 @@
       "compareAt": 23.99,
       "discountPct": 10,
       "available": true,
-      "lastChecked": "2026-06-14T19:04:58.228Z",
+      "lastChecked": "2026-06-15T09:12:03.584Z",
       "lowestEver": 21.59,
       "atLowestEver": false
     },
@@ -1219,7 +1206,7 @@
       "compareAt": 99.99,
       "discountPct": 10,
       "available": true,
-      "lastChecked": "2026-06-14T19:04:58.228Z",
+      "lastChecked": "2026-06-15T09:12:03.584Z",
       "lowestEver": 89.99,
       "atLowestEver": false
     },
@@ -1245,7 +1232,7 @@
       "compareAt": 99.99,
       "discountPct": 10,
       "available": true,
-      "lastChecked": "2026-06-14T19:04:58.228Z",
+      "lastChecked": "2026-06-15T09:12:03.584Z",
       "lowestEver": 89.99,
       "atLowestEver": false
     }

@@ -1,6 +1,28 @@
 {
-  "generatedAt": "2026-06-15T08:25:12.725Z",
+  "generatedAt": "2026-06-15T09:12:03.584Z",
   "events": [
+    {
+      "t": "2026-06-15T09:12:03.584Z",
+      "source": "amazon",
+      "type": "PRICE_RISE",
+      "id": 9233535140076,
+      "title": "Greenway Clinic",
+      "url": "https://www.amazon.com/dp/B0GSYJ82XX",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/1_9d515891-7506-4a4a-9466-0c765accade1.webp?v=1781001443",
+      "price": 149.99,
+      "from": 134.99
+    },
+    {
+      "t": "2026-06-15T09:12:03.584Z",
+      "source": "amazon",
+      "type": "PRICE_RISE",
+      "id": 9146342244588,
+      "title": "Barbershop",
+      "url": "https://www.amazon.com/dp/B0GC62KTFX",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/barbershop_19012_1.png?v=1773297740",
+      "price": 149.99,
+      "from": 134.99
+    },
     {
       "t": "2026-06-15T08:25:12.725Z",
       "source": "shopify",

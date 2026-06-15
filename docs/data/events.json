@@ -1,6 +1,71 @@
 {
-  "generatedAt": "2026-06-15T01:29:42.567Z",
+  "generatedAt": "2026-06-15T08:25:12.725Z",
   "events": [
+    {
+      "t": "2026-06-15T08:25:12.725Z",
+      "source": "shopify",
+      "type": "NEW_PRODUCT",
+      "id": 9233548443884,
+      "title": "Luna Cottage",
+      "url": "https://www.lumibricks.com/products/luna-cottage-10014",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/7aa9b238bc765e6ac8641e694ffbd757_16c6f04c-a58f-467b-a47b-f9d143738e21.webp?v=1781007929",
+      "price": 105.6,
+      "available": true
+    },
+    {
+      "t": "2026-06-15T08:25:12.725Z",
+      "source": "shopify",
+      "type": "SALE_START",
+      "id": 9233548443884,
+      "title": "Luna Cottage",
+      "url": "https://www.lumibricks.com/products/luna-cottage-10014",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/7aa9b238bc765e6ac8641e694ffbd757_16c6f04c-a58f-467b-a47b-f9d143738e21.webp?v=1781007929",
+      "price": 105.6,
+      "compareAt": 119.99,
+      "discountPct": 12,
+      "promo": "GRATEFUL12"
+    },
+    {
+      "t": "2026-06-15T08:25:12.725Z",
+      "source": "shopify",
+      "type": "PRICE_DROP",
+      "id": 9246451564780,
+      "title": "Corner Photo Studio",
+      "url": "https://www.lumibricks.com/products/corner-photo-studio-19016",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/1bfa0e0dd5ac06b71819bc8494b01103.webp?v=1781061331",
+      "price": 70.4,
+      "from": 77.44
+    },
+    {
+      "t": "2026-06-15T08:25:12.725Z",
+      "source": "shopify",
+      "type": "SALE_START",
+      "id": 8901501419756,
+      "title": "Bamboo House",
+      "url": "https://www.lumibricks.com/products/bamboo-house-l9075",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/Lumibricks_Bamboo_House_L9075_-_2.jpg?v=1757389767",
+      "price": 101.2,
+      "compareAt": 114.99,
+      "discountPct": 12,
+      "promo": "GRATEFUL12"
+    },
+    {
+      "t": "2026-06-15T08:25:12.725Z",
+      "source": "shopify",
+      "type": "RESTOCK",
+      "id": 8901501419756,
+      "title": "Bamboo House",
+      "url": "https://www.lumibricks.com/products/bamboo-house-l9075",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/Lumibricks_Bamboo_House_L9075_-_2.jpg?v=1757389767"
+    },
+    {
+      "t": "2026-06-15T08:25:12.725Z",
+      "type": "REMOVED",
+      "id": 7933167501548,
+      "title": "A-Frame Cabin",
+      "url": "https://www.lumibricks.com/products/a-frame-cabin",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/1_13b6babb-9e88-48ee-b551-89a828ef6cb2.jpg?v=1686213125"
+    },
     {
       "t": "2026-06-15T01:29:42.567Z",
       "source": "shopify",

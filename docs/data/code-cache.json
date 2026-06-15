@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-15T03:23:28.752Z",
+  "generatedAt": "2026-06-15T08:25:12.725Z",
   "codes": {
     "BESTDEAL15": {
       "status": "manual",
@@ -226,6 +226,11 @@
     "8895713149164": {
       "original": 99.99,
       "final": 88,
+      "code": "GRATEFUL12"
+    },
+    "8901501419756": {
+      "original": 114.99,
+      "final": 101.2,
       "code": "GRATEFUL12"
     },
     "8905343009004": {
@@ -553,14 +558,19 @@
       "final": 26.4,
       "code": "GRATEFUL12"
     },
+    "9233548443884": {
+      "original": 119.99,
+      "final": 105.6,
+      "code": "GRATEFUL12"
+    },
     "9245937533164": {
       "original": 36.99,
       "final": 32.56,
       "code": "GRATEFUL12"
     },
     "9246451564780": {
-      "original": 87.99,
-      "final": 77.44,
+      "original": 79.99,
+      "final": 70.4,
       "code": "GRATEFUL12"
     }
   }

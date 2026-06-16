@@ -1,10 +1,15 @@
 {
-  "generatedAt": "2026-06-16T11:52:27.985Z",
+  "generatedAt": "2026-06-16T14:02:53.207Z",
   "codes": {
     "BESTDEAL15": {
       "status": "manual",
       "source": "instagram",
       "firstSeen": "2026-06-15T01:29:42.567Z"
+    },
+    "FIRSTORDER12": {
+      "status": "active",
+      "source": "homepage",
+      "firstSeen": "2026-06-16T14:02:53.207Z"
     },
     "GRATEFUL12": {
       "status": "active",
@@ -31,7 +36,7 @@
     "7774482497772": {
       "original": 124.99,
       "final": 110,
-      "code": "NEWFAN12"
+      "code": "GRATEFUL12"
     },
     "8023667507436": {
       "original": 99.99,
@@ -46,32 +51,32 @@
     "8101390680300": {
       "original": 34.99,
       "final": 30.8,
-      "code": "NEWFAN12"
+      "code": "GRATEFUL12"
     },
     "8127059034348": {
       "original": 69.99,
       "final": 61.6,
-      "code": "NEWFAN12"
+      "code": "GRATEFUL12"
     },
     "8130969764076": {
       "original": 89.99,
       "final": 79.2,
-      "code": "NEWFAN12"
+      "code": "GRATEFUL12"
     },
     "8238832812268": {
       "original": 79.99,
       "final": 70.4,
-      "code": "NEWFAN12"
+      "code": "GRATEFUL12"
     },
     "8557541163244": {
       "original": 29.99,
       "final": 26.4,
-      "code": "NEWFAN12"
+      "code": "GRATEFUL12"
     },
     "8571602239724": {
       "original": 159.99,
       "final": 140.8,
-      "code": "NEWFAN12"
+      "code": "GRATEFUL12"
     },
     "8615835566316": {
       "original": 89.99,
@@ -81,27 +86,27 @@
     "8627552911596": {
       "original": 109.99,
       "final": 96.8,
-      "code": "NEWFAN12"
+      "code": "GRATEFUL12"
     },
     "8635832565996": {
       "original": 89.99,
       "final": 79.2,
-      "code": "NEWFAN12"
+      "code": "GRATEFUL12"
     },
     "8666696483052": {
       "original": 99.99,
       "final": 88,
-      "code": "NEWFAN12"
+      "code": "GRATEFUL12"
     },
     "8677550653676": {
       "original": 89.99,
       "final": 79.2,
-      "code": "NEWFAN12"
+      "code": "GRATEFUL12"
     },
     "8685511246060": {
       "original": 99.99,
       "final": 88,
-      "code": "NEWFAN12"
+      "code": "GRATEFUL12"
     },
     "8702752784620": {
       "original": 169.99,
@@ -111,42 +116,42 @@
     "8704376045804": {
       "original": 36.99,
       "final": 32.56,
-      "code": "NEWFAN12"
+      "code": "GRATEFUL12"
     },
     "8704413663468": {
       "original": 23.99,
       "final": 21.12,
-      "code": "NEWFAN12"
+      "code": "GRATEFUL12"
     },
     "8707953656044": {
       "original": 99.99,
       "final": 88,
-      "code": "NEWFAN12"
+      "code": "GRATEFUL12"
     },
     "8714054861036": {
       "original": 99.99,
       "final": 88,
-      "code": "NEWFAN12"
+      "code": "GRATEFUL12"
     },
     "8714194813164": {
       "original": 149.99,
       "final": 132,
-      "code": "NEWFAN12"
+      "code": "GRATEFUL12"
     },
     "8732444786924": {
       "original": 42.99,
       "final": 37.84,
-      "code": "NEWFAN12"
+      "code": "GRATEFUL12"
     },
     "8734292181228": {
       "original": 99.99,
       "final": 88,
-      "code": "NEWFAN12"
+      "code": "GRATEFUL12"
     },
     "8737986019564": {
       "original": 74.99,
       "final": 66,
-      "code": "NEWFAN12"
+      "code": "GRATEFUL12"
     },
     "8740988616940": {
       "original": 134.99,
@@ -156,32 +161,32 @@
     "8756237271276": {
       "original": 109.99,
       "final": 96.8,
-      "code": "NEWFAN12"
+      "code": "GRATEFUL12"
     },
     "8761014517996": {
       "original": 119.99,
       "final": 105.6,
-      "code": "NEWFAN12"
+      "code": "GRATEFUL12"
     },
     "8768580944108": {
       "original": 74.99,
       "final": 66,
-      "code": "NEWFAN12"
+      "code": "GRATEFUL12"
     },
     "8774298861804": {
       "original": 81.99,
       "final": 72.16,
-      "code": "NEWFAN12"
+      "code": "GRATEFUL12"
     },
     "8776890450156": {
       "original": 43.99,
       "final": 38.72,
-      "code": "NEWFAN12"
+      "code": "GRATEFUL12"
     },
     "8808104657132": {
       "original": 29.99,
       "final": 26.4,
-      "code": "NEWFAN12"
+      "code": "GRATEFUL12"
     },
     "8826947895532": {
       "original": 29.99,
@@ -191,12 +196,12 @@
     "8838360432876": {
       "original": 169.99,
       "final": 149.6,
-      "code": "NEWFAN12"
+      "code": "GRATEFUL12"
     },
     "8868181836012": {
       "original": 94.99,
       "final": 83.6,
-      "code": "NEWFAN12"
+      "code": "GRATEFUL12"
     },
     "8869585682668": {
       "original": 179.99,
@@ -211,22 +216,22 @@
     "8875297669356": {
       "original": 39.99,
       "final": 35.2,
-      "code": "NEWFAN12"
+      "code": "GRATEFUL12"
     },
     "8885338276076": {
       "original": 99.99,
       "final": 88,
-      "code": "NEWFAN12"
+      "code": "GRATEFUL12"
     },
     "8885918302444": {
       "original": 34.99,
       "final": 30.8,
-      "code": "NEWFAN12"
+      "code": "GRATEFUL12"
     },
     "8895713149164": {
       "original": 99.99,
       "final": 88,
-      "code": "NEWFAN12"
+      "code": "GRATEFUL12"
     },
     "8905343009004": {
       "original": 44.99,
@@ -236,12 +241,12 @@
     "8905360408812": {
       "original": 39.99,
       "final": 35.2,
-      "code": "NEWFAN12"
+      "code": "GRATEFUL12"
     },
     "8941147521260": {
       "original": 62.99,
       "final": 55.44,
-      "code": "NEWFAN12"
+      "code": "GRATEFUL12"
     },
     "8944774775020": {
       "original": 179.99,
@@ -251,7 +256,7 @@
     "8945489543404": {
       "original": 29.99,
       "final": 26.4,
-      "code": "NEWFAN12"
+      "code": "GRATEFUL12"
     },
     "8948785283308": {
       "original": 109.99,
@@ -266,22 +271,22 @@
     "8968391819500": {
       "original": 109.99,
       "final": 96.8,
-      "code": "NEWFAN12"
+      "code": "GRATEFUL12"
     },
     "8973539115244": {
       "original": 74.99,
       "final": 66,
-      "code": "NEWFAN12"
+      "code": "GRATEFUL12"
     },
     "8981696512236": {
       "original": 99.99,
       "final": 88,
-      "code": "NEWFAN12"
+      "code": "GRATEFUL12"
     },
     "8982836773100": {
       "original": 74.99,
       "final": 66,
-      "code": "NEWFAN12"
+      "code": "GRATEFUL12"
     },
     "8984028610796": {
       "original": 169.99,
@@ -296,37 +301,37 @@
     "8984717525228": {
       "original": 53.99,
       "final": 47.52,
-      "code": "NEWFAN12"
+      "code": "GRATEFUL12"
     },
     "8986609090796": {
       "original": 139.99,
       "final": 123.2,
-      "code": "NEWFAN12"
+      "code": "GRATEFUL12"
     },
     "8989598351596": {
       "original": 23.99,
       "final": 21.12,
-      "code": "NEWFAN12"
+      "code": "GRATEFUL12"
     },
     "9003793350892": {
       "original": 99.99,
       "final": 88,
-      "code": "NEWFAN12"
+      "code": "GRATEFUL12"
     },
     "9004266225900": {
       "original": 119.99,
       "final": 105.6,
-      "code": "NEWFAN12"
+      "code": "GRATEFUL12"
     },
     "9004272648428": {
       "original": 129.99,
       "final": 114.4,
-      "code": "NEWFAN12"
+      "code": "GRATEFUL12"
     },
     "9004326256876": {
       "original": 114.99,
       "final": 101.2,
-      "code": "NEWFAN12"
+      "code": "GRATEFUL12"
     },
     "9004339560684": {
       "original": 129.99,
@@ -336,7 +341,7 @@
     "9004345327852": {
       "original": 109.99,
       "final": 96.8,
-      "code": "NEWFAN12"
+      "code": "GRATEFUL12"
     },
     "9004351619308": {
       "original": 169.99,
@@ -351,22 +356,22 @@
     "9004358467820": {
       "original": 64.99,
       "final": 57.2,
-      "code": "NEWFAN12"
+      "code": "GRATEFUL12"
     },
     "9004362825964": {
       "original": 169.99,
       "final": 149.6,
-      "code": "NEWFAN12"
+      "code": "GRATEFUL12"
     },
     "9004365644012": {
       "original": 119.99,
       "final": 105.6,
-      "code": "NEWFAN12"
+      "code": "GRATEFUL12"
     },
     "9004365775084": {
       "original": 164.99,
       "final": 145.2,
-      "code": "NEWFAN12"
+      "code": "GRATEFUL12"
     },
     "9027576955116": {
       "original": 145.99,
@@ -376,22 +381,22 @@
     "9027578036460": {
       "original": 99.99,
       "final": 88,
-      "code": "NEWFAN12"
+      "code": "GRATEFUL12"
     },
     "9027579216108": {
       "original": 149.99,
       "final": 132,
-      "code": "NEWFAN12"
+      "code": "GRATEFUL12"
     },
     "9027579347180": {
       "original": 159.99,
       "final": 140.8,
-      "code": "NEWFAN12"
+      "code": "GRATEFUL12"
     },
     "9027581280492": {
       "original": 149.99,
       "final": 132,
-      "code": "NEWFAN12"
+      "code": "GRATEFUL12"
     },
     "9041051123948": {
       "original": 84.99,
@@ -401,7 +406,7 @@
     "9041053221100": {
       "original": 139.99,
       "final": 123.2,
-      "code": "NEWFAN12"
+      "code": "GRATEFUL12"
     },
     "9041065279724": {
       "original": 149.99,
@@ -411,7 +416,7 @@
     "9074916917484": {
       "original": 104.99,
       "final": 92.4,
-      "code": "NEWFAN12"
+      "code": "GRATEFUL12"
     },
     "9074917966060": {
       "original": 54.99,
@@ -426,7 +431,7 @@
     "9074919669996": {
       "original": 141.99,
       "final": 124.96,
-      "code": "NEWFAN12"
+      "code": "GRATEFUL12"
     },
     "9074919735532": {
       "original": 149.99,
@@ -436,7 +441,7 @@
     "9077998387436": {
       "original": 29.99,
       "final": 26.4,
-      "code": "NEWFAN12"
+      "code": "GRATEFUL12"
     },
     "9089909588204": {
       "original": 169.99,
@@ -446,22 +451,22 @@
     "9097945776364": {
       "original": 109.99,
       "final": 96.8,
-      "code": "NEWFAN12"
+      "code": "GRATEFUL12"
     },
     "9107108790508": {
       "original": 109.99,
       "final": 96.8,
-      "code": "NEWFAN12"
+      "code": "GRATEFUL12"
     },
     "9107108888812": {
       "original": 149.99,
       "final": 132,
-      "code": "NEWFAN12"
+      "code": "GRATEFUL12"
     },
     "9107284263148": {
       "original": 139.99,
       "final": 123.2,
-      "code": "NEWFAN12"
+      "code": "GRATEFUL12"
     },
     "9119253364972": {
       "original": 74.99,
@@ -471,102 +476,102 @@
     "9132931580140": {
       "original": 109.99,
       "final": 96.8,
-      "code": "NEWFAN12"
+      "code": "GRATEFUL12"
     },
     "9132932694252": {
       "original": 64.99,
       "final": 57.2,
-      "code": "NEWFAN12"
+      "code": "GRATEFUL12"
     },
     "9132933677292": {
       "original": 129.99,
       "final": 114.4,
-      "code": "NEWFAN12"
+      "code": "GRATEFUL12"
     },
     "9132934070508": {
       "original": 99.99,
       "final": 88,
-      "code": "NEWFAN12"
+      "code": "GRATEFUL12"
     },
     "9146340933868": {
       "original": 121.99,
       "final": 107.36,
-      "code": "NEWFAN12"
+      "code": "GRATEFUL12"
     },
     "9146342244588": {
       "original": 149.99,
       "final": 132,
-      "code": "NEWFAN12"
+      "code": "GRATEFUL12"
     },
     "9146343686380": {
       "original": 139.99,
       "final": 123.2,
-      "code": "NEWFAN12"
+      "code": "GRATEFUL12"
     },
     "9146344898796": {
       "original": 119.99,
       "final": 105.6,
-      "code": "NEWFAN12"
+      "code": "GRATEFUL12"
     },
     "9199088697580": {
       "original": 34.99,
       "final": 30.8,
-      "code": "NEWFAN12"
+      "code": "GRATEFUL12"
     },
     "9199088926956": {
       "original": 69.99,
       "final": 61.6,
-      "code": "NEWFAN12"
+      "code": "GRATEFUL12"
     },
     "9199091482860": {
       "original": 109.99,
       "final": 96.8,
-      "code": "NEWFAN12"
+      "code": "GRATEFUL12"
     },
     "9210632143084": {
       "original": 42.99,
       "final": 37.84,
-      "code": "NEWFAN12"
+      "code": "GRATEFUL12"
     },
     "9210633224428": {
       "original": 37.99,
       "final": 33.44,
-      "code": "NEWFAN12"
+      "code": "GRATEFUL12"
     },
     "9210634567916": {
       "original": 129.99,
       "final": 114.4,
-      "code": "NEWFAN12"
+      "code": "GRATEFUL12"
     },
     "9233535140076": {
       "original": 149.99,
       "final": 132,
-      "code": "NEWFAN12"
+      "code": "GRATEFUL12"
     },
     "9233541857516": {
       "original": 89.99,
       "final": 79.2,
-      "code": "NEWFAN12"
+      "code": "GRATEFUL12"
     },
     "9233543069932": {
       "original": 29.99,
       "final": 26.4,
-      "code": "NEWFAN12"
+      "code": "GRATEFUL12"
     },
     "9233548443884": {
       "original": 119.99,
       "final": 105.6,
-      "code": "NEWFAN12"
+      "code": "GRATEFUL12"
     },
     "9245937533164": {
       "original": 36.99,
       "final": 32.56,
-      "code": "NEWFAN12"
+      "code": "GRATEFUL12"
     },
     "9246451564780": {
       "original": 79.99,
       "final": 70.4,
-      "code": "NEWFAN12"
+      "code": "GRATEFUL12"
     }
   }
 }

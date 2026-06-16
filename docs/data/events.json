@@ -1,6 +1,15 @@
 {
-  "generatedAt": "2026-06-15T21:57:12.657Z",
+  "generatedAt": "2026-06-16T11:52:27.985Z",
   "events": [
+    {
+      "t": "2026-06-16T11:52:27.985Z",
+      "source": "shopify",
+      "type": "RESTOCK",
+      "id": 8888326815980,
+      "title": "Figures Display Box-Not for sale, points redemption only",
+      "url": "https://www.lumibricks.com/products/figures-display-box",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/20250425-101629.jpg?v=1745547405"
+    },
     {
       "t": "2026-06-15T21:57:12.657Z",
       "source": "shopify",

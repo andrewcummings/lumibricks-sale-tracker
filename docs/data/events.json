@@ -1,6 +1,39 @@
 {
-  "generatedAt": "2026-06-17T17:58:12.536Z",
+  "generatedAt": "2026-06-17T19:04:01.871Z",
   "events": [
+    {
+      "t": "2026-06-17T19:04:01.871Z",
+      "source": "shopify",
+      "type": "PRICE_DROP",
+      "id": 9119253364972,
+      "title": "Streetball Tour Bus",
+      "url": "https://www.lumibricks.com/products/streetball-tour-bus-19010",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/streetball_tour_bus_19010_1.jpg?v=1769492779",
+      "price": 52.5,
+      "from": 66
+    },
+    {
+      "t": "2026-06-17T19:04:01.871Z",
+      "source": "shopify",
+      "type": "PRICE_DROP",
+      "id": 9074917966060,
+      "title": "Steamphant",
+      "url": "https://www.lumibricks.com/products/steamphant-11014",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/steamphant_11014_1.png?v=1765244786",
+      "price": 44,
+      "from": 48.4
+    },
+    {
+      "t": "2026-06-17T19:04:01.871Z",
+      "source": "shopify",
+      "type": "PRICE_DROP",
+      "id": 9074919309548,
+      "title": "Redbrick Row House",
+      "url": "https://www.lumibricks.com/products/redbrick-row-house-15009",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/redbrick_row_house_15009_1.jpg?v=1765770899",
+      "price": 91,
+      "from": 114.4
+    },
     {
       "t": "2026-06-17T17:58:12.536Z",
       "source": "shopify",

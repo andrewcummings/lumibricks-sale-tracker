@@ -1,6 +1,30 @@
 {
-  "generatedAt": "2026-06-16T11:52:27.985Z",
+  "generatedAt": "2026-06-17T08:08:26.505Z",
   "events": [
+    {
+      "t": "2026-06-17T08:08:26.505Z",
+      "source": "shopify",
+      "type": "NEW_PRODUCT",
+      "id": 9246451335404,
+      "title": "Wild West Ranch Duel",
+      "url": "https://www.lumibricks.com/products/wild-west-ranch-duel-14017",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/49a35e8577e1b3606a4ce95996f2d0d4.webp?v=1781007054",
+      "price": 48.4,
+      "available": true
+    },
+    {
+      "t": "2026-06-17T08:08:26.505Z",
+      "source": "shopify",
+      "type": "SALE_START",
+      "id": 9246451335404,
+      "title": "Wild West Ranch Duel",
+      "url": "https://www.lumibricks.com/products/wild-west-ranch-duel-14017",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/49a35e8577e1b3606a4ce95996f2d0d4.webp?v=1781007054",
+      "price": 48.4,
+      "compareAt": 54.99,
+      "discountPct": 12,
+      "promo": "GRATEFUL12"
+    },
     {
       "t": "2026-06-16T11:52:27.985Z",
       "source": "shopify",

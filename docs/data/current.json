@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-19T05:53:37.158Z",
+  "generatedAt": "2026-06-19T08:08:22.035Z",
   "store": "https://www.lumibricks.com",
   "totals": {
     "products": 123,
@@ -482,14 +482,14 @@
       "url": "https://www.lumibricks.com/products/luna-cottage-10014",
       "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/7aa9b238bc765e6ac8641e694ffbd757_16c6f04c-a58f-467b-a47b-f9d143738e21.webp?v=1781007929",
       "productType": "Retro House",
-      "price": 105.6,
-      "compareAt": 119.99,
+      "price": 115.28,
+      "compareAt": 130.99,
       "onSale": true,
       "discountPct": 12,
       "promo": "FIRSTORDER12",
       "available": true,
       "lowestEver": 105.6,
-      "atLowestEver": true,
+      "atLowestEver": false,
       "saleSince": "2026-06-15T08:25:12.725Z",
       "firstSeen": "2026-06-15T08:25:12.725Z"
     },

@@ -29,14 +29,46 @@ const NOW = new Date().toISOString();
 // Fetch
 // ---------------------------------------------------------------------------
 
+const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+
+// products.json is the one hard dependency of the whole run — everything
+// downstream (cart, codes, inbox) is best-effort and degrades gracefully, but
+// this feed has no fallback, so a single transient failure used to kill the
+// hourly run outright. Shopify intermittently answers with 503/429 (momentary
+// rate-limit or origin blip) from CI IPs; retry those (and network errors) with
+// exponential backoff before giving up. Non-transient statuses (404, 401, …)
+// still fail fast — retrying them is pointless.
+const RETRY_STATUS = new Set([408, 425, 429, 500, 502, 503, 504]);
+
+async function fetchWithRetry(url, { tries = 4, baseDelayMs = 1000 } = {}) {
+  for (let attempt = 1; attempt <= tries; attempt++) {
+    let res, networkErr;
+    try {
+      res = await fetch(url, {
+        headers: { "User-Agent": "lumibricks-sale-tracker (+https://github.com)" },
+      });
+    } catch (err) {
+      networkErr = err; // DNS / reset / timeout — transient, worth a retry
+    }
+    if (res && res.ok) return res;
+
+    const transient = networkErr != null || RETRY_STATUS.has(res?.status);
+    const reason = networkErr ? networkErr.message : `HTTP ${res.status}`;
+    // Fail fast on a non-transient HTTP error, or once retries are exhausted.
+    if (!transient) throw new Error(`Fetch failed (${res.status}) for ${url}`);
+    if (attempt === tries) throw new Error(`Fetch failed (${reason}) for ${url} after ${tries} attempts`);
+
+    const delay = baseDelayMs * 2 ** (attempt - 1); // 1s, 2s, 4s
+    console.log(`Fetch ${attempt}/${tries} for ${url} failed (${reason}); retrying in ${delay}ms.`);
+    await sleep(delay);
+  }
+}
+
 async function fetchAllProducts() {
   const all = [];
   for (let page = 1; page <= 50; page++) {
     const url = `${STORE}/products.json?limit=250&page=${page}`;
-    const res = await fetch(url, {
-      headers: { "User-Agent": "lumibricks-sale-tracker (+https://github.com)" },
-    });
-    if (!res.ok) throw new Error(`Fetch failed (${res.status}) for ${url}`);
+    const res = await fetchWithRetry(url);
     const { products } = await res.json();
     if (!products || products.length === 0) break;
     all.push(...products);

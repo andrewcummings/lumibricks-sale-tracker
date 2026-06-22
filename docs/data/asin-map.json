@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-15T10:15:31.486Z",
+  "generatedAt": "2026-06-22T10:08:32.109Z",
   "map": {
     "7933167501548": {
       "title": "A-Frame Cabin",
@@ -872,6 +872,14 @@
       "score": 1,
       "status": "matched",
       "checkedAt": "2026-06-15T10:15:31.486Z"
+    },
+    "9246451335404": {
+      "title": "Wild West Ranch Duel",
+      "asin": "B0GX53R82V",
+      "amazonTitle": "Lumibricks Western Ranch-Duel Lighting Building-Bricks-Set - 1023 Pcs Old West Modular Wild West Farm Model for Adults - Home and Office Decor, Creative Educational Interactive Toys",
+      "score": 1,
+      "status": "matched",
+      "checkedAt": "2026-06-22T10:08:32.109Z"
     }
   }
 }

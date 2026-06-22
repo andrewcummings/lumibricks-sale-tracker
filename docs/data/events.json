@@ -1,6 +1,28 @@
 {
-  "generatedAt": "2026-06-22T16:43:16.664Z",
+  "generatedAt": "2026-06-22T18:28:05.737Z",
   "events": [
+    {
+      "t": "2026-06-22T18:28:05.737Z",
+      "source": "shopify",
+      "type": "PRICE_DROP",
+      "id": 9132933677292,
+      "title": "Wheat Field with Cypresses",
+      "url": "https://www.lumibricks.com/products/wheat-field-with-cypresses-21001",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/wheat_field_with_cypresses_21001_1.jpg?v=1773042650",
+      "price": 96,
+      "from": 104
+    },
+    {
+      "t": "2026-06-22T18:28:05.737Z",
+      "source": "shopify",
+      "type": "PRICE_DROP",
+      "id": 9233548443884,
+      "title": "Luna Cottage",
+      "url": "https://www.lumibricks.com/products/luna-cottage-10014",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/7aa9b238bc765e6ac8641e694ffbd757_16c6f04c-a58f-467b-a47b-f9d143738e21.webp?v=1781007929",
+      "price": 96,
+      "from": 104.8
+    },
     {
       "t": "2026-06-22T16:43:16.664Z",
       "source": "shopify",

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-22T09:09:26.421Z",
+  "generatedAt": "2026-06-22T14:59:59.301Z",
   "codes": {
     "BESTDEAL15": {
       "status": "manual",
@@ -169,6 +169,11 @@
       "code": "GRATEFUL12"
     },
     "8768580944108": {
+      "original": 74.99,
+      "final": 66,
+      "code": "GRATEFUL12"
+    },
+    "8774298861804": {
       "original": 74.99,
       "final": 66,
       "code": "GRATEFUL12"
@@ -489,8 +494,8 @@
       "code": "GRATEFUL12"
     },
     "9146340933868": {
-      "original": 121.99,
-      "final": 107.36,
+      "original": 109.99,
+      "final": 96.8,
       "code": "GRATEFUL12"
     },
     "9146342244588": {

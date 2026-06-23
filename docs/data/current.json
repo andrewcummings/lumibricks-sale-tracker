@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-22T18:28:05.737Z",
+  "generatedAt": "2026-06-23T01:08:20.663Z",
   "store": "https://www.lumibricks.com",
   "totals": {
     "products": 123,
@@ -374,14 +374,14 @@
       "url": "https://www.lumibricks.com/products/garden-cottage-10013",
       "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/3034a1133efe01daba919094b70c6310_dc0e6bda-648c-4a80-ae85-0609d228a2cf.jpg?v=1773127725",
       "productType": "Retro House",
-      "price": 88,
-      "compareAt": 109.99,
+      "price": 97.6,
+      "compareAt": 121.99,
       "onSale": true,
       "discountPct": 20,
       "promo": "SUMMERSALE20",
       "available": true,
       "lowestEver": 88,
-      "atLowestEver": true,
+      "atLowestEver": false,
       "saleSince": "2026-06-14T18:18:51.284Z",
       "firstSeen": "2026-06-14T16:21:48.924Z"
     },

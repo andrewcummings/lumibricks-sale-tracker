@@ -1,6 +1,17 @@
 {
-  "generatedAt": "2026-06-23T09:20:05.360Z",
+  "generatedAt": "2026-06-23T16:56:59.078Z",
   "events": [
+    {
+      "t": "2026-06-23T16:56:59.078Z",
+      "source": "shopify",
+      "type": "PRICE_RISE",
+      "id": 9146340933868,
+      "title": "Garden Cottage",
+      "url": "https://www.lumibricks.com/products/garden-cottage-10013",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/3034a1133efe01daba919094b70c6310_dc0e6bda-648c-4a80-ae85-0609d228a2cf.jpg?v=1773127725",
+      "price": 97.6,
+      "from": 88
+    },
     {
       "t": "2026-06-23T09:20:05.360Z",
       "source": "shopify",

@@ -1,6 +1,26 @@
 {
-  "generatedAt": "2026-06-23T07:29:05.503Z",
+  "generatedAt": "2026-06-23T09:20:05.360Z",
   "events": [
+    {
+      "t": "2026-06-23T09:20:05.360Z",
+      "source": "shopify",
+      "type": "PRICE_DROP",
+      "id": 8901501419756,
+      "title": "Bamboo House",
+      "url": "https://www.lumibricks.com/products/bamboo-house-l9075",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/Lumibricks_Bamboo_House_L9075_-_2.jpg?v=1757389767",
+      "price": 92,
+      "from": 101.2
+    },
+    {
+      "t": "2026-06-23T09:20:05.360Z",
+      "source": "shopify",
+      "type": "RESTOCK",
+      "id": 8901501419756,
+      "title": "Bamboo House",
+      "url": "https://www.lumibricks.com/products/bamboo-house-l9075",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/Lumibricks_Bamboo_House_L9075_-_2.jpg?v=1757389767"
+    },
     {
       "t": "2026-06-23T07:29:05.503Z",
       "source": "shopify",

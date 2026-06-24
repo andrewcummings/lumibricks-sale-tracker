@@ -1,6 +1,15 @@
 {
-  "generatedAt": "2026-06-24T05:28:41.705Z",
+  "generatedAt": "2026-06-24T07:25:10.392Z",
   "events": [
+    {
+      "t": "2026-06-24T07:25:10.392Z",
+      "source": "shopify",
+      "type": "OUT_OF_STOCK",
+      "id": 8392497299692,
+      "title": "Carpentry Van",
+      "url": "https://www.lumibricks.com/products/carpentry-van",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/1_8addfb95-62e8-405b-a879-5c261289600d.jpg?v=1714016594"
+    },
     {
       "t": "2026-06-24T05:28:41.705Z",
       "type": "REMOVED",

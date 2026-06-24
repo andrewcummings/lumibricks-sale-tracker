@@ -1,6 +1,60 @@
 {
-  "generatedAt": "2026-06-23T16:56:59.078Z",
+  "generatedAt": "2026-06-24T05:28:41.705Z",
   "events": [
+    {
+      "t": "2026-06-24T05:28:41.705Z",
+      "type": "REMOVED",
+      "id": 8748520833260,
+      "title": "Old West Post Office",
+      "url": "https://www.lumibricks.com/products/old-west-post-office",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/1_374dfd6c-7631-400c-b4dd-7646accdb446.jpg?v=1734425633"
+    },
+    {
+      "t": "2026-06-24T05:28:41.705Z",
+      "source": "shopify",
+      "type": "SALE_START",
+      "id": 8636093825260,
+      "title": "Cow Barn",
+      "url": "https://www.lumibricks.com/products/cow-barn-1368pcs",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/1_7208ff9b-834e-470c-81d7-f22a82a0b1d3.jpg?v=1724743067",
+      "price": 64,
+      "compareAt": 79.99,
+      "discountPct": 20,
+      "promo": "SUMMERSALE20"
+    },
+    {
+      "t": "2026-06-24T05:28:41.705Z",
+      "source": "shopify",
+      "type": "RESTOCK",
+      "id": 8636093825260,
+      "title": "Cow Barn",
+      "url": "https://www.lumibricks.com/products/cow-barn-1368pcs",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/1_7208ff9b-834e-470c-81d7-f22a82a0b1d3.jpg?v=1724743067"
+    },
+    {
+      "t": "2026-06-24T05:28:41.705Z",
+      "source": "shopify",
+      "type": "NEW_PRODUCT",
+      "id": 8392497299692,
+      "title": "Carpentry Van",
+      "url": "https://www.lumibricks.com/products/carpentry-van",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/1_8addfb95-62e8-405b-a879-5c261289600d.jpg?v=1714016594",
+      "price": 29.6,
+      "available": true
+    },
+    {
+      "t": "2026-06-24T05:28:41.705Z",
+      "source": "shopify",
+      "type": "SALE_START",
+      "id": 8392497299692,
+      "title": "Carpentry Van",
+      "url": "https://www.lumibricks.com/products/carpentry-van",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/1_8addfb95-62e8-405b-a879-5c261289600d.jpg?v=1714016594",
+      "price": 29.6,
+      "compareAt": 36.99,
+      "discountPct": 20,
+      "promo": "SUMMERSALE20"
+    },
     {
       "t": "2026-06-23T16:56:59.078Z",
       "source": "shopify",

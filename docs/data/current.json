@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-25T12:58:33.574Z",
+  "generatedAt": "2026-06-25T13:49:16.738Z",
   "store": "https://www.lumibricks.com",
   "totals": {
     "products": 123,
@@ -608,14 +608,14 @@
       "url": "https://www.lumibricks.com/products/sunrise-lighthouse-18007",
       "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/1_9719b815-7119-4c7a-b003-b4ed9be0c6d2.webp?v=1781263333",
       "productType": "Road Trip",
-      "price": 68,
-      "compareAt": 84.99,
+      "price": 74.4,
+      "compareAt": 92.99,
       "onSale": true,
       "discountPct": 20,
       "promo": "SUMMERSALE20",
       "available": true,
       "lowestEver": 68,
-      "atLowestEver": true,
+      "atLowestEver": false,
       "saleSince": "2026-06-14T18:18:51.284Z",
       "firstSeen": "2026-06-14T16:21:48.924Z"
     },

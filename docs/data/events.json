@@ -1,6 +1,17 @@
 {
-  "generatedAt": "2026-06-25T13:49:16.738Z",
+  "generatedAt": "2026-06-26T07:32:10.631Z",
   "events": [
+    {
+      "t": "2026-06-26T07:32:10.631Z",
+      "source": "shopify",
+      "type": "PRICE_DROP",
+      "id": 7774482497772,
+      "title": "Steampunk Train Station",
+      "url": "https://www.lumibricks.com/products/steampunk-train-station",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/products/steampunk-train-station-funwhole-f9007.jpg?v=1678090501",
+      "price": 96,
+      "from": 100
+    },
     {
       "t": "2026-06-25T13:49:16.738Z",
       "source": "shopify",

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-22T10:08:32.109Z",
+  "generatedAt": "2026-06-29T09:43:42.506Z",
   "map": {
     "7933167501548": {
       "title": "A-Frame Cabin",
@@ -880,6 +880,13 @@
       "score": 1,
       "status": "matched",
       "checkedAt": "2026-06-22T10:08:32.109Z"
+    },
+    "8392497299692": {
+      "title": "Carpentry Van",
+      "asin": null,
+      "status": "error",
+      "error": "ScraperAPI HTTP 403: {\"message\":\"You have exhausted the API Credits available in this monthly cycle. You can upgrade your subscription or enable overages from your dashboard (https://dashboard.scraperapi.com/billing). For",
+      "checkedAt": "2026-06-29T09:43:42.506Z"
     }
   }
 }

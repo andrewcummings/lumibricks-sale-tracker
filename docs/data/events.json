@@ -1,6 +1,15 @@
 {
-  "generatedAt": "2026-06-29T03:22:17.264Z",
+  "generatedAt": "2026-06-29T10:43:34.799Z",
   "events": [
+    {
+      "t": "2026-06-29T10:43:34.799Z",
+      "source": "shopify",
+      "type": "OUT_OF_STOCK",
+      "id": 8636093825260,
+      "title": "Cow Barn",
+      "url": "https://www.lumibricks.com/products/cow-barn-1368pcs",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/1_7208ff9b-834e-470c-81d7-f22a82a0b1d3.jpg?v=1724743067"
+    },
     {
       "t": "2026-06-29T03:22:17.264Z",
       "source": "shopify",

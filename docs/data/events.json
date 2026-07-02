@@ -1,6 +1,50 @@
 {
-  "generatedAt": "2026-07-01T08:27:34.069Z",
+  "generatedAt": "2026-07-02T03:17:17.529Z",
   "events": [
+    {
+      "t": "2026-07-02T03:17:17.529Z",
+      "source": "shopify",
+      "type": "PRICE_RISE",
+      "id": 8073892102380,
+      "title": "Western Saloon",
+      "url": "https://www.lumibricks.com/products/western-saloon",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/1-1_2cd6c5d5-b84e-4355-99f5-40a0f60abeac.jpg?v=1767696107",
+      "price": 88,
+      "from": 85
+    },
+    {
+      "t": "2026-07-02T03:17:17.529Z",
+      "source": "shopify",
+      "type": "PRICE_RISE",
+      "id": 9041065279724,
+      "title": "Western Bank Heist",
+      "url": "https://www.lumibricks.com/products/western-bank-heist-14013",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/western_bank_heist_l9097_1.jpg?v=1762396078",
+      "price": 132,
+      "from": 127.5
+    },
+    {
+      "t": "2026-07-02T03:17:17.529Z",
+      "source": "shopify",
+      "type": "PRICE_RISE",
+      "id": 9041051123948,
+      "title": "Sunrise Lighthouse",
+      "url": "https://www.lumibricks.com/products/sunrise-lighthouse-18007",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/1_9719b815-7119-4c7a-b003-b4ed9be0c6d2.webp?v=1781263333",
+      "price": 81.84,
+      "from": 79.05
+    },
+    {
+      "t": "2026-07-02T03:17:17.529Z",
+      "source": "shopify",
+      "type": "PRICE_RISE",
+      "id": 8740988616940,
+      "title": "Record Store",
+      "url": "https://www.lumibricks.com/products/record-store-1980pcs",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/1_d8fe61e5-068e-423e-950c-9722a381993d.jpg?v=1733895758",
+      "price": 118.8,
+      "from": 114.75
+    },
     {
       "t": "2026-06-30T11:09:58.648Z",
       "source": "shopify",

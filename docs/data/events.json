@@ -1,6 +1,15 @@
 {
-  "generatedAt": "2026-07-02T16:08:17.785Z",
+  "generatedAt": "2026-07-03T14:24:35.580Z",
   "events": [
+    {
+      "t": "2026-07-03T14:24:35.580Z",
+      "source": "shopify",
+      "type": "OUT_OF_STOCK",
+      "id": 8774298861804,
+      "title": "Home Greenhouse",
+      "url": "https://www.lumibricks.com/products/home-greenhouse-1428pcs",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/img_v3_02lc_56d2aadf-698f-4ff0-acf5-89b806597f4g.jpg?v=1744714174"
+    },
     {
       "t": "2026-07-02T16:08:17.785Z",
       "source": "shopify",

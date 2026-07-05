@@ -1,6 +1,15 @@
 {
-  "generatedAt": "2026-07-03T14:24:35.580Z",
+  "generatedAt": "2026-07-05T17:19:43.627Z",
   "events": [
+    {
+      "t": "2026-07-05T17:19:43.627Z",
+      "source": "shopify",
+      "type": "OUT_OF_STOCK",
+      "id": 9004272648428,
+      "title": "Midnight Haunted Mansion",
+      "url": "https://www.lumibricks.com/products/midnight-haunted-mansion-l9092",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/1_1c88abc0-eddd-42ef-9639-e528dc11edf8.webp?v=1781263626"
+    },
     {
       "t": "2026-07-03T14:24:35.580Z",
       "source": "shopify",

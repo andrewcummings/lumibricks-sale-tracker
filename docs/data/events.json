@@ -1,6 +1,26 @@
 {
-  "generatedAt": "2026-07-07T15:08:30.081Z",
+  "generatedAt": "2026-07-07T18:06:28.792Z",
   "events": [
+    {
+      "t": "2026-07-07T18:06:28.792Z",
+      "source": "shopify",
+      "type": "PRICE_DROP",
+      "id": 9041051123948,
+      "title": "Sunrise Lighthouse",
+      "url": "https://www.lumibricks.com/products/sunrise-lighthouse-18007",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/1_9719b815-7119-4c7a-b003-b4ed9be0c6d2.webp?v=1781263333",
+      "price": 74.8,
+      "from": 81.84
+    },
+    {
+      "t": "2026-07-07T18:06:28.792Z",
+      "source": "shopify",
+      "type": "RESTOCK",
+      "id": 9004272648428,
+      "title": "Midnight Haunted Mansion",
+      "url": "https://www.lumibricks.com/products/midnight-haunted-mansion-l9092",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/1_1c88abc0-eddd-42ef-9639-e528dc11edf8.webp?v=1781263626"
+    },
     {
       "t": "2026-07-07T15:08:30.081Z",
       "source": "shopify",

@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-07-06T16:55:42.974Z",
+  "generatedAt": "2026-07-07T04:03:46.685Z",
   "store": "https://www.lumibricks.com",
   "totals": {
-    "products": 123,
-    "onSale": 112,
+    "products": 122,
+    "onSale": 111,
     "maxDiscountPct": 30
   },
   "products": [
@@ -1841,24 +1841,6 @@
       "lowestEver": 72,
       "atLowestEver": false,
       "saleSince": "2026-06-14T18:18:51.284Z",
-      "firstSeen": "2026-06-14T16:21:48.924Z"
-    },
-    {
-      "id": 8636093825260,
-      "title": "Cow Barn",
-      "handle": "cow-barn-1368pcs",
-      "url": "https://www.lumibricks.com/products/cow-barn-1368pcs",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/1_7208ff9b-834e-470c-81d7-f22a82a0b1d3.jpg?v=1724743067",
-      "productType": "Farm Life",
-      "price": 70.4,
-      "compareAt": 79.99,
-      "onSale": true,
-      "discountPct": 12,
-      "promo": "FIRSTORDER12",
-      "available": false,
-      "lowestEver": 64,
-      "atLowestEver": false,
-      "saleSince": "2026-06-24T05:28:41.705Z",
       "firstSeen": "2026-06-14T16:21:48.924Z"
     },
     {

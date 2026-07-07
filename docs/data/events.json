@@ -1,6 +1,17 @@
 {
-  "generatedAt": "2026-07-07T08:28:33.663Z",
+  "generatedAt": "2026-07-07T11:59:12.488Z",
   "events": [
+    {
+      "t": "2026-07-07T11:59:12.488Z",
+      "source": "shopify",
+      "type": "PRICE_DROP",
+      "id": 9041065279724,
+      "title": "Western Bank Heist",
+      "url": "https://www.lumibricks.com/products/western-bank-heist-14013",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/western_bank_heist_l9097_1.jpg?v=1762396078",
+      "price": 127.5,
+      "from": 132
+    },
     {
       "t": "2026-07-07T08:28:33.663Z",
       "source": "shopify",

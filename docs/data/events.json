@@ -1,6 +1,15 @@
 {
-  "generatedAt": "2026-07-07T11:59:12.488Z",
+  "generatedAt": "2026-07-07T15:08:30.081Z",
   "events": [
+    {
+      "t": "2026-07-07T15:08:30.081Z",
+      "source": "shopify",
+      "type": "OUT_OF_STOCK",
+      "id": 8808104657132,
+      "title": "Steampunk Motorcycle Pursuit",
+      "url": "https://www.lumibricks.com/products/steampunk-motorcycle-pursuit-424pcs",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/Steampunk_Motorcycle_Pursuit_F9067_1.jpg?v=1757389768"
+    },
     {
       "t": "2026-07-07T11:59:12.488Z",
       "source": "shopify",

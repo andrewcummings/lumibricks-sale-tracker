@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-07-08T07:34:41.625Z",
+  "generatedAt": "2026-07-08T10:26:16.214Z",
   "store": "https://www.lumibricks.com",
   "totals": {
-    "products": 123,
-    "onSale": 112,
+    "products": 124,
+    "onSale": 113,
     "maxDiscountPct": 20
   },
   "products": [
@@ -276,6 +276,24 @@
       "atLowestEver": false,
       "saleSince": "2026-06-14T18:18:51.284Z",
       "firstSeen": "2026-06-14T16:21:48.924Z"
+    },
+    {
+      "id": 9263581495532,
+      "title": "Seafood Restaurant",
+      "handle": "seafood-restaurant-18010",
+      "url": "https://www.lumibricks.com/products/seafood-restaurant-18010",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/2_6fb1369f-5aed-4794-81a7-ebd34f075367.webp?v=1783481925",
+      "productType": "Road Trip",
+      "price": 114.4,
+      "compareAt": 129.99,
+      "onSale": true,
+      "discountPct": 12,
+      "promo": "FIRSTORDER12",
+      "available": true,
+      "lowestEver": 114.4,
+      "atLowestEver": false,
+      "saleSince": "2026-07-08T10:26:16.214Z",
+      "firstSeen": "2026-07-08T10:26:16.214Z"
     },
     {
       "id": 9266043977964,

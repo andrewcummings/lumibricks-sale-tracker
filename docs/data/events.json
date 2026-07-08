@@ -1,6 +1,30 @@
 {
-  "generatedAt": "2026-07-07T18:06:28.792Z",
+  "generatedAt": "2026-07-08T10:26:16.214Z",
   "events": [
+    {
+      "t": "2026-07-08T10:26:16.214Z",
+      "source": "shopify",
+      "type": "NEW_PRODUCT",
+      "id": 9263581495532,
+      "title": "Seafood Restaurant",
+      "url": "https://www.lumibricks.com/products/seafood-restaurant-18010",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/2_6fb1369f-5aed-4794-81a7-ebd34f075367.webp?v=1783481925",
+      "price": 114.4,
+      "available": true
+    },
+    {
+      "t": "2026-07-08T10:26:16.214Z",
+      "source": "shopify",
+      "type": "SALE_START",
+      "id": 9263581495532,
+      "title": "Seafood Restaurant",
+      "url": "https://www.lumibricks.com/products/seafood-restaurant-18010",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/2_6fb1369f-5aed-4794-81a7-ebd34f075367.webp?v=1783481925",
+      "price": 114.4,
+      "compareAt": 129.99,
+      "discountPct": 12,
+      "promo": "FIRSTORDER12"
+    },
     {
       "t": "2026-07-07T18:06:28.792Z",
       "source": "shopify",

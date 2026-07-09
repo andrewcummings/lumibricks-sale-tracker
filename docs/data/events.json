@@ -1,6 +1,26 @@
 {
-  "generatedAt": "2026-07-08T10:26:16.214Z",
+  "generatedAt": "2026-07-09T03:57:30.311Z",
   "events": [
+    {
+      "t": "2026-07-09T03:57:30.311Z",
+      "source": "shopify",
+      "type": "PRICE_RISE",
+      "id": 9233548443884,
+      "title": "Luna Cottage",
+      "url": "https://www.lumibricks.com/products/luna-cottage-10014",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/7aa9b238bc765e6ac8641e694ffbd757_16c6f04c-a58f-467b-a47b-f9d143738e21.webp?v=1781007929",
+      "price": 115.28,
+      "from": 105.6
+    },
+    {
+      "t": "2026-07-09T03:57:30.311Z",
+      "source": "shopify",
+      "type": "OUT_OF_STOCK",
+      "id": 8739355197676,
+      "title": "7 Ports USB Hub 2.0 USB Splitter White-Not for sale, points redemption only",
+      "url": "https://www.lumibricks.com/products/7-ports-usb-hub-2-0-usb-splitter-white-not-for-sale-points-redemption-only",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/white-usb-hub-usb-splitter_700x_b455aa4a-b981-41df-bd8e-cc9c9483f2cf.webp?v=1733724824"
+    },
     {
       "t": "2026-07-08T10:26:16.214Z",
       "source": "shopify",

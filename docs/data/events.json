@@ -1,6 +1,30 @@
 {
-  "generatedAt": "2026-07-09T03:57:30.311Z",
+  "generatedAt": "2026-07-13T08:21:26.473Z",
   "events": [
+    {
+      "t": "2026-07-13T08:21:26.473Z",
+      "source": "shopify",
+      "type": "NEW_PRODUCT",
+      "id": 9246451433708,
+      "title": "Western Fur Trading Post",
+      "url": "https://www.lumibricks.com/products/western-fur-trading-post-14018",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/075b648fa347ee86212e9c52bafb4781.webp?v=1783926750",
+      "price": 61.6,
+      "available": true
+    },
+    {
+      "t": "2026-07-13T08:21:26.473Z",
+      "source": "shopify",
+      "type": "SALE_START",
+      "id": 9246451433708,
+      "title": "Western Fur Trading Post",
+      "url": "https://www.lumibricks.com/products/western-fur-trading-post-14018",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/075b648fa347ee86212e9c52bafb4781.webp?v=1783926750",
+      "price": 61.6,
+      "compareAt": 69.99,
+      "discountPct": 12,
+      "promo": "FIRSTORDER12"
+    },
     {
       "t": "2026-07-09T03:57:30.311Z",
       "source": "shopify",

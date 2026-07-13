@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-07-09T07:53:23.883Z",
+  "generatedAt": "2026-07-13T08:21:26.473Z",
   "store": "https://www.lumibricks.com",
   "totals": {
-    "products": 124,
-    "onSale": 113,
+    "products": 125,
+    "onSale": 114,
     "maxDiscountPct": 20
   },
   "products": [
@@ -276,6 +276,24 @@
       "atLowestEver": false,
       "saleSince": "2026-06-14T18:18:51.284Z",
       "firstSeen": "2026-06-14T16:21:48.924Z"
+    },
+    {
+      "id": 9246451433708,
+      "title": "Western Fur Trading Post",
+      "handle": "western-fur-trading-post-14018",
+      "url": "https://www.lumibricks.com/products/western-fur-trading-post-14018",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/075b648fa347ee86212e9c52bafb4781.webp?v=1783926750",
+      "productType": "The Old West",
+      "price": 61.6,
+      "compareAt": 69.99,
+      "onSale": true,
+      "discountPct": 12,
+      "promo": "FIRSTORDER12",
+      "available": true,
+      "lowestEver": 61.6,
+      "atLowestEver": false,
+      "saleSince": "2026-07-13T08:21:26.473Z",
+      "firstSeen": "2026-07-13T08:21:26.473Z"
     },
     {
       "id": 9263581495532,

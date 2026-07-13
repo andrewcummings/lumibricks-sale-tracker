@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-06T09:28:32.305Z",
+  "generatedAt": "2026-07-13T11:14:18.989Z",
   "map": {
     "7933167501548": {
       "title": "A-Frame Cabin",
@@ -887,6 +887,27 @@
       "status": "error",
       "error": "ScraperAPI HTTP 403: {\"message\":\"You have exhausted the API Credits available in this monthly cycle. You can upgrade your subscription or enable overages from your dashboard (https://dashboard.scraperapi.com/billing). For",
       "checkedAt": "2026-06-29T09:43:42.506Z"
+    },
+    "9246451433708": {
+      "title": "Western Fur Trading Post",
+      "asin": null,
+      "status": "error",
+      "error": "ScraperAPI HTTP 403: {\"message\":\"You have exhausted the API Credits available in this monthly cycle. You can upgrade your subscription or enable overages from your dashboard (https://dashboard.scraperapi.com/billing). For",
+      "checkedAt": "2026-07-13T11:14:18.989Z"
+    },
+    "9263581495532": {
+      "title": "Seafood Restaurant",
+      "asin": null,
+      "status": "error",
+      "error": "ScraperAPI HTTP 403: {\"message\":\"You have exhausted the API Credits available in this monthly cycle. You can upgrade your subscription or enable overages from your dashboard (https://dashboard.scraperapi.com/billing). For",
+      "checkedAt": "2026-07-13T11:14:18.989Z"
+    },
+    "9266043977964": {
+      "title": "Misty Forest Cabin",
+      "asin": null,
+      "status": "error",
+      "error": "ScraperAPI HTTP 403: {\"message\":\"You have exhausted the API Credits available in this monthly cycle. You can upgrade your subscription or enable overages from your dashboard (https://dashboard.scraperapi.com/billing). For",
+      "checkedAt": "2026-07-13T11:14:18.989Z"
     }
   }
 }

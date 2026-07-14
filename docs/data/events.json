@@ -1,6 +1,94 @@
 {
-  "generatedAt": "2026-07-14T09:09:40.817Z",
+  "generatedAt": "2026-07-14T11:36:59.329Z",
   "events": [
+    {
+      "t": "2026-07-14T11:36:59.329Z",
+      "source": "shopify",
+      "type": "PRICE_DROP",
+      "id": 8557541163244,
+      "title": "The Hen House",
+      "url": "https://www.lumibricks.com/products/the-hen-house",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/1_e8f58f76-a106-43fb-bc63-e0ab4fd35a6f.jpg?v=1719541298",
+      "price": 22,
+      "from": 26.4
+    },
+    {
+      "t": "2026-07-14T11:36:59.329Z",
+      "source": "shopify",
+      "type": "PRICE_DROP",
+      "id": 9233548443884,
+      "title": "Luna Cottage",
+      "url": "https://www.lumibricks.com/products/luna-cottage-10014",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/7aa9b238bc765e6ac8641e694ffbd757_16c6f04c-a58f-467b-a47b-f9d143738e21.webp?v=1781007929",
+      "price": 105.6,
+      "from": 115.28
+    },
+    {
+      "t": "2026-07-14T11:36:59.329Z",
+      "source": "shopify",
+      "type": "PRICE_DROP",
+      "id": 8941147521260,
+      "title": "Horse Stable",
+      "url": "https://www.lumibricks.com/products/horse-stable-f9080",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/Lumibricks_horse_stable_f9080_-_1.jpg?v=1757389768",
+      "price": 50.16,
+      "from": 55.44
+    },
+    {
+      "t": "2026-07-14T11:36:59.329Z",
+      "source": "shopify",
+      "type": "PRICE_DROP",
+      "id": 9210632143084,
+      "title": "Graffiti Crew",
+      "url": "https://www.lumibricks.com/products/graffiti-crew-19013",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/1200_ef6baa16-7ec0-48e9-b560-68bf9f8ab8b2.webp?v=1778666529",
+      "price": 33.44,
+      "from": 37.84
+    },
+    {
+      "t": "2026-07-14T11:36:59.329Z",
+      "source": "shopify",
+      "type": "PRICE_DROP",
+      "id": 8776890450156,
+      "title": "Graffiti Bus Stop",
+      "url": "https://www.lumibricks.com/products/graffiti-bus-stop-514pcs",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/1_773ade56-5df7-4d31-ace7-47016932674c.jpg?v=1737366191",
+      "price": 33.44,
+      "from": 38.72
+    },
+    {
+      "t": "2026-07-14T11:36:59.329Z",
+      "source": "shopify",
+      "type": "PRICE_DROP",
+      "id": 8838360432876,
+      "title": "Factory House of Music",
+      "url": "https://www.lumibricks.com/products/factory-house-of-music-265pcs-f9068",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/Factory_House_of_Music_2654pcs_F9068_1.jpg?v=1757400114",
+      "price": 145.2,
+      "from": 149.6
+    },
+    {
+      "t": "2026-07-14T11:36:59.329Z",
+      "source": "shopify",
+      "type": "PRICE_DROP",
+      "id": 8732444786924,
+      "title": "Chili Dog Trailer",
+      "url": "https://www.lumibricks.com/products/chili-dog-trailer-515pcs-v2-0",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/1_0cc85d2f-da41-4be6-a972-178fca464561.jpg?v=1737612849",
+      "price": 29.92,
+      "from": 37.84
+    },
+    {
+      "t": "2026-07-14T11:36:59.329Z",
+      "source": "shopify",
+      "type": "PRICE_DROP",
+      "id": 8768580944108,
+      "title": "Bee Farm",
+      "url": "https://www.lumibricks.com/products/bee-farm-1274pcs",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/1_46c7da05-14db-4a44-b67b-602ebd4dd6a0.jpg?v=1736475827",
+      "price": 61.6,
+      "from": 66
+    },
     {
       "t": "2026-07-14T09:09:40.817Z",
       "source": "shopify",
@@ -5577,71 +5665,6 @@
       "compareAt": 119.99,
       "discountPct": 10,
       "promo": "Aurora Cabin & Spa Cabin"
-    },
-    {
-      "t": "2026-06-14T18:18:51.284Z",
-      "source": "shopify",
-      "type": "SALE_START",
-      "id": 8702752784620,
-      "title": "Apartment",
-      "url": "https://www.lumibricks.com/products/apartment-2507pcs",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/F9042.jpg?v=1779873280",
-      "price": 152.99,
-      "compareAt": 169.99,
-      "discountPct": 10,
-      "promo": "Apartment & Izakaya"
-    },
-    {
-      "t": "2026-06-14T18:18:51.284Z",
-      "source": "shopify",
-      "type": "SALE_START",
-      "id": 8571602239724,
-      "title": "Antique Store",
-      "url": "https://www.lumibricks.com/products/antique-store-antique-co",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/1_bcbd6029-a8bc-4529-ba90-20b2f70137f1.jpg?v=1721296842",
-      "price": 144,
-      "compareAt": 159.99,
-      "discountPct": 10,
-      "promo": "FATHERS_DAY10"
-    },
-    {
-      "t": "2026-06-14T18:18:51.284Z",
-      "source": "shopify",
-      "type": "SALE_START",
-      "id": 8984717361388,
-      "title": "Alpine Observatory",
-      "url": "https://www.lumibricks.com/products/alpine-observatory-l9091",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/alpine_observatory_l9091_1.jpg?v=1756707352",
-      "price": 121.5,
-      "compareAt": 134.99,
-      "discountPct": 10,
-      "promo": "FATHERS_DAY10"
-    },
-    {
-      "t": "2026-06-14T18:18:51.284Z",
-      "source": "shopify",
-      "type": "SALE_START",
-      "id": 9041053221100,
-      "title": "Alien Frontier: Bounty Hub",
-      "url": "https://www.lumibricks.com/products/alien-frontier-bounty-hub",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/alien_frontier_bounty_hub_20007_1.jpg?v=1763446400",
-      "price": 126,
-      "compareAt": 139.99,
-      "discountPct": 10,
-      "promo": "FATHERS_DAY10"
-    },
-    {
-      "t": "2026-06-14T18:18:51.284Z",
-      "source": "shopify",
-      "type": "SALE_START",
-      "id": 9027576955116,
-      "title": "Alchemist's Moving Castle",
-      "url": "https://www.lumibricks.com/products/alchemists-moving-castle-11010",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/alchemist_s_moving_castle_L9103_1.jpg?v=1762323713",
-      "price": 131.4,
-      "compareAt": 145.99,
-      "discountPct": 10,
-      "promo": "FATHERS_DAY10"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-14T11:36:59.329Z",
+  "generatedAt": "2026-07-15T09:15:00.335Z",
   "store": "https://www.lumibricks.com",
   "totals": {
     "products": 125,
@@ -57,6 +57,24 @@
       "promo": "BESTDEAL15",
       "available": true,
       "lowestEver": 120,
+      "atLowestEver": false,
+      "saleSince": "2026-06-14T18:18:51.284Z",
+      "firstSeen": "2026-06-14T16:21:48.924Z"
+    },
+    {
+      "id": 9041051123948,
+      "title": "Sunrise Lighthouse",
+      "handle": "sunrise-lighthouse-18007",
+      "url": "https://www.lumibricks.com/products/sunrise-lighthouse-18007",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/1_9719b815-7119-4c7a-b003-b4ed9be0c6d2.webp?v=1781263333",
+      "productType": "Road Trip",
+      "price": 72.25,
+      "compareAt": 84.99,
+      "onSale": true,
+      "discountPct": 15,
+      "promo": "BESTDEAL15",
+      "available": true,
+      "lowestEver": 68,
       "atLowestEver": false,
       "saleSince": "2026-06-14T18:18:51.284Z",
       "firstSeen": "2026-06-14T16:21:48.924Z"
@@ -867,24 +885,6 @@
       "promo": "FIRSTORDER12",
       "available": true,
       "lowestEver": 84,
-      "atLowestEver": false,
-      "saleSince": "2026-06-14T18:18:51.284Z",
-      "firstSeen": "2026-06-14T16:21:48.924Z"
-    },
-    {
-      "id": 9041051123948,
-      "title": "Sunrise Lighthouse",
-      "handle": "sunrise-lighthouse-18007",
-      "url": "https://www.lumibricks.com/products/sunrise-lighthouse-18007",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/1_9719b815-7119-4c7a-b003-b4ed9be0c6d2.webp?v=1781263333",
-      "productType": "Road Trip",
-      "price": 74.8,
-      "compareAt": 84.99,
-      "onSale": true,
-      "discountPct": 12,
-      "promo": "FIRSTORDER12",
-      "available": true,
-      "lowestEver": 68,
       "atLowestEver": false,
       "saleSince": "2026-06-14T18:18:51.284Z",
       "firstSeen": "2026-06-14T16:21:48.924Z"

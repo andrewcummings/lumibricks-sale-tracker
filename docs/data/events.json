@@ -1,6 +1,17 @@
 {
-  "generatedAt": "2026-07-15T07:38:45.958Z",
+  "generatedAt": "2026-07-15T09:15:00.335Z",
   "events": [
+    {
+      "t": "2026-07-15T09:15:00.335Z",
+      "source": "shopify",
+      "type": "PRICE_DROP",
+      "id": 9041051123948,
+      "title": "Sunrise Lighthouse",
+      "url": "https://www.lumibricks.com/products/sunrise-lighthouse-18007",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/1_9719b815-7119-4c7a-b003-b4ed9be0c6d2.webp?v=1781263333",
+      "price": 72.25,
+      "from": 74.8
+    },
     {
       "t": "2026-07-15T07:38:45.958Z",
       "source": "amazon",
@@ -5514,19 +5525,6 @@
       "compareAt": 104.99,
       "discountPct": 10,
       "promo": "Memory Magic Shop & Time Rift Library"
-    },
-    {
-      "t": "2026-06-14T18:18:51.284Z",
-      "source": "shopify",
-      "type": "SALE_START",
-      "id": 9097945776364,
-      "title": "Steampunk Mechanical Workshop",
-      "url": "https://www.lumibricks.com/products/steampunk-mechanical-workshop-11015",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/0_811f8422-84f0-42c2-beff-967bb9c9e23b.webp?v=1781264255",
-      "price": 99,
-      "compareAt": 109.99,
-      "discountPct": 10,
-      "promo": "FATHERS_DAY10"
     }
   ]
 }

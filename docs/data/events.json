@@ -1,6 +1,22 @@
 {
-  "generatedAt": "2026-07-15T09:15:00.335Z",
+  "generatedAt": "2026-07-16T09:20:22.954Z",
   "events": [
+    {
+      "t": "2026-07-16T09:20:22.954Z",
+      "type": "REMOVED",
+      "id": 8808104657132,
+      "title": "Steampunk Motorcycle Pursuit",
+      "url": "https://www.lumibricks.com/products/steampunk-motorcycle-pursuit-424pcs",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/Steampunk_Motorcycle_Pursuit_F9067_1.jpg?v=1757389768"
+    },
+    {
+      "t": "2026-07-16T09:20:22.954Z",
+      "type": "REMOVED",
+      "id": 8392497299692,
+      "title": "Carpentry Van",
+      "url": "https://www.lumibricks.com/products/carpentry-van",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/1_8addfb95-62e8-405b-a879-5c261289600d.jpg?v=1714016594"
+    },
     {
       "t": "2026-07-15T09:15:00.335Z",
       "source": "shopify",
@@ -5499,32 +5515,6 @@
       "compareAt": 139.99,
       "discountPct": 10,
       "promo": "FATHERS_DAY10"
-    },
-    {
-      "t": "2026-06-14T18:18:51.284Z",
-      "source": "shopify",
-      "type": "SALE_START",
-      "id": 8808104657132,
-      "title": "Steampunk Motorcycle Pursuit",
-      "url": "https://www.lumibricks.com/products/steampunk-motorcycle-pursuit-424pcs",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/Steampunk_Motorcycle_Pursuit_F9067_1.jpg?v=1757389768",
-      "price": 27,
-      "compareAt": 29.99,
-      "discountPct": 10,
-      "promo": "FATHERS_DAY10"
-    },
-    {
-      "t": "2026-06-14T18:18:51.284Z",
-      "source": "shopify",
-      "type": "SALE_START",
-      "id": 9074916917484,
-      "title": "Steampunk Memory Magic Shop",
-      "url": "https://www.lumibricks.com/products/steampunk-memory-magic-shop-11013",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/steampunk_memory_magic_shop_11013_1.png?v=1764302062",
-      "price": 94.49,
-      "compareAt": 104.99,
-      "discountPct": 10,
-      "promo": "Memory Magic Shop & Time Rift Library"
     }
   ]
 }

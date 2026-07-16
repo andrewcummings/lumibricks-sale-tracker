@@ -1,30 +1,12 @@
 {
-  "generatedAt": "2026-07-15T09:15:00.335Z",
+  "generatedAt": "2026-07-16T09:20:22.954Z",
   "store": "https://www.lumibricks.com",
   "totals": {
-    "products": 125,
-    "onSale": 114,
-    "maxDiscountPct": 20
+    "products": 123,
+    "onSale": 112,
+    "maxDiscountPct": 15
   },
   "products": [
-    {
-      "id": 8392497299692,
-      "title": "Carpentry Van",
-      "handle": "carpentry-van",
-      "url": "https://www.lumibricks.com/products/carpentry-van",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/1_8addfb95-62e8-405b-a879-5c261289600d.jpg?v=1714016594",
-      "productType": "Farm Life",
-      "price": 29.6,
-      "compareAt": 36.99,
-      "onSale": true,
-      "discountPct": 20,
-      "promo": "SUMMERSALE20",
-      "available": false,
-      "lowestEver": 29.6,
-      "atLowestEver": true,
-      "saleSince": "2026-06-24T05:28:41.705Z",
-      "firstSeen": "2026-06-24T05:28:41.705Z"
-    },
     {
       "id": 9089909588204,
       "title": "Cyber Couture Galleria",
@@ -1550,24 +1532,6 @@
       "discountPct": 12,
       "promo": "FIRSTORDER12",
       "available": true,
-      "lowestEver": 24,
-      "atLowestEver": false,
-      "saleSince": "2026-06-14T18:18:51.284Z",
-      "firstSeen": "2026-06-14T16:21:48.924Z"
-    },
-    {
-      "id": 8808104657132,
-      "title": "Steampunk Motorcycle Pursuit",
-      "handle": "steampunk-motorcycle-pursuit-424pcs",
-      "url": "https://www.lumibricks.com/products/steampunk-motorcycle-pursuit-424pcs",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/Steampunk_Motorcycle_Pursuit_F9067_1.jpg?v=1757389768",
-      "productType": "Steampunk World",
-      "price": 26.4,
-      "compareAt": 29.99,
-      "onSale": true,
-      "discountPct": 12,
-      "promo": "FIRSTORDER12",
-      "available": false,
       "lowestEver": 24,
       "atLowestEver": false,
       "saleSince": "2026-06-14T18:18:51.284Z",

@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-07-16T09:20:22.954Z",
+  "generatedAt": "2026-07-17T04:12:39.507Z",
   "store": "https://www.lumibricks.com",
   "totals": {
-    "products": 123,
-    "onSale": 112,
+    "products": 124,
+    "onSale": 113,
     "maxDiscountPct": 15
   },
   "products": [
@@ -276,6 +276,24 @@
       "atLowestEver": false,
       "saleSince": "2026-06-14T18:18:51.284Z",
       "firstSeen": "2026-06-14T16:21:48.924Z"
+    },
+    {
+      "id": 9266091589868,
+      "title": "Film Studio Tower",
+      "handle": "film-studio-tower-19015",
+      "url": "https://www.lumibricks.com/products/film-studio-tower-19015",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/1_73037f31-af61-4913-b9a3-e1b1deffea63.webp?v=1784103335",
+      "productType": "Street Fusion",
+      "price": 176,
+      "compareAt": 199.99,
+      "onSale": true,
+      "discountPct": 12,
+      "promo": "FIRSTORDER12",
+      "available": true,
+      "lowestEver": 176,
+      "atLowestEver": false,
+      "saleSince": "2026-07-17T04:12:39.507Z",
+      "firstSeen": "2026-07-17T04:12:39.507Z"
     },
     {
       "id": 9246451433708,

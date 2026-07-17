@@ -1,6 +1,30 @@
 {
-  "generatedAt": "2026-07-16T09:20:22.954Z",
+  "generatedAt": "2026-07-17T04:12:39.507Z",
   "events": [
+    {
+      "t": "2026-07-17T04:12:39.507Z",
+      "source": "shopify",
+      "type": "NEW_PRODUCT",
+      "id": 9266091589868,
+      "title": "Film Studio Tower",
+      "url": "https://www.lumibricks.com/products/film-studio-tower-19015",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/1_73037f31-af61-4913-b9a3-e1b1deffea63.webp?v=1784103335",
+      "price": 176,
+      "available": true
+    },
+    {
+      "t": "2026-07-17T04:12:39.507Z",
+      "source": "shopify",
+      "type": "SALE_START",
+      "id": 9266091589868,
+      "title": "Film Studio Tower",
+      "url": "https://www.lumibricks.com/products/film-studio-tower-19015",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/1_73037f31-af61-4913-b9a3-e1b1deffea63.webp?v=1784103335",
+      "price": 176,
+      "compareAt": 199.99,
+      "discountPct": 12,
+      "promo": "FIRSTORDER12"
+    },
     {
       "t": "2026-07-16T09:20:22.954Z",
       "type": "REMOVED",
@@ -5487,32 +5511,6 @@
       "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/products/steampunk-train-station-funwhole-f9007.jpg?v=1678090501",
       "price": 112.5,
       "compareAt": 124.99,
-      "discountPct": 10,
-      "promo": "FATHERS_DAY10"
-    },
-    {
-      "t": "2026-06-14T18:18:51.284Z",
-      "source": "shopify",
-      "type": "SALE_START",
-      "id": 9027581280492,
-      "title": "Steampunk Time Rift Library",
-      "url": "https://www.lumibricks.com/products/steampunk-time-rift-library-11012",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/steampunk_time_rift_library_11012_1.jpg?v=1763635453",
-      "price": 134.99,
-      "compareAt": 149.99,
-      "discountPct": 10,
-      "promo": "Memory Magic Shop & Time Rift Library"
-    },
-    {
-      "t": "2026-06-14T18:18:51.284Z",
-      "source": "shopify",
-      "type": "SALE_START",
-      "id": 9146343686380,
-      "title": "Steampunk Time Opera House",
-      "url": "https://www.lumibricks.com/products/steampunk-time-opera-house-11017",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/1200.webp?v=1774939696",
-      "price": 126,
-      "compareAt": 139.99,
       "discountPct": 10,
       "promo": "FATHERS_DAY10"
     }

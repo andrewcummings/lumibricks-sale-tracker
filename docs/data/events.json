@@ -1,6 +1,39 @@
 {
-  "generatedAt": "2026-07-19T09:08:39.763Z",
+  "generatedAt": "2026-07-19T22:03:35.151Z",
   "events": [
+    {
+      "t": "2026-07-19T22:03:35.151Z",
+      "source": "shopify",
+      "type": "PRICE_RISE",
+      "id": 9041051123948,
+      "title": "Sunrise Lighthouse",
+      "url": "https://www.lumibricks.com/products/sunrise-lighthouse-18007",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/1_9719b815-7119-4c7a-b003-b4ed9be0c6d2.webp?v=1781263333",
+      "price": 74.8,
+      "from": 72.25
+    },
+    {
+      "t": "2026-07-19T22:03:35.151Z",
+      "source": "shopify",
+      "type": "PRICE_RISE",
+      "id": 9089909588204,
+      "title": "Cyber Couture Galleria",
+      "url": "https://www.lumibricks.com/products/cyber-couture-galleria-17007",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/cyber_couture_galleria_17007_1.jpg?v=1767842210",
+      "price": 149.6,
+      "from": 144.5
+    },
+    {
+      "t": "2026-07-19T22:03:35.151Z",
+      "source": "shopify",
+      "type": "PRICE_RISE",
+      "id": 9074919735532,
+      "title": "Boxing Club",
+      "url": "https://www.lumibricks.com/products/boxing-club-19009",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/boxing_club_19009_1.jpg?v=1765277723",
+      "price": 132,
+      "from": 127.5
+    },
     {
       "t": "2026-07-19T09:08:39.763Z",
       "source": "shopify",
@@ -5462,45 +5495,6 @@
       "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/77ad065df0cdbabb08cf4475f046f61b.webp?v=1780630926",
       "price": 27,
       "compareAt": 29.99,
-      "discountPct": 10,
-      "promo": "FATHERS_DAY10"
-    },
-    {
-      "t": "2026-06-14T18:18:51.284Z",
-      "source": "shopify",
-      "type": "SALE_START",
-      "id": 9004353388780,
-      "title": "Toy Store",
-      "url": "https://www.lumibricks.com/products/toy-store-l9100",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/Lumibricks_Toy_Store_L9100_-_1.jpg?v=1758185348",
-      "price": 136,
-      "compareAt": 159.99,
-      "discountPct": 15,
-      "promo": "SPECIALOFF15"
-    },
-    {
-      "t": "2026-06-14T18:18:51.284Z",
-      "source": "shopify",
-      "type": "SALE_START",
-      "id": 8557541163244,
-      "title": "The Hen House",
-      "url": "https://www.lumibricks.com/products/the-hen-house",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/1_e8f58f76-a106-43fb-bc63-e0ab4fd35a6f.jpg?v=1719541298",
-      "price": 27,
-      "compareAt": 29.99,
-      "discountPct": 10,
-      "promo": "FATHERS_DAY10"
-    },
-    {
-      "t": "2026-06-14T18:18:51.284Z",
-      "source": "shopify",
-      "type": "SALE_START",
-      "id": 9027579347180,
-      "title": "Sylvan Inn",
-      "url": "https://www.lumibricks.com/products/sylvan-inn-20006",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/sylvan_inn_20006_1.jpg?v=1762845990",
-      "price": 144,
-      "compareAt": 159.99,
       "discountPct": 10,
       "promo": "FATHERS_DAY10"
     }

@@ -1,6 +1,15 @@
 {
-  "generatedAt": "2026-07-17T10:05:25.390Z",
+  "generatedAt": "2026-07-19T09:08:39.763Z",
   "events": [
+    {
+      "t": "2026-07-19T09:08:39.763Z",
+      "source": "shopify",
+      "type": "OUT_OF_STOCK",
+      "id": 8768580944108,
+      "title": "Bee Farm",
+      "url": "https://www.lumibricks.com/products/bee-farm-1274pcs",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/1_46c7da05-14db-4a44-b67b-602ebd4dd6a0.jpg?v=1736475827"
+    },
     {
       "t": "2026-07-17T10:05:25.390Z",
       "source": "shopify",
@@ -5492,19 +5501,6 @@
       "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/sylvan_inn_20006_1.jpg?v=1762845990",
       "price": 144,
       "compareAt": 159.99,
-      "discountPct": 10,
-      "promo": "FATHERS_DAY10"
-    },
-    {
-      "t": "2026-06-14T18:18:51.284Z",
-      "source": "shopify",
-      "type": "SALE_START",
-      "id": 9107108790508,
-      "title": "Surf Shop",
-      "url": "https://www.lumibricks.com/products/surf-shop-20004",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/surf_shop_20004_1.png?v=1768382413",
-      "price": 99,
-      "compareAt": 109.99,
       "discountPct": 10,
       "promo": "FATHERS_DAY10"
     }

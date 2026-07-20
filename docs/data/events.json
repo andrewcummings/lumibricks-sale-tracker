@@ -1,6 +1,39 @@
 {
-  "generatedAt": "2026-07-19T22:03:35.151Z",
+  "generatedAt": "2026-07-20T02:54:54.555Z",
   "events": [
+    {
+      "t": "2026-07-20T02:54:54.555Z",
+      "source": "shopify",
+      "type": "PRICE_DROP",
+      "id": 9041051123948,
+      "title": "Sunrise Lighthouse",
+      "url": "https://www.lumibricks.com/products/sunrise-lighthouse-18007",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/1_9719b815-7119-4c7a-b003-b4ed9be0c6d2.webp?v=1781263333",
+      "price": 72.25,
+      "from": 74.8
+    },
+    {
+      "t": "2026-07-20T02:54:54.555Z",
+      "source": "shopify",
+      "type": "PRICE_DROP",
+      "id": 9089909588204,
+      "title": "Cyber Couture Galleria",
+      "url": "https://www.lumibricks.com/products/cyber-couture-galleria-17007",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/cyber_couture_galleria_17007_1.jpg?v=1767842210",
+      "price": 144.5,
+      "from": 149.6
+    },
+    {
+      "t": "2026-07-20T02:54:54.555Z",
+      "source": "shopify",
+      "type": "PRICE_DROP",
+      "id": 9074919735532,
+      "title": "Boxing Club",
+      "url": "https://www.lumibricks.com/products/boxing-club-19009",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/boxing_club_19009_1.jpg?v=1765277723",
+      "price": 127.5,
+      "from": 132
+    },
     {
       "t": "2026-07-19T22:03:35.151Z",
       "source": "shopify",
@@ -5458,45 +5491,6 @@
       "compareAt": 44.99,
       "discountPct": 15,
       "promo": "SPECIALOFF15"
-    },
-    {
-      "t": "2026-06-14T18:18:51.284Z",
-      "source": "shopify",
-      "type": "SALE_START",
-      "id": 8989598351596,
-      "title": "Treasure Stagecoach",
-      "url": "https://www.lumibricks.com/products/treasure-stagecoach-l9099",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/lumibricks_treasure_stagecoach_l9099_1.jpg?v=1757389766",
-      "price": 21.6,
-      "compareAt": 23.99,
-      "discountPct": 10,
-      "promo": "FATHERS_DAY10"
-    },
-    {
-      "t": "2026-06-14T18:18:51.284Z",
-      "source": "shopify",
-      "type": "SALE_START",
-      "id": 8968391819500,
-      "title": "Traveling Circus",
-      "url": "https://www.lumibricks.com/products/traveling-circus-l9079",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/Lumibricks_Traveling_Circus_L9079_-_1.jpg?v=1757389767",
-      "price": 99,
-      "compareAt": 109.99,
-      "discountPct": 10,
-      "promo": "FATHERS_DAY10"
-    },
-    {
-      "t": "2026-06-14T18:18:51.284Z",
-      "source": "shopify",
-      "type": "SALE_START",
-      "id": 9233543069932,
-      "title": "Train Track Expansion Accessories",
-      "url": "https://www.lumibricks.com/products/train-track-expansion-accessories-15006n",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/77ad065df0cdbabb08cf4475f046f61b.webp?v=1780630926",
-      "price": 27,
-      "compareAt": 29.99,
-      "discountPct": 10,
-      "promo": "FATHERS_DAY10"
     }
   ]
 }

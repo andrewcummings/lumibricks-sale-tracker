@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-13T11:14:18.989Z",
+  "generatedAt": "2026-07-20T10:54:18.979Z",
   "map": {
     "7933167501548": {
       "title": "A-Frame Cabin",
@@ -908,6 +908,38 @@
       "status": "error",
       "error": "ScraperAPI HTTP 403: {\"message\":\"You have exhausted the API Credits available in this monthly cycle. You can upgrade your subscription or enable overages from your dashboard (https://dashboard.scraperapi.com/billing). For",
       "checkedAt": "2026-07-13T11:14:18.989Z"
+    },
+    "9266082087148": {
+      "title": "Neon Tech Tower",
+      "asin": "B0H1VTJ6GT",
+      "amazonTitle": "Lumibricks Cyberpunk Neon-Tech-Tower Lighting-Building -Bricks Set - 2227pcs Modular High-Tech Corporate Landmark Model for Adults, Sci-Fi Data Tower Kit for Desk Display, Creative Gift Toys",
+      "score": 1,
+      "status": "matched",
+      "checkedAt": "2026-07-20T10:54:18.979Z"
+    },
+    "9266077892844": {
+      "title": "Neon Tech Station",
+      "asin": "B0H1VXKF5M",
+      "amazonTitle": "LUMIBRICKS Cyberpunk Neon-Tech-Station Lighting-Building -Bricks Set - 1282pcs Vertical Tech Landmark Model for Adults, Modular Sci-Fi Data Center Kit for Desk Display, Creative Gift for Sci-fi Lovers",
+      "score": 1,
+      "status": "matched",
+      "checkedAt": "2026-07-20T10:54:18.979Z"
+    },
+    "9270269083884": {
+      "title": "Fortune Club Saloon",
+      "asin": "B0H1W7KW6M",
+      "amazonTitle": "Lumibricks Western Fortune-Club-Saloon Lighting Building Set, 2782 Pcs | Modular Old West Display Model, Interactive Pull-Open Building Toy for Adults and Collectors",
+      "score": 1,
+      "status": "matched",
+      "checkedAt": "2026-07-20T10:54:18.979Z"
+    },
+    "9266091589868": {
+      "title": "Film Studio Tower",
+      "asin": "B0H1VZFGPZ",
+      "amazonTitle": "Lumibricks Street-Fusion Film-Studio-Tower Lighting Building-Blocks Set - 3891pcs Modular New York Landmark City Model for Adults, 70cm High Movie Production Center - Home and Office Decor",
+      "score": 1,
+      "status": "matched",
+      "checkedAt": "2026-07-20T10:54:18.979Z"
     }
   }
 }

@@ -1,6 +1,30 @@
 {
-  "generatedAt": "2026-07-20T02:54:54.555Z",
+  "generatedAt": "2026-07-21T07:36:24.010Z",
   "events": [
+    {
+      "t": "2026-07-21T07:36:24.010Z",
+      "source": "shopify",
+      "type": "NEW_PRODUCT",
+      "id": 9266039914732,
+      "title": "K's Spinner",
+      "url": "https://www.lumibricks.com/products/k-s-spinner-23001",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/3_a4678f36-1a42-420d-b854-781d5e9e2f7d.webp?v=1784536444",
+      "price": 35.2,
+      "available": true
+    },
+    {
+      "t": "2026-07-21T07:36:24.010Z",
+      "source": "shopify",
+      "type": "SALE_START",
+      "id": 9266039914732,
+      "title": "K's Spinner",
+      "url": "https://www.lumibricks.com/products/k-s-spinner-23001",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/3_a4678f36-1a42-420d-b854-781d5e9e2f7d.webp?v=1784536444",
+      "price": 35.2,
+      "compareAt": 39.99,
+      "discountPct": 12,
+      "promo": "FIRSTORDER12"
+    },
     {
       "t": "2026-07-20T02:54:54.555Z",
       "source": "shopify",
@@ -5463,32 +5487,6 @@
       "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/1_42aa9a46-5d41-44ca-a317-01b14a3605d6.jpg?v=1757389768",
       "price": 25.5,
       "compareAt": 29.99,
-      "discountPct": 15,
-      "promo": "SPECIALOFF15"
-    },
-    {
-      "t": "2026-06-14T18:18:51.284Z",
-      "source": "shopify",
-      "type": "SALE_START",
-      "id": 8761014517996,
-      "title": "Twilight Motel",
-      "url": "https://www.lumibricks.com/products/twilight-motel-1970-pcs",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/1_18740fff-da92-4a1b-8f1c-c7a3acd7aa8a.jpg?v=1735781721",
-      "price": 108,
-      "compareAt": 119.99,
-      "discountPct": 10,
-      "promo": "FATHERS_DAY10"
-    },
-    {
-      "t": "2026-06-14T18:18:51.284Z",
-      "source": "shopify",
-      "type": "SALE_START",
-      "id": 8905343009004,
-      "title": "Turtle Reef Dream",
-      "url": "https://www.lumibricks.com/products/turtle-reef-dream-f9072",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/Lumibricks_Turtle_Reef_Dream_F9072_-_1.jpg?v=1757389767",
-      "price": 38.25,
-      "compareAt": 44.99,
       "discountPct": 15,
       "promo": "SPECIALOFF15"
     }

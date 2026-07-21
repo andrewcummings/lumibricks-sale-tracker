@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-07-20T02:54:54.555Z",
+  "generatedAt": "2026-07-21T07:36:24.010Z",
   "store": "https://www.lumibricks.com",
   "totals": {
-    "products": 127,
-    "onSale": 116,
+    "products": 128,
+    "onSale": 117,
     "maxDiscountPct": 15
   },
   "products": [
@@ -276,6 +276,24 @@
       "atLowestEver": false,
       "saleSince": "2026-06-14T18:18:51.284Z",
       "firstSeen": "2026-06-14T16:21:48.924Z"
+    },
+    {
+      "id": 9266039914732,
+      "title": "K's Spinner",
+      "handle": "k-s-spinner-23001",
+      "url": "https://www.lumibricks.com/products/k-s-spinner-23001",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/3_a4678f36-1a42-420d-b854-781d5e9e2f7d.webp?v=1784536444",
+      "productType": "Blade Runner 2049",
+      "price": 35.2,
+      "compareAt": 39.99,
+      "onSale": true,
+      "discountPct": 12,
+      "promo": "FIRSTORDER12",
+      "available": true,
+      "lowestEver": 35.2,
+      "atLowestEver": false,
+      "saleSince": "2026-07-21T07:36:24.010Z",
+      "firstSeen": "2026-07-21T07:36:24.010Z"
     },
     {
       "id": 9266082087148,

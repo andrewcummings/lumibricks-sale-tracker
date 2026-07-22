@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-21T07:36:24.010Z",
+  "generatedAt": "2026-07-22T09:31:37.801Z",
   "store": "https://www.lumibricks.com",
   "totals": {
     "products": 128,
@@ -7,6 +7,24 @@
     "maxDiscountPct": 15
   },
   "products": [
+    {
+      "id": 9210634567916,
+      "title": "Wild West Meeting Hall",
+      "handle": "wild-west-meeting-hall-14016",
+      "url": "https://www.lumibricks.com/products/wild-west-meeting-hall-14016",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/7aa9b238bc765e6ac8641e694ffbd757_0e8a43a8-dae0-48f8-a0dc-623e17ab9c95.webp?v=1778675170",
+      "productType": "The Old West",
+      "price": 110.5,
+      "compareAt": 129.99,
+      "onSale": true,
+      "discountPct": 15,
+      "promo": "BESTDEAL15",
+      "available": true,
+      "lowestEver": 104,
+      "atLowestEver": false,
+      "saleSince": "2026-06-14T18:18:51.284Z",
+      "firstSeen": "2026-06-14T16:21:48.924Z"
+    },
     {
       "id": 9089909588204,
       "title": "Cyber Couture Galleria",
@@ -57,24 +75,6 @@
       "promo": "BESTDEAL15",
       "available": true,
       "lowestEver": 68,
-      "atLowestEver": false,
-      "saleSince": "2026-06-14T18:18:51.284Z",
-      "firstSeen": "2026-06-14T16:21:48.924Z"
-    },
-    {
-      "id": 9041065279724,
-      "title": "Western Bank Heist",
-      "handle": "western-bank-heist-14013",
-      "url": "https://www.lumibricks.com/products/western-bank-heist-14013",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/western_bank_heist_l9097_1.jpg?v=1762396078",
-      "productType": "The Old West",
-      "price": 127.5,
-      "compareAt": 149.99,
-      "onSale": true,
-      "discountPct": 15,
-      "promo": "BESTDEAL15",
-      "available": true,
-      "lowestEver": 120,
       "atLowestEver": false,
       "saleSince": "2026-06-14T18:18:51.284Z",
       "firstSeen": "2026-06-14T16:21:48.924Z"
@@ -566,24 +566,6 @@
       "firstSeen": "2026-06-14T16:21:48.924Z"
     },
     {
-      "id": 9210634567916,
-      "title": "Wild West Meeting Hall",
-      "handle": "wild-west-meeting-hall-14016",
-      "url": "https://www.lumibricks.com/products/wild-west-meeting-hall-14016",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/7aa9b238bc765e6ac8641e694ffbd757_0e8a43a8-dae0-48f8-a0dc-623e17ab9c95.webp?v=1778675170",
-      "productType": "The Old West",
-      "price": 114.4,
-      "compareAt": 129.99,
-      "onSale": true,
-      "discountPct": 12,
-      "promo": "FIRSTORDER12",
-      "available": true,
-      "lowestEver": 104,
-      "atLowestEver": false,
-      "saleSince": "2026-06-14T18:18:51.284Z",
-      "firstSeen": "2026-06-14T16:21:48.924Z"
-    },
-    {
       "id": 9210633224428,
       "title": "Cleaning Squad",
       "handle": "cleaning-squad-19014",
@@ -1065,6 +1047,24 @@
       "promo": "FIRSTORDER12",
       "available": true,
       "lowestEver": 128,
+      "atLowestEver": false,
+      "saleSince": "2026-06-14T18:18:51.284Z",
+      "firstSeen": "2026-06-14T16:21:48.924Z"
+    },
+    {
+      "id": 9041065279724,
+      "title": "Western Bank Heist",
+      "handle": "western-bank-heist-14013",
+      "url": "https://www.lumibricks.com/products/western-bank-heist-14013",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/western_bank_heist_l9097_1.jpg?v=1762396078",
+      "productType": "The Old West",
+      "price": 132,
+      "compareAt": 149.99,
+      "onSale": true,
+      "discountPct": 12,
+      "promo": "FIRSTORDER12",
+      "available": true,
+      "lowestEver": 120,
       "atLowestEver": false,
       "saleSince": "2026-06-14T18:18:51.284Z",
       "firstSeen": "2026-06-14T16:21:48.924Z"

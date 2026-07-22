@@ -1,6 +1,28 @@
 {
-  "generatedAt": "2026-07-21T07:36:24.010Z",
+  "generatedAt": "2026-07-22T09:31:37.801Z",
   "events": [
+    {
+      "t": "2026-07-22T09:31:37.801Z",
+      "source": "shopify",
+      "type": "PRICE_DROP",
+      "id": 9210634567916,
+      "title": "Wild West Meeting Hall",
+      "url": "https://www.lumibricks.com/products/wild-west-meeting-hall-14016",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/7aa9b238bc765e6ac8641e694ffbd757_0e8a43a8-dae0-48f8-a0dc-623e17ab9c95.webp?v=1778675170",
+      "price": 110.5,
+      "from": 114.4
+    },
+    {
+      "t": "2026-07-22T09:31:37.801Z",
+      "source": "shopify",
+      "type": "PRICE_RISE",
+      "id": 9041065279724,
+      "title": "Western Bank Heist",
+      "url": "https://www.lumibricks.com/products/western-bank-heist-14013",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/western_bank_heist_l9097_1.jpg?v=1762396078",
+      "price": 132,
+      "from": 127.5
+    },
     {
       "t": "2026-07-21T07:36:24.010Z",
       "source": "shopify",
@@ -5463,32 +5485,6 @@
       "compareAt": 119.99,
       "discountPct": 10,
       "promo": "FATHERS_DAY10"
-    },
-    {
-      "t": "2026-06-14T18:18:51.284Z",
-      "source": "shopify",
-      "type": "SALE_START",
-      "id": 8986609090796,
-      "title": "Vineyard Estate",
-      "url": "https://www.lumibricks.com/products/vineyard-estate-l9086",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/Lumibricks_vineyard_estate_l9086_1.jpg?v=1757389766",
-      "price": 126,
-      "compareAt": 139.99,
-      "discountPct": 10,
-      "promo": "FATHERS_DAY10"
-    },
-    {
-      "t": "2026-06-14T18:18:51.284Z",
-      "source": "shopify",
-      "type": "SALE_START",
-      "id": 8826947895532,
-      "title": "Underground Dance Battle",
-      "url": "https://www.lumibricks.com/products/underground-dance-battle-429pcs-f9069",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/1_42aa9a46-5d41-44ca-a317-01b14a3605d6.jpg?v=1757389768",
-      "price": 25.5,
-      "compareAt": 29.99,
-      "discountPct": 15,
-      "promo": "SPECIALOFF15"
     }
   ]
 }

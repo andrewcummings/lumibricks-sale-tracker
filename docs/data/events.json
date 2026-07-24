@@ -1,6 +1,28 @@
 {
-  "generatedAt": "2026-07-22T09:31:37.801Z",
+  "generatedAt": "2026-07-24T11:46:54.171Z",
   "events": [
+    {
+      "t": "2026-07-24T11:46:54.171Z",
+      "source": "shopify",
+      "type": "PRICE_DROP",
+      "id": 9199088697580,
+      "title": "Ranger Camp",
+      "url": "https://www.lumibricks.com/products/ranger-camp-12014",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/7aa9b238bc765e6ac8641e694ffbd757.webp?v=1777545603",
+      "price": 29.75,
+      "from": 30.8
+    },
+    {
+      "t": "2026-07-24T11:46:54.171Z",
+      "source": "shopify",
+      "type": "PRICE_RISE",
+      "id": 8984028610796,
+      "title": "Castle Banquet Hall",
+      "url": "https://www.lumibricks.com/products/castle-banquet-hall-l9071",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/Lumibricks_castle_banquet_hall_l9071_1.jpg?v=1757400157",
+      "price": 149.6,
+      "from": 144.5
+    },
     {
       "t": "2026-07-22T09:31:37.801Z",
       "source": "shopify",
@@ -5457,32 +5479,6 @@
       "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/western_bank_heist_l9097_1.jpg?v=1762396078",
       "price": 135,
       "compareAt": 149.99,
-      "discountPct": 10,
-      "promo": "FATHERS_DAY10"
-    },
-    {
-      "t": "2026-06-14T18:18:51.284Z",
-      "source": "shopify",
-      "type": "SALE_START",
-      "id": 8666696483052,
-      "title": "West Train Station",
-      "url": "https://www.lumibricks.com/products/west-train-station-1974pcs",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/1_8aaba47f-921c-427b-b31b-74818620bb1e.webp?v=1781262821",
-      "price": 90,
-      "compareAt": 99.99,
-      "discountPct": 10,
-      "promo": "FATHERS_DAY10"
-    },
-    {
-      "t": "2026-06-14T18:18:51.284Z",
-      "source": "shopify",
-      "type": "SALE_START",
-      "id": 8966977978604,
-      "title": "Waterfall Cabin",
-      "url": "https://www.lumibricks.com/products/waterfall-cabin-l9083",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/Lumibricks_Waterfall_Cabin_L9083_1.jpg?v=1757389767",
-      "price": 108,
-      "compareAt": 119.99,
       "discountPct": 10,
       "promo": "FATHERS_DAY10"
     }

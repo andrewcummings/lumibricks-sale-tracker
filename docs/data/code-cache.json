@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-22T09:31:37.801Z",
+  "generatedAt": "2026-07-24T11:46:54.171Z",
   "codes": {
     "BESTDEAL15": {
       "status": "manual",
@@ -280,8 +280,8 @@
     },
     "8984028610796": {
       "original": 169.99,
-      "final": 144.5,
-      "code": "BESTDEAL15"
+      "final": 149.6,
+      "code": "FIRSTORDER12"
     },
     "8984717361388": {
       "original": 134.99,
@@ -505,8 +505,8 @@
     },
     "9199088697580": {
       "original": 34.99,
-      "final": 30.8,
-      "code": "FIRSTORDER12"
+      "final": 29.75,
+      "code": "BESTDEAL15"
     },
     "9199088926956": {
       "original": 69.99,

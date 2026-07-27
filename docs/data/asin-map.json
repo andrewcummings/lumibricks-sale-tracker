@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-20T10:54:18.979Z",
+  "generatedAt": "2026-07-27T11:26:14.165Z",
   "map": {
     "7933167501548": {
       "title": "A-Frame Cabin",
@@ -940,6 +940,14 @@
       "score": 1,
       "status": "matched",
       "checkedAt": "2026-07-20T10:54:18.979Z"
+    },
+    "9266039914732": {
+      "title": "K's Spinner",
+      "asin": "B0H1RLLJ7Y",
+      "amazonTitle": "Lumibricks Blade Runner 2049 K's Spinner Lighting Building Set, 410 PCS | Sci-Fi Police Car Model for Adults, Movie-Inspired Modular Kit with K Minifigure, Valuable Collection for Sci-fi Lovers",
+      "score": 1,
+      "status": "matched",
+      "checkedAt": "2026-07-27T11:26:14.165Z"
     }
   }
 }

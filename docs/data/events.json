@@ -1,6 +1,15 @@
 {
-  "generatedAt": "2026-07-24T11:46:54.171Z",
+  "generatedAt": "2026-07-27T04:42:11.090Z",
   "events": [
+    {
+      "t": "2026-07-27T04:42:11.090Z",
+      "source": "shopify",
+      "type": "OUT_OF_STOCK",
+      "id": 9266039914732,
+      "title": "K's Spinner",
+      "url": "https://www.lumibricks.com/products/k-s-spinner-23001",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/3_a4678f36-1a42-420d-b854-781d5e9e2f7d.webp?v=1784536444"
+    },
     {
       "t": "2026-07-24T11:46:54.171Z",
       "source": "shopify",
@@ -5468,19 +5477,6 @@
       "compareAt": 99.99,
       "discountPct": 10,
       "promo": "Wild West Meeting Hall & Western Carpentry Workshop"
-    },
-    {
-      "t": "2026-06-14T18:18:51.284Z",
-      "source": "shopify",
-      "type": "SALE_START",
-      "id": 9041065279724,
-      "title": "Western Bank Heist",
-      "url": "https://www.lumibricks.com/products/western-bank-heist-14013",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/western_bank_heist_l9097_1.jpg?v=1762396078",
-      "price": 135,
-      "compareAt": 149.99,
-      "discountPct": 10,
-      "promo": "FATHERS_DAY10"
     }
   ]
 }

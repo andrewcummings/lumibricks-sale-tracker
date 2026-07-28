@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-07-28T06:33:11.555Z",
+  "generatedAt": "2026-07-28T09:39:58.517Z",
   "store": "https://www.lumibricks.com",
   "totals": {
-    "products": 128,
+    "products": 129,
     "onSale": 117,
     "maxDiscountPct": 15
   },
@@ -2133,7 +2133,7 @@
     },
     {
       "id": 8976834101484,
-      "title": "1x3 USB connector 45cm (Not for Sale – Points Only)",
+      "title": "1x3 USB connector 45cm-Not for Sale, points redemption only",
       "handle": "1x3-usb-connector",
       "url": "https://www.lumibricks.com/products/1x3-usb-connector",
       "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/1x3_USB_connector_LLA03.jpg?v=1757389767",
@@ -2148,6 +2148,24 @@
       "atLowestEver": true,
       "saleSince": null,
       "firstSeen": "2026-06-14T16:21:48.924Z"
+    },
+    {
+      "id": 9313415233772,
+      "title": "5-Pack Minifigure Blind Box-Not for sale, points redemption only",
+      "handle": "5-pack-minifigure-blind-box",
+      "url": "https://www.lumibricks.com/products/5-pack-minifigure-blind-box",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/f928b4c31d18971670fa660b382297d7.webp?v=1784201702",
+      "productType": "",
+      "price": 19.99,
+      "compareAt": null,
+      "onSale": false,
+      "discountPct": 0,
+      "promo": null,
+      "available": true,
+      "lowestEver": 19.99,
+      "atLowestEver": false,
+      "saleSince": null,
+      "firstSeen": "2026-07-28T09:39:58.517Z"
     },
     {
       "id": 8739355197676,
@@ -2259,7 +2277,7 @@
     },
     {
       "id": 9275110719724,
-      "title": "Streetball Tour Bus - For Points Redemption, Free Shipping (excl. VAT for EU)",
+      "title": "Streetball Tour Bus-For Points Redemption, Free Shipping",
       "handle": "streetball-tour-bus-for-points-redemption",
       "url": "https://www.lumibricks.com/products/streetball-tour-bus-for-points-redemption",
       "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/streetball_tour_bus_19010_1.jpg?v=1769492779",
@@ -2295,7 +2313,7 @@
     },
     {
       "id": 9275120320748,
-      "title": "Underground Dance Battle - For Points Redemption, Free Shipping (excl. VAT for EU)",
+      "title": "Underground Dance Battle-For Points Redemption, Free Shipping",
       "handle": "underground-dance-battle-for-points-redemption-free-shipping-excl-vat-for-eu",
       "url": "https://www.lumibricks.com/products/underground-dance-battle-for-points-redemption-free-shipping-excl-vat-for-eu",
       "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/1_42aa9a46-5d41-44ca-a317-01b14a3605d6.jpg?v=1757389768",

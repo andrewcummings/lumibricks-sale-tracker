@@ -1,6 +1,17 @@
 {
-  "generatedAt": "2026-07-28T06:33:11.555Z",
+  "generatedAt": "2026-07-28T09:39:58.517Z",
   "events": [
+    {
+      "t": "2026-07-28T09:39:58.517Z",
+      "source": "shopify",
+      "type": "NEW_PRODUCT",
+      "id": 9313415233772,
+      "title": "5-Pack Minifigure Blind Box-Not for sale, points redemption only",
+      "url": "https://www.lumibricks.com/products/5-pack-minifigure-blind-box",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/f928b4c31d18971670fa660b382297d7.webp?v=1784201702",
+      "price": 19.99,
+      "available": true
+    },
     {
       "t": "2026-07-28T06:33:11.555Z",
       "source": "shopify",
@@ -5458,19 +5469,6 @@
       "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/1-1_2cd6c5d5-b84e-4355-99f5-40a0f60abeac.jpg?v=1767696107",
       "price": 89.99,
       "compareAt": 99.99,
-      "discountPct": 10,
-      "promo": "Western Saloon & Western Freight Train"
-    },
-    {
-      "t": "2026-06-14T18:18:51.284Z",
-      "source": "shopify",
-      "type": "SALE_START",
-      "id": 8635832565996,
-      "title": "Western Freight Train",
-      "url": "https://www.lumibricks.com/products/western-freight-train-1524pcs",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/1_f658e8ef-8ce4-43d6-afbe-e3aa306f6685.jpg?v=1724738720",
-      "price": 80.99,
-      "compareAt": 89.99,
       "discountPct": 10,
       "promo": "Western Saloon & Western Freight Train"
     }

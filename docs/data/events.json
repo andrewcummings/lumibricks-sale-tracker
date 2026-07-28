@@ -1,6 +1,15 @@
 {
-  "generatedAt": "2026-07-27T04:42:11.090Z",
+  "generatedAt": "2026-07-28T06:33:11.555Z",
   "events": [
+    {
+      "t": "2026-07-28T06:33:11.555Z",
+      "source": "shopify",
+      "type": "RESTOCK",
+      "id": 8976834101484,
+      "title": "1x3 USB connector 45cm (Not for Sale – Points Only)",
+      "url": "https://www.lumibricks.com/products/1x3-usb-connector",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/1x3_USB_connector_LLA03.jpg?v=1757389767"
+    },
     {
       "t": "2026-07-27T04:42:11.090Z",
       "source": "shopify",
@@ -5464,19 +5473,6 @@
       "compareAt": 89.99,
       "discountPct": 10,
       "promo": "Western Saloon & Western Freight Train"
-    },
-    {
-      "t": "2026-06-14T18:18:51.284Z",
-      "source": "shopify",
-      "type": "SALE_START",
-      "id": 9132934070508,
-      "title": "Western Carpentry Workshop",
-      "url": "https://www.lumibricks.com/products/western-carpentry-workshop-14015",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/14015.jpg?v=1773307789",
-      "price": 90,
-      "compareAt": 99.99,
-      "discountPct": 10,
-      "promo": "Wild West Meeting Hall & Western Carpentry Workshop"
     }
   ]
 }

@@ -1,6 +1,15 @@
 {
-  "generatedAt": "2026-07-28T09:39:58.517Z",
+  "generatedAt": "2026-07-30T11:14:28.834Z",
   "events": [
+    {
+      "t": "2026-07-30T11:14:28.834Z",
+      "source": "shopify",
+      "type": "OUT_OF_STOCK",
+      "id": 8980607959276,
+      "title": "Town Road Baseboard (Straight)- Not for sale, points redemption only",
+      "url": "https://www.lumibricks.com/products/town-road-baseboard-straight",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/Town_Road_Baseboard_Straight.jpg?v=1754291928"
+    },
     {
       "t": "2026-07-28T09:39:58.517Z",
       "source": "shopify",
@@ -5458,19 +5467,6 @@
       "compareAt": 23.99,
       "discountPct": 10,
       "promo": "FATHERS_DAY10"
-    },
-    {
-      "t": "2026-06-14T18:18:51.284Z",
-      "source": "shopify",
-      "type": "SALE_START",
-      "id": 8073892102380,
-      "title": "Western Saloon",
-      "url": "https://www.lumibricks.com/products/western-saloon",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/1-1_2cd6c5d5-b84e-4355-99f5-40a0f60abeac.jpg?v=1767696107",
-      "price": 89.99,
-      "compareAt": 99.99,
-      "discountPct": 10,
-      "promo": "Western Saloon & Western Freight Train"
     }
   ]
 }

@@ -1,6 +1,24 @@
 {
-  "generatedAt": "2026-07-30T11:14:28.834Z",
+  "generatedAt": "2026-07-31T10:47:32.129Z",
   "events": [
+    {
+      "t": "2026-07-31T10:47:32.129Z",
+      "source": "shopify",
+      "type": "RESTOCK",
+      "id": 8774298861804,
+      "title": "Home Greenhouse",
+      "url": "https://www.lumibricks.com/products/home-greenhouse-1428pcs",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/img_v3_02lc_56d2aadf-698f-4ff0-acf5-89b806597f4g.jpg?v=1744714174"
+    },
+    {
+      "t": "2026-07-31T10:47:32.129Z",
+      "source": "shopify",
+      "type": "RESTOCK",
+      "id": 8768580944108,
+      "title": "Bee Farm",
+      "url": "https://www.lumibricks.com/products/bee-farm-1274pcs",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/1_46c7da05-14db-4a44-b67b-602ebd4dd6a0.jpg?v=1736475827"
+    },
     {
       "t": "2026-07-30T11:14:28.834Z",
       "source": "shopify",
@@ -5441,32 +5459,6 @@
       "compareAt": 129.99,
       "discountPct": 10,
       "promo": "Wild West Meeting Hall & Western Carpentry Workshop"
-    },
-    {
-      "t": "2026-06-14T18:18:51.284Z",
-      "source": "shopify",
-      "type": "SALE_START",
-      "id": 9132933677292,
-      "title": "Wheat Field with Cypresses",
-      "url": "https://www.lumibricks.com/products/wheat-field-with-cypresses-21001",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/wheat_field_with_cypresses_21001_1.jpg?v=1773042650",
-      "price": 117,
-      "compareAt": 129.99,
-      "discountPct": 10,
-      "promo": "FATHERS_DAY10"
-    },
-    {
-      "t": "2026-06-14T18:18:51.284Z",
-      "source": "shopify",
-      "type": "SALE_START",
-      "id": 8704413663468,
-      "title": "Western Stagecoach",
-      "url": "https://www.lumibricks.com/products/western-stagecoach-293pcs",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/1_fd7a7550-01d7-4afb-bb5e-5fb6ec14d6e3.jpg?v=1730711130",
-      "price": 21.6,
-      "compareAt": 23.99,
-      "discountPct": 10,
-      "promo": "FATHERS_DAY10"
     }
   ]
 }

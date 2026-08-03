@@ -1,6 +1,15 @@
 {
-  "generatedAt": "2026-08-03T08:34:44.414Z",
+  "generatedAt": "2026-08-03T12:32:03.130Z",
   "events": [
+    {
+      "t": "2026-08-03T12:32:03.130Z",
+      "source": "shopify",
+      "type": "RESTOCK",
+      "id": 8976841310444,
+      "title": "1x2 USB connector-Not for sale, points redemption only",
+      "url": "https://www.lumibricks.com/products/1x2-usb-connector-not-for-sale-points-redemption-only",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/1x2_USB_connector_LLA02.jpg?v=1757389766"
+    },
     {
       "t": "2026-08-03T08:34:44.414Z",
       "source": "shopify",
@@ -5452,17 +5461,6 @@
       "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/Lumibricks_heritage_tram_and_station_l9084_1.jpg?v=1757389767",
       "price": 66,
       "from": 67.5
-    },
-    {
-      "t": "2026-06-15T01:29:42.567Z",
-      "source": "shopify",
-      "type": "PRICE_DROP",
-      "id": 9233535140076,
-      "title": "Greenway Clinic",
-      "url": "https://www.lumibricks.com/products/greenway-clinic-15011",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/1_9d515891-7506-4a4a-9466-0c765accade1.webp?v=1781001443",
-      "price": 132,
-      "from": 135
     }
   ]
 }

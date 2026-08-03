@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-03T08:34:44.414Z",
+  "generatedAt": "2026-08-03T12:32:03.130Z",
   "store": "https://www.lumibricks.com",
   "totals": {
     "products": 133,
@@ -2197,7 +2197,7 @@
       "onSale": false,
       "discountPct": 0,
       "promo": null,
-      "available": false,
+      "available": true,
       "lowestEver": 9.99,
       "atLowestEver": true,
       "saleSince": null,

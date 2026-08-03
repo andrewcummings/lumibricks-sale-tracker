@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-27T11:26:14.165Z",
+  "generatedAt": "2026-08-03T11:26:39.767Z",
   "map": {
     "7933167501548": {
       "title": "A-Frame Cabin",
@@ -948,6 +948,38 @@
       "score": 1,
       "status": "matched",
       "checkedAt": "2026-07-27T11:26:14.165Z"
+    },
+    "9289974153452": {
+      "title": "Toy Store Box",
+      "asin": "B0H44JZS89",
+      "amazonTitle": "Lumibricks Toy Store Box Lighting Building Set, 426Pcs Mini Modular Shop | Compact 16×16 Toy Shop With Lighting, Detailed Toy Displays, Mini Décor For Desks, Shelves, And Collectible Miniature Streets",
+      "score": 1,
+      "status": "matched",
+      "checkedAt": "2026-08-03T11:26:39.767Z"
+    },
+    "9289967993068": {
+      "title": "Brick Art Gallery Box",
+      "asin": "B0H44438DY",
+      "amazonTitle": "Lumibricks Art Gallery Box Lighting Building Set, 367Pcs Mini Display | Compact 16×16 Modular Gallery Featuring Famous Artworks With Lighting, And Expandable Display For Desks, Shelves, And Office",
+      "score": 1,
+      "status": "matched",
+      "checkedAt": "2026-08-03T11:26:39.767Z"
+    },
+    "9289959309548": {
+      "title": "Book-Cafe Box",
+      "asin": "B0H4472C7K",
+      "amazonTitle": "LUMIBRICKS Book Café Box Lighting Building Set, 436Pcs Mini Bookshop | Compact 16×16 Modular Café With Lighting, Cozy Reading Nook And Stackable Design For Desk Décor And Collectible Displays",
+      "score": 0.67,
+      "status": "matched",
+      "checkedAt": "2026-08-03T11:26:39.767Z"
+    },
+    "9290008854764": {
+      "title": "Dutch Windmill Millhouse",
+      "asin": "B0DFWQQ815",
+      "amazonTitle": "Windmill Decor Retro Table Decoration 5×3in Dutch Windmill | Retro Windmill Ornaments, Rural Decorations for Home, Alloy Vintage Statue, Mini Windmill Ornament for Shelf, Mantel",
+      "score": 0.67,
+      "status": "matched",
+      "checkedAt": "2026-08-03T11:26:39.767Z"
     }
   }
 }

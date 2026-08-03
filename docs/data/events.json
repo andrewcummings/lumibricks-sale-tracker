@@ -1,6 +1,15 @@
 {
-  "generatedAt": "2026-08-01T09:05:20.941Z",
+  "generatedAt": "2026-08-03T04:35:07.758Z",
   "events": [
+    {
+      "t": "2026-08-03T04:35:07.758Z",
+      "source": "shopify",
+      "type": "OUT_OF_STOCK",
+      "id": 8976841310444,
+      "title": "1x2 USB connector-Not for sale, points redemption only",
+      "url": "https://www.lumibricks.com/products/1x2-usb-connector-not-for-sale-points-redemption-only",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/1x2_USB_connector_LLA02.jpg?v=1757389766"
+    },
     {
       "t": "2026-08-01T09:05:20.941Z",
       "source": "amazon",
@@ -5446,17 +5455,6 @@
       "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/F9060.jpg?v=1779873280",
       "price": 35.2,
       "from": 36
-    },
-    {
-      "t": "2026-06-15T01:29:42.567Z",
-      "source": "shopify",
-      "type": "PRICE_DROP",
-      "id": 8677550653676,
-      "title": "Forge House",
-      "url": "https://www.lumibricks.com/products/forge-house-1595pcs",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/1_e808049c-3583-473d-adab-22a463039f8e.jpg?v=1727681182",
-      "price": 79.2,
-      "from": 81
     }
   ]
 }

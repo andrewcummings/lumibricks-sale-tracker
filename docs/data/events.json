@@ -1,6 +1,15 @@
 {
-  "generatedAt": "2026-08-03T12:32:03.130Z",
+  "generatedAt": "2026-08-04T09:42:17.288Z",
   "events": [
+    {
+      "t": "2026-08-04T09:42:17.288Z",
+      "source": "shopify",
+      "type": "RESTOCK",
+      "id": 9266039914732,
+      "title": "K's Spinner",
+      "url": "https://www.lumibricks.com/products/k-s-spinner-23001",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/3_a4678f36-1a42-420d-b854-781d5e9e2f7d.webp?v=1784536444"
+    },
     {
       "t": "2026-08-03T12:32:03.130Z",
       "source": "shopify",
@@ -5450,17 +5459,6 @@
       "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/img_v3_02lc_56d2aadf-698f-4ff0-acf5-89b806597f4g.jpg?v=1744714174",
       "price": 72.16,
       "from": 73.8
-    },
-    {
-      "t": "2026-06-15T01:29:42.567Z",
-      "source": "shopify",
-      "type": "PRICE_DROP",
-      "id": 8982836773100,
-      "title": "Heritage Tram and Station",
-      "url": "https://www.lumibricks.com/products/heritage-tram-and-station-l9084",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/Lumibricks_heritage_tram_and_station_l9084_1.jpg?v=1757389767",
-      "price": 66,
-      "from": 67.5
     }
   ]
 }

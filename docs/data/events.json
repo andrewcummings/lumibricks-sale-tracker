@@ -1,6 +1,15 @@
 {
-  "generatedAt": "2026-08-04T09:42:17.288Z",
+  "generatedAt": "2026-08-04T12:05:53.321Z",
   "events": [
+    {
+      "t": "2026-08-04T12:05:53.321Z",
+      "source": "shopify",
+      "type": "OUT_OF_STOCK",
+      "id": 9266039914732,
+      "title": "K's Spinner",
+      "url": "https://www.lumibricks.com/products/k-s-spinner-23001",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/3_a4678f36-1a42-420d-b854-781d5e9e2f7d.webp?v=1784536444"
+    },
     {
       "t": "2026-08-04T09:42:17.288Z",
       "source": "shopify",
@@ -5448,17 +5457,6 @@
       "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/Lumibricks_horse_stable_f9080_-_1.jpg?v=1757389768",
       "price": 55.44,
       "from": 56.7
-    },
-    {
-      "t": "2026-06-15T01:29:42.567Z",
-      "source": "shopify",
-      "type": "PRICE_DROP",
-      "id": 8774298861804,
-      "title": "Home Greenhouse",
-      "url": "https://www.lumibricks.com/products/home-greenhouse-1428pcs",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/img_v3_02lc_56d2aadf-698f-4ff0-acf5-89b806597f4g.jpg?v=1744714174",
-      "price": 72.16,
-      "from": 73.8
     }
   ]
 }

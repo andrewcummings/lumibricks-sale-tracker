@@ -1,6 +1,17 @@
 {
-  "generatedAt": "2026-08-10T02:20:40.540Z",
+  "generatedAt": "2026-08-13T08:26:00.378Z",
   "events": [
+    {
+      "t": "2026-08-13T08:26:00.378Z",
+      "source": "shopify",
+      "type": "NEW_PRODUCT",
+      "id": 9345516077292,
+      "title": "Town Life Fridge Magnet Set - GWP, Not for Sale",
+      "url": "https://www.lumibricks.com/products/town-life-fridge-magnet-set-gwp-not-for-sale",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/699343d8852c44312218603a4f347f5b.webp?v=1785722561",
+      "price": 20.99,
+      "available": true
+    },
     {
       "t": "2026-08-10T02:20:40.540Z",
       "source": "shopify",
@@ -5444,17 +5455,6 @@
       "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/interstellar_drive_in_18006_15.jpg?v=1761704620",
       "price": 105.6,
       "from": 108
-    },
-    {
-      "t": "2026-06-15T01:29:42.567Z",
-      "source": "shopify",
-      "type": "PRICE_DROP",
-      "id": 8023667507436,
-      "title": "Hunting Cabin",
-      "url": "https://www.lumibricks.com/products/hunting-cabin",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/1_ed241477-1ae9-4f7b-b015-8e7fdde19b6d.jpg?v=1696649600",
-      "price": 85,
-      "from": 90
     }
   ]
 }

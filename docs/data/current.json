@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-10T11:52:59.532Z",
+  "generatedAt": "2026-08-13T08:26:00.378Z",
   "store": "https://www.lumibricks.com",
   "totals": {
-    "products": 133,
+    "products": 134,
     "onSale": 121,
     "maxDiscountPct": 15
   },
@@ -2364,6 +2364,24 @@
       "atLowestEver": false,
       "saleSince": null,
       "firstSeen": "2026-06-14T16:21:48.924Z"
+    },
+    {
+      "id": 9345516077292,
+      "title": "Town Life Fridge Magnet Set - GWP, Not for Sale",
+      "handle": "town-life-fridge-magnet-set-gwp-not-for-sale",
+      "url": "https://www.lumibricks.com/products/town-life-fridge-magnet-set-gwp-not-for-sale",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/699343d8852c44312218603a4f347f5b.webp?v=1785722561",
+      "productType": "",
+      "price": 20.99,
+      "compareAt": null,
+      "onSale": false,
+      "discountPct": 0,
+      "promo": null,
+      "available": true,
+      "lowestEver": 20.99,
+      "atLowestEver": false,
+      "saleSince": null,
+      "firstSeen": "2026-08-13T08:26:00.378Z"
     },
     {
       "id": 8980607959276,

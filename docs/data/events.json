@@ -1,6 +1,171 @@
 {
-  "generatedAt": "2026-08-13T08:26:00.378Z",
+  "generatedAt": "2026-08-15T07:29:11.500Z",
   "events": [
+    {
+      "t": "2026-08-15T07:29:11.500Z",
+      "source": "amazon",
+      "type": "PRICE_DROP",
+      "id": 8981696512236,
+      "title": "Street MOD Garage",
+      "url": "https://www.amazon.com/dp/B0FF3YXJ9J",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/Lumibricks_Street_MOD_Garage_L9088_3.jpg?v=1756278265",
+      "price": 84.99,
+      "from": 99.99
+    },
+    {
+      "t": "2026-08-15T07:29:11.500Z",
+      "source": "amazon",
+      "type": "PRICE_DROP",
+      "id": 9027578036460,
+      "title": "Steamboat",
+      "url": "https://www.amazon.com/dp/B0FNQSJVWY",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/2_3697d23c-5611-4ffd-8829-e2675e780996.jpg?v=1786360579",
+      "price": 79.99,
+      "from": 99.99
+    },
+    {
+      "t": "2026-08-15T07:29:11.500Z",
+      "source": "amazon",
+      "type": "PRICE_DROP",
+      "id": 9004345327852,
+      "title": "Spa Cabin",
+      "url": "https://www.amazon.com/dp/B0FKMDVHBZ",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/20260810-102309.jpg?v=1786328635",
+      "price": 93.49,
+      "from": 109.99
+    },
+    {
+      "t": "2026-08-15T07:29:11.500Z",
+      "source": "amazon",
+      "type": "PRICE_DROP",
+      "id": 9004326256876,
+      "title": "Shepherd's Cottage (Retiring Soon)",
+      "url": "https://www.amazon.com/dp/B0FGPSD875",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/shepherd_s_cottage_l9094_1.jpg?v=1757908088",
+      "price": 95.99,
+      "from": 119.99
+    },
+    {
+      "t": "2026-08-15T07:29:11.500Z",
+      "source": "amazon",
+      "type": "PRICE_DROP",
+      "id": 8740988616940,
+      "title": "Record Store",
+      "url": "https://www.amazon.com/dp/B0FP4DTGLT",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/1_7317642c-4c73-4796-95d6-0f15782c3147.jpg?v=1733895904",
+      "price": 114.74,
+      "from": 134.99
+    },
+    {
+      "t": "2026-08-15T07:29:11.500Z",
+      "source": "amazon",
+      "type": "PRICE_DROP",
+      "id": 8948785283308,
+      "title": "Night Glow Drive-in",
+      "url": "https://www.amazon.com/dp/B0F6MQH4P3",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/Lumibricks_Night_Glow_Drive-In_L9081_-_2.jpg?v=1750907635",
+      "price": 98.99,
+      "from": 109.99
+    },
+    {
+      "t": "2026-08-15T07:29:11.500Z",
+      "source": "amazon",
+      "type": "PRICE_DROP",
+      "id": 8737986019564,
+      "title": "Medieval Water Mill",
+      "url": "https://www.amazon.com/dp/B0DKJK63Q1",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/6391ace427ade714b70fb966024ae804_2a203ce3-5741-4838-a3db-3d6c1934015f.jpg?v=1735031025",
+      "price": 59.99,
+      "from": 74.99
+    },
+    {
+      "t": "2026-08-15T07:29:11.500Z",
+      "source": "amazon",
+      "type": "PRICE_DROP",
+      "id": 8973539115244,
+      "title": "Medieval Troupe Carriage",
+      "url": "https://www.amazon.com/dp/B0FB3QQCFD",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/Lumibricks_Medieval_Troupe_Carriage_L9063_1.jpg?v=1757389767",
+      "price": 63.74,
+      "from": 74.99
+    },
+    {
+      "t": "2026-08-15T07:29:11.500Z",
+      "source": "amazon",
+      "type": "PRICE_DROP",
+      "id": 9004365644012,
+      "title": "Interstellar Drive-In",
+      "url": "https://www.amazon.com/dp/B0FNQNQ1Y3",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/interstellar_drive_in_18006_5.jpg?v=1761704620",
+      "price": 101.99,
+      "from": 119.99
+    },
+    {
+      "t": "2026-08-15T07:29:11.500Z",
+      "source": "amazon",
+      "type": "PRICE_DROP",
+      "id": 8982836773100,
+      "title": "Heritage Tram and Station",
+      "url": "https://www.amazon.com/dp/B0FF4FFCWH",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/Lumibricks_heritage_tram_and_station_l9084_3.jpg?v=1756277894",
+      "price": 59.99,
+      "from": 74.99
+    },
+    {
+      "t": "2026-08-15T07:29:11.500Z",
+      "source": "amazon",
+      "type": "PRICE_DROP",
+      "id": 8868181836012,
+      "title": "Gas Station",
+      "url": "https://www.amazon.com/dp/B0DYTYY8WG",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/Gas_Station_F9065_2.jpg?v=1744092826",
+      "price": 80.74,
+      "from": 94.99
+    },
+    {
+      "t": "2026-08-15T07:29:11.500Z",
+      "source": "amazon",
+      "type": "PRICE_DROP",
+      "id": 8901501419756,
+      "title": "Bamboo House",
+      "url": "https://www.amazon.com/dp/B0F21DRX47",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/Lumibricks_Bamboo_House_L9075_-_3.jpg?v=1757061571",
+      "price": 103.49,
+      "from": 114.99
+    },
+    {
+      "t": "2026-08-15T07:29:11.500Z",
+      "source": "amazon",
+      "type": "PRICE_DROP",
+      "id": 8984717361388,
+      "title": "Alpine Observatory",
+      "url": "https://www.amazon.com/dp/B0FGPFGPMZ",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/alpine_observatory_l9091_1.jpg?v=1756707352",
+      "price": 114.74,
+      "from": 134.99
+    },
+    {
+      "t": "2026-08-15T07:29:11.500Z",
+      "source": "amazon",
+      "type": "PRICE_DROP",
+      "id": 8986609090796,
+      "title": "Vineyard Estate",
+      "url": "https://www.amazon.com/dp/B0FGQ16612",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/Lumibricks_vineyard_estate_l9086_1.jpg?v=1757389766",
+      "price": 118.99,
+      "from": 125.99
+    },
+    {
+      "t": "2026-08-15T07:29:11.500Z",
+      "source": "amazon",
+      "type": "PRICE_RISE",
+      "id": 8761014517996,
+      "title": "Twilight Motel",
+      "url": "https://www.amazon.com/dp/B0DMF9B7GS",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/326A2603.jpg?v=1735781746",
+      "price": 101.99,
+      "from": 95.99
+    },
     {
       "t": "2026-08-13T08:26:00.378Z",
       "source": "shopify",
@@ -5288,173 +5453,6 @@
       "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/1_75474291-98e3-46f7-a701-2560e3970e1e.webp?v=1781262906",
       "price": 35.2,
       "from": 36
-    },
-    {
-      "t": "2026-06-15T01:29:42.567Z",
-      "source": "shopify",
-      "type": "PRICE_DROP",
-      "id": 9003793350892,
-      "title": "Old West Blacksmith",
-      "url": "https://www.lumibricks.com/products/old-west-blacksmith-l9089",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/old_west_blacksmith_l9089_1.jpg?v=1758104968",
-      "price": 88,
-      "from": 90
-    },
-    {
-      "t": "2026-06-15T01:29:42.567Z",
-      "source": "shopify",
-      "type": "PRICE_DROP",
-      "id": 8101390680300,
-      "title": "Newsstand",
-      "url": "https://www.lumibricks.com/products/newsstand",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/1_e30dce8b-5985-454a-a441-c860dd921129.jpg?v=1701312287",
-      "price": 30.8,
-      "from": 31.5
-    },
-    {
-      "t": "2026-06-15T01:29:42.567Z",
-      "source": "shopify",
-      "type": "PRICE_DROP",
-      "id": 8627552911596,
-      "title": "Mountain Cabin",
-      "url": "https://www.lumibricks.com/products/mountain-cabin-2255pcs",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/1_e6a2a19c-23ff-48d8-b15f-3edfae5c0ba6.jpg?v=1724139185",
-      "price": 96.8,
-      "from": 99
-    },
-    {
-      "t": "2026-06-15T01:29:42.567Z",
-      "source": "shopify",
-      "type": "PRICE_DROP",
-      "id": 9146344898796,
-      "title": "Moon Bar",
-      "url": "https://www.lumibricks.com/products/moon-bar-18009",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/3034a1133efe01daba919094b70c6310_82b825bb-0acd-4fb3-b6f4-30b41ec8dc28.jpg?v=1773975366",
-      "price": 105.6,
-      "from": 108
-    },
-    {
-      "t": "2026-06-15T01:29:42.567Z",
-      "source": "shopify",
-      "type": "PRICE_DROP",
-      "id": 9004272648428,
-      "title": "Midnight Haunted Mansion",
-      "url": "https://www.lumibricks.com/products/midnight-haunted-mansion-l9092",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/1_1c88abc0-eddd-42ef-9639-e528dc11edf8.webp?v=1781263626",
-      "price": 114.4,
-      "from": 117
-    },
-    {
-      "t": "2026-06-15T01:29:42.567Z",
-      "source": "shopify",
-      "type": "PRICE_DROP",
-      "id": 8737986019564,
-      "title": "Medieval Water Mill",
-      "url": "https://www.lumibricks.com/products/water-mill-1278pcs",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/6391ace427ade714b70fb966024ae804_2a203ce3-5741-4838-a3db-3d6c1934015f.jpg?v=1735031025",
-      "price": 66,
-      "from": 67.5
-    },
-    {
-      "t": "2026-06-15T01:29:42.567Z",
-      "source": "shopify",
-      "type": "PRICE_DROP",
-      "id": 8130969764076,
-      "title": "Medieval Watchtower",
-      "url": "https://www.lumibricks.com/products/medieval-watchtower",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/1_e48bb422-74a6-4850-be3c-8232fb241e92.jpg?v=1704783602",
-      "price": 79.2,
-      "from": 81
-    },
-    {
-      "t": "2026-06-15T01:29:42.567Z",
-      "source": "shopify",
-      "type": "PRICE_DROP",
-      "id": 8973539115244,
-      "title": "Medieval Troupe Carriage",
-      "url": "https://www.lumibricks.com/products/medieval-troupe-carriage-l9063",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/Lumibricks_Medieval_Troupe_Carriage_L9063_1.jpg?v=1757389767",
-      "price": 66,
-      "from": 67.5
-    },
-    {
-      "t": "2026-06-15T01:29:42.567Z",
-      "source": "shopify",
-      "type": "PRICE_DROP",
-      "id": 8756237271276,
-      "title": "Medieval Tailor Shop",
-      "url": "https://www.lumibricks.com/products/medieval-tailor-shop-1994pcs",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/1_2b2cda62-493a-4368-a573-a53ebe16567d.jpg?v=1735109715",
-      "price": 96.8,
-      "from": 99
-    },
-    {
-      "t": "2026-06-15T01:29:42.567Z",
-      "source": "shopify",
-      "type": "PRICE_DROP",
-      "id": 9107108888812,
-      "title": "Medieval Guard Post",
-      "url": "https://www.lumibricks.com/products/medieval-guard-post-12013",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/medieval_guard_post_12013_1.png?v=1770280652",
-      "price": 132,
-      "from": 135
-    },
-    {
-      "t": "2026-06-15T01:29:42.567Z",
-      "source": "shopify",
-      "type": "PRICE_DROP",
-      "id": 9004365775084,
-      "title": "King's Castle Treasury",
-      "url": "https://www.lumibricks.com/products/kings-castle-treasury-l9105",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/a9d19422fb3663d572adf3009db9fdff_3bdcc99a-36cf-417e-955d-25207a355bad.webp?v=1781263032",
-      "price": 145.2,
-      "from": 148.5
-    },
-    {
-      "t": "2026-06-15T01:29:42.567Z",
-      "source": "shopify",
-      "type": "PRICE_DROP",
-      "id": 8875237900524,
-      "title": "Izakaya",
-      "url": "https://www.lumibricks.com/products/izakaya-1987pcs-f9073",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/F9073_7f484d4a-653f-4be0-82fa-9d1fb13c87e2.jpg?v=1779873280",
-      "price": 110.5,
-      "from": 116.99
-    },
-    {
-      "t": "2026-06-15T01:29:42.567Z",
-      "source": "shopify",
-      "type": "PRICE_DROP",
-      "id": 9074919669996,
-      "title": "Italian Homestyle Restaurant",
-      "url": "https://www.lumibricks.com/products/ltalian-homestyle-restaurant-15010",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/italian_homestyle_restaurant_15010_1.png?v=1765501819",
-      "price": 124.96,
-      "from": 127.8
-    },
-    {
-      "t": "2026-06-15T01:29:42.567Z",
-      "source": "shopify",
-      "type": "SALE_START",
-      "id": 9077998387436,
-      "title": "Iron Empire Printed Bricks Pack",
-      "url": "https://www.lumibricks.com/products/iron-empire-printed-bricks-pack-11018",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/iron_empire_printed_bricks_pack_11018_1.jpg?v=1764582789",
-      "price": 26.4,
-      "compareAt": 29.99,
-      "discountPct": 12,
-      "promo": "NEWFAN12"
-    },
-    {
-      "t": "2026-06-15T01:29:42.567Z",
-      "source": "shopify",
-      "type": "PRICE_DROP",
-      "id": 9004365644012,
-      "title": "Interstellar Drive-In",
-      "url": "https://www.lumibricks.com/products/interstellar-drive-in-l9104",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/interstellar_drive_in_18006_15.jpg?v=1761704620",
-      "price": 105.6,
-      "from": 108
     }
   ]
 }

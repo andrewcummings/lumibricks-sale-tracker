@@ -1,6 +1,39 @@
 {
-  "generatedAt": "2026-08-15T07:29:11.500Z",
+  "generatedAt": "2026-08-15T08:36:15.814Z",
   "events": [
+    {
+      "t": "2026-08-15T08:36:15.814Z",
+      "source": "shopify",
+      "type": "PRICE_DROP",
+      "id": 9097945776364,
+      "title": "Steampunk Mechanical Workshop (Retiring Soon)",
+      "url": "https://www.lumibricks.com/products/steampunk-mechanical-workshop-11015",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/steampunk_mechanical_workshop_11015_3.png?v=1770299776",
+      "price": 66,
+      "from": 96.8
+    },
+    {
+      "t": "2026-08-15T08:36:15.814Z",
+      "source": "shopify",
+      "type": "PRICE_DROP",
+      "id": 9004362825964,
+      "title": "Ore Factory (Retiring Soon)",
+      "url": "https://www.lumibricks.com/products/ore-factory-l9101",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/ore_factory_l9101_8.png?v=1759994591",
+      "price": 102,
+      "from": 149.6
+    },
+    {
+      "t": "2026-08-15T08:36:15.814Z",
+      "source": "shopify",
+      "type": "PRICE_DROP",
+      "id": 9041053221100,
+      "title": "Alien Frontier: Bounty Hub (Retiring Soon)",
+      "url": "https://www.lumibricks.com/products/alien-frontier-bounty-hub",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/alien_frontier_bounty_hub_20007_1.jpg?v=1763446400",
+      "price": 84,
+      "from": 123.2
+    },
     {
       "t": "2026-08-15T07:29:11.500Z",
       "source": "amazon",
@@ -5420,39 +5453,6 @@
       "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/1_6250a073-0a41-4278-b0d8-090f476e1b2a.webp?v=1781056119",
       "price": 79.2,
       "from": 81
-    },
-    {
-      "t": "2026-06-15T01:29:42.567Z",
-      "source": "shopify",
-      "type": "PRICE_DROP",
-      "id": 9004362825964,
-      "title": "Ore Factory",
-      "url": "https://www.lumibricks.com/products/ore-factory-l9101",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/ore_factory_l9101_1.png?v=1759988606",
-      "price": 149.6,
-      "from": 153
-    },
-    {
-      "t": "2026-06-15T01:29:42.567Z",
-      "source": "shopify",
-      "type": "PRICE_DROP",
-      "id": 9107284263148,
-      "title": "Old West Inn",
-      "url": "https://www.lumibricks.com/products/old-west-inn-14014",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/3034a1133efe01daba919094b70c6310.jpg?v=1769050858",
-      "price": 123.2,
-      "from": 126
-    },
-    {
-      "t": "2026-06-15T01:29:42.567Z",
-      "source": "shopify",
-      "type": "PRICE_DROP",
-      "id": 8905360408812,
-      "title": "Old West Gold Mine",
-      "url": "https://www.lumibricks.com/products/gold-mine-f9077",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/1_75474291-98e3-46f7-a701-2560e3970e1e.webp?v=1781262906",
-      "price": 35.2,
-      "from": 36
     }
   ]
 }

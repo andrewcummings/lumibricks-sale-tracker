@@ -1,6 +1,15 @@
 {
-  "generatedAt": "2026-08-17T12:55:59.752Z",
+  "generatedAt": "2026-08-18T03:01:28.619Z",
   "events": [
+    {
+      "t": "2026-08-18T03:01:28.619Z",
+      "source": "shopify",
+      "type": "RESTOCK",
+      "id": 8980607959276,
+      "title": "Town Road Baseboard (Straight)- Not for sale, points redemption only",
+      "url": "https://www.lumibricks.com/products/town-road-baseboard-straight",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/Town_Road_Baseboard_Straight.jpg?v=1754291928"
+    },
     {
       "t": "2026-08-17T12:55:59.752Z",
       "source": "shopify",
@@ -5438,17 +5447,6 @@
       "title": "Police Urban Convoy",
       "url": "https://www.lumibricks.com/products/police-urban-convoy-17008",
       "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/7aa9b238bc765e6ac8641e694ffbd757_4d012723-c126-4c57-8012-c9e28ddcc85a.webp?v=1779073354",
-      "price": 32.56,
-      "from": 33.3
-    },
-    {
-      "t": "2026-06-15T01:29:42.567Z",
-      "source": "shopify",
-      "type": "PRICE_DROP",
-      "id": 8704376045804,
-      "title": "Police Patrol Car",
-      "url": "https://www.lumibricks.com/products/police-patrol-car-372pcs",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/F9043.jpg?v=1779873280",
       "price": 32.56,
       "from": 33.3
     }

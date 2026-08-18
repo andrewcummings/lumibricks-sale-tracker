@@ -1,12 +1,48 @@
 {
-  "generatedAt": "2026-08-18T03:01:28.619Z",
+  "generatedAt": "2026-08-18T04:41:21.811Z",
   "store": "https://www.lumibricks.com",
   "totals": {
     "products": 134,
     "onSale": 121,
-    "maxDiscountPct": 40
+    "maxDiscountPct": 50
   },
   "products": [
+    {
+      "id": 9119253364972,
+      "title": "Streetball Tour Bus (Retiring Soon)",
+      "handle": "streetball-tour-bus-19010",
+      "url": "https://www.lumibricks.com/products/streetball-tour-bus-19010",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/streetball_tour_bus_19010_3.jpg?v=1770299591",
+      "productType": "Street Fusion",
+      "price": 37.5,
+      "compareAt": 74.99,
+      "onSale": true,
+      "discountPct": 50,
+      "promo": "SPECIALOFF50",
+      "available": true,
+      "lowestEver": 37.5,
+      "atLowestEver": true,
+      "saleSince": "2026-06-14T18:18:51.284Z",
+      "firstSeen": "2026-06-14T16:21:48.924Z"
+    },
+    {
+      "id": 9004326256876,
+      "title": "Shepherd's Cottage (Retiring Soon)",
+      "handle": "shepherds-cottage-l9094",
+      "url": "https://www.lumibricks.com/products/shepherds-cottage-l9094",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/shepherd_s_cottage_l9094_1.jpg?v=1757908088",
+      "productType": "Farm Life",
+      "price": 57.5,
+      "compareAt": 114.99,
+      "onSale": true,
+      "discountPct": 50,
+      "promo": "SPECIALOFF50",
+      "available": true,
+      "lowestEver": 57.5,
+      "atLowestEver": true,
+      "saleSince": "2026-06-14T18:18:51.284Z",
+      "firstSeen": "2026-06-14T16:21:48.924Z"
+    },
     {
       "id": 9097945776364,
       "title": "Steampunk Mechanical Workshop (Retiring Soon)",
@@ -908,24 +944,6 @@
       "firstSeen": "2026-06-14T16:21:48.924Z"
     },
     {
-      "id": 9119253364972,
-      "title": "Streetball Tour Bus (Retiring Soon)",
-      "handle": "streetball-tour-bus-19010",
-      "url": "https://www.lumibricks.com/products/streetball-tour-bus-19010",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/streetball_tour_bus_19010_3.jpg?v=1770299591",
-      "productType": "Street Fusion",
-      "price": 66,
-      "compareAt": 74.99,
-      "onSale": true,
-      "discountPct": 12,
-      "promo": "FIRSTORDER12",
-      "available": true,
-      "lowestEver": 52.5,
-      "atLowestEver": false,
-      "saleSince": "2026-06-14T18:18:51.284Z",
-      "firstSeen": "2026-06-14T16:21:48.924Z"
-    },
-    {
       "id": 9107284263148,
       "title": "Old West Inn",
       "handle": "old-west-inn-14014",
@@ -1263,24 +1281,6 @@
       "promo": "FIRSTORDER12",
       "available": true,
       "lowestEver": 128,
-      "atLowestEver": false,
-      "saleSince": "2026-06-14T18:18:51.284Z",
-      "firstSeen": "2026-06-14T16:21:48.924Z"
-    },
-    {
-      "id": 9004326256876,
-      "title": "Shepherd's Cottage (Retiring Soon)",
-      "handle": "shepherds-cottage-l9094",
-      "url": "https://www.lumibricks.com/products/shepherds-cottage-l9094",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/shepherd_s_cottage_l9094_1.jpg?v=1757908088",
-      "productType": "Farm Life",
-      "price": 101.2,
-      "compareAt": 114.99,
-      "onSale": true,
-      "discountPct": 12,
-      "promo": "FIRSTORDER12",
-      "available": true,
-      "lowestEver": 92,
       "atLowestEver": false,
       "saleSince": "2026-06-14T18:18:51.284Z",
       "firstSeen": "2026-06-14T16:21:48.924Z"

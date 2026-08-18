@@ -1,6 +1,28 @@
 {
-  "generatedAt": "2026-08-18T03:01:28.619Z",
+  "generatedAt": "2026-08-18T04:41:21.811Z",
   "events": [
+    {
+      "t": "2026-08-18T04:41:21.811Z",
+      "source": "shopify",
+      "type": "PRICE_DROP",
+      "id": 9119253364972,
+      "title": "Streetball Tour Bus (Retiring Soon)",
+      "url": "https://www.lumibricks.com/products/streetball-tour-bus-19010",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/streetball_tour_bus_19010_3.jpg?v=1770299591",
+      "price": 37.5,
+      "from": 66
+    },
+    {
+      "t": "2026-08-18T04:41:21.811Z",
+      "source": "shopify",
+      "type": "PRICE_DROP",
+      "id": 9004326256876,
+      "title": "Shepherd's Cottage (Retiring Soon)",
+      "url": "https://www.lumibricks.com/products/shepherds-cottage-l9094",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/shepherd_s_cottage_l9094_1.jpg?v=1757908088",
+      "price": 57.5,
+      "from": 101.2
+    },
     {
       "t": "2026-08-18T03:01:28.619Z",
       "source": "shopify",
@@ -5427,28 +5449,6 @@
       "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/1_d8fe61e5-068e-423e-950c-9722a381993d.jpg?v=1733895758",
       "price": 114.75,
       "from": 121.5
-    },
-    {
-      "t": "2026-06-15T01:29:42.567Z",
-      "source": "shopify",
-      "type": "PRICE_DROP",
-      "id": 9199088697580,
-      "title": "Ranger Camp",
-      "url": "https://www.lumibricks.com/products/ranger-camp-12014",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/7aa9b238bc765e6ac8641e694ffbd757.webp?v=1777545603",
-      "price": 30.8,
-      "from": 31.5
-    },
-    {
-      "t": "2026-06-15T01:29:42.567Z",
-      "source": "shopify",
-      "type": "PRICE_DROP",
-      "id": 9245937533164,
-      "title": "Police Urban Convoy",
-      "url": "https://www.lumibricks.com/products/police-urban-convoy-17008",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/7aa9b238bc765e6ac8641e694ffbd757_4d012723-c126-4c57-8012-c9e28ddcc85a.webp?v=1779073354",
-      "price": 32.56,
-      "from": 33.3
     }
   ]
 }

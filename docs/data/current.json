@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-19T03:03:49.147Z",
+  "generatedAt": "2026-08-19T06:54:36.876Z",
   "store": "https://www.lumibricks.com",
   "totals": {
-    "products": 134,
+    "products": 135,
     "onSale": 121,
     "maxDiscountPct": 50
   },
@@ -2310,6 +2310,24 @@
       "atLowestEver": false,
       "saleSince": null,
       "firstSeen": "2026-06-14T16:21:48.924Z"
+    },
+    {
+      "id": 9381041438956,
+      "title": "Iron Empire Printed Bricks Pack-For Points Redemption, Free Shipping",
+      "handle": "iron-empire-printed-bricks-pack-points-redemption",
+      "url": "https://www.lumibricks.com/products/iron-empire-printed-bricks-pack-points-redemption",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/iron_empire_printed_bricks_pack_11018_1.jpg?v=1764582789",
+      "productType": "POINTS REDEMPTION",
+      "price": 29.99,
+      "compareAt": null,
+      "onSale": false,
+      "discountPct": 0,
+      "promo": null,
+      "available": true,
+      "lowestEver": 29.99,
+      "atLowestEver": false,
+      "saleSince": null,
+      "firstSeen": "2026-08-19T06:54:36.876Z"
     },
     {
       "id": 9269731000556,

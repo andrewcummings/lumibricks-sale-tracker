@@ -1,6 +1,17 @@
 {
-  "generatedAt": "2026-08-18T04:41:21.811Z",
+  "generatedAt": "2026-08-19T06:54:36.876Z",
   "events": [
+    {
+      "t": "2026-08-19T06:54:36.876Z",
+      "source": "shopify",
+      "type": "NEW_PRODUCT",
+      "id": 9381041438956,
+      "title": "Iron Empire Printed Bricks Pack-For Points Redemption, Free Shipping",
+      "url": "https://www.lumibricks.com/products/iron-empire-printed-bricks-pack-points-redemption",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/iron_empire_printed_bricks_pack_11018_1.jpg?v=1764582789",
+      "price": 29.99,
+      "available": true
+    },
     {
       "t": "2026-08-18T04:41:21.811Z",
       "source": "shopify",
@@ -5438,17 +5449,6 @@
       "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/sequoia_bandit_camp_14012_1.png?v=1760583071",
       "price": 57.2,
       "from": 58.5
-    },
-    {
-      "t": "2026-06-15T01:29:42.567Z",
-      "source": "shopify",
-      "type": "PRICE_DROP",
-      "id": 8740988616940,
-      "title": "Record Store",
-      "url": "https://www.lumibricks.com/products/record-store-1980pcs",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/1_d8fe61e5-068e-423e-950c-9722a381993d.jpg?v=1733895758",
-      "price": 114.75,
-      "from": 121.5
     }
   ]
 }

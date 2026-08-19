@@ -1,6 +1,14 @@
 {
-  "generatedAt": "2026-08-19T06:54:36.876Z",
+  "generatedAt": "2026-08-19T12:58:45.081Z",
   "events": [
+    {
+      "t": "2026-08-19T12:58:45.081Z",
+      "type": "REMOVED",
+      "id": 8147527106796,
+      "title": "Funwhole LED light sticks For Building Block - Not for Sale",
+      "url": "https://www.lumibricks.com/products/funwhole-led-light-sticks-for-building-block",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/0000_6ed723d9-0be6-417e-a8d2-27ca38cda2d6.jpg?v=1706153639"
+    },
     {
       "t": "2026-08-19T06:54:36.876Z",
       "source": "shopify",
@@ -5438,17 +5446,6 @@
       "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/shepherd_s_cottage_l9094_1.jpg?v=1757908088",
       "price": 101.2,
       "from": 103.5
-    },
-    {
-      "t": "2026-06-15T01:29:42.567Z",
-      "source": "shopify",
-      "type": "PRICE_DROP",
-      "id": 9004358467820,
-      "title": "Sequoia Bandit Camp",
-      "url": "https://www.lumibricks.com/products/sequoia-bandit-camp-14012",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/sequoia_bandit_camp_14012_1.png?v=1760583071",
-      "price": 57.2,
-      "from": 58.5
     }
   ]
 }

@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-19T06:54:36.876Z",
+  "generatedAt": "2026-08-19T12:58:45.081Z",
   "store": "https://www.lumibricks.com",
   "totals": {
-    "products": 135,
+    "products": 134,
     "onSale": 121,
     "maxDiscountPct": 50
   },
@@ -2290,24 +2290,6 @@
       "available": true,
       "lowestEver": 14.99,
       "atLowestEver": true,
-      "saleSince": null,
-      "firstSeen": "2026-06-14T16:21:48.924Z"
-    },
-    {
-      "id": 8147527106796,
-      "title": "Funwhole LED light sticks For Building Block - Not for Sale",
-      "handle": "funwhole-led-light-sticks-for-building-block",
-      "url": "https://www.lumibricks.com/products/funwhole-led-light-sticks-for-building-block",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/0000_6ed723d9-0be6-417e-a8d2-27ca38cda2d6.jpg?v=1706153639",
-      "productType": "Brick Building Toys",
-      "price": 48.99,
-      "compareAt": null,
-      "onSale": false,
-      "discountPct": 0,
-      "promo": null,
-      "available": false,
-      "lowestEver": 48.99,
-      "atLowestEver": false,
       "saleSince": null,
       "firstSeen": "2026-06-14T16:21:48.924Z"
     },

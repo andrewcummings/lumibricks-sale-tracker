@@ -1,6 +1,17 @@
 {
-  "generatedAt": "2026-08-19T12:58:45.081Z",
+  "generatedAt": "2026-08-21T10:36:10.168Z",
   "events": [
+    {
+      "t": "2026-08-21T10:36:10.168Z",
+      "source": "shopify",
+      "type": "NEW_PRODUCT",
+      "id": 9319921451244,
+      "title": "Train Station (Launches Monday, Aug 24)",
+      "url": "https://www.lumibricks.com/products/central-train-station-15017",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/2dff6af33c5ad8730873a7e30e699947_0899f5ba-20d2-4e75-ac32-a5d4afb6a612.webp?v=1787303985",
+      "price": 199.99,
+      "available": false
+    },
     {
       "t": "2026-08-19T12:58:45.081Z",
       "type": "REMOVED",
@@ -5435,17 +5446,6 @@
       "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/1_ffe1ea41-1dd1-48ae-ade1-22085107ec2c.jpg?v=1704266586",
       "price": 61.6,
       "from": 63
-    },
-    {
-      "t": "2026-06-15T01:29:42.567Z",
-      "source": "shopify",
-      "type": "PRICE_DROP",
-      "id": 9004326256876,
-      "title": "Shepherd's Cottage",
-      "url": "https://www.lumibricks.com/products/shepherds-cottage-l9094",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/shepherd_s_cottage_l9094_1.jpg?v=1757908088",
-      "price": 101.2,
-      "from": 103.5
     }
   ]
 }

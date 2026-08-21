@@ -1,6 +1,15 @@
 {
-  "generatedAt": "2026-08-21T10:36:10.168Z",
+  "generatedAt": "2026-08-21T19:29:50.199Z",
   "events": [
+    {
+      "t": "2026-08-21T19:29:50.199Z",
+      "source": "shopify",
+      "type": "OUT_OF_STOCK",
+      "id": 8238832812268,
+      "title": "Farm Store",
+      "url": "https://www.lumibricks.com/products/farm-store",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/1_cb96f23c-e036-48a2-88f7-9dd5057b68f2.jpg?v=1710411824"
+    },
     {
       "t": "2026-08-21T10:36:10.168Z",
       "source": "shopify",
@@ -5435,17 +5444,6 @@
       "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/skate_park_19011_1.jpg?v=1773042934",
       "price": 96.8,
       "from": 99
-    },
-    {
-      "t": "2026-06-15T01:29:42.567Z",
-      "source": "shopify",
-      "type": "PRICE_DROP",
-      "id": 8127059034348,
-      "title": "Sheriff's Office",
-      "url": "https://www.lumibricks.com/products/sheriffs-office",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/1_ffe1ea41-1dd1-48ae-ade1-22085107ec2c.jpg?v=1704266586",
-      "price": 61.6,
-      "from": 63
     }
   ]
 }

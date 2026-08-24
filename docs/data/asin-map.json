@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-17T08:45:21.812Z",
+  "generatedAt": "2026-08-24T08:50:18.094Z",
   "map": {
     "7933167501548": {
       "title": "A-Frame Cabin",
@@ -980,6 +980,14 @@
       "score": 0.67,
       "status": "matched",
       "checkedAt": "2026-08-03T11:26:39.767Z"
+    },
+    "9319921451244": {
+      "title": "Train Station",
+      "asin": "B0H5W6414N",
+      "amazonTitle": "LUMIBRICKS Train Station Lighting Building Set, 4355Pcs Victorian Station | 19th Century Victorian Architecture Model for Adults, Modular Diorama for Town Life Collection with 32x48 Baseplate",
+      "score": 1,
+      "status": "matched",
+      "checkedAt": "2026-08-24T08:50:18.094Z"
     }
   }
 }

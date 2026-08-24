@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-08-21T19:29:50.199Z",
+  "generatedAt": "2026-08-24T04:52:52.845Z",
   "store": "https://www.lumibricks.com",
   "totals": {
     "products": 135,
-    "onSale": 121,
+    "onSale": 122,
     "maxDiscountPct": 50
   },
   "products": [
@@ -366,6 +366,24 @@
       "atLowestEver": false,
       "saleSince": "2026-06-14T18:18:51.284Z",
       "firstSeen": "2026-06-14T16:21:48.924Z"
+    },
+    {
+      "id": 9319921451244,
+      "title": "Train Station",
+      "handle": "central-train-station-15017",
+      "url": "https://www.lumibricks.com/products/central-train-station-15017",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/2dff6af33c5ad8730873a7e30e699947_0899f5ba-20d2-4e75-ac32-a5d4afb6a612.webp?v=1787303985",
+      "productType": "Town Life",
+      "price": 176,
+      "compareAt": 199.99,
+      "onSale": true,
+      "discountPct": 12,
+      "promo": "FIRSTORDER12",
+      "available": true,
+      "lowestEver": 176,
+      "atLowestEver": true,
+      "saleSince": "2026-08-24T04:52:52.845Z",
+      "firstSeen": "2026-08-21T10:36:10.168Z"
     },
     {
       "id": 9289974153452,
@@ -2400,24 +2418,6 @@
       "atLowestEver": true,
       "saleSince": null,
       "firstSeen": "2026-06-14T16:21:48.924Z"
-    },
-    {
-      "id": 9319921451244,
-      "title": "Train Station (Launches Monday, Aug 24)",
-      "handle": "central-train-station-15017",
-      "url": "https://www.lumibricks.com/products/central-train-station-15017",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/2dff6af33c5ad8730873a7e30e699947_0899f5ba-20d2-4e75-ac32-a5d4afb6a612.webp?v=1787303985",
-      "productType": "Town Life",
-      "price": 199.99,
-      "compareAt": null,
-      "onSale": false,
-      "discountPct": 0,
-      "promo": null,
-      "available": false,
-      "lowestEver": 199.99,
-      "atLowestEver": false,
-      "saleSince": null,
-      "firstSeen": "2026-08-21T10:36:10.168Z"
     },
     {
       "id": 9275120320748,

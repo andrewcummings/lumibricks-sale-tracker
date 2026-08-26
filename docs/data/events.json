@@ -1,6 +1,61 @@
 {
-  "generatedAt": "2026-08-26T05:39:45.508Z",
+  "generatedAt": "2026-08-26T08:52:07.359Z",
   "events": [
+    {
+      "t": "2026-08-26T08:52:07.359Z",
+      "source": "shopify",
+      "type": "PRICE_RISE",
+      "id": 9210634567916,
+      "title": "Wild West Meeting Hall",
+      "url": "https://www.lumibricks.com/products/wild-west-meeting-hall-14016",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/0028_DSC00037.webp?v=1778675170",
+      "price": 114.4,
+      "from": 110.5
+    },
+    {
+      "t": "2026-08-26T08:52:07.359Z",
+      "source": "shopify",
+      "type": "NEW_PRODUCT",
+      "id": 9367611637996,
+      "title": "Neon Garden (Coming Mid-September)",
+      "url": "https://www.lumibricks.com/products/neon-garden-17014",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/1_37449add-cae7-4e60-af88-4fe2e3f4bc4d.jpg?v=1787654263",
+      "price": 9999.99,
+      "available": false
+    },
+    {
+      "t": "2026-08-26T08:52:07.359Z",
+      "source": "shopify",
+      "type": "NEW_PRODUCT",
+      "id": 9367610786028,
+      "title": "Neon Elite Lounge (Coming Mid-September)",
+      "url": "https://www.lumibricks.com/products/neon-elite-lounge-17013",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/1_8d6c85d1-a0f1-4c5e-bfb7-05fc14685cb6.webp?v=1787733273",
+      "price": 9999.99,
+      "available": false
+    },
+    {
+      "t": "2026-08-26T08:52:07.359Z",
+      "source": "shopify",
+      "type": "NEW_PRODUCT",
+      "id": 9393565925612,
+      "title": "Micro Izakaya & Manga Shop (Limited Gift with Manga Shop)",
+      "url": "https://www.lumibricks.com/products/micro-izakaya-manga-shop-17016",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/2_d07cf8ab-e62b-4849-9fa2-4a0b4f6088c4.webp?v=1787726906",
+      "price": 9999.99,
+      "available": false
+    },
+    {
+      "t": "2026-08-26T08:52:07.359Z",
+      "source": "shopify",
+      "type": "NEW_PRODUCT",
+      "id": 9367612588268,
+      "title": "Manga Shop (Coming Mid-September)",
+      "url": "https://www.lumibricks.com/products/manga-shop-17015",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/1_652a6dc8-4bfa-4149-8bef-7afb7a2b3801.webp?v=1787732817",
+      "price": 9999.99,
+      "available": false
+    },
     {
       "t": "2026-08-26T05:39:45.508Z",
       "source": "shopify",
@@ -5391,61 +5446,6 @@
       "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/1200.webp?v=1774939696",
       "price": 123.2,
       "from": 126
-    },
-    {
-      "t": "2026-06-15T01:29:42.567Z",
-      "source": "shopify",
-      "type": "PRICE_DROP",
-      "id": 8808104657132,
-      "title": "Steampunk Motorcycle Pursuit",
-      "url": "https://www.lumibricks.com/products/steampunk-motorcycle-pursuit-424pcs",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/Steampunk_Motorcycle_Pursuit_F9067_1.jpg?v=1757389768",
-      "price": 26.4,
-      "from": 27
-    },
-    {
-      "t": "2026-06-15T01:29:42.567Z",
-      "source": "shopify",
-      "type": "PRICE_DROP",
-      "id": 9074916917484,
-      "title": "Steampunk Memory Magic Shop",
-      "url": "https://www.lumibricks.com/products/steampunk-memory-magic-shop-11013",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/steampunk_memory_magic_shop_11013_1.png?v=1764302062",
-      "price": 92.4,
-      "from": 94.49
-    },
-    {
-      "t": "2026-06-15T01:29:42.567Z",
-      "source": "shopify",
-      "type": "PRICE_DROP",
-      "id": 9097945776364,
-      "title": "Steampunk Mechanical Workshop",
-      "url": "https://www.lumibricks.com/products/steampunk-mechanical-workshop-11015",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/0_811f8422-84f0-42c2-beff-967bb9c9e23b.webp?v=1781264255",
-      "price": 96.8,
-      "from": 99
-    },
-    {
-      "t": "2026-06-15T01:29:42.567Z",
-      "source": "shopify",
-      "type": "PRICE_DROP",
-      "id": 8714054861036,
-      "title": "Steampunk Flying Club",
-      "url": "https://www.lumibricks.com/products/steampunk-flying-club-1858pcs",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/1_8b64ec88-77ef-44e6-a94f-447cdd4b65bc.jpg?v=1731547826",
-      "price": 88,
-      "from": 90
-    },
-    {
-      "t": "2026-06-15T01:29:42.567Z",
-      "source": "shopify",
-      "type": "PRICE_DROP",
-      "id": 9027578036460,
-      "title": "Steamboat",
-      "url": "https://www.lumibricks.com/products/steamboat-11016",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/steamboat_11016_1.jpg?v=1763428829",
-      "price": 88,
-      "from": 90
     }
   ]
 }

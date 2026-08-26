@@ -1,6 +1,30 @@
 {
-  "generatedAt": "2026-08-24T04:52:52.845Z",
+  "generatedAt": "2026-08-26T05:39:45.508Z",
   "events": [
+    {
+      "t": "2026-08-26T05:39:45.508Z",
+      "source": "shopify",
+      "type": "NEW_PRODUCT",
+      "id": 9319921975532,
+      "title": "The Bodega 26",
+      "url": "https://www.lumibricks.com/products/the-bodega-26-19017",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/6829be9c976086cdf9509a06ae0629d8_aaf29563-3423-463a-aebb-dfa1505cd639.webp?v=1787709401",
+      "price": 35.2,
+      "available": true
+    },
+    {
+      "t": "2026-08-26T05:39:45.508Z",
+      "source": "shopify",
+      "type": "SALE_START",
+      "id": 9319921975532,
+      "title": "The Bodega 26",
+      "url": "https://www.lumibricks.com/products/the-bodega-26-19017",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/6829be9c976086cdf9509a06ae0629d8_aaf29563-3423-463a-aebb-dfa1505cd639.webp?v=1787709401",
+      "price": 35.2,
+      "compareAt": 39.99,
+      "discountPct": 12,
+      "promo": "FIRSTORDER12"
+    },
     {
       "t": "2026-08-24T04:52:52.845Z",
       "source": "shopify",
@@ -5420,28 +5444,6 @@
       "title": "Steamboat",
       "url": "https://www.lumibricks.com/products/steamboat-11016",
       "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/steamboat_11016_1.jpg?v=1763428829",
-      "price": 88,
-      "from": 90
-    },
-    {
-      "t": "2026-06-15T01:29:42.567Z",
-      "source": "shopify",
-      "type": "PRICE_DROP",
-      "id": 9004345327852,
-      "title": "Spa Cabin",
-      "url": "https://www.lumibricks.com/products/spa-cabin-l9096",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/spa_cabin_L9096_1.jpg?v=1758680752",
-      "price": 96.8,
-      "from": 99
-    },
-    {
-      "t": "2026-06-15T01:29:42.567Z",
-      "source": "shopify",
-      "type": "PRICE_DROP",
-      "id": 8685511246060,
-      "title": "Ski Lodge",
-      "url": "https://www.lumibricks.com/products/ski-lodge-2187pcs",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/1_a3e27fc6-fd3b-43a1-96a1-d5834dbff094.jpg?v=1728532568",
       "price": 88,
       "from": 90
     }

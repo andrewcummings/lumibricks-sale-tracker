@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-08-25T06:58:23.315Z",
+  "generatedAt": "2026-08-26T05:39:45.508Z",
   "store": "https://www.lumibricks.com",
   "totals": {
-    "products": 135,
-    "onSale": 122,
+    "products": 136,
+    "onSale": 123,
     "maxDiscountPct": 50
   },
   "products": [
@@ -366,6 +366,24 @@
       "atLowestEver": false,
       "saleSince": "2026-06-14T18:18:51.284Z",
       "firstSeen": "2026-06-14T16:21:48.924Z"
+    },
+    {
+      "id": 9319921975532,
+      "title": "The Bodega 26",
+      "handle": "the-bodega-26-19017",
+      "url": "https://www.lumibricks.com/products/the-bodega-26-19017",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/6829be9c976086cdf9509a06ae0629d8_aaf29563-3423-463a-aebb-dfa1505cd639.webp?v=1787709401",
+      "productType": "Street Fusion",
+      "price": 35.2,
+      "compareAt": 39.99,
+      "onSale": true,
+      "discountPct": 12,
+      "promo": "FIRSTORDER12",
+      "available": true,
+      "lowestEver": 35.2,
+      "atLowestEver": false,
+      "saleSince": "2026-08-26T05:39:45.508Z",
+      "firstSeen": "2026-08-26T05:39:45.508Z"
     },
     {
       "id": 9319921451244,

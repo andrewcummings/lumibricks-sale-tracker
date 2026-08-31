@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T08:50:18.094Z",
+  "generatedAt": "2026-08-31T15:57:09.201Z",
   "map": {
     "7933167501548": {
       "title": "A-Frame Cabin",
@@ -988,6 +988,46 @@
       "score": 1,
       "status": "matched",
       "checkedAt": "2026-08-24T08:50:18.094Z"
+    },
+    "9319921975532": {
+      "title": "The Bodega 26",
+      "asin": "B0H5VV5KTY",
+      "amazonTitle": "Lumibricks Street Bodega Lighting Building Set, 618 Pcs Grocery Store | New York Modular Corner Store Diorama for Adults, City Street View Collection, Home and Office Decor, Creative Toys",
+      "score": 0.5,
+      "status": "matched",
+      "checkedAt": "2026-08-31T15:57:09.201Z"
+    },
+    "9367612588268": {
+      "title": "Manga Shop (Coming Mid-September)",
+      "asin": "B0GBV1VYH8",
+      "amazonTitle": "Lumibricks Carpentry Workshop Lighting Building Set, 1832 Pcs Western Set | Wild West Blacksmith-Shop Light Construction Building Model Set for Adults and West Lovers, Creative Stress-Relief Toys",
+      "score": 0.2,
+      "status": "unmatched",
+      "checkedAt": "2026-08-31T15:57:09.201Z"
+    },
+    "9393565925612": {
+      "title": "Micro Izakaya & Manga Shop (Limited Gift with Manga Shop)",
+      "asin": "B0DPQLQW86",
+      "amazonTitle": "NEWABWN Japanese Street View Izakaya Shop Mini Building Blocks, MOC Creative Cute Japanese Toys Model Set, 809 PCS Simulation Architecture Construction Toy, Gift for Adults Kids Girls Boys 6-12",
+      "score": 0.43,
+      "status": "matched",
+      "checkedAt": "2026-08-31T15:57:09.201Z"
+    },
+    "9367610786028": {
+      "title": "Neon Elite Lounge (Coming Mid-September)",
+      "asin": "B0D476MMJ2",
+      "amazonTitle": "CIONAOR Custom Neon Sign, Custom LED Neon Sign Customizable for Wedding Bar Salon Beauty Business Light Up Name Sign, Personalized Neon Light Suitable for Events Birthday Gifts Decorations",
+      "score": 0.17,
+      "status": "unmatched",
+      "checkedAt": "2026-08-31T15:57:09.201Z"
+    },
+    "9367611637996": {
+      "title": "Neon Garden (Coming Mid-September)",
+      "asin": "B0GBVDDY4K",
+      "amazonTitle": "Lumibricks Garden Cottage Lighting Building Bricks Set - 2787 Pcs Cabin | Garden Cabin House Construction Building Model Set for Adults and Cabin Model Lovers, Home and Office Decor",
+      "score": 0.2,
+      "status": "unmatched",
+      "checkedAt": "2026-08-31T15:57:09.201Z"
     }
   }
 }

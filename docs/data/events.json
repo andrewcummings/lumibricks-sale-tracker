@@ -1,6 +1,15 @@
 {
-  "generatedAt": "2026-09-01T04:43:18.837Z",
+  "generatedAt": "2026-09-01T09:53:05.196Z",
   "events": [
+    {
+      "t": "2026-09-01T09:53:05.196Z",
+      "source": "shopify",
+      "type": "RESTOCK",
+      "id": 9266039914732,
+      "title": "K's Spinner",
+      "url": "https://www.lumibricks.com/products/k-s-spinner-23001",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/3_a4678f36-1a42-420d-b854-781d5e9e2f7d.webp?v=1784536444"
+    },
     {
       "t": "2026-09-01T04:43:18.837Z",
       "source": "shopify",
@@ -5437,17 +5446,6 @@
       "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/1_8aaba47f-921c-427b-b31b-74818620bb1e.webp?v=1781262821",
       "price": 88,
       "from": 90
-    },
-    {
-      "t": "2026-06-15T01:29:42.567Z",
-      "source": "shopify",
-      "type": "PRICE_DROP",
-      "id": 8966977978604,
-      "title": "Waterfall Cabin",
-      "url": "https://www.lumibricks.com/products/waterfall-cabin-l9083",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/Lumibricks_Waterfall_Cabin_L9083_1.jpg?v=1757389767",
-      "price": 102,
-      "from": 108
     }
   ]
 }

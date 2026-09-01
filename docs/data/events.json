@@ -1,6 +1,131 @@
 {
-  "generatedAt": "2026-08-31T19:54:46.233Z",
+  "generatedAt": "2026-09-01T04:43:18.837Z",
   "events": [
+    {
+      "t": "2026-09-01T04:43:18.837Z",
+      "source": "shopify",
+      "type": "PRICE_RISE",
+      "id": 9199088697580,
+      "title": "Ranger Camp",
+      "url": "https://www.lumibricks.com/products/ranger-camp-12014",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/6829be9c976086cdf9509a06ae0629d8.webp?v=1777545603",
+      "price": 30.8,
+      "from": 29.75
+    },
+    {
+      "t": "2026-09-01T04:43:18.837Z",
+      "source": "shopify",
+      "type": "PRICE_DROP",
+      "id": 8737986019564,
+      "title": "Medieval Water Mill",
+      "url": "https://www.lumibricks.com/products/water-mill-1278pcs",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/F9061.webp?v=1788233548",
+      "price": 56.25,
+      "from": 66
+    },
+    {
+      "t": "2026-09-01T04:43:18.837Z",
+      "source": "shopify",
+      "type": "PRICE_DROP",
+      "id": 8130969764076,
+      "title": "Medieval Watchtower",
+      "url": "https://www.lumibricks.com/products/medieval-watchtower",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/F9027V2.0.webp?v=1788232950",
+      "price": 67.5,
+      "from": 79.2
+    },
+    {
+      "t": "2026-09-01T04:43:18.837Z",
+      "source": "shopify",
+      "type": "PRICE_DROP",
+      "id": 8973539115244,
+      "title": "Medieval Troupe Carriage",
+      "url": "https://www.lumibricks.com/products/medieval-troupe-carriage-l9063",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/L9063.webp?v=1788233366",
+      "price": 56.25,
+      "from": 66
+    },
+    {
+      "t": "2026-09-01T04:43:18.837Z",
+      "source": "shopify",
+      "type": "PRICE_DROP",
+      "id": 8756237271276,
+      "title": "Medieval Tailor Shop",
+      "url": "https://www.lumibricks.com/products/medieval-tailor-shop-1994pcs",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/F9038.webp?v=1788233366",
+      "price": 71.5,
+      "from": 96.8
+    },
+    {
+      "t": "2026-09-01T04:43:18.837Z",
+      "source": "shopify",
+      "type": "NEW_PRODUCT",
+      "id": 9344822313196,
+      "title": "Christmas Pub (Limited Edition Gift Set)",
+      "url": "https://www.lumibricks.com/products/christmas-pub-limited-edition-gift-set-15014-2",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/2_5f3af4ea-bd23-43bd-9110-5a301a69309a.webp?v=1787824442",
+      "price": 110,
+      "available": true
+    },
+    {
+      "t": "2026-09-01T04:43:18.837Z",
+      "source": "shopify",
+      "type": "SALE_START",
+      "id": 9344822313196,
+      "title": "Christmas Pub (Limited Edition Gift Set)",
+      "url": "https://www.lumibricks.com/products/christmas-pub-limited-edition-gift-set-15014-2",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/2_5f3af4ea-bd23-43bd-9110-5a301a69309a.webp?v=1787824442",
+      "price": 110,
+      "compareAt": 124.99,
+      "discountPct": 12,
+      "promo": "FIRSTORDER12"
+    },
+    {
+      "t": "2026-09-01T04:43:18.837Z",
+      "source": "shopify",
+      "type": "NEW_PRODUCT",
+      "id": 9319922434284,
+      "title": "Christmas Pub",
+      "url": "https://www.lumibricks.com/products/christmas-pub-15014",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/Christmas_Pub_09.webp?v=1787821979",
+      "price": 105.6,
+      "available": true
+    },
+    {
+      "t": "2026-09-01T04:43:18.837Z",
+      "source": "shopify",
+      "type": "SALE_START",
+      "id": 9319922434284,
+      "title": "Christmas Pub",
+      "url": "https://www.lumibricks.com/products/christmas-pub-15014",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/Christmas_Pub_09.webp?v=1787821979",
+      "price": 105.6,
+      "compareAt": 119.99,
+      "discountPct": 12,
+      "promo": "FIRSTORDER12"
+    },
+    {
+      "t": "2026-09-01T04:43:18.837Z",
+      "source": "shopify",
+      "type": "PRICE_DROP",
+      "id": 8984028610796,
+      "title": "Castle Banquet Hall",
+      "url": "https://www.lumibricks.com/products/castle-banquet-hall-l9071",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/12010_L9071.webp?v=1788233366",
+      "price": 110.5,
+      "from": 149.6
+    },
+    {
+      "t": "2026-09-01T04:43:18.837Z",
+      "source": "shopify",
+      "type": "PRICE_DROP",
+      "id": 9027579216108,
+      "title": "Castle Armory",
+      "url": "https://www.lumibricks.com/products/castle-armory-12011",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/12011.webp?v=1788233366",
+      "price": 97.5,
+      "from": 132
+    },
     {
       "t": "2026-08-31T19:54:46.233Z",
       "source": "shopify",
@@ -5323,129 +5448,6 @@
       "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/Lumibricks_Waterfall_Cabin_L9083_1.jpg?v=1757389767",
       "price": 102,
       "from": 108
-    },
-    {
-      "t": "2026-06-15T01:29:42.567Z",
-      "source": "shopify",
-      "type": "PRICE_DROP",
-      "id": 8986609090796,
-      "title": "Vineyard Estate",
-      "url": "https://www.lumibricks.com/products/vineyard-estate-l9086",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/Lumibricks_vineyard_estate_l9086_1.jpg?v=1757389766",
-      "price": 123.2,
-      "from": 126
-    },
-    {
-      "t": "2026-06-15T01:29:42.567Z",
-      "source": "shopify",
-      "type": "PRICE_DROP",
-      "id": 8761014517996,
-      "title": "Twilight Motel",
-      "url": "https://www.lumibricks.com/products/twilight-motel-1970-pcs",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/1_18740fff-da92-4a1b-8f1c-c7a3acd7aa8a.jpg?v=1735781721",
-      "price": 105.6,
-      "from": 108
-    },
-    {
-      "t": "2026-06-15T01:29:42.567Z",
-      "source": "shopify",
-      "type": "PRICE_DROP",
-      "id": 8989598351596,
-      "title": "Treasure Stagecoach",
-      "url": "https://www.lumibricks.com/products/treasure-stagecoach-l9099",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/lumibricks_treasure_stagecoach_l9099_1.jpg?v=1757389766",
-      "price": 21.12,
-      "from": 21.6
-    },
-    {
-      "t": "2026-06-15T01:29:42.567Z",
-      "source": "shopify",
-      "type": "PRICE_DROP",
-      "id": 8968391819500,
-      "title": "Traveling Circus",
-      "url": "https://www.lumibricks.com/products/traveling-circus-l9079",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/Lumibricks_Traveling_Circus_L9079_-_1.jpg?v=1757389767",
-      "price": 96.8,
-      "from": 99
-    },
-    {
-      "t": "2026-06-15T01:29:42.567Z",
-      "source": "shopify",
-      "type": "PRICE_DROP",
-      "id": 9233543069932,
-      "title": "Train Track Expansion Accessories",
-      "url": "https://www.lumibricks.com/products/train-track-expansion-accessories-15006n",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/77ad065df0cdbabb08cf4475f046f61b.webp?v=1780630926",
-      "price": 26.4,
-      "from": 27
-    },
-    {
-      "t": "2026-06-15T01:29:42.567Z",
-      "source": "shopify",
-      "type": "SALE_START",
-      "id": 8885338276076,
-      "title": "The Sailboat: La Brisa",
-      "url": "https://www.lumibricks.com/products/the-sailboat-la-brisa-1640pcs-f9074",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/Lumibricks_The_Sailboat_La_Brisa_F9074_-_1.jpg?v=1758188291",
-      "price": 88,
-      "compareAt": 99.99,
-      "discountPct": 12,
-      "promo": "NEWFAN12"
-    },
-    {
-      "t": "2026-06-15T01:29:42.567Z",
-      "source": "shopify",
-      "type": "PRICE_DROP",
-      "id": 8557541163244,
-      "title": "The Hen House",
-      "url": "https://www.lumibricks.com/products/the-hen-house",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/1_e8f58f76-a106-43fb-bc63-e0ab4fd35a6f.jpg?v=1719541298",
-      "price": 26.4,
-      "from": 27
-    },
-    {
-      "t": "2026-06-15T01:29:42.567Z",
-      "source": "shopify",
-      "type": "PRICE_DROP",
-      "id": 9027579347180,
-      "title": "Sylvan Inn",
-      "url": "https://www.lumibricks.com/products/sylvan-inn-20006",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/sylvan_inn_20006_1.jpg?v=1762845990",
-      "price": 140.8,
-      "from": 144
-    },
-    {
-      "t": "2026-06-15T01:29:42.567Z",
-      "source": "shopify",
-      "type": "PRICE_DROP",
-      "id": 9107108790508,
-      "title": "Surf Shop",
-      "url": "https://www.lumibricks.com/products/surf-shop-20004",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/surf_shop_20004_1.png?v=1768382413",
-      "price": 96.8,
-      "from": 99
-    },
-    {
-      "t": "2026-06-15T01:29:42.567Z",
-      "source": "shopify",
-      "type": "PRICE_DROP",
-      "id": 8945489543404,
-      "title": "Sunset Stopover",
-      "url": "https://www.lumibricks.com/products/sunset-stopover-l9082",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/Lumibricks_Sunset_Stopover_L9082_-_1.jpg?v=1757389767",
-      "price": 26.4,
-      "from": 27
-    },
-    {
-      "t": "2026-06-15T01:29:42.567Z",
-      "source": "shopify",
-      "type": "PRICE_DROP",
-      "id": 9041051123948,
-      "title": "Sunrise Lighthouse",
-      "url": "https://www.lumibricks.com/products/sunrise-lighthouse-18007",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/1_9719b815-7119-4c7a-b003-b4ed9be0c6d2.webp?v=1781263333",
-      "price": 72.25,
-      "from": 76.5
     }
   ]
 }

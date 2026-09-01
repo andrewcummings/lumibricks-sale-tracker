@@ -1,6 +1,171 @@
 {
-  "generatedAt": "2026-09-01T09:53:05.196Z",
+  "generatedAt": "2026-09-01T12:22:24.043Z",
   "events": [
+    {
+      "t": "2026-09-01T12:22:24.043Z",
+      "source": "amazon",
+      "type": "PRICE_RISE",
+      "id": 9027578036460,
+      "title": "Steamboat",
+      "url": "https://www.amazon.com/dp/B0FNQSJVWY",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/2_3697d23c-5611-4ffd-8829-e2675e780996.jpg?v=1786360579",
+      "price": 99.99,
+      "from": 79.99
+    },
+    {
+      "t": "2026-09-01T12:22:24.043Z",
+      "source": "amazon",
+      "type": "PRICE_RISE",
+      "id": 9004345327852,
+      "title": "Spa Cabin",
+      "url": "https://www.amazon.com/dp/B0FKMDVHBZ",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/20260810-102309.jpg?v=1786328635",
+      "price": 109.99,
+      "from": 93.49
+    },
+    {
+      "t": "2026-09-01T12:22:24.043Z",
+      "source": "amazon",
+      "type": "PRICE_RISE",
+      "id": 8685511246060,
+      "title": "Ski Lodge",
+      "url": "https://www.amazon.com/dp/B0FKBFBLCR",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/1_c4b7a5f7-c0a5-41e5-a914-e7deff18bee0.jpg?v=1729564035",
+      "price": 144.57,
+      "from": 128.99
+    },
+    {
+      "t": "2026-09-01T12:22:24.043Z",
+      "source": "amazon",
+      "type": "PRICE_DROP",
+      "id": 9004326256876,
+      "title": "Shepherd's Cottage (Retiring Soon)",
+      "url": "https://www.amazon.com/dp/B0FGPSD875",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/shepherd_s_cottage_l9094_1.jpg?v=1757908088",
+      "price": 59.99,
+      "from": 95.99
+    },
+    {
+      "t": "2026-09-01T12:22:24.043Z",
+      "source": "amazon",
+      "type": "PRICE_RISE",
+      "id": 8740988616940,
+      "title": "Record Store",
+      "url": "https://www.amazon.com/dp/B0FP4DTGLT",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/1_7317642c-4c73-4796-95d6-0f15782c3147.jpg?v=1733895904",
+      "price": 134.99,
+      "from": 114.74
+    },
+    {
+      "t": "2026-09-01T12:22:24.043Z",
+      "source": "amazon",
+      "type": "PRICE_RISE",
+      "id": 8948785283308,
+      "title": "Night Glow Drive-in",
+      "url": "https://www.amazon.com/dp/B0F6MQH4P3",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/Lumibricks_Night_Glow_Drive-In_L9081_-_2.jpg?v=1750907635",
+      "price": 109.99,
+      "from": 98.99
+    },
+    {
+      "t": "2026-09-01T12:22:24.043Z",
+      "source": "amazon",
+      "type": "PRICE_RISE",
+      "id": 8737986019564,
+      "title": "Medieval Water Mill",
+      "url": "https://www.amazon.com/dp/B0DKJK63Q1",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/F9061.webp?v=1788233548",
+      "price": 74.99,
+      "from": 59.99
+    },
+    {
+      "t": "2026-09-01T12:22:24.043Z",
+      "source": "amazon",
+      "type": "PRICE_RISE",
+      "id": 9004365644012,
+      "title": "Interstellar Drive-In",
+      "url": "https://www.amazon.com/dp/B0FNQNQ1Y3",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/interstellar_drive_in_18006_5.jpg?v=1761704620",
+      "price": 119.99,
+      "from": 101.99
+    },
+    {
+      "t": "2026-09-01T12:22:24.043Z",
+      "source": "amazon",
+      "type": "PRICE_DROP",
+      "id": 8982836773100,
+      "title": "Heritage Tram and Station",
+      "url": "https://www.amazon.com/dp/B0FF4FFCWH",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/L9084.webp?v=1788229911",
+      "price": 52.49,
+      "from": 59.99
+    },
+    {
+      "t": "2026-09-01T12:22:24.043Z",
+      "source": "amazon",
+      "type": "PRICE_RISE",
+      "id": 8868181836012,
+      "title": "Gas Station",
+      "url": "https://www.amazon.com/dp/B0DYTYY8WG",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/Gas_Station_F9065_2.jpg?v=1744092826",
+      "price": 94.99,
+      "from": 80.74
+    },
+    {
+      "t": "2026-09-01T12:22:24.043Z",
+      "source": "amazon",
+      "type": "PRICE_DROP",
+      "id": 9004339560684,
+      "title": "Game Stack",
+      "url": "https://www.amazon.com/dp/B0FGPZYZ86",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/L9095.webp?v=1786954464",
+      "price": 110.49,
+      "from": 129.99
+    },
+    {
+      "t": "2026-09-01T12:22:24.043Z",
+      "source": "amazon",
+      "type": "PRICE_RISE",
+      "id": 8901501419756,
+      "title": "Bamboo House",
+      "url": "https://www.amazon.com/dp/B0F21DRX47",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/Lumibricks_Bamboo_House_L9075_-_3.jpg?v=1757061571",
+      "price": 114.99,
+      "from": 103.49
+    },
+    {
+      "t": "2026-09-01T12:22:24.043Z",
+      "source": "amazon",
+      "type": "PRICE_RISE",
+      "id": 8984717361388,
+      "title": "Alpine Observatory",
+      "url": "https://www.amazon.com/dp/B0FGPFGPMZ",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/alpine_observatory_l9091_1.jpg?v=1756707352",
+      "price": 134.99,
+      "from": 114.74
+    },
+    {
+      "t": "2026-09-01T12:22:24.043Z",
+      "source": "amazon",
+      "type": "PRICE_DROP",
+      "id": 9119253364972,
+      "title": "Streetball Tour Bus (Retiring Soon)",
+      "url": "https://www.amazon.com/dp/B0G6J61J8R",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/streetball_tour_bus_19010_3.jpg?v=1770299591",
+      "price": 37.49,
+      "from": 74.99
+    },
+    {
+      "t": "2026-09-01T12:22:24.043Z",
+      "source": "amazon",
+      "type": "PRICE_RISE",
+      "id": 9041065279724,
+      "title": "Western Bank Heist",
+      "url": "https://www.amazon.com/dp/B0FNMXGHXF",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/western_bank_heist_l9097_3.jpg?v=1769254370",
+      "price": 149.99,
+      "from": 127.99
+    },
     {
       "t": "2026-09-01T09:53:05.196Z",
       "source": "shopify",
@@ -5282,170 +5447,6 @@
       "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/1_9d515891-7506-4a4a-9466-0c765accade1.webp?v=1781001443",
       "price": 149.99,
       "from": 134.99
-    },
-    {
-      "t": "2026-06-15T09:12:03.584Z",
-      "source": "amazon",
-      "type": "PRICE_RISE",
-      "id": 9146342244588,
-      "title": "Barbershop",
-      "url": "https://www.amazon.com/dp/B0GC62KTFX",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/barbershop_19012_1.png?v=1773297740",
-      "price": 149.99,
-      "from": 134.99
-    },
-    {
-      "t": "2026-06-15T08:25:12.725Z",
-      "source": "shopify",
-      "type": "NEW_PRODUCT",
-      "id": 9233548443884,
-      "title": "Luna Cottage",
-      "url": "https://www.lumibricks.com/products/luna-cottage-10014",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/7aa9b238bc765e6ac8641e694ffbd757_16c6f04c-a58f-467b-a47b-f9d143738e21.webp?v=1781007929",
-      "price": 105.6,
-      "available": true
-    },
-    {
-      "t": "2026-06-15T08:25:12.725Z",
-      "source": "shopify",
-      "type": "SALE_START",
-      "id": 9233548443884,
-      "title": "Luna Cottage",
-      "url": "https://www.lumibricks.com/products/luna-cottage-10014",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/7aa9b238bc765e6ac8641e694ffbd757_16c6f04c-a58f-467b-a47b-f9d143738e21.webp?v=1781007929",
-      "price": 105.6,
-      "compareAt": 119.99,
-      "discountPct": 12,
-      "promo": "GRATEFUL12"
-    },
-    {
-      "t": "2026-06-15T08:25:12.725Z",
-      "source": "shopify",
-      "type": "PRICE_DROP",
-      "id": 9246451564780,
-      "title": "Corner Photo Studio",
-      "url": "https://www.lumibricks.com/products/corner-photo-studio-19016",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/1bfa0e0dd5ac06b71819bc8494b01103.webp?v=1781061331",
-      "price": 70.4,
-      "from": 77.44
-    },
-    {
-      "t": "2026-06-15T08:25:12.725Z",
-      "source": "shopify",
-      "type": "SALE_START",
-      "id": 8901501419756,
-      "title": "Bamboo House",
-      "url": "https://www.lumibricks.com/products/bamboo-house-l9075",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/Lumibricks_Bamboo_House_L9075_-_2.jpg?v=1757389767",
-      "price": 101.2,
-      "compareAt": 114.99,
-      "discountPct": 12,
-      "promo": "GRATEFUL12"
-    },
-    {
-      "t": "2026-06-15T08:25:12.725Z",
-      "source": "shopify",
-      "type": "RESTOCK",
-      "id": 8901501419756,
-      "title": "Bamboo House",
-      "url": "https://www.lumibricks.com/products/bamboo-house-l9075",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/Lumibricks_Bamboo_House_L9075_-_2.jpg?v=1757389767"
-    },
-    {
-      "t": "2026-06-15T08:25:12.725Z",
-      "type": "REMOVED",
-      "id": 7933167501548,
-      "title": "A-Frame Cabin",
-      "url": "https://www.lumibricks.com/products/a-frame-cabin",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/1_13b6babb-9e88-48ee-b551-89a828ef6cb2.jpg?v=1686213125"
-    },
-    {
-      "t": "2026-06-15T01:29:42.567Z",
-      "source": "shopify",
-      "type": "PRICE_DROP",
-      "id": 9210634567916,
-      "title": "Wild West Meeting Hall",
-      "url": "https://www.lumibricks.com/products/wild-west-meeting-hall-14016",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/7aa9b238bc765e6ac8641e694ffbd757_0e8a43a8-dae0-48f8-a0dc-623e17ab9c95.webp?v=1778675170",
-      "price": 114.4,
-      "from": 116.98
-    },
-    {
-      "t": "2026-06-15T01:29:42.567Z",
-      "source": "shopify",
-      "type": "PRICE_DROP",
-      "id": 9132933677292,
-      "title": "Wheat Field with Cypresses",
-      "url": "https://www.lumibricks.com/products/wheat-field-with-cypresses-21001",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/wheat_field_with_cypresses_21001_1.jpg?v=1773042650",
-      "price": 114.4,
-      "from": 117
-    },
-    {
-      "t": "2026-06-15T01:29:42.567Z",
-      "source": "shopify",
-      "type": "PRICE_DROP",
-      "id": 8704413663468,
-      "title": "Western Stagecoach",
-      "url": "https://www.lumibricks.com/products/western-stagecoach-293pcs",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/1_fd7a7550-01d7-4afb-bb5e-5fb6ec14d6e3.jpg?v=1730711130",
-      "price": 21.12,
-      "from": 21.6
-    },
-    {
-      "t": "2026-06-15T01:29:42.567Z",
-      "source": "shopify",
-      "type": "PRICE_DROP",
-      "id": 8073892102380,
-      "title": "Western Saloon",
-      "url": "https://www.lumibricks.com/products/western-saloon",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/1-1_2cd6c5d5-b84e-4355-99f5-40a0f60abeac.jpg?v=1767696107",
-      "price": 85,
-      "from": 89.99
-    },
-    {
-      "t": "2026-06-15T01:29:42.567Z",
-      "source": "shopify",
-      "type": "PRICE_DROP",
-      "id": 8635832565996,
-      "title": "Western Freight Train",
-      "url": "https://www.lumibricks.com/products/western-freight-train-1524pcs",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/1_f658e8ef-8ce4-43d6-afbe-e3aa306f6685.jpg?v=1724738720",
-      "price": 79.2,
-      "from": 80.99
-    },
-    {
-      "t": "2026-06-15T01:29:42.567Z",
-      "source": "shopify",
-      "type": "PRICE_DROP",
-      "id": 9132934070508,
-      "title": "Western Carpentry Workshop",
-      "url": "https://www.lumibricks.com/products/western-carpentry-workshop-14015",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/14015.jpg?v=1773307789",
-      "price": 88,
-      "from": 90
-    },
-    {
-      "t": "2026-06-15T01:29:42.567Z",
-      "source": "shopify",
-      "type": "PRICE_DROP",
-      "id": 9041065279724,
-      "title": "Western Bank Heist",
-      "url": "https://www.lumibricks.com/products/western-bank-heist-14013",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/western_bank_heist_l9097_1.jpg?v=1762396078",
-      "price": 127.5,
-      "from": 135
-    },
-    {
-      "t": "2026-06-15T01:29:42.567Z",
-      "source": "shopify",
-      "type": "PRICE_DROP",
-      "id": 8666696483052,
-      "title": "West Train Station",
-      "url": "https://www.lumibricks.com/products/west-train-station-1974pcs",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/1_8aaba47f-921c-427b-b31b-74818620bb1e.webp?v=1781262821",
-      "price": 88,
-      "from": 90
     }
   ]
 }

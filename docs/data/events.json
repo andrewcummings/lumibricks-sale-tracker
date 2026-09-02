@@ -1,6 +1,23 @@
 {
-  "generatedAt": "2026-09-01T14:40:54.945Z",
+  "generatedAt": "2026-09-02T04:14:36.691Z",
   "events": [
+    {
+      "t": "2026-09-02T04:14:36.691Z",
+      "type": "REMOVED",
+      "id": 7774482497772,
+      "title": "Steampunk Train Station",
+      "url": "https://www.lumibricks.com/products/steampunk-train-station",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/products/funwhole-steampunk-train-station-f9007.jpg?v=1678090501"
+    },
+    {
+      "t": "2026-09-02T04:14:36.691Z",
+      "source": "shopify",
+      "type": "RESTOCK",
+      "id": 8238832812268,
+      "title": "Farm Store",
+      "url": "https://www.lumibricks.com/products/farm-store",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/1_cb96f23c-e036-48a2-88f7-9dd5057b68f2.jpg?v=1710411824"
+    },
     {
       "t": "2026-09-01T14:40:54.945Z",
       "source": "shopify",
@@ -5425,26 +5442,6 @@
       "title": "Figures Display Box-Not for sale, points redemption only",
       "url": "https://www.lumibricks.com/products/figures-display-box",
       "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/20250425-101629.jpg?v=1745547405"
-    },
-    {
-      "t": "2026-06-15T21:57:12.657Z",
-      "source": "shopify",
-      "type": "OUT_OF_STOCK",
-      "id": 8901501419756,
-      "title": "Bamboo House",
-      "url": "https://www.lumibricks.com/products/bamboo-house-l9075",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/Lumibricks_Bamboo_House_L9075_-_2.jpg?v=1757389767"
-    },
-    {
-      "t": "2026-06-15T11:16:19.588Z",
-      "source": "shopify",
-      "type": "NEW_PRODUCT",
-      "id": 8759354589420,
-      "title": "Building Block Organizer-Not for sale, points redemption only",
-      "url": "https://www.lumibricks.com/products/building-block-organizer-not-for-sale-points-redemption-only",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/20241231-171506-Photoroom.png?v=1735636590",
-      "price": 25.99,
-      "available": true
     }
   ]
 }

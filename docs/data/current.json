@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-09-01T14:40:54.945Z",
+  "generatedAt": "2026-09-02T04:14:36.691Z",
   "store": "https://www.lumibricks.com",
   "totals": {
-    "products": 142,
-    "onSale": 125,
+    "products": 141,
+    "onSale": 124,
     "maxDiscountPct": 35
   },
   "products": [
@@ -2179,7 +2179,7 @@
       "onSale": true,
       "discountPct": 12,
       "promo": "FIRSTORDER12",
-      "available": false,
+      "available": true,
       "lowestEver": 64,
       "atLowestEver": false,
       "saleSince": "2026-06-14T18:18:51.284Z",
@@ -2235,24 +2235,6 @@
       "promo": "FIRSTORDER12",
       "available": true,
       "lowestEver": 80,
-      "atLowestEver": false,
-      "saleSince": "2026-06-14T18:18:51.284Z",
-      "firstSeen": "2026-06-14T16:21:48.924Z"
-    },
-    {
-      "id": 7774482497772,
-      "title": "Steampunk Train Station",
-      "handle": "steampunk-train-station",
-      "url": "https://www.lumibricks.com/products/steampunk-train-station",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/products/funwhole-steampunk-train-station-f9007.jpg?v=1678090501",
-      "productType": "Steampunk World",
-      "price": 105.6,
-      "compareAt": 119.99,
-      "onSale": true,
-      "discountPct": 12,
-      "promo": "FIRSTORDER12",
-      "available": true,
-      "lowestEver": 96,
       "atLowestEver": false,
       "saleSince": "2026-06-14T18:18:51.284Z",
       "firstSeen": "2026-06-14T16:21:48.924Z"

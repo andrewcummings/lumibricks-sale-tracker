@@ -1,6 +1,24 @@
 {
-  "generatedAt": "2026-09-02T04:14:36.691Z",
+  "generatedAt": "2026-09-02T18:31:06.246Z",
   "events": [
+    {
+      "t": "2026-09-02T18:31:06.246Z",
+      "source": "shopify",
+      "type": "OUT_OF_STOCK",
+      "id": 8774298861804,
+      "title": "Home Greenhouse",
+      "url": "https://www.lumibricks.com/products/home-greenhouse-1428pcs",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/img_v3_02lc_56d2aadf-698f-4ff0-acf5-89b806597f4g.jpg?v=1744714174"
+    },
+    {
+      "t": "2026-09-02T18:31:06.246Z",
+      "source": "shopify",
+      "type": "OUT_OF_STOCK",
+      "id": 8238832812268,
+      "title": "Farm Store",
+      "url": "https://www.lumibricks.com/products/farm-store",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/1_cb96f23c-e036-48a2-88f7-9dd5057b68f2.jpg?v=1710411824"
+    },
     {
       "t": "2026-09-02T04:14:36.691Z",
       "type": "REMOVED",
@@ -5420,28 +5438,6 @@
       "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/49a35e8577e1b3606a4ce95996f2d0d4.webp?v=1781007054",
       "price": 48.4,
       "available": true
-    },
-    {
-      "t": "2026-06-17T08:08:26.505Z",
-      "source": "shopify",
-      "type": "SALE_START",
-      "id": 9246451335404,
-      "title": "Wild West Ranch Duel",
-      "url": "https://www.lumibricks.com/products/wild-west-ranch-duel-14017",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/49a35e8577e1b3606a4ce95996f2d0d4.webp?v=1781007054",
-      "price": 48.4,
-      "compareAt": 54.99,
-      "discountPct": 12,
-      "promo": "GRATEFUL12"
-    },
-    {
-      "t": "2026-06-16T11:52:27.985Z",
-      "source": "shopify",
-      "type": "RESTOCK",
-      "id": 8888326815980,
-      "title": "Figures Display Box-Not for sale, points redemption only",
-      "url": "https://www.lumibricks.com/products/figures-display-box",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/20250425-101629.jpg?v=1745547405"
     }
   ]
 }

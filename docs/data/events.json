@@ -1,6 +1,22 @@
 {
-  "generatedAt": "2026-09-04T09:26:33.085Z",
+  "generatedAt": "2026-09-04T14:08:28.538Z",
   "events": [
+    {
+      "t": "2026-09-04T14:08:28.538Z",
+      "type": "REMOVED",
+      "id": 8238832812268,
+      "title": "Farm Store",
+      "url": "https://www.lumibricks.com/products/farm-store",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/1_cb96f23c-e036-48a2-88f7-9dd5057b68f2.jpg?v=1710411824"
+    },
+    {
+      "t": "2026-09-04T14:08:28.538Z",
+      "type": "REMOVED",
+      "id": 8768580944108,
+      "title": "Bee Farm",
+      "url": "https://www.lumibricks.com/products/bee-farm-1274pcs",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/1_46c7da05-14db-4a44-b67b-602ebd4dd6a0.jpg?v=1736475827"
+    },
     {
       "t": "2026-09-04T09:26:33.085Z",
       "source": "shopify",
@@ -5416,28 +5432,6 @@
       "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/streetball_tour_bus_19010_1.jpg?v=1769492779",
       "price": 66,
       "from": 52.5
-    },
-    {
-      "t": "2026-06-17T17:58:12.536Z",
-      "source": "shopify",
-      "type": "PRICE_RISE",
-      "id": 9074917966060,
-      "title": "Steamphant",
-      "url": "https://www.lumibricks.com/products/steamphant-11014",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/steamphant_11014_1.png?v=1765244786",
-      "price": 48.4,
-      "from": 44
-    },
-    {
-      "t": "2026-06-17T17:58:12.536Z",
-      "source": "shopify",
-      "type": "PRICE_RISE",
-      "id": 9074919309548,
-      "title": "Redbrick Row House",
-      "url": "https://www.lumibricks.com/products/redbrick-row-house-15009",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/redbrick_row_house_15009_1.jpg?v=1765770899",
-      "price": 114.4,
-      "from": 91
     }
   ]
 }

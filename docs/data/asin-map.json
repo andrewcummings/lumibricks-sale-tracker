@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-31T15:57:09.201Z",
+  "generatedAt": "2026-09-07T14:03:47.795Z",
   "map": {
     "7933167501548": {
       "title": "A-Frame Cabin",
@@ -1028,6 +1028,22 @@
       "score": 0.2,
       "status": "unmatched",
       "checkedAt": "2026-08-31T15:57:09.201Z"
+    },
+    "9344822313196": {
+      "title": "Christmas Pub (Limited Edition Gift Set)",
+      "asin": "B0H5VXQWKK",
+      "amazonTitle": "Lumibricks Christmas Pub Lighting Building Set - 2142 Pcs Town Tavern | Bavarian Beer House Model with Custom Sound Module for Adults, Modular Holiday Winter Village, A Great Choice for Christmas",
+      "score": 0.4,
+      "status": "matched",
+      "checkedAt": "2026-09-07T14:03:47.795Z"
+    },
+    "9319922434284": {
+      "title": "Christmas Pub",
+      "asin": "B0H5VXQWKK",
+      "amazonTitle": "Lumibricks Christmas Pub Lighting Building Set - 2142 Pcs Town Tavern | Bavarian Beer House Model with Custom Sound Module for Adults, Modular Holiday Winter Village, A Great Choice for Christmas",
+      "score": 1,
+      "status": "matched",
+      "checkedAt": "2026-09-07T14:03:47.795Z"
     }
   }
 }

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-04T14:08:28.538Z",
+  "generatedAt": "2026-09-07T20:25:40.482Z",
   "store": "https://www.lumibricks.com",
   "totals": {
     "products": 139,
@@ -345,6 +345,24 @@
       "promo": "BESTDEAL15",
       "available": true,
       "lowestEver": 72,
+      "atLowestEver": false,
+      "saleSince": "2026-06-14T18:18:51.284Z",
+      "firstSeen": "2026-06-14T16:21:48.924Z"
+    },
+    {
+      "id": 8073892102380,
+      "title": "Western Saloon",
+      "handle": "western-saloon",
+      "url": "https://www.lumibricks.com/products/western-saloon",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/F9021V2.0.webp?v=1788512143",
+      "productType": "The Old West",
+      "price": 85,
+      "compareAt": 99.99,
+      "onSale": true,
+      "discountPct": 15,
+      "promo": "BESTDEAL15",
+      "available": true,
+      "lowestEver": 80,
       "atLowestEver": false,
       "saleSince": "2026-06-14T18:18:51.284Z",
       "firstSeen": "2026-06-14T16:21:48.924Z"
@@ -2181,24 +2199,6 @@
       "promo": "FIRSTORDER12",
       "available": true,
       "lowestEver": 28,
-      "atLowestEver": false,
-      "saleSince": "2026-06-14T18:18:51.284Z",
-      "firstSeen": "2026-06-14T16:21:48.924Z"
-    },
-    {
-      "id": 8073892102380,
-      "title": "Western Saloon",
-      "handle": "western-saloon",
-      "url": "https://www.lumibricks.com/products/western-saloon",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/F9021V2.0.webp?v=1788512143",
-      "productType": "The Old West",
-      "price": 88,
-      "compareAt": 99.99,
-      "onSale": true,
-      "discountPct": 12,
-      "promo": "FIRSTORDER12",
-      "available": true,
-      "lowestEver": 80,
       "atLowestEver": false,
       "saleSince": "2026-06-14T18:18:51.284Z",
       "firstSeen": "2026-06-14T16:21:48.924Z"

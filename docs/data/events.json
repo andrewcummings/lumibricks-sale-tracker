@@ -1,6 +1,17 @@
 {
-  "generatedAt": "2026-09-04T14:08:28.538Z",
+  "generatedAt": "2026-09-07T20:25:40.482Z",
   "events": [
+    {
+      "t": "2026-09-07T20:25:40.482Z",
+      "source": "shopify",
+      "type": "PRICE_DROP",
+      "id": 8073892102380,
+      "title": "Western Saloon",
+      "url": "https://www.lumibricks.com/products/western-saloon",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/F9021V2.0.webp?v=1788512143",
+      "price": 85,
+      "from": 88
+    },
     {
       "t": "2026-09-04T14:08:28.538Z",
       "type": "REMOVED",
@@ -5421,17 +5432,6 @@
       "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/redbrick_row_house_15009_1.jpg?v=1765770899",
       "price": 91,
       "from": 114.4
-    },
-    {
-      "t": "2026-06-17T17:58:12.536Z",
-      "source": "shopify",
-      "type": "PRICE_RISE",
-      "id": 9119253364972,
-      "title": "Streetball Tour Bus",
-      "url": "https://www.lumibricks.com/products/streetball-tour-bus-19010",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/streetball_tour_bus_19010_1.jpg?v=1769492779",
-      "price": 66,
-      "from": 52.5
     }
   ]
 }

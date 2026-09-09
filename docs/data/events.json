@@ -1,6 +1,15 @@
 {
-  "generatedAt": "2026-09-07T20:25:40.482Z",
+  "generatedAt": "2026-09-09T21:36:06.771Z",
   "events": [
+    {
+      "t": "2026-09-09T21:36:06.771Z",
+      "source": "shopify",
+      "type": "OUT_OF_STOCK",
+      "id": 9344822313196,
+      "title": "Christmas Pub (Limited Edition Gift Set)",
+      "url": "https://www.lumibricks.com/products/christmas-pub-limited-edition-gift-set-15014-2",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/2_5f3af4ea-bd23-43bd-9110-5a301a69309a.webp?v=1787824442"
+    },
     {
       "t": "2026-09-07T20:25:40.482Z",
       "source": "shopify",
@@ -5421,17 +5430,6 @@
       "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/steamphant_11014_1.png?v=1765244786",
       "price": 44,
       "from": 48.4
-    },
-    {
-      "t": "2026-06-17T19:04:01.871Z",
-      "source": "shopify",
-      "type": "PRICE_DROP",
-      "id": 9074919309548,
-      "title": "Redbrick Row House",
-      "url": "https://www.lumibricks.com/products/redbrick-row-house-15009",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/redbrick_row_house_15009_1.jpg?v=1765770899",
-      "price": 91,
-      "from": 114.4
     }
   ]
 }

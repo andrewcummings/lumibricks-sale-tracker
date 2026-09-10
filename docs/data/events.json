@@ -1,6 +1,24 @@
 {
-  "generatedAt": "2026-09-09T21:36:06.771Z",
+  "generatedAt": "2026-09-10T05:45:36.911Z",
   "events": [
+    {
+      "t": "2026-09-10T05:45:36.911Z",
+      "source": "shopify",
+      "type": "RESTOCK",
+      "id": 9344822313196,
+      "title": "Christmas Pub (Limited Edition Gift Set)",
+      "url": "https://www.lumibricks.com/products/christmas-pub-limited-edition-gift-set-15014-2",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/2_5f3af4ea-bd23-43bd-9110-5a301a69309a.webp?v=1787824442"
+    },
+    {
+      "t": "2026-09-10T05:45:36.911Z",
+      "source": "shopify",
+      "type": "OUT_OF_STOCK",
+      "id": 8901501419756,
+      "title": "Bamboo House",
+      "url": "https://www.lumibricks.com/products/bamboo-house-l9075",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/10009_L9075.webp?v=1788510736"
+    },
     {
       "t": "2026-09-09T21:36:06.771Z",
       "source": "shopify",
@@ -5408,28 +5426,6 @@
       "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/7aa9b238bc765e6ac8641e694ffbd757_16c6f04c-a58f-467b-a47b-f9d143738e21.webp?v=1781007929",
       "price": 115.28,
       "from": 105.6
-    },
-    {
-      "t": "2026-06-17T19:04:01.871Z",
-      "source": "shopify",
-      "type": "PRICE_DROP",
-      "id": 9119253364972,
-      "title": "Streetball Tour Bus",
-      "url": "https://www.lumibricks.com/products/streetball-tour-bus-19010",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/streetball_tour_bus_19010_1.jpg?v=1769492779",
-      "price": 52.5,
-      "from": 66
-    },
-    {
-      "t": "2026-06-17T19:04:01.871Z",
-      "source": "shopify",
-      "type": "PRICE_DROP",
-      "id": 9074917966060,
-      "title": "Steamphant",
-      "url": "https://www.lumibricks.com/products/steamphant-11014",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/steamphant_11014_1.png?v=1765244786",
-      "price": 44,
-      "from": 48.4
     }
   ]
 }

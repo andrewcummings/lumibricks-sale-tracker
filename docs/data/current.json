@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-09-11T11:01:40.552Z",
+  "generatedAt": "2026-09-11T16:17:33.836Z",
   "store": "https://www.lumibricks.com",
   "totals": {
-    "products": 139,
-    "onSale": 122,
+    "products": 138,
+    "onSale": 121,
     "maxDiscountPct": 35
   },
   "products": [
@@ -1839,24 +1839,6 @@
       "promo": "FIRSTORDER12",
       "available": true,
       "lowestEver": 24,
-      "atLowestEver": false,
-      "saleSince": "2026-06-14T18:18:51.284Z",
-      "firstSeen": "2026-06-14T16:21:48.924Z"
-    },
-    {
-      "id": 8774298861804,
-      "title": "Home Greenhouse",
-      "handle": "home-greenhouse-1428pcs",
-      "url": "https://www.lumibricks.com/products/home-greenhouse-1428pcs",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/F9059.webp?v=1788517810",
-      "productType": "Farm Life",
-      "price": 66,
-      "compareAt": 74.99,
-      "onSale": true,
-      "discountPct": 12,
-      "promo": "FIRSTORDER12",
-      "available": false,
-      "lowestEver": 60,
       "atLowestEver": false,
       "saleSince": "2026-06-14T18:18:51.284Z",
       "firstSeen": "2026-06-14T16:21:48.924Z"

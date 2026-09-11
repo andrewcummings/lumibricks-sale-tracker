@@ -1,6 +1,15 @@
 {
-  "generatedAt": "2026-09-10T05:45:36.911Z",
+  "generatedAt": "2026-09-11T11:01:40.552Z",
   "events": [
+    {
+      "t": "2026-09-11T11:01:40.552Z",
+      "source": "shopify",
+      "type": "OUT_OF_STOCK",
+      "id": 9344822313196,
+      "title": "Christmas Pub (Limited Edition Gift Set)",
+      "url": "https://www.lumibricks.com/products/christmas-pub-limited-edition-gift-set-15014-2",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/2_5f3af4ea-bd23-43bd-9110-5a301a69309a.webp?v=1787824442"
+    },
     {
       "t": "2026-09-10T05:45:36.911Z",
       "source": "shopify",
@@ -5415,17 +5424,6 @@
       "title": "Home Greenhouse",
       "url": "https://www.lumibricks.com/products/home-greenhouse-1428pcs",
       "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/img_v3_02lc_56d2aadf-698f-4ff0-acf5-89b806597f4g.jpg?v=1744714174"
-    },
-    {
-      "t": "2026-06-19T08:08:22.035Z",
-      "source": "shopify",
-      "type": "PRICE_RISE",
-      "id": 9233548443884,
-      "title": "Luna Cottage",
-      "url": "https://www.lumibricks.com/products/luna-cottage-10014",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/7aa9b238bc765e6ac8641e694ffbd757_16c6f04c-a58f-467b-a47b-f9d143738e21.webp?v=1781007929",
-      "price": 115.28,
-      "from": 105.6
     }
   ]
 }

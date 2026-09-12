@@ -1,6 +1,15 @@
 {
-  "generatedAt": "2026-09-11T16:17:33.836Z",
+  "generatedAt": "2026-09-12T10:30:42.227Z",
   "events": [
+    {
+      "t": "2026-09-12T10:30:42.227Z",
+      "source": "shopify",
+      "type": "OUT_OF_STOCK",
+      "id": 9319922434284,
+      "title": "Christmas Pub",
+      "url": "https://www.lumibricks.com/products/christmas-pub-15014",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/Christmas_Pub_09.webp?v=1787821979"
+    },
     {
       "t": "2026-09-11T16:17:33.836Z",
       "type": "REMOVED",
@@ -5412,17 +5421,6 @@
       "title": "Home Greenhouse",
       "url": "https://www.lumibricks.com/products/home-greenhouse-1428pcs",
       "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/img_v3_02lc_56d2aadf-698f-4ff0-acf5-89b806597f4g.jpg?v=1744714174"
-    },
-    {
-      "t": "2026-06-22T14:59:59.301Z",
-      "source": "shopify",
-      "type": "PRICE_DROP",
-      "id": 9146340933868,
-      "title": "Garden Cottage",
-      "url": "https://www.lumibricks.com/products/garden-cottage-10013",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/3034a1133efe01daba919094b70c6310_dc0e6bda-648c-4a80-ae85-0609d228a2cf.jpg?v=1773127725",
-      "price": 96.8,
-      "from": 107.36
     }
   ]
 }

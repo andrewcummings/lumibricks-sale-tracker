@@ -1,6 +1,72 @@
 {
-  "generatedAt": "2026-09-14T12:35:48.212Z",
+  "generatedAt": "2026-09-14T18:29:34.911Z",
   "events": [
+    {
+      "t": "2026-09-14T18:29:34.911Z",
+      "source": "shopify",
+      "type": "PRICE_RISE",
+      "id": 8737986019564,
+      "title": "Medieval Water Mill",
+      "url": "https://www.lumibricks.com/products/water-mill-1278pcs",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/F9061.webp?v=1788233548",
+      "price": 66,
+      "from": 56.25
+    },
+    {
+      "t": "2026-09-14T18:29:34.911Z",
+      "source": "shopify",
+      "type": "PRICE_RISE",
+      "id": 8130969764076,
+      "title": "Medieval Watchtower",
+      "url": "https://www.lumibricks.com/products/medieval-watchtower",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/F9027V2.0.webp?v=1788232950",
+      "price": 79.2,
+      "from": 67.5
+    },
+    {
+      "t": "2026-09-14T18:29:34.911Z",
+      "source": "shopify",
+      "type": "PRICE_RISE",
+      "id": 8973539115244,
+      "title": "Medieval Troupe Carriage",
+      "url": "https://www.lumibricks.com/products/medieval-troupe-carriage-l9063",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/L9063.webp?v=1788233366",
+      "price": 66,
+      "from": 56.25
+    },
+    {
+      "t": "2026-09-14T18:29:34.911Z",
+      "source": "shopify",
+      "type": "PRICE_RISE",
+      "id": 8756237271276,
+      "title": "Medieval Tailor Shop",
+      "url": "https://www.lumibricks.com/products/medieval-tailor-shop-1994pcs",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/F9038.webp?v=1788233366",
+      "price": 96.8,
+      "from": 71.5
+    },
+    {
+      "t": "2026-09-14T18:29:34.911Z",
+      "source": "shopify",
+      "type": "PRICE_RISE",
+      "id": 8984028610796,
+      "title": "Castle Banquet Hall",
+      "url": "https://www.lumibricks.com/products/castle-banquet-hall-l9071",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/12010_L9071.webp?v=1788233366",
+      "price": 149.6,
+      "from": 110.5
+    },
+    {
+      "t": "2026-09-14T18:29:34.911Z",
+      "source": "shopify",
+      "type": "PRICE_RISE",
+      "id": 9027579216108,
+      "title": "Castle Armory",
+      "url": "https://www.lumibricks.com/products/castle-armory-12011",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/12011.webp?v=1788233366",
+      "price": 132,
+      "from": 97.5
+    },
     {
       "t": "2026-09-14T12:35:48.212Z",
       "source": "shopify",
@@ -5355,72 +5421,6 @@
       "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/1_46c7da05-14db-4a44-b67b-602ebd4dd6a0.jpg?v=1736475827",
       "price": 60,
       "from": 66
-    },
-    {
-      "t": "2026-06-22T16:43:16.664Z",
-      "source": "shopify",
-      "type": "PRICE_DROP",
-      "id": 9132932694252,
-      "title": "Beach Lifeguard Tower",
-      "url": "https://www.lumibricks.com/products/beach-lifeguard-tower-18008",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/beach_lifeguard_tower_18008_1.png?v=1770876879",
-      "price": 52,
-      "from": 57.2
-    },
-    {
-      "t": "2026-06-22T16:43:16.664Z",
-      "source": "shopify",
-      "type": "PRICE_DROP",
-      "id": 9146342244588,
-      "title": "Barbershop",
-      "url": "https://www.lumibricks.com/products/barbershop-19012",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/barbershop_19012_1.png?v=1773297740",
-      "price": 120,
-      "from": 132
-    },
-    {
-      "t": "2026-06-22T16:43:16.664Z",
-      "source": "shopify",
-      "type": "PRICE_DROP",
-      "id": 8714194813164,
-      "title": "Balcony Theatre",
-      "url": "https://www.lumibricks.com/products/balcony-theatre-2445pcs",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/1_70438e27-5225-4722-b981-c390f9f1e236.jpg?v=1731553400",
-      "price": 120,
-      "from": 132
-    },
-    {
-      "t": "2026-06-22T16:43:16.664Z",
-      "source": "shopify",
-      "type": "PRICE_DROP",
-      "id": 9004266225900,
-      "title": "Aurora Cabin",
-      "url": "https://www.lumibricks.com/products/aurora-cabin-l9090",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/aurora_cabin_l9090_1.jpg?v=1758687399",
-      "price": 96,
-      "from": 105.6
-    },
-    {
-      "t": "2026-06-22T16:43:16.664Z",
-      "source": "shopify",
-      "type": "PRICE_DROP",
-      "id": 8702752784620,
-      "title": "Apartment",
-      "url": "https://www.lumibricks.com/products/apartment-2507pcs",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/F9042.jpg?v=1779873280",
-      "price": 136,
-      "from": 144.5
-    },
-    {
-      "t": "2026-06-22T16:43:16.664Z",
-      "source": "shopify",
-      "type": "PRICE_DROP",
-      "id": 8571602239724,
-      "title": "Antique Store",
-      "url": "https://www.lumibricks.com/products/antique-store-antique-co",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/1_bcbd6029-a8bc-4529-ba90-20b2f70137f1.jpg?v=1721296842",
-      "price": 128,
-      "from": 140.8
     }
   ]
 }

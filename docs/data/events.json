@@ -1,6 +1,50 @@
 {
-  "generatedAt": "2026-09-14T05:59:38.677Z",
+  "generatedAt": "2026-09-14T12:35:48.212Z",
   "events": [
+    {
+      "t": "2026-09-14T12:35:48.212Z",
+      "source": "shopify",
+      "type": "PRICE_DROP",
+      "id": 9367611637996,
+      "title": "Neon Garden (Coming Mid-September)",
+      "url": "https://www.lumibricks.com/products/neon-garden-17014",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/1_37449add-cae7-4e60-af88-4fe2e3f4bc4d.jpg?v=1787654263",
+      "price": 39.99,
+      "from": 9999.99
+    },
+    {
+      "t": "2026-09-14T12:35:48.212Z",
+      "source": "shopify",
+      "type": "PRICE_DROP",
+      "id": 9367610786028,
+      "title": "Neon Elite Lounge (Coming Mid-September)",
+      "url": "https://www.lumibricks.com/products/neon-elite-lounge-17013",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/1_8d6c85d1-a0f1-4c5e-bfb7-05fc14685cb6.webp?v=1787733273",
+      "price": 139.99,
+      "from": 9999.99
+    },
+    {
+      "t": "2026-09-14T12:35:48.212Z",
+      "source": "shopify",
+      "type": "PRICE_DROP",
+      "id": 9393565925612,
+      "title": "Micro Izakaya & Manga Shop (Limited Gift with Manga Shop)",
+      "url": "https://www.lumibricks.com/products/micro-izakaya-manga-shop-17016",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/2_d07cf8ab-e62b-4849-9fa2-4a0b4f6088c4.webp?v=1787726906",
+      "price": 32.99,
+      "from": 9999.99
+    },
+    {
+      "t": "2026-09-14T12:35:48.212Z",
+      "source": "shopify",
+      "type": "PRICE_DROP",
+      "id": 9367612588268,
+      "title": "Manga Shop (Coming Mid-September)",
+      "url": "https://www.lumibricks.com/products/manga-shop-17015",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/550a1bedced0b3e0430ab7c0194a7b26.webp?v=1789382552",
+      "price": 119.99,
+      "from": 9999.99
+    },
     {
       "t": "2026-09-14T05:59:38.677Z",
       "source": "shopify",
@@ -5377,50 +5421,6 @@
       "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/1_bcbd6029-a8bc-4529-ba90-20b2f70137f1.jpg?v=1721296842",
       "price": 128,
       "from": 140.8
-    },
-    {
-      "t": "2026-06-22T16:43:16.664Z",
-      "source": "shopify",
-      "type": "PRICE_DROP",
-      "id": 8984717361388,
-      "title": "Alpine Observatory",
-      "url": "https://www.lumibricks.com/products/alpine-observatory-l9091",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/alpine_observatory_l9091_1.jpg?v=1756707352",
-      "price": 108,
-      "from": 114.75
-    },
-    {
-      "t": "2026-06-22T16:43:16.664Z",
-      "source": "shopify",
-      "type": "PRICE_DROP",
-      "id": 9041053221100,
-      "title": "Alien Frontier: Bounty Hub",
-      "url": "https://www.lumibricks.com/products/alien-frontier-bounty-hub",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/alien_frontier_bounty_hub_20007_1.jpg?v=1763446400",
-      "price": 112,
-      "from": 123.2
-    },
-    {
-      "t": "2026-06-22T16:43:16.664Z",
-      "source": "shopify",
-      "type": "PRICE_DROP",
-      "id": 9027576955116,
-      "title": "Alchemist's Moving Castle",
-      "url": "https://www.lumibricks.com/products/alchemists-moving-castle-11010",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/alchemist_s_moving_castle_L9103_1.jpg?v=1762323713",
-      "price": 116.8,
-      "from": 124.1
-    },
-    {
-      "t": "2026-06-22T14:59:59.301Z",
-      "source": "shopify",
-      "type": "PRICE_DROP",
-      "id": 8774298861804,
-      "title": "Home Greenhouse",
-      "url": "https://www.lumibricks.com/products/home-greenhouse-1428pcs",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/img_v3_02lc_56d2aadf-698f-4ff0-acf5-89b806597f4g.jpg?v=1744714174",
-      "price": 66,
-      "from": 72.16
     }
   ]
 }

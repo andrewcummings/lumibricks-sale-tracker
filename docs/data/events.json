@@ -1,6 +1,48 @@
 {
-  "generatedAt": "2026-09-14T18:29:34.911Z",
+  "generatedAt": "2026-09-15T07:33:17.208Z",
   "events": [
+    {
+      "t": "2026-09-15T07:33:17.208Z",
+      "source": "shopify",
+      "type": "PRICE_RISE",
+      "id": 9199088697580,
+      "title": "Ranger Camp",
+      "url": "https://www.lumibricks.com/products/ranger-camp-12014",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/6829be9c976086cdf9509a06ae0629d8.webp?v=1777545603",
+      "price": 30.8,
+      "from": 29.75
+    },
+    {
+      "t": "2026-09-15T07:33:17.208Z",
+      "source": "shopify",
+      "type": "RESTOCK",
+      "id": 9393565925612,
+      "title": "Micro Izakaya & Manga Shop (Limited Gift with Manga Shop)",
+      "url": "https://www.lumibricks.com/products/micro-izakaya-manga-shop-17016",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/2_d07cf8ab-e62b-4849-9fa2-4a0b4f6088c4.webp?v=1787726906"
+    },
+    {
+      "t": "2026-09-15T07:33:17.208Z",
+      "source": "shopify",
+      "type": "SALE_START",
+      "id": 9367612588268,
+      "title": "Manga Shop",
+      "url": "https://www.lumibricks.com/products/manga-shop-17015",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/550a1bedced0b3e0430ab7c0194a7b26.webp?v=1789382552",
+      "price": 105.6,
+      "compareAt": 119.99,
+      "discountPct": 12,
+      "promo": "FIRSTORDER12"
+    },
+    {
+      "t": "2026-09-15T07:33:17.208Z",
+      "source": "shopify",
+      "type": "RESTOCK",
+      "id": 9367612588268,
+      "title": "Manga Shop",
+      "url": "https://www.lumibricks.com/products/manga-shop-17015",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/550a1bedced0b3e0430ab7c0194a7b26.webp?v=1789382552"
+    },
     {
       "t": "2026-09-14T18:29:34.911Z",
       "source": "shopify",
@@ -5377,50 +5419,6 @@
       "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/1_0ac6389a-0b80-4e70-8184-dd34f7752f70.webp?v=1781263205",
       "price": 120,
       "from": 132
-    },
-    {
-      "t": "2026-06-22T16:43:16.664Z",
-      "source": "shopify",
-      "type": "PRICE_DROP",
-      "id": 8944774775020,
-      "title": "Brick Art Gallery",
-      "url": "https://www.lumibricks.com/products/brick-art-gallery-l9085",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/Lumibircks_Art_Gallery_L9085_-_1.webp?v=1753413772",
-      "price": 144,
-      "from": 153
-    },
-    {
-      "t": "2026-06-22T16:43:16.664Z",
-      "source": "shopify",
-      "type": "PRICE_DROP",
-      "id": 9074919735532,
-      "title": "Boxing Club",
-      "url": "https://www.lumibricks.com/products/boxing-club-19009",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/boxing_club_19009_1.jpg?v=1765277723",
-      "price": 120,
-      "from": 127.5
-    },
-    {
-      "t": "2026-06-22T16:43:16.664Z",
-      "source": "shopify",
-      "type": "PRICE_DROP",
-      "id": 8615835566316,
-      "title": "Book-Cafe",
-      "url": "https://www.lumibricks.com/products/book-cafe-1718pcs",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/1_1a4a4d0c-b116-43a3-bba8-331e2d63828e.jpg?v=1722936670",
-      "price": 72,
-      "from": 76.5
-    },
-    {
-      "t": "2026-06-22T16:43:16.664Z",
-      "source": "shopify",
-      "type": "PRICE_DROP",
-      "id": 8768580944108,
-      "title": "Bee Farm",
-      "url": "https://www.lumibricks.com/products/bee-farm-1274pcs",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/1_46c7da05-14db-4a44-b67b-602ebd4dd6a0.jpg?v=1736475827",
-      "price": 60,
-      "from": 66
     }
   ]
 }

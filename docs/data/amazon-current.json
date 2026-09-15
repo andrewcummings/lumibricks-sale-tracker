@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-01T12:22:24.043Z",
+  "generatedAt": "2026-09-15T12:28:22.748Z",
   "products": {
     "9027576955116": {
       "asin": "B0FNQNLPK4",
@@ -10,7 +10,7 @@
       "compareAt": null,
       "discountPct": 0,
       "available": true,
-      "lastChecked": "2026-09-01T12:22:24.043Z",
+      "lastChecked": "2026-09-15T12:28:22.748Z",
       "lowestEver": 131.39,
       "atLowestEver": false
     },
@@ -19,11 +19,11 @@
       "url": "https://www.amazon.com/dp/B0FGPFGPMZ",
       "title": "Alpine Observatory",
       "amazonTitle": "Lumibricks Alpine Observatory Lighting Building-Bricks Set with The Galaxy Projector, 2437 Pcs Space Themed Room Decor for Astronomy and Space Lovers",
-      "price": 134.99,
-      "compareAt": null,
-      "discountPct": 0,
+      "price": 121.49,
+      "compareAt": 134.99,
+      "discountPct": 10,
       "available": true,
-      "lastChecked": "2026-09-01T12:22:24.043Z",
+      "lastChecked": "2026-09-15T12:28:22.748Z",
       "lowestEver": 107.99,
       "atLowestEver": false
     },
@@ -32,11 +32,11 @@
       "url": "https://www.amazon.com/dp/B0FQTZHZ3C",
       "title": "Antique Store",
       "amazonTitle": "LUMIBRICKS Antique-Store Lighting Modular Building-Bricks Set, 2847 Pcs",
-      "price": 159.99,
-      "compareAt": null,
-      "discountPct": 0,
+      "price": 143.99,
+      "compareAt": 159.99,
+      "discountPct": 10,
       "available": true,
-      "lastChecked": "2026-09-01T12:22:24.043Z",
+      "lastChecked": "2026-09-15T12:28:22.748Z",
       "lowestEver": 135.99,
       "atLowestEver": false
     },
@@ -49,7 +49,7 @@
       "compareAt": null,
       "discountPct": 0,
       "available": true,
-      "lastChecked": "2026-09-01T12:22:24.043Z",
+      "lastChecked": "2026-09-15T12:28:22.748Z",
       "lowestEver": 107.99,
       "atLowestEver": false
     },
@@ -62,7 +62,7 @@
       "compareAt": null,
       "discountPct": 0,
       "available": true,
-      "lastChecked": "2026-09-01T12:22:24.043Z",
+      "lastChecked": "2026-09-15T12:28:22.748Z",
       "lowestEver": 134.99,
       "atLowestEver": false
     },
@@ -71,11 +71,11 @@
       "url": "https://www.amazon.com/dp/B0F21DRX47",
       "title": "Bamboo House",
       "amazonTitle": "Lumibricks Bamboo-House Lighting Building-Bricks Set, 2432 Pcs Cottage",
-      "price": 114.99,
-      "compareAt": null,
-      "discountPct": 0,
+      "price": 103.49,
+      "compareAt": 114.99,
+      "discountPct": 10,
       "available": true,
-      "lastChecked": "2026-09-01T12:22:24.043Z",
+      "lastChecked": "2026-09-15T12:28:22.748Z",
       "lowestEver": 97.74,
       "atLowestEver": false
     },
@@ -88,7 +88,7 @@
       "compareAt": null,
       "discountPct": 0,
       "available": true,
-      "lastChecked": "2026-09-01T12:22:24.043Z",
+      "lastChecked": "2026-09-15T12:28:22.748Z",
       "lowestEver": 127.5,
       "atLowestEver": false
     },
@@ -101,21 +101,8 @@
       "compareAt": null,
       "discountPct": 0,
       "available": true,
-      "lastChecked": "2026-09-01T12:22:24.043Z",
+      "lastChecked": "2026-09-15T12:28:22.748Z",
       "lowestEver": 58.49,
-      "atLowestEver": false
-    },
-    "8768580944108": {
-      "asin": "B0FJ269NQH",
-      "url": "https://www.amazon.com/dp/B0FJ269NQH",
-      "title": "Bee Farm",
-      "amazonTitle": "INSOON Bee House Building Set with Lights for Adults, Farm Treehouse Kit",
-      "price": 65.99,
-      "compareAt": null,
-      "discountPct": 0,
-      "available": true,
-      "lastChecked": "2026-09-01T12:22:24.043Z",
-      "lowestEver": 59.39,
       "atLowestEver": false
     },
     "8615835566316": {
@@ -127,7 +114,7 @@
       "compareAt": null,
       "discountPct": 0,
       "available": true,
-      "lastChecked": "2026-09-01T12:22:24.043Z",
+      "lastChecked": "2026-09-15T12:28:22.748Z",
       "lowestEver": 80.99,
       "atLowestEver": false
     },
@@ -140,7 +127,7 @@
       "compareAt": null,
       "discountPct": 0,
       "available": true,
-      "lastChecked": "2026-09-01T12:22:24.043Z",
+      "lastChecked": "2026-09-15T12:28:22.748Z",
       "lowestEver": 134.99,
       "atLowestEver": false
     },
@@ -149,13 +136,13 @@
       "url": "https://www.amazon.com/dp/B0FB3PCLC9",
       "title": "Brick Art Gallery",
       "amazonTitle": "Lumibricks Art Gallery Lighting Building Set, 3400 Pcs Modular Building",
-      "price": 179.99,
-      "compareAt": null,
-      "discountPct": 0,
+      "price": 152.99,
+      "compareAt": 179.99,
+      "discountPct": 15,
       "available": true,
-      "lastChecked": "2026-09-01T12:22:24.043Z",
-      "lowestEver": 161.99,
-      "atLowestEver": false
+      "lastChecked": "2026-09-15T12:28:22.748Z",
+      "lowestEver": 152.99,
+      "atLowestEver": true
     },
     "9027579216108": {
       "asin": "B0FRMYM9RL",
@@ -166,7 +153,7 @@
       "compareAt": null,
       "discountPct": 0,
       "available": true,
-      "lastChecked": "2026-09-01T12:22:24.043Z",
+      "lastChecked": "2026-09-15T12:28:22.748Z",
       "lowestEver": 127.49,
       "atLowestEver": false
     },
@@ -179,7 +166,7 @@
       "compareAt": null,
       "discountPct": 0,
       "available": true,
-      "lastChecked": "2026-09-01T12:22:24.043Z",
+      "lastChecked": "2026-09-15T12:28:22.748Z",
       "lowestEver": 152.99,
       "atLowestEver": false
     },
@@ -201,13 +188,13 @@
       "url": "https://www.amazon.com/dp/B0GSY98B1S",
       "title": "Cleaning Squad",
       "amazonTitle": "Lumibricks Street-Fusion Cleaning-Squad Lighting Building-Bricks-Set - 627 PCS American Urban Style Vehicle Model Kit for Adults, Modular Car, Creative Decorations for Street Art Fans",
-      "price": 37.99,
-      "compareAt": null,
-      "discountPct": 0,
+      "price": 34.19,
+      "compareAt": 37.99,
+      "discountPct": 10,
       "available": true,
-      "lastChecked": "2026-09-01T12:22:24.043Z",
+      "lastChecked": "2026-09-15T12:28:22.748Z",
       "lowestEver": 34.19,
-      "atLowestEver": false
+      "atLowestEver": true
     },
     "8984717525228": {
       "asin": "B0FGQ58SKY",
@@ -218,7 +205,7 @@
       "compareAt": null,
       "discountPct": 0,
       "available": true,
-      "lastChecked": "2026-08-15T07:29:11.500Z",
+      "lastChecked": "2026-09-15T12:28:22.748Z",
       "lowestEver": 48.59,
       "atLowestEver": false
     },
@@ -231,7 +218,7 @@
       "compareAt": null,
       "discountPct": 0,
       "available": true,
-      "lastChecked": "2026-09-01T12:22:24.043Z",
+      "lastChecked": "2026-09-15T12:28:22.748Z",
       "lowestEver": 79.99,
       "atLowestEver": false
     },
@@ -244,7 +231,7 @@
       "compareAt": null,
       "discountPct": 0,
       "available": true,
-      "lastChecked": "2026-09-01T12:22:24.043Z",
+      "lastChecked": "2026-09-15T12:28:22.748Z",
       "lowestEver": 31.49,
       "atLowestEver": false
     },
@@ -257,7 +244,7 @@
       "compareAt": null,
       "discountPct": 0,
       "available": true,
-      "lastChecked": "2026-09-01T12:22:24.043Z",
+      "lastChecked": "2026-09-15T12:28:22.748Z",
       "lowestEver": 144.5,
       "atLowestEver": false
     },
@@ -270,7 +257,7 @@
       "compareAt": null,
       "discountPct": 0,
       "available": true,
-      "lastChecked": "2026-09-01T12:22:24.043Z",
+      "lastChecked": "2026-09-15T12:28:22.748Z",
       "lowestEver": 98.99,
       "atLowestEver": false
     },
@@ -283,21 +270,8 @@
       "compareAt": null,
       "discountPct": 0,
       "available": true,
-      "lastChecked": "2026-09-01T12:22:24.043Z",
+      "lastChecked": "2026-09-15T12:28:22.748Z",
       "lowestEver": 148.49,
-      "atLowestEver": false
-    },
-    "8238832812268": {
-      "asin": "B0CSFVF6JC",
-      "url": "https://www.amazon.com/dp/B0CSFVF6JC",
-      "title": "Farm Store",
-      "amazonTitle": "Funwhole Farm-Store Lighting Building-Bricks Set - Farm Shop LED Light Construction Building Model Set 1523 Pcs for Adults and Teen",
-      "price": 79.99,
-      "compareAt": null,
-      "discountPct": 0,
-      "available": true,
-      "lastChecked": "2026-08-15T07:29:11.500Z",
-      "lowestEver": 71.99,
       "atLowestEver": false
     },
     "9004351619308": {
@@ -309,7 +283,7 @@
       "compareAt": 339.98,
       "discountPct": 15,
       "available": true,
-      "lastChecked": "2026-09-01T12:22:24.043Z",
+      "lastChecked": "2026-09-15T12:28:22.748Z",
       "lowestEver": 289.99,
       "atLowestEver": false
     },
@@ -322,7 +296,7 @@
       "compareAt": null,
       "discountPct": 0,
       "available": true,
-      "lastChecked": "2026-09-01T12:22:24.043Z",
+      "lastChecked": "2026-09-15T12:28:22.748Z",
       "lowestEver": 62.99,
       "atLowestEver": false
     },
@@ -335,7 +309,7 @@
       "compareAt": null,
       "discountPct": 0,
       "available": true,
-      "lastChecked": "2026-09-01T12:22:24.043Z",
+      "lastChecked": "2026-09-15T12:28:22.748Z",
       "lowestEver": 80.99,
       "atLowestEver": false
     },
@@ -357,13 +331,13 @@
       "url": "https://www.amazon.com/dp/B0FGPZYZ86",
       "title": "Game Stack",
       "amazonTitle": "Lumibricks Cyberpunk Game Stack Lighting-Building-Bricks Set - 2580 Pcs",
-      "price": 110.49,
-      "compareAt": 129.99,
-      "discountPct": 15,
+      "price": 129.99,
+      "compareAt": null,
+      "discountPct": 0,
       "available": true,
-      "lastChecked": "2026-09-01T12:22:24.043Z",
+      "lastChecked": "2026-09-15T12:28:22.748Z",
       "lowestEver": 110.49,
-      "atLowestEver": true
+      "atLowestEver": false
     },
     "9146340933868": {
       "asin": "B0GBVDDY4K",
@@ -374,7 +348,7 @@
       "compareAt": null,
       "discountPct": 0,
       "available": true,
-      "lastChecked": "2026-09-01T12:22:24.043Z",
+      "lastChecked": "2026-09-15T12:28:22.748Z",
       "lowestEver": 93.49,
       "atLowestEver": false
     },
@@ -387,7 +361,7 @@
       "compareAt": null,
       "discountPct": 0,
       "available": true,
-      "lastChecked": "2026-09-01T12:22:24.043Z",
+      "lastChecked": "2026-09-15T12:28:22.748Z",
       "lowestEver": 75.99,
       "atLowestEver": false
     },
@@ -400,7 +374,7 @@
       "compareAt": null,
       "discountPct": 0,
       "available": true,
-      "lastChecked": "2026-09-01T12:22:24.043Z",
+      "lastChecked": "2026-09-15T12:28:22.748Z",
       "lowestEver": 89.99,
       "atLowestEver": false
     },
@@ -413,7 +387,7 @@
       "compareAt": null,
       "discountPct": 0,
       "available": true,
-      "lastChecked": "2026-09-01T12:22:24.043Z",
+      "lastChecked": "2026-09-15T12:28:22.748Z",
       "lowestEver": 89.99,
       "atLowestEver": false
     },
@@ -426,7 +400,7 @@
       "compareAt": null,
       "discountPct": 0,
       "available": true,
-      "lastChecked": "2026-09-01T12:22:24.043Z",
+      "lastChecked": "2026-09-15T12:28:22.748Z",
       "lowestEver": 34.19,
       "atLowestEver": false
     },
@@ -439,7 +413,7 @@
       "compareAt": null,
       "discountPct": 0,
       "available": true,
-      "lastChecked": "2026-09-01T12:22:24.043Z",
+      "lastChecked": "2026-09-15T12:28:22.748Z",
       "lowestEver": 134.99,
       "atLowestEver": false
     },
@@ -452,7 +426,7 @@
       "compareAt": 74.99,
       "discountPct": 30,
       "available": true,
-      "lastChecked": "2026-09-01T12:22:24.043Z",
+      "lastChecked": "2026-09-15T12:28:22.748Z",
       "lowestEver": 52.49,
       "atLowestEver": true
     },
@@ -465,7 +439,7 @@
       "compareAt": null,
       "discountPct": 0,
       "available": true,
-      "lastChecked": "2026-09-01T12:22:24.043Z",
+      "lastChecked": "2026-09-15T12:28:22.748Z",
       "lowestEver": 99.99,
       "atLowestEver": false
     },
@@ -474,13 +448,13 @@
       "url": "https://www.amazon.com/dp/B0FNQNQ1Y3",
       "title": "Interstellar Drive-In",
       "amazonTitle": "Lumibricks Interstellar-Diner Lighting-Building-Bricks City Set - 2188 Pcs Road UFO Drive-in Restaurant Modular Collection LED Light Space Car Restaurant Set for Adults and Travelling Enthusiasts",
-      "price": 119.99,
-      "compareAt": null,
-      "discountPct": 0,
+      "price": 95.99,
+      "compareAt": 119.99,
+      "discountPct": 20,
       "available": true,
-      "lastChecked": "2026-09-01T12:22:24.043Z",
+      "lastChecked": "2026-09-15T12:28:22.748Z",
       "lowestEver": 95.99,
-      "atLowestEver": false
+      "atLowestEver": true
     },
     "9074919669996": {
       "asin": "B0FVXWKW9C",
@@ -491,7 +465,7 @@
       "compareAt": null,
       "discountPct": 0,
       "available": true,
-      "lastChecked": "2026-09-01T12:22:24.043Z",
+      "lastChecked": "2026-09-15T12:28:22.748Z",
       "lowestEver": 127.79,
       "atLowestEver": false
     },
@@ -504,7 +478,7 @@
       "compareAt": null,
       "discountPct": 0,
       "available": true,
-      "lastChecked": "2026-09-01T12:22:24.043Z",
+      "lastChecked": "2026-09-15T12:28:22.748Z",
       "lowestEver": 116.99,
       "atLowestEver": false
     },
@@ -517,7 +491,7 @@
       "compareAt": null,
       "discountPct": 0,
       "available": true,
-      "lastChecked": "2026-09-01T12:22:24.043Z",
+      "lastChecked": "2026-09-15T12:28:22.748Z",
       "lowestEver": 148.49,
       "atLowestEver": false
     },
@@ -530,7 +504,7 @@
       "compareAt": null,
       "discountPct": 0,
       "available": true,
-      "lastChecked": "2026-09-01T12:22:24.043Z",
+      "lastChecked": "2026-09-15T12:28:22.748Z",
       "lowestEver": 127.49,
       "atLowestEver": false
     },
@@ -552,13 +526,13 @@
       "url": "https://www.amazon.com/dp/B0FB3QQCFD",
       "title": "Medieval Troupe Carriage",
       "amazonTitle": "Lumibricks Medieval Troupe Carriage Lighting Building Bricks Set - Middle Ages City Town Playset Multi-Form Modular Collection Display Kit with Minifigures 1248 Pcs for Adults & Teens",
-      "price": 63.74,
+      "price": 59.99,
       "compareAt": 74.99,
-      "discountPct": 15,
+      "discountPct": 20,
       "available": true,
-      "lastChecked": "2026-08-15T07:29:11.500Z",
+      "lastChecked": "2026-09-15T12:28:22.748Z",
       "lowestEver": 59.99,
-      "atLowestEver": false
+      "atLowestEver": true
     },
     "8130969764076": {
       "asin": "B0CNPVMHRL",
@@ -569,7 +543,7 @@
       "compareAt": null,
       "discountPct": 0,
       "available": true,
-      "lastChecked": "2026-09-01T12:22:24.043Z",
+      "lastChecked": "2026-09-15T12:28:22.748Z",
       "lowestEver": 80.99,
       "atLowestEver": false
     },
@@ -582,7 +556,7 @@
       "compareAt": null,
       "discountPct": 0,
       "available": true,
-      "lastChecked": "2026-09-01T12:22:24.043Z",
+      "lastChecked": "2026-09-15T12:28:22.748Z",
       "lowestEver": 56.99,
       "atLowestEver": false
     },
@@ -591,13 +565,13 @@
       "url": "https://www.amazon.com/dp/B0FS75W94V",
       "title": "Midnight Haunted Mansion",
       "amazonTitle": "Lumibricks Halloween Haunted Mansion Lighting Building Bricks Set, 2617 Pcs",
-      "price": 129.99,
-      "compareAt": null,
-      "discountPct": 0,
+      "price": 110.49,
+      "compareAt": 129.99,
+      "discountPct": 15,
       "available": true,
-      "lastChecked": "2026-09-01T12:22:24.043Z",
-      "lowestEver": 116.99,
-      "atLowestEver": false
+      "lastChecked": "2026-09-15T12:28:22.748Z",
+      "lowestEver": 110.49,
+      "atLowestEver": true
     },
     "9146344898796": {
       "asin": "B0GHM1CQQG",
@@ -608,7 +582,7 @@
       "compareAt": null,
       "discountPct": 0,
       "available": true,
-      "lastChecked": "2026-09-01T12:22:24.043Z",
+      "lastChecked": "2026-09-15T12:28:22.748Z",
       "lowestEver": 107.99,
       "atLowestEver": false
     },
@@ -621,7 +595,7 @@
       "compareAt": null,
       "discountPct": 0,
       "available": true,
-      "lastChecked": "2026-09-01T12:22:24.043Z",
+      "lastChecked": "2026-09-15T12:28:22.748Z",
       "lowestEver": 98.99,
       "atLowestEver": false
     },
@@ -634,7 +608,7 @@
       "compareAt": null,
       "discountPct": 0,
       "available": true,
-      "lastChecked": "2026-09-01T12:22:24.043Z",
+      "lastChecked": "2026-09-15T12:28:22.748Z",
       "lowestEver": 31.49,
       "atLowestEver": false
     },
@@ -643,13 +617,13 @@
       "url": "https://www.amazon.com/dp/B0F6MQH4P3",
       "title": "Night Glow Drive-in",
       "amazonTitle": "Lumibricks Drive-in Theater Lighting-Building-Bricks-Set, 1760 Pcs Cinema",
-      "price": 109.99,
-      "compareAt": null,
-      "discountPct": 0,
+      "price": 93.49,
+      "compareAt": 109.99,
+      "discountPct": 15,
       "available": true,
-      "lastChecked": "2026-09-01T12:22:24.043Z",
+      "lastChecked": "2026-09-15T12:28:22.748Z",
       "lowestEver": 93.49,
-      "atLowestEver": false
+      "atLowestEver": true
     },
     "8905360408812": {
       "asin": "B0FH2N7T84",
@@ -660,7 +634,7 @@
       "compareAt": null,
       "discountPct": 0,
       "available": true,
-      "lastChecked": "2026-09-01T12:22:24.043Z",
+      "lastChecked": "2026-09-15T12:28:22.748Z",
       "lowestEver": 35.99,
       "atLowestEver": false
     },
@@ -673,7 +647,7 @@
       "compareAt": null,
       "discountPct": 0,
       "available": true,
-      "lastChecked": "2026-09-01T12:22:24.043Z",
+      "lastChecked": "2026-09-15T12:28:22.748Z",
       "lowestEver": 125.99,
       "atLowestEver": false
     },
@@ -686,7 +660,7 @@
       "compareAt": null,
       "discountPct": 0,
       "available": true,
-      "lastChecked": "2026-09-01T12:22:24.043Z",
+      "lastChecked": "2026-09-15T12:28:22.748Z",
       "lowestEver": 80.99,
       "atLowestEver": false
     },
@@ -699,7 +673,7 @@
       "compareAt": null,
       "discountPct": 0,
       "available": true,
-      "lastChecked": "2026-09-01T12:22:24.043Z",
+      "lastChecked": "2026-09-15T12:28:22.748Z",
       "lowestEver": 33.29,
       "atLowestEver": false
     },
@@ -725,7 +699,7 @@
       "compareAt": null,
       "discountPct": 0,
       "available": true,
-      "lastChecked": "2026-09-01T12:22:24.043Z",
+      "lastChecked": "2026-09-15T12:28:22.748Z",
       "lowestEver": 114.74,
       "atLowestEver": false
     },
@@ -738,7 +712,7 @@
       "compareAt": null,
       "discountPct": 0,
       "available": true,
-      "lastChecked": "2026-09-01T12:22:24.043Z",
+      "lastChecked": "2026-09-15T12:28:22.748Z",
       "lowestEver": 116.99,
       "atLowestEver": false
     },
@@ -751,7 +725,7 @@
       "compareAt": 99.98,
       "discountPct": 15,
       "available": true,
-      "lastChecked": "2026-09-01T12:22:24.043Z",
+      "lastChecked": "2026-09-15T12:28:22.748Z",
       "lowestEver": 84.98,
       "atLowestEver": false
     },
@@ -760,12 +734,12 @@
       "url": "https://www.amazon.com/dp/B0FGPSD875",
       "title": "Shepherd's Cottage (Retiring Soon)",
       "amazonTitle": "Lumibricks Farm Shepherd's-Cottage Lighting Building-Bricks-Set - Farm Life Sheep Stone House Collection LED Light Cottage Model Display Set 2265 Pcs for Adults",
-      "price": 59.99,
-      "compareAt": 95.99,
-      "discountPct": 38,
+      "price": 56.4,
+      "compareAt": 59.99,
+      "discountPct": 6,
       "available": true,
-      "lastChecked": "2026-09-01T12:22:24.043Z",
-      "lowestEver": 59.99,
+      "lastChecked": "2026-09-15T12:28:22.748Z",
+      "lowestEver": 56.4,
       "atLowestEver": true
     },
     "8127059034348": {
@@ -777,7 +751,7 @@
       "compareAt": null,
       "discountPct": 0,
       "available": true,
-      "lastChecked": "2026-09-01T12:22:24.043Z",
+      "lastChecked": "2026-09-15T12:28:22.748Z",
       "lowestEver": 59.49,
       "atLowestEver": false
     },
@@ -790,7 +764,7 @@
       "compareAt": null,
       "discountPct": 0,
       "available": true,
-      "lastChecked": "2026-09-01T12:22:24.043Z",
+      "lastChecked": "2026-09-15T12:28:22.748Z",
       "lowestEver": 98.99,
       "atLowestEver": false
     },
@@ -812,11 +786,11 @@
       "url": "https://www.amazon.com/dp/B0FKMDVHBZ",
       "title": "Spa Cabin",
       "amazonTitle": "LUMIBRICKS Spa-Cabin Winter Lighting-Building-Bricks Set - 2235 Pcs Christmas House Winter Lodge LED Light Construction Building Christmas Village Model Set for Adults and Families",
-      "price": 109.99,
-      "compareAt": null,
-      "discountPct": 0,
+      "price": 93.49,
+      "compareAt": 109.99,
+      "discountPct": 15,
       "available": true,
-      "lastChecked": "2026-09-01T12:22:24.043Z",
+      "lastChecked": "2026-09-15T12:28:22.748Z",
       "lowestEver": 87.99,
       "atLowestEver": false
     },
@@ -825,11 +799,11 @@
       "url": "https://www.amazon.com/dp/B0FNQSJVWY",
       "title": "Steamboat",
       "amazonTitle": "Lumibricks Steampunk Steamship Lighting Building Bricks Set - Steamboat Model Pirate Ship Destroyer Playset Collection Display kit with Minifigures 1792 Pcs for Adults & Teens & Steampunk Lovers",
-      "price": 99.99,
-      "compareAt": null,
-      "discountPct": 0,
+      "price": 84.99,
+      "compareAt": 99.99,
+      "discountPct": 15,
       "available": true,
-      "lastChecked": "2026-09-01T12:22:24.043Z",
+      "lastChecked": "2026-09-15T12:28:22.748Z",
       "lowestEver": 79.99,
       "atLowestEver": false
     },
@@ -838,13 +812,13 @@
       "url": "https://www.amazon.com/dp/B0FW45CYSC",
       "title": "Steamphant",
       "amazonTitle": "Lumibricks Steampunk Steamphant Lighting Building Bricks Set - Mammoth Model Playset Collection Display kit with Minifigures 1055 Pcs for Adults & Teens & Steampunk Lovers",
-      "price": 54.99,
-      "compareAt": null,
-      "discountPct": 0,
+      "price": 43.99,
+      "compareAt": 54.99,
+      "discountPct": 20,
       "available": true,
-      "lastChecked": "2026-09-01T12:22:24.043Z",
+      "lastChecked": "2026-09-15T12:28:22.748Z",
       "lowestEver": 43.99,
-      "atLowestEver": false
+      "atLowestEver": true
     },
     "8714054861036": {
       "asin": "B0FH2KMT8M",
@@ -855,7 +829,7 @@
       "compareAt": null,
       "discountPct": 0,
       "available": true,
-      "lastChecked": "2026-09-01T12:22:24.043Z",
+      "lastChecked": "2026-09-15T12:28:22.748Z",
       "lowestEver": 84.99,
       "atLowestEver": false
     },
@@ -868,7 +842,7 @@
       "compareAt": null,
       "discountPct": 0,
       "available": true,
-      "lastChecked": "2026-09-01T12:22:24.043Z",
+      "lastChecked": "2026-09-15T12:28:22.748Z",
       "lowestEver": 93.49,
       "atLowestEver": false
     },
@@ -881,7 +855,7 @@
       "compareAt": null,
       "discountPct": 0,
       "available": true,
-      "lastChecked": "2026-09-01T12:22:24.043Z",
+      "lastChecked": "2026-09-15T12:28:22.748Z",
       "lowestEver": 94.49,
       "atLowestEver": false
     },
@@ -894,7 +868,7 @@
       "compareAt": null,
       "discountPct": 0,
       "available": true,
-      "lastChecked": "2026-08-15T07:29:11.500Z",
+      "lastChecked": "2026-09-15T12:28:22.748Z",
       "lowestEver": 125.99,
       "atLowestEver": false
     },
@@ -907,21 +881,8 @@
       "compareAt": null,
       "discountPct": 0,
       "available": true,
-      "lastChecked": "2026-08-15T07:29:11.500Z",
+      "lastChecked": "2026-09-15T12:28:22.748Z",
       "lowestEver": 134.99,
-      "atLowestEver": false
-    },
-    "7774482497772": {
-      "asin": "B0FLQQGWDP",
-      "url": "https://www.amazon.com/dp/B0FLQQGWDP",
-      "title": "Steampunk Train Station",
-      "amazonTitle": "DIY Miniature House Kit with Light, Dollhouse Kit – Wood 3D Puzzles Tiny House Book Nook for Adult Christmas Halloween Birthday Gift (Victorian Fantasy Steampunk Train Station Phantom City)",
-      "price": 59.99,
-      "compareAt": null,
-      "discountPct": 0,
-      "available": true,
-      "lastChecked": "2026-08-15T07:29:11.500Z",
-      "lowestEver": 59.99,
       "atLowestEver": false
     },
     "8869585682668": {
@@ -933,7 +894,7 @@
       "compareAt": null,
       "discountPct": 0,
       "available": true,
-      "lastChecked": "2026-08-15T07:29:11.500Z",
+      "lastChecked": "2026-09-15T12:28:22.748Z",
       "lowestEver": 161.99,
       "atLowestEver": false
     },
@@ -942,13 +903,13 @@
       "url": "https://www.amazon.com/dp/B0FF3YXJ9J",
       "title": "Street MOD Garage",
       "amazonTitle": "Lumibricks Street MOD Garage Lighting Building Bricks Set - Street Fusion City Car Modification Shop Modular Building Collection Kit 1935 Pcs for Adults & Teen & Car Lovers",
-      "price": 84.99,
+      "price": 79.99,
       "compareAt": 99.99,
-      "discountPct": 15,
+      "discountPct": 20,
       "available": true,
-      "lastChecked": "2026-08-15T07:29:11.500Z",
+      "lastChecked": "2026-09-15T12:28:22.748Z",
       "lowestEver": 79.99,
-      "atLowestEver": false
+      "atLowestEver": true
     },
     "9119253364972": {
       "asin": "B0G6J61J8R",
@@ -998,7 +959,7 @@
       "compareAt": null,
       "discountPct": 0,
       "available": true,
-      "lastChecked": "2026-08-15T07:29:11.500Z",
+      "lastChecked": "2026-09-15T12:28:22.748Z",
       "lowestEver": 98.99,
       "atLowestEver": false
     },
@@ -1011,7 +972,7 @@
       "compareAt": null,
       "discountPct": 0,
       "available": true,
-      "lastChecked": "2026-08-15T07:29:11.500Z",
+      "lastChecked": "2026-09-15T12:28:22.748Z",
       "lowestEver": 143.99,
       "atLowestEver": false
     },
@@ -1024,7 +985,7 @@
       "compareAt": null,
       "discountPct": 0,
       "available": true,
-      "lastChecked": "2026-08-15T07:29:11.500Z",
+      "lastChecked": "2026-09-15T12:28:22.748Z",
       "lowestEver": 89.99,
       "atLowestEver": false
     },
@@ -1032,12 +993,12 @@
       "asin": "B0FKMPYFNX",
       "url": "https://www.amazon.com/dp/B0FKMPYFNX",
       "title": "Toy Store",
-      "amazonTitle": "Lumibricks Toy-Store Lighting Building Set, 3086 Pcs Modular Building | City Town Townhouse Toy Shop Dollhouse LED Light Display Model Construction Kit for Adults, Creative Stress-Relief Toys",
+      "amazonTitle": "Lumibricks Toy-Store Lighting Building Set, 3086 Pcs Modular Building",
       "price": 159.99,
       "compareAt": null,
       "discountPct": 0,
       "available": true,
-      "lastChecked": "2026-08-15T07:29:11.500Z",
+      "lastChecked": "2026-09-15T12:28:22.748Z",
       "lowestEver": 143.99,
       "atLowestEver": false
     },
@@ -1063,7 +1024,7 @@
       "compareAt": null,
       "discountPct": 0,
       "available": true,
-      "lastChecked": "2026-08-15T07:29:11.500Z",
+      "lastChecked": "2026-09-15T12:28:22.748Z",
       "lowestEver": 21.59,
       "atLowestEver": false
     },
@@ -1084,12 +1045,12 @@
       "asin": "B0DMF9B7GS",
       "url": "https://www.amazon.com/dp/B0DMF9B7GS",
       "title": "Twilight Motel",
-      "amazonTitle": "FUNWHOLE Car-Hotel Lighting Building-Bricks Set, 1970 Pcs Modular Building | Road Trip Twilight Motel Collection LED Light Car and Motorcycle Building Set for Adults, Creative Educational Toys",
-      "price": 101.99,
-      "compareAt": 119.99,
-      "discountPct": 15,
+      "amazonTitle": "FUNWHOLE Car-Hotel Lighting Building-Bricks Set, 1970 Pcs Modular Building",
+      "price": 119.99,
+      "compareAt": null,
+      "discountPct": 0,
       "available": true,
-      "lastChecked": "2026-08-15T07:29:11.500Z",
+      "lastChecked": "2026-09-15T12:28:22.748Z",
       "lowestEver": 95.99,
       "atLowestEver": false
     },
@@ -1097,25 +1058,25 @@
       "asin": "B0FGQ16612",
       "url": "https://www.amazon.com/dp/B0FGQ16612",
       "title": "Vineyard Estate",
-      "amazonTitle": "Lumibricks Vineyard-Estate Lighting Building Set, 2800 Pcs European Farm | Winery Chateau House Collection LED Light Wine Cottage Model Display Set for Adults and Farm Series Building Collectors",
-      "price": 118.99,
+      "amazonTitle": "Lumibricks Vineyard-Estate Lighting Building Set, 2800 Pcs European Farm",
+      "price": 125.99,
       "compareAt": 139.99,
-      "discountPct": 15,
+      "discountPct": 10,
       "available": true,
-      "lastChecked": "2026-08-15T07:29:11.500Z",
+      "lastChecked": "2026-09-15T12:28:22.748Z",
       "lowestEver": 118.99,
-      "atLowestEver": true
+      "atLowestEver": false
     },
     "8966977978604": {
       "asin": "B0FB3LX6WL",
       "url": "https://www.amazon.com/dp/B0FB3LX6WL",
       "title": "Waterfall Cabin",
-      "amazonTitle": "Lumibricks Waterfall-Cabin Lighting Building Set, 2539 Pcs Landscape Set | Retro Waterfall House Collection LED Light Set for Adults and Retro Cottage Building Collectors, Home and Office Decor",
+      "amazonTitle": "Lumibricks Waterfall-Cabin Lighting Building Set, 2539 Pcs Landscape Set",
       "price": 119.99,
       "compareAt": null,
       "discountPct": 0,
       "available": true,
-      "lastChecked": "2026-08-15T07:29:11.500Z",
+      "lastChecked": "2026-09-15T12:28:22.748Z",
       "lowestEver": 107.99,
       "atLowestEver": false
     },
@@ -1123,12 +1084,12 @@
       "asin": "B0GSYP4YVH",
       "url": "https://www.amazon.com/dp/B0GSYP4YVH",
       "title": "Wild West Meeting Hall",
-      "amazonTitle": "Lumibricks Western Meeting Hall Lighting Building Bricks Set, 2556 Pcs | Western Hope Hall Light Construction Building Model Set for Adults and The Old West Lovers, Educational Interactive Toys",
+      "amazonTitle": "Lumibricks Western Meeting Hall Lighting Building Bricks Set, 2556 Pcs",
       "price": 129.99,
       "compareAt": null,
       "discountPct": 0,
       "available": true,
-      "lastChecked": "2026-08-15T07:29:11.500Z",
+      "lastChecked": "2026-09-15T12:28:22.748Z",
       "lowestEver": 116.99,
       "atLowestEver": false
     },
@@ -1206,7 +1167,7 @@
       "compareAt": null,
       "discountPct": 0,
       "available": true,
-      "lastChecked": "2026-06-14T20:04:03.495Z",
+      "lastChecked": "2026-09-15T12:28:22.748Z",
       "lowestEver": 89.99,
       "atLowestEver": false
     },
@@ -1227,12 +1188,12 @@
       "asin": "B0GX5DTFMZ",
       "url": "https://www.amazon.com/dp/B0GX5DTFMZ",
       "title": "Luna Cottage",
-      "amazonTitle": "Lumibricks Luna-Cottage Lighting Building-Bricks Set, 2846 Pcs Retro Cabin | Retro House Luna Cottage with Music Player for Adults - Home and Office Decor, Creative Educational Interactive Toys",
+      "amazonTitle": "Lumibricks Luna-Cottage Lighting Building-Bricks Set, 2846 Pcs Retro Cabin",
       "price": 119.99,
       "compareAt": null,
       "discountPct": 0,
       "available": true,
-      "lastChecked": "2026-08-15T07:29:11.500Z",
+      "lastChecked": "2026-09-15T12:28:22.748Z",
       "lowestEver": 119.99,
       "atLowestEver": false
     },
@@ -1304,13 +1265,13 @@
     "9266039914732": {
       "asin": "B0H1RLLJ7Y",
       "url": "https://www.amazon.com/dp/B0H1RLLJ7Y",
-      "title": "K's Spinner",
-      "amazonTitle": "Lumibricks Blade Runner 2049 K's Spinner Lighting Building Set, 410 PCS | Sci-Fi Police Car Model for Adults, Movie-Inspired Modular Kit with K Minifigure, Valuable Collection for Sci-fi Lovers",
+      "title": "K's Spinner (Restocking)",
+      "amazonTitle": "Lumibricks Blade Runner 2049 K's Spinner Lighting Building Set, 410 PCS",
       "price": 39.99,
       "compareAt": null,
       "discountPct": 0,
       "available": true,
-      "lastChecked": "2026-08-01T09:05:20.941Z",
+      "lastChecked": "2026-09-15T12:28:22.748Z",
       "lowestEver": 39.99,
       "atLowestEver": false
     },
@@ -1318,12 +1279,12 @@
       "asin": "B0H44JZS89",
       "url": "https://www.amazon.com/dp/B0H44JZS89",
       "title": "Toy Store Box",
-      "amazonTitle": "Lumibricks Toy Store Box Lighting Building Set, 426Pcs Mini Modular Shop | Compact 16×16 Toy Shop With Lighting, Detailed Toy Displays, Mini Décor For Desks, Shelves, And Collectible Miniature Streets",
+      "amazonTitle": "Lumibricks Toy Store Box Lighting Building Set, 426Pcs Mini Modular Shop",
       "price": 29.99,
       "compareAt": null,
       "discountPct": 0,
       "available": true,
-      "lastChecked": "2026-08-15T07:29:11.500Z",
+      "lastChecked": "2026-09-15T12:28:22.748Z",
       "lowestEver": 29.99,
       "atLowestEver": false
     },
@@ -1331,12 +1292,12 @@
       "asin": "B0H44438DY",
       "url": "https://www.amazon.com/dp/B0H44438DY",
       "title": "Brick Art Gallery Box",
-      "amazonTitle": "Lumibricks Art Gallery Box Lighting Building Set, 367Pcs Mini Display | Compact 16×16 Modular Gallery Featuring Famous Artworks With Lighting, And Expandable Display For Desks, Shelves, And Office",
+      "amazonTitle": "Lumibricks Art Gallery Box Lighting Building Set, 367Pcs Mini Display",
       "price": 29.99,
       "compareAt": null,
       "discountPct": 0,
       "available": true,
-      "lastChecked": "2026-08-15T07:29:11.500Z",
+      "lastChecked": "2026-09-15T12:28:22.748Z",
       "lowestEver": 29.99,
       "atLowestEver": false
     },
@@ -1357,12 +1318,12 @@
       "asin": "B0DFWQQ815",
       "url": "https://www.amazon.com/dp/B0DFWQQ815",
       "title": "Dutch Windmill Millhouse",
-      "amazonTitle": "Windmill Decor Retro Table Decoration 5×3in Dutch Windmill | Retro Windmill Ornaments, Rural Decorations for Home, Alloy Vintage Statue, Mini Windmill Ornament for Shelf, Mantel",
+      "amazonTitle": "Windmill Decor Retro Table Decoration 5×3in Dutch Windmill",
       "price": 16.79,
       "compareAt": null,
       "discountPct": 0,
       "available": true,
-      "lastChecked": "2026-08-15T07:29:11.500Z",
+      "lastChecked": "2026-09-15T12:28:22.748Z",
       "lowestEver": 16.79,
       "atLowestEver": false
     },
@@ -1403,6 +1364,32 @@
       "available": true,
       "lastChecked": "2026-09-01T12:22:24.043Z",
       "lowestEver": 25.99,
+      "atLowestEver": false
+    },
+    "9344822313196": {
+      "asin": "B0H5VXQWKK",
+      "url": "https://www.amazon.com/dp/B0H5VXQWKK",
+      "title": "Christmas Pub (Limited Edition Gift Set)",
+      "amazonTitle": "Lumibricks Christmas Pub Lighting Building Set - 2142 Pcs Town Tavern",
+      "price": 119.99,
+      "compareAt": null,
+      "discountPct": 0,
+      "available": true,
+      "lastChecked": "2026-09-15T12:28:22.748Z",
+      "lowestEver": 119.99,
+      "atLowestEver": false
+    },
+    "9319922434284": {
+      "asin": "B0H5VXQWKK",
+      "url": "https://www.amazon.com/dp/B0H5VXQWKK",
+      "title": "Christmas Pub",
+      "amazonTitle": "Lumibricks Christmas Pub Lighting Building Set - 2142 Pcs Town Tavern",
+      "price": 119.99,
+      "compareAt": null,
+      "discountPct": 0,
+      "available": true,
+      "lastChecked": "2026-09-15T12:28:22.748Z",
+      "lowestEver": 119.99,
       "atLowestEver": false
     }
   }

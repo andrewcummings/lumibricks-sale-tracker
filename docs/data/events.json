@@ -1,6 +1,26 @@
 {
-  "generatedAt": "2026-09-15T12:28:22.748Z",
+  "generatedAt": "2026-09-15T13:23:10.679Z",
   "events": [
+    {
+      "t": "2026-09-15T13:23:10.679Z",
+      "source": "shopify",
+      "type": "PRICE_DROP",
+      "id": 9199088697580,
+      "title": "Ranger Camp",
+      "url": "https://www.lumibricks.com/products/ranger-camp-12014",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/6829be9c976086cdf9509a06ae0629d8.webp?v=1777545603",
+      "price": 29.75,
+      "from": 30.8
+    },
+    {
+      "t": "2026-09-15T13:23:10.679Z",
+      "source": "shopify",
+      "type": "OUT_OF_STOCK",
+      "id": 9393565925612,
+      "title": "Micro Izakaya & Manga Shop (Limited Gift with Manga Shop)",
+      "url": "https://www.lumibricks.com/products/micro-izakaya-manga-shop-17016",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/2_d07cf8ab-e62b-4849-9fa2-4a0b4f6088c4.webp?v=1787726906"
+    },
     {
       "t": "2026-09-15T12:28:22.748Z",
       "source": "amazon",
@@ -5397,28 +5417,6 @@
       "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/1_3b08e07f-70dc-4b8b-b14f-644512b2b231.jpg?v=1733128549",
       "price": 80,
       "from": 88
-    },
-    {
-      "t": "2026-06-22T16:43:16.664Z",
-      "source": "shopify",
-      "type": "PRICE_DROP",
-      "id": 8895713149164,
-      "title": "Gelato Store",
-      "url": "https://www.lumibricks.com/products/gelato-store-f9078",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/Lumibricks_Gelato_Store_F9078_-_1.jpg?v=1757389767",
-      "price": 80,
-      "from": 88
-    },
-    {
-      "t": "2026-06-22T16:43:16.664Z",
-      "source": "shopify",
-      "type": "PRICE_DROP",
-      "id": 8868181836012,
-      "title": "Gas Station",
-      "url": "https://www.lumibricks.com/products/gas-station-1608pcs-f9065",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/Gas_Station_F9065_1.jpg?v=1757389768",
-      "price": 76,
-      "from": 83.6
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-15T07:33:17.208Z",
+  "generatedAt": "2026-09-15T13:23:10.679Z",
   "store": "https://www.lumibricks.com",
   "totals": {
     "products": 138,
@@ -7,6 +7,24 @@
     "maxDiscountPct": 15
   },
   "products": [
+    {
+      "id": 9199088697580,
+      "title": "Ranger Camp",
+      "handle": "ranger-camp-12014",
+      "url": "https://www.lumibricks.com/products/ranger-camp-12014",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/6829be9c976086cdf9509a06ae0629d8.webp?v=1777545603",
+      "productType": "Middle Ages",
+      "price": 29.75,
+      "compareAt": 34.99,
+      "onSale": true,
+      "discountPct": 15,
+      "promo": "BESTDEAL15",
+      "available": true,
+      "lowestEver": 28,
+      "atLowestEver": false,
+      "saleSince": "2026-06-14T18:18:51.284Z",
+      "firstSeen": "2026-06-14T16:21:48.924Z"
+    },
     {
       "id": 9089909588204,
       "title": "Cyber Couture Galleria",
@@ -777,24 +795,6 @@
       "promo": "FIRSTORDER12",
       "available": true,
       "lowestEver": 56,
-      "atLowestEver": false,
-      "saleSince": "2026-06-14T18:18:51.284Z",
-      "firstSeen": "2026-06-14T16:21:48.924Z"
-    },
-    {
-      "id": 9199088697580,
-      "title": "Ranger Camp",
-      "handle": "ranger-camp-12014",
-      "url": "https://www.lumibricks.com/products/ranger-camp-12014",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/6829be9c976086cdf9509a06ae0629d8.webp?v=1777545603",
-      "productType": "Middle Ages",
-      "price": 30.8,
-      "compareAt": 34.99,
-      "onSale": true,
-      "discountPct": 12,
-      "promo": "FIRSTORDER12",
-      "available": true,
-      "lowestEver": 28,
       "atLowestEver": false,
       "saleSince": "2026-06-14T18:18:51.284Z",
       "firstSeen": "2026-06-14T16:21:48.924Z"
@@ -2359,7 +2359,7 @@
       "onSale": false,
       "discountPct": 0,
       "promo": null,
-      "available": true,
+      "available": false,
       "lowestEver": 32.99,
       "atLowestEver": true,
       "saleSince": null,

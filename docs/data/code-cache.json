@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-15T13:23:10.679Z",
+  "generatedAt": "2026-09-16T13:21:49.669Z",
   "codes": {
     "BESTDEAL15": {
       "status": "manual",
@@ -206,6 +206,11 @@
     "8895713149164": {
       "original": 99.99,
       "final": 88,
+      "code": "FIRSTORDER12"
+    },
+    "8901501419756": {
+      "original": 114.99,
+      "final": 101.2,
       "code": "FIRSTORDER12"
     },
     "8905343009004": {
@@ -490,8 +495,8 @@
     },
     "9199088697580": {
       "original": 34.99,
-      "final": 29.75,
-      "code": "BESTDEAL15"
+      "final": 30.8,
+      "code": "FIRSTORDER12"
     },
     "9199088926956": {
       "original": 69.99,
@@ -613,9 +618,29 @@
       "final": 176,
       "code": "FIRSTORDER12"
     },
+    "9319921975532": {
+      "original": 39.99,
+      "final": 35.2,
+      "code": "FIRSTORDER12"
+    },
+    "9319922434284": {
+      "original": 119.99,
+      "final": 105.6,
+      "code": "FIRSTORDER12"
+    },
     "9344822313196": {
       "original": 124.99,
       "final": 110,
+      "code": "FIRSTORDER12"
+    },
+    "9367610786028": {
+      "original": 139.99,
+      "final": 123.2,
+      "code": "FIRSTORDER12"
+    },
+    "9367611637996": {
+      "original": 39.99,
+      "final": 35.2,
       "code": "FIRSTORDER12"
     },
     "9367612588268": {

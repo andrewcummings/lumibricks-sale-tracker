@@ -1,6 +1,88 @@
 {
-  "generatedAt": "2026-09-15T13:23:10.679Z",
+  "generatedAt": "2026-09-16T13:21:49.669Z",
   "events": [
+    {
+      "t": "2026-09-16T13:21:49.669Z",
+      "source": "shopify",
+      "type": "RESTOCK",
+      "id": 9319921975532,
+      "title": "The Bodega 26",
+      "url": "https://www.lumibricks.com/products/the-bodega-26-19017",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/6829be9c976086cdf9509a06ae0629d8_aaf29563-3423-463a-aebb-dfa1505cd639.webp?v=1787709401"
+    },
+    {
+      "t": "2026-09-16T13:21:49.669Z",
+      "source": "shopify",
+      "type": "PRICE_RISE",
+      "id": 9199088697580,
+      "title": "Ranger Camp",
+      "url": "https://www.lumibricks.com/products/ranger-camp-12014",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/6829be9c976086cdf9509a06ae0629d8.webp?v=1777545603",
+      "price": 30.8,
+      "from": 29.75
+    },
+    {
+      "t": "2026-09-16T13:21:49.669Z",
+      "source": "shopify",
+      "type": "SALE_START",
+      "id": 9367611637996,
+      "title": "Neon Garden",
+      "url": "https://www.lumibricks.com/products/neon-garden-17014",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/1_37449add-cae7-4e60-af88-4fe2e3f4bc4d.jpg?v=1787654263",
+      "price": 35.2,
+      "compareAt": 39.99,
+      "discountPct": 12,
+      "promo": "FIRSTORDER12"
+    },
+    {
+      "t": "2026-09-16T13:21:49.669Z",
+      "source": "shopify",
+      "type": "RESTOCK",
+      "id": 9367611637996,
+      "title": "Neon Garden",
+      "url": "https://www.lumibricks.com/products/neon-garden-17014",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/1_37449add-cae7-4e60-af88-4fe2e3f4bc4d.jpg?v=1787654263"
+    },
+    {
+      "t": "2026-09-16T13:21:49.669Z",
+      "source": "shopify",
+      "type": "SALE_START",
+      "id": 9367610786028,
+      "title": "Neon Elite Lounge",
+      "url": "https://www.lumibricks.com/products/neon-elite-lounge-17013",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/1_8d6c85d1-a0f1-4c5e-bfb7-05fc14685cb6.webp?v=1787733273",
+      "price": 123.2,
+      "compareAt": 139.99,
+      "discountPct": 12,
+      "promo": "FIRSTORDER12"
+    },
+    {
+      "t": "2026-09-16T13:21:49.669Z",
+      "source": "shopify",
+      "type": "RESTOCK",
+      "id": 9367610786028,
+      "title": "Neon Elite Lounge",
+      "url": "https://www.lumibricks.com/products/neon-elite-lounge-17013",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/1_8d6c85d1-a0f1-4c5e-bfb7-05fc14685cb6.webp?v=1787733273"
+    },
+    {
+      "t": "2026-09-16T13:21:49.669Z",
+      "source": "shopify",
+      "type": "RESTOCK",
+      "id": 9319922434284,
+      "title": "Christmas Pub",
+      "url": "https://www.lumibricks.com/products/christmas-pub-15014",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/Christmas_Pub_09.webp?v=1787821979"
+    },
+    {
+      "t": "2026-09-16T13:21:49.669Z",
+      "source": "shopify",
+      "type": "RESTOCK",
+      "id": 8901501419756,
+      "title": "Bamboo House",
+      "url": "https://www.lumibricks.com/products/bamboo-house-l9075",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/10009_L9075.webp?v=1788510736"
+    },
     {
       "t": "2026-09-15T13:23:10.679Z",
       "source": "shopify",
@@ -5329,94 +5411,6 @@
       "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/interstellar_drive_in_18006_15.jpg?v=1761704620",
       "price": 96,
       "from": 105.6
-    },
-    {
-      "t": "2026-06-22T16:43:16.664Z",
-      "source": "shopify",
-      "type": "PRICE_DROP",
-      "id": 8023667507436,
-      "title": "Hunting Cabin",
-      "url": "https://www.lumibricks.com/products/hunting-cabin",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/1_ed241477-1ae9-4f7b-b015-8e7fdde19b6d.jpg?v=1696649600",
-      "price": 80,
-      "from": 85
-    },
-    {
-      "t": "2026-06-22T16:43:16.664Z",
-      "source": "shopify",
-      "type": "PRICE_DROP",
-      "id": 8941147521260,
-      "title": "Horse Stable",
-      "url": "https://www.lumibricks.com/products/horse-stable-f9080",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/Lumibricks_horse_stable_f9080_-_1.jpg?v=1757389768",
-      "price": 50.4,
-      "from": 55.44
-    },
-    {
-      "t": "2026-06-22T16:43:16.664Z",
-      "source": "shopify",
-      "type": "PRICE_DROP",
-      "id": 8774298861804,
-      "title": "Home Greenhouse",
-      "url": "https://www.lumibricks.com/products/home-greenhouse-1428pcs",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/img_v3_02lc_56d2aadf-698f-4ff0-acf5-89b806597f4g.jpg?v=1744714174",
-      "price": 60,
-      "from": 66
-    },
-    {
-      "t": "2026-06-22T16:43:16.664Z",
-      "source": "shopify",
-      "type": "PRICE_DROP",
-      "id": 8982836773100,
-      "title": "Heritage Tram and Station",
-      "url": "https://www.lumibricks.com/products/heritage-tram-and-station-l9084",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/Lumibricks_heritage_tram_and_station_l9084_1.jpg?v=1757389767",
-      "price": 60,
-      "from": 66
-    },
-    {
-      "t": "2026-06-22T16:43:16.664Z",
-      "source": "shopify",
-      "type": "PRICE_DROP",
-      "id": 9233535140076,
-      "title": "Greenway Clinic",
-      "url": "https://www.lumibricks.com/products/greenway-clinic-15011",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/1_9d515891-7506-4a4a-9466-0c765accade1.webp?v=1781001443",
-      "price": 120,
-      "from": 132
-    },
-    {
-      "t": "2026-06-22T16:43:16.664Z",
-      "source": "shopify",
-      "type": "PRICE_DROP",
-      "id": 9210632143084,
-      "title": "Graffiti Crew",
-      "url": "https://www.lumibricks.com/products/graffiti-crew-19013",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/1200_ef6baa16-7ec0-48e9-b560-68bf9f8ab8b2.webp?v=1778666529",
-      "price": 34.4,
-      "from": 37.84
-    },
-    {
-      "t": "2026-06-22T16:43:16.664Z",
-      "source": "shopify",
-      "type": "PRICE_DROP",
-      "id": 8776890450156,
-      "title": "Graffiti Bus Stop",
-      "url": "https://www.lumibricks.com/products/graffiti-bus-stop-514pcs",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/1_773ade56-5df7-4d31-ace7-47016932674c.jpg?v=1737366191",
-      "price": 35.2,
-      "from": 38.72
-    },
-    {
-      "t": "2026-06-22T16:43:16.664Z",
-      "source": "shopify",
-      "type": "PRICE_DROP",
-      "id": 8734292181228,
-      "title": "General Store",
-      "url": "https://www.lumibricks.com/products/general-store-1895pcs",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/1_3b08e07f-70dc-4b8b-b14f-644512b2b231.jpg?v=1733128549",
-      "price": 80,
-      "from": 88
     }
   ]
 }

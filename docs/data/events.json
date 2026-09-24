@@ -1,6 +1,30 @@
 {
-  "generatedAt": "2026-09-16T13:21:49.669Z",
+  "generatedAt": "2026-09-24T04:21:38.350Z",
   "events": [
+    {
+      "t": "2026-09-24T04:21:38.350Z",
+      "source": "shopify",
+      "type": "NEW_PRODUCT",
+      "id": 9367613210860,
+      "title": "Autumn Farmhouse",
+      "url": "https://www.lumibricks.com/products/autumn-farmhouse-16013",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/1_dc7bbbe9-4726-404e-ac93-7b4067f3fcf3.webp?v=1790217833",
+      "price": 70.4,
+      "available": true
+    },
+    {
+      "t": "2026-09-24T04:21:38.350Z",
+      "source": "shopify",
+      "type": "SALE_START",
+      "id": 9367613210860,
+      "title": "Autumn Farmhouse",
+      "url": "https://www.lumibricks.com/products/autumn-farmhouse-16013",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/1_dc7bbbe9-4726-404e-ac93-7b4067f3fcf3.webp?v=1790217833",
+      "price": 70.4,
+      "compareAt": 79.99,
+      "discountPct": 12,
+      "promo": "FIRSTORDER12"
+    },
     {
       "t": "2026-09-16T13:21:49.669Z",
       "source": "shopify",
@@ -5389,28 +5413,6 @@
       "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/italian_homestyle_restaurant_15010_1.png?v=1765501819",
       "price": 113.6,
       "from": 124.96
-    },
-    {
-      "t": "2026-06-22T16:43:16.664Z",
-      "source": "shopify",
-      "type": "PRICE_DROP",
-      "id": 9077998387436,
-      "title": "Iron Empire Printed Bricks Pack",
-      "url": "https://www.lumibricks.com/products/iron-empire-printed-bricks-pack-11018",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/iron_empire_printed_bricks_pack_11018_1.jpg?v=1764582789",
-      "price": 24,
-      "from": 26.4
-    },
-    {
-      "t": "2026-06-22T16:43:16.664Z",
-      "source": "shopify",
-      "type": "PRICE_DROP",
-      "id": 9004365644012,
-      "title": "Interstellar Drive-In",
-      "url": "https://www.lumibricks.com/products/interstellar-drive-in-l9104",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/interstellar_drive_in_18006_15.jpg?v=1761704620",
-      "price": 96,
-      "from": 105.6
     }
   ]
 }

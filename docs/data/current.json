@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-09-16T13:21:49.669Z",
+  "generatedAt": "2026-09-24T04:21:38.350Z",
   "store": "https://www.lumibricks.com",
   "totals": {
-    "products": 138,
-    "onSale": 124,
+    "products": 139,
+    "onSale": 125,
     "maxDiscountPct": 15
   },
   "products": [
@@ -258,6 +258,24 @@
       "atLowestEver": false,
       "saleSince": "2026-06-14T18:18:51.284Z",
       "firstSeen": "2026-06-14T16:21:48.924Z"
+    },
+    {
+      "id": 9367613210860,
+      "title": "Autumn Farmhouse",
+      "handle": "autumn-farmhouse-16013",
+      "url": "https://www.lumibricks.com/products/autumn-farmhouse-16013",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/1_dc7bbbe9-4726-404e-ac93-7b4067f3fcf3.webp?v=1790217833",
+      "productType": "Farm Life",
+      "price": 70.4,
+      "compareAt": 79.99,
+      "onSale": true,
+      "discountPct": 12,
+      "promo": "FIRSTORDER12",
+      "available": true,
+      "lowestEver": 70.4,
+      "atLowestEver": false,
+      "saleSince": "2026-09-24T04:21:38.350Z",
+      "firstSeen": "2026-09-24T04:21:38.350Z"
     },
     {
       "id": 9344822313196,

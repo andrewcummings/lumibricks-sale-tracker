@@ -1,6 +1,15 @@
 {
-  "generatedAt": "2026-09-24T04:21:38.350Z",
+  "generatedAt": "2026-09-26T20:56:16.673Z",
   "events": [
+    {
+      "t": "2026-09-26T20:56:16.673Z",
+      "source": "shopify",
+      "type": "OUT_OF_STOCK",
+      "id": 8901501419756,
+      "title": "Bamboo House",
+      "url": "https://www.lumibricks.com/products/bamboo-house-l9075",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/10009_L9075.webp?v=1788510736"
+    },
     {
       "t": "2026-09-24T04:21:38.350Z",
       "source": "shopify",
@@ -5402,17 +5411,6 @@
       "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/F9073_7f484d4a-653f-4be0-82fa-9d1fb13c87e2.jpg?v=1779873280",
       "price": 104,
       "from": 110.5
-    },
-    {
-      "t": "2026-06-22T16:43:16.664Z",
-      "source": "shopify",
-      "type": "PRICE_DROP",
-      "id": 9074919669996,
-      "title": "Italian Homestyle Restaurant",
-      "url": "https://www.lumibricks.com/products/ltalian-homestyle-restaurant-15010",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/italian_homestyle_restaurant_15010_1.png?v=1765501819",
-      "price": 113.6,
-      "from": 124.96
     }
   ]
 }

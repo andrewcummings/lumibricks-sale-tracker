@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-21T14:55:28.030Z",
+  "generatedAt": "2026-09-28T16:33:22.855Z",
   "map": {
     "7933167501548": {
       "title": "A-Frame Cabin",
@@ -1044,6 +1044,14 @@
       "score": 1,
       "status": "matched",
       "checkedAt": "2026-09-07T14:03:47.795Z"
+    },
+    "9367613210860": {
+      "title": "Autumn Farmhouse",
+      "asin": "B0H5VKTMHP",
+      "amazonTitle": "Lumibricks Autumn Farmhouse, Lighting Building Set, Halloween Idea, 1557Pcs",
+      "score": 1,
+      "status": "matched",
+      "checkedAt": "2026-09-28T16:33:22.855Z"
     }
   }
 }

@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-09-26T20:56:16.673Z",
+  "generatedAt": "2026-09-29T12:34:58.243Z",
   "store": "https://www.lumibricks.com",
   "totals": {
-    "products": 139,
-    "onSale": 125,
+    "products": 142,
+    "onSale": 127,
     "maxDiscountPct": 15
   },
   "products": [
@@ -258,6 +258,42 @@
       "atLowestEver": false,
       "saleSince": "2026-06-14T18:18:51.284Z",
       "firstSeen": "2026-06-14T16:21:48.924Z"
+    },
+    {
+      "id": 9367614193900,
+      "title": "Protein Farm Living Quarters",
+      "handle": "protein-farm-living-quarters-23002",
+      "url": "https://www.lumibricks.com/products/protein-farm-living-quarters-23002",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/5_f30fda35-a693-45ab-961a-b0bf14e06301.webp?v=1790228104",
+      "productType": "Blade Runner 2049",
+      "price": 118.8,
+      "compareAt": 134.99,
+      "onSale": true,
+      "discountPct": 12,
+      "promo": "FIRSTORDER12",
+      "available": true,
+      "lowestEver": 118.8,
+      "atLowestEver": false,
+      "saleSince": "2026-09-29T12:34:58.243Z",
+      "firstSeen": "2026-09-29T12:34:58.243Z"
+    },
+    {
+      "id": 9367613309164,
+      "title": "Street Market",
+      "handle": "street-market-23004",
+      "url": "https://www.lumibricks.com/products/street-market-23004",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/5_77a68937-4ccf-4a11-acd8-e9a68f80432d.webp?v=1790243368",
+      "productType": "Blade Runner 2049",
+      "price": 114.4,
+      "compareAt": 129.99,
+      "onSale": true,
+      "discountPct": 12,
+      "promo": "FIRSTORDER12",
+      "available": true,
+      "lowestEver": 114.4,
+      "atLowestEver": false,
+      "saleSince": "2026-09-29T12:34:58.243Z",
+      "firstSeen": "2026-09-29T12:34:58.243Z"
     },
     {
       "id": 9367613210860,
@@ -2454,6 +2490,24 @@
       "atLowestEver": false,
       "saleSince": null,
       "firstSeen": "2026-06-14T16:21:48.924Z"
+    },
+    {
+      "id": 10316206604524,
+      "title": "The Creation of the Replicant (GWP, Limited to 700 Sets)",
+      "handle": "the-creation-of-the-replicant-23011",
+      "url": "https://www.lumibricks.com/products/the-creation-of-the-replicant-23011",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/1_b03a428e-3300-4d7e-af68-63b648242e42.webp?v=1790236658",
+      "productType": "Blade Runner 2049",
+      "price": 29.99,
+      "compareAt": null,
+      "onSale": false,
+      "discountPct": 0,
+      "promo": null,
+      "available": true,
+      "lowestEver": 29.99,
+      "atLowestEver": false,
+      "saleSince": null,
+      "firstSeen": "2026-09-29T12:34:58.243Z"
     },
     {
       "id": 9345516077292,

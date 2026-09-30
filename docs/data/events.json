@@ -1,6 +1,14 @@
 {
-  "generatedAt": "2026-09-29T12:34:58.243Z",
+  "generatedAt": "2026-09-30T15:48:19.675Z",
   "events": [
+    {
+      "t": "2026-09-30T15:48:19.675Z",
+      "type": "REMOVED",
+      "id": 8901501419756,
+      "title": "Bamboo House",
+      "url": "https://www.lumibricks.com/products/bamboo-house-l9075",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/10009_L9075.webp?v=1788510736"
+    },
     {
       "t": "2026-09-29T12:34:58.243Z",
       "source": "shopify",
@@ -5404,17 +5412,6 @@
       "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/1_e48bb422-74a6-4850-be3c-8232fb241e92.jpg?v=1704783602",
       "price": 72,
       "from": 79.2
-    },
-    {
-      "t": "2026-06-22T16:43:16.664Z",
-      "source": "shopify",
-      "type": "PRICE_DROP",
-      "id": 8973539115244,
-      "title": "Medieval Troupe Carriage",
-      "url": "https://www.lumibricks.com/products/medieval-troupe-carriage-l9063",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/Lumibricks_Medieval_Troupe_Carriage_L9063_1.jpg?v=1757389767",
-      "price": 60,
-      "from": 66
     }
   ]
 }

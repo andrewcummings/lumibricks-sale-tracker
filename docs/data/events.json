@@ -1,6 +1,28 @@
 {
-  "generatedAt": "2026-09-30T15:48:19.675Z",
+  "generatedAt": "2026-09-30T20:42:23.949Z",
   "events": [
+    {
+      "t": "2026-09-30T20:42:23.949Z",
+      "source": "shopify",
+      "type": "PRICE_DROP",
+      "id": 8740988616940,
+      "title": "Record Store",
+      "url": "https://www.lumibricks.com/products/record-store-1980pcs",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/19003_F9058.webp?v=1788508725",
+      "price": 114.75,
+      "from": 118.8
+    },
+    {
+      "t": "2026-09-30T20:42:23.949Z",
+      "source": "shopify",
+      "type": "PRICE_RISE",
+      "id": 9004351619308,
+      "title": "Floating Train Station",
+      "url": "https://www.lumibricks.com/products/floating-train-station-l9098",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/L9098.webp?v=1786954464",
+      "price": 149.6,
+      "from": 144.5
+    },
     {
       "t": "2026-09-30T15:48:19.675Z",
       "type": "REMOVED",
@@ -5390,28 +5412,6 @@
       "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/1_1c88abc0-eddd-42ef-9639-e528dc11edf8.webp?v=1781263626",
       "price": 104,
       "from": 114.4
-    },
-    {
-      "t": "2026-06-22T16:43:16.664Z",
-      "source": "shopify",
-      "type": "PRICE_DROP",
-      "id": 8737986019564,
-      "title": "Medieval Water Mill",
-      "url": "https://www.lumibricks.com/products/water-mill-1278pcs",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/6391ace427ade714b70fb966024ae804_2a203ce3-5741-4838-a3db-3d6c1934015f.jpg?v=1735031025",
-      "price": 60,
-      "from": 66
-    },
-    {
-      "t": "2026-06-22T16:43:16.664Z",
-      "source": "shopify",
-      "type": "PRICE_DROP",
-      "id": 8130969764076,
-      "title": "Medieval Watchtower",
-      "url": "https://www.lumibricks.com/products/medieval-watchtower",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/1_e48bb422-74a6-4850-be3c-8232fb241e92.jpg?v=1704783602",
-      "price": 72,
-      "from": 79.2
     }
   ]
 }

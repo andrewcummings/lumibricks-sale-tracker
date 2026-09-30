@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-30T15:48:19.675Z",
+  "generatedAt": "2026-09-30T20:42:23.949Z",
   "store": "https://www.lumibricks.com",
   "totals": {
     "products": 141,
@@ -98,24 +98,6 @@
       "firstSeen": "2026-06-14T16:21:48.924Z"
     },
     {
-      "id": 9004351619308,
-      "title": "Floating Train Station",
-      "handle": "floating-train-station-l9098",
-      "url": "https://www.lumibricks.com/products/floating-train-station-l9098",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/L9098.webp?v=1786954464",
-      "productType": "Cyberpunk",
-      "price": 144.5,
-      "compareAt": 169.99,
-      "onSale": true,
-      "discountPct": 15,
-      "promo": "BESTDEAL15",
-      "available": true,
-      "lowestEver": 136,
-      "atLowestEver": false,
-      "saleSince": "2026-06-14T18:18:51.284Z",
-      "firstSeen": "2026-06-14T16:21:48.924Z"
-    },
-    {
       "id": 8984717361388,
       "title": "Alpine Observatory",
       "handle": "alpine-observatory-l9091",
@@ -183,6 +165,24 @@
       "promo": "BESTDEAL15",
       "available": true,
       "lowestEver": 104,
+      "atLowestEver": false,
+      "saleSince": "2026-06-14T18:18:51.284Z",
+      "firstSeen": "2026-06-14T16:21:48.924Z"
+    },
+    {
+      "id": 8740988616940,
+      "title": "Record Store",
+      "handle": "record-store-1980pcs",
+      "url": "https://www.lumibricks.com/products/record-store-1980pcs",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/19003_F9058.webp?v=1788508725",
+      "productType": "Street Fusion",
+      "price": 114.75,
+      "compareAt": 134.99,
+      "onSale": true,
+      "discountPct": 15,
+      "promo": "BESTDEAL15",
+      "available": true,
+      "lowestEver": 108,
       "atLowestEver": false,
       "saleSince": "2026-06-14T18:18:51.284Z",
       "firstSeen": "2026-06-14T16:21:48.924Z"
@@ -1502,6 +1502,24 @@
       "firstSeen": "2026-06-14T16:21:48.924Z"
     },
     {
+      "id": 9004351619308,
+      "title": "Floating Train Station",
+      "handle": "floating-train-station-l9098",
+      "url": "https://www.lumibricks.com/products/floating-train-station-l9098",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/L9098.webp?v=1786954464",
+      "productType": "Cyberpunk",
+      "price": 149.6,
+      "compareAt": 169.99,
+      "onSale": true,
+      "discountPct": 12,
+      "promo": "FIRSTORDER12",
+      "available": true,
+      "lowestEver": 136,
+      "atLowestEver": false,
+      "saleSince": "2026-06-14T18:18:51.284Z",
+      "firstSeen": "2026-06-14T16:21:48.924Z"
+    },
+    {
       "id": 8984717525228,
       "title": "Collectible Low Rider - Big Red",
       "handle": "collectible-low-rider-big-red-l9093",
@@ -1929,24 +1947,6 @@
       "promo": "FIRSTORDER12",
       "available": true,
       "lowestEver": 71.5,
-      "atLowestEver": false,
-      "saleSince": "2026-06-14T18:18:51.284Z",
-      "firstSeen": "2026-06-14T16:21:48.924Z"
-    },
-    {
-      "id": 8740988616940,
-      "title": "Record Store",
-      "handle": "record-store-1980pcs",
-      "url": "https://www.lumibricks.com/products/record-store-1980pcs",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/19003_F9058.webp?v=1788508725",
-      "productType": "Street Fusion",
-      "price": 118.8,
-      "compareAt": 134.99,
-      "onSale": true,
-      "discountPct": 12,
-      "promo": "FIRSTORDER12",
-      "available": true,
-      "lowestEver": 108,
       "atLowestEver": false,
       "saleSince": "2026-06-14T18:18:51.284Z",
       "firstSeen": "2026-06-14T16:21:48.924Z"

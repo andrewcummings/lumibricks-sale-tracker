@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-28T16:33:22.855Z",
+  "generatedAt": "2026-10-05T16:54:29.607Z",
   "map": {
     "7933167501548": {
       "title": "A-Frame Cabin",
@@ -1052,6 +1052,30 @@
       "score": 1,
       "status": "matched",
       "checkedAt": "2026-09-28T16:33:22.855Z"
+    },
+    "9367614193900": {
+      "title": "Protein Farm Living Quarters",
+      "asin": "B0H5VSZYWZ",
+      "amazonTitle": "Lumibricks Blade Runner 2049 Protein Farm Living Quarters Lighting Set",
+      "score": 1,
+      "status": "matched",
+      "checkedAt": "2026-10-05T16:54:29.607Z"
+    },
+    "9367613309164": {
+      "title": "Street Market",
+      "asin": "B0H5VV5KTY",
+      "amazonTitle": "Lumibricks Street Bodega Lighting Building Set, 618 Pcs Grocery Store",
+      "score": 0.5,
+      "status": "matched",
+      "checkedAt": "2026-10-05T16:54:29.607Z"
+    },
+    "10316206604524": {
+      "title": "The Creation of the Replicant (GWP, Limited to 700 Sets)",
+      "asin": "B0H9KG3C8W",
+      "amazonTitle": "Lumibricks Blade Runner 2049 The Creation of the Replicant",
+      "score": 0.43,
+      "status": "matched",
+      "checkedAt": "2026-10-05T16:54:29.607Z"
     }
   }
 }

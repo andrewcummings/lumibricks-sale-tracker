@@ -1,6 +1,30 @@
 {
-  "generatedAt": "2026-10-01T14:13:18.497Z",
+  "generatedAt": "2026-10-06T07:25:08.447Z",
   "events": [
+    {
+      "t": "2026-10-06T07:25:08.447Z",
+      "source": "shopify",
+      "type": "NEW_PRODUCT",
+      "id": 9394098241772,
+      "title": "Explorer Treehouse",
+      "url": "https://www.lumibricks.com/products/explorer-treehouse-10016",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/af7b8296bd899f2caccc9356617c1903_8e0accee-d15f-45bb-9649-5ca7e29dbfb6.webp?v=1791250538",
+      "price": 110,
+      "available": true
+    },
+    {
+      "t": "2026-10-06T07:25:08.447Z",
+      "source": "shopify",
+      "type": "SALE_START",
+      "id": 9394098241772,
+      "title": "Explorer Treehouse",
+      "url": "https://www.lumibricks.com/products/explorer-treehouse-10016",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/af7b8296bd899f2caccc9356617c1903_8e0accee-d15f-45bb-9649-5ca7e29dbfb6.webp?v=1791250538",
+      "price": 110,
+      "compareAt": 124.99,
+      "discountPct": 12,
+      "promo": "FIRSTORDER12"
+    },
     {
       "t": "2026-10-01T14:13:18.497Z",
       "source": "amazon",
@@ -5390,28 +5414,6 @@
       "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/0_811f8422-84f0-42c2-beff-967bb9c9e23b.webp?v=1781264255",
       "price": 88,
       "from": 96.8
-    },
-    {
-      "t": "2026-06-22T16:43:16.664Z",
-      "source": "shopify",
-      "type": "PRICE_DROP",
-      "id": 8714054861036,
-      "title": "Steampunk Flying Club",
-      "url": "https://www.lumibricks.com/products/steampunk-flying-club-1858pcs",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/1_8b64ec88-77ef-44e6-a94f-447cdd4b65bc.jpg?v=1731547826",
-      "price": 80,
-      "from": 88
-    },
-    {
-      "t": "2026-06-22T16:43:16.664Z",
-      "source": "shopify",
-      "type": "PRICE_DROP",
-      "id": 9027578036460,
-      "title": "Steamboat",
-      "url": "https://www.lumibricks.com/products/steamboat-11016",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/steamboat_11016_1.jpg?v=1763428829",
-      "price": 80,
-      "from": 88
     }
   ]
 }

@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-09-30T20:42:23.949Z",
+  "generatedAt": "2026-10-06T07:25:08.447Z",
   "store": "https://www.lumibricks.com",
   "totals": {
-    "products": 141,
-    "onSale": 126,
+    "products": 142,
+    "onSale": 127,
     "maxDiscountPct": 15
   },
   "products": [
@@ -258,6 +258,24 @@
       "atLowestEver": false,
       "saleSince": "2026-06-14T18:18:51.284Z",
       "firstSeen": "2026-06-14T16:21:48.924Z"
+    },
+    {
+      "id": 9394098241772,
+      "title": "Explorer Treehouse",
+      "handle": "explorer-treehouse-10016",
+      "url": "https://www.lumibricks.com/products/explorer-treehouse-10016",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/af7b8296bd899f2caccc9356617c1903_8e0accee-d15f-45bb-9649-5ca7e29dbfb6.webp?v=1791250538",
+      "productType": "Retro House",
+      "price": 110,
+      "compareAt": 124.99,
+      "onSale": true,
+      "discountPct": 12,
+      "promo": "FIRSTORDER12",
+      "available": true,
+      "lowestEver": 110,
+      "atLowestEver": false,
+      "saleSince": "2026-10-06T07:25:08.447Z",
+      "firstSeen": "2026-10-06T07:25:08.447Z"
     },
     {
       "id": 9367614193900,

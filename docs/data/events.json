@@ -1,6 +1,15 @@
 {
-  "generatedAt": "2026-10-06T07:25:08.447Z",
+  "generatedAt": "2026-10-08T16:18:55.702Z",
   "events": [
+    {
+      "t": "2026-10-08T16:18:55.702Z",
+      "source": "shopify",
+      "type": "OUT_OF_STOCK",
+      "id": 9344822313196,
+      "title": "Christmas Pub (Limited Edition Gift Set)",
+      "url": "https://www.lumibricks.com/products/christmas-pub-limited-edition-gift-set-15014-2",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/2_5f3af4ea-bd23-43bd-9110-5a301a69309a.webp?v=1787824442"
+    },
     {
       "t": "2026-10-06T07:25:08.447Z",
       "source": "shopify",
@@ -5403,17 +5412,6 @@
       "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/steampunk_memory_magic_shop_11013_1.png?v=1764302062",
       "price": 84,
       "from": 92.4
-    },
-    {
-      "t": "2026-06-22T16:43:16.664Z",
-      "source": "shopify",
-      "type": "PRICE_DROP",
-      "id": 9097945776364,
-      "title": "Steampunk Mechanical Workshop",
-      "url": "https://www.lumibricks.com/products/steampunk-mechanical-workshop-11015",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/0_811f8422-84f0-42c2-beff-967bb9c9e23b.webp?v=1781264255",
-      "price": 88,
-      "from": 96.8
     }
   ]
 }

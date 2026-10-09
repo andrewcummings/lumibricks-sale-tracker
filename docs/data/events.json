@@ -1,6 +1,15 @@
 {
-  "generatedAt": "2026-10-08T16:18:55.702Z",
+  "generatedAt": "2026-10-09T08:53:39.087Z",
   "events": [
+    {
+      "t": "2026-10-09T08:53:39.087Z",
+      "source": "shopify",
+      "type": "OUT_OF_STOCK",
+      "id": 8976834101484,
+      "title": "1x3 USB connector 45cm-Not for Sale, points redemption only",
+      "url": "https://www.lumibricks.com/products/1x3-usb-connector",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/1x3_USB_connector_LLA03.jpg?v=1757389767"
+    },
     {
       "t": "2026-10-08T16:18:55.702Z",
       "source": "shopify",
@@ -5401,17 +5410,6 @@
       "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/Steampunk_Motorcycle_Pursuit_F9067_1.jpg?v=1757389768",
       "price": 24,
       "from": 26.4
-    },
-    {
-      "t": "2026-06-22T16:43:16.664Z",
-      "source": "shopify",
-      "type": "PRICE_DROP",
-      "id": 9074916917484,
-      "title": "Steampunk Memory Magic Shop",
-      "url": "https://www.lumibricks.com/products/steampunk-memory-magic-shop-11013",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/steampunk_memory_magic_shop_11013_1.png?v=1764302062",
-      "price": 84,
-      "from": 92.4
     }
   ]
 }

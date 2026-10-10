@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T08:20:29.658Z",
+  "generatedAt": "2026-10-10T15:11:12.154Z",
   "store": "https://www.lumibricks.com",
   "totals": {
     "products": 142,
@@ -531,7 +531,7 @@
     },
     {
       "id": 9266039914732,
-      "title": "K's Spinner (Restocking)",
+      "title": "K's Spinner",
       "handle": "k-s-spinner-23001",
       "url": "https://www.lumibricks.com/products/k-s-spinner-23001",
       "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/3_a4678f36-1a42-420d-b854-781d5e9e2f7d.webp?v=1784536444",
@@ -541,7 +541,7 @@
       "onSale": true,
       "discountPct": 12,
       "promo": "FIRSTORDER12",
-      "available": false,
+      "available": true,
       "lowestEver": 35.2,
       "atLowestEver": true,
       "saleSince": "2026-07-21T07:36:24.010Z",

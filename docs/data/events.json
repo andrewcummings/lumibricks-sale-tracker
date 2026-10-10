@@ -1,6 +1,15 @@
 {
-  "generatedAt": "2026-10-09T08:53:39.087Z",
+  "generatedAt": "2026-10-10T08:20:29.658Z",
   "events": [
+    {
+      "t": "2026-10-10T08:20:29.658Z",
+      "source": "shopify",
+      "type": "RESTOCK",
+      "id": 8976834101484,
+      "title": "1x3 USB connector 45cm-Not for Sale, points redemption only",
+      "url": "https://www.lumibricks.com/products/1x3-usb-connector",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/1x3_USB_connector_LLA03.jpg?v=1757389767"
+    },
     {
       "t": "2026-10-09T08:53:39.087Z",
       "source": "shopify",
@@ -5399,17 +5408,6 @@
       "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/1200.webp?v=1774939696",
       "price": 112,
       "from": 123.2
-    },
-    {
-      "t": "2026-06-22T16:43:16.664Z",
-      "source": "shopify",
-      "type": "PRICE_DROP",
-      "id": 8808104657132,
-      "title": "Steampunk Motorcycle Pursuit",
-      "url": "https://www.lumibricks.com/products/steampunk-motorcycle-pursuit-424pcs",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/Steampunk_Motorcycle_Pursuit_F9067_1.jpg?v=1757389768",
-      "price": 24,
-      "from": 26.4
     }
   ]
 }

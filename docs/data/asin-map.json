@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T16:54:29.607Z",
+  "generatedAt": "2026-10-12T17:30:22.698Z",
   "map": {
     "7933167501548": {
       "title": "A-Frame Cabin",
@@ -1076,6 +1076,14 @@
       "score": 0.43,
       "status": "matched",
       "checkedAt": "2026-10-05T16:54:29.607Z"
+    },
+    "9394098241772": {
+      "title": "Explorer Treehouse",
+      "asin": "B0HDN8BD2T",
+      "amazonTitle": "Lumibricks Jungle Treehouse, Lighting Building Set, Rainforest Adventure",
+      "score": 0.5,
+      "status": "matched",
+      "checkedAt": "2026-10-12T17:30:22.698Z"
     }
   }
 }

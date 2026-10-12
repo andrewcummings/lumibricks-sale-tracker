@@ -1,6 +1,17 @@
 {
-  "generatedAt": "2026-10-10T15:11:12.154Z",
+  "generatedAt": "2026-10-12T08:58:56.197Z",
   "events": [
+    {
+      "t": "2026-10-12T08:58:56.197Z",
+      "source": "shopify",
+      "type": "PRICE_DROP",
+      "id": 9199088697580,
+      "title": "Ranger Camp",
+      "url": "https://www.lumibricks.com/products/ranger-camp-12014",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/6829be9c976086cdf9509a06ae0629d8.webp?v=1777545603",
+      "price": 29.75,
+      "from": 30.8
+    },
     {
       "t": "2026-10-10T15:11:12.154Z",
       "source": "shopify",
@@ -5395,17 +5406,6 @@
       "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/products/steampunk-train-station-funwhole-f9007.jpg?v=1678090501",
       "price": 100,
       "from": 110
-    },
-    {
-      "t": "2026-06-22T16:43:16.664Z",
-      "source": "shopify",
-      "type": "PRICE_DROP",
-      "id": 9027581280492,
-      "title": "Steampunk Time Rift Library",
-      "url": "https://www.lumibricks.com/products/steampunk-time-rift-library-11012",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/steampunk_time_rift_library_11012_1.jpg?v=1763635453",
-      "price": 120,
-      "from": 132
     }
   ]
 }

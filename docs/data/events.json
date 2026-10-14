@@ -1,6 +1,15 @@
 {
-  "generatedAt": "2026-10-12T08:58:56.197Z",
+  "generatedAt": "2026-10-14T18:27:36.624Z",
   "events": [
+    {
+      "t": "2026-10-14T18:27:36.624Z",
+      "source": "shopify",
+      "type": "OUT_OF_STOCK",
+      "id": 8976834101484,
+      "title": "1x3 USB connector 45cm-Not for Sale, points redemption only",
+      "url": "https://www.lumibricks.com/products/1x3-usb-connector",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/1x3_USB_connector_LLA03.jpg?v=1757389767"
+    },
     {
       "t": "2026-10-12T08:58:56.197Z",
       "source": "shopify",
@@ -5395,17 +5404,6 @@
       "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/Steampunk_Watch_Tower_F9070_1.jpg?v=1757389768",
       "price": 144,
       "from": 153
-    },
-    {
-      "t": "2026-06-22T16:43:16.664Z",
-      "source": "shopify",
-      "type": "PRICE_DROP",
-      "id": 7774482497772,
-      "title": "Steampunk Train Station",
-      "url": "https://www.lumibricks.com/products/steampunk-train-station",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/products/steampunk-train-station-funwhole-f9007.jpg?v=1678090501",
-      "price": 100,
-      "from": 110
     }
   ]
 }

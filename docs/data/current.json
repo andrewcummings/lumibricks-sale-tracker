@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-14T18:27:36.624Z",
+  "generatedAt": "2026-10-15T07:14:58.219Z",
   "store": "https://www.lumibricks.com",
   "totals": {
-    "products": 142,
+    "products": 145,
     "onSale": 127,
     "maxDiscountPct": 15
   },
@@ -361,7 +361,7 @@
       "onSale": true,
       "discountPct": 12,
       "promo": "FIRSTORDER12",
-      "available": false,
+      "available": true,
       "lowestEver": 110,
       "atLowestEver": true,
       "saleSince": "2026-09-01T04:43:18.837Z",
@@ -2384,6 +2384,24 @@
       "firstSeen": "2026-06-15T11:16:19.588Z"
     },
     {
+      "id": 9386928079084,
+      "title": "Cyberpunk Backpack-Not for sale, points redemption only",
+      "handle": "cyberpunk-backpack",
+      "url": "https://www.lumibricks.com/products/cyberpunk-backpack",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/8a244ffec3e7f4051e5aaa5095781f6c.webp?v=1787284449",
+      "productType": "POINTS REDEMPTION",
+      "price": 39.99,
+      "compareAt": null,
+      "onSale": false,
+      "discountPct": 0,
+      "promo": null,
+      "available": true,
+      "lowestEver": 39.99,
+      "atLowestEver": false,
+      "saleSince": null,
+      "firstSeen": "2026-10-15T07:14:58.219Z"
+    },
+    {
       "id": 8888326815980,
       "title": "Figures Display Box-Not for sale, points redemption only",
       "handle": "figures-display-box",
@@ -2562,6 +2580,42 @@
       "atLowestEver": false,
       "saleSince": null,
       "firstSeen": "2026-06-14T16:21:48.924Z"
+    },
+    {
+      "id": 15435137057004,
+      "title": "VIP LV4 Member Badge-Not for sale, points redemption only",
+      "handle": "vip-lv4-member-badge",
+      "url": "https://www.lumibricks.com/products/vip-lv4-member-badge",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/3_5280338b-16bf-4ab2-89b8-a0ce1a8186a6.webp?v=1791957335",
+      "productType": "POINTS REDEMPTION",
+      "price": 19.9,
+      "compareAt": null,
+      "onSale": false,
+      "discountPct": 0,
+      "promo": null,
+      "available": true,
+      "lowestEver": 19.9,
+      "atLowestEver": false,
+      "saleSince": null,
+      "firstSeen": "2026-10-15T07:14:58.219Z"
+    },
+    {
+      "id": 15435150262508,
+      "title": "VIP LV5 Member Badge-Not for sale, points redemption only",
+      "handle": "vip-lv5-member-badge",
+      "url": "https://www.lumibricks.com/products/vip-lv5-member-badge",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/1_f4cae860-fa32-4837-923c-e48b25f76cec.webp?v=1791957335",
+      "productType": "POINTS REDEMPTION",
+      "price": 19.99,
+      "compareAt": null,
+      "onSale": false,
+      "discountPct": 0,
+      "promo": null,
+      "available": true,
+      "lowestEver": 19.99,
+      "atLowestEver": false,
+      "saleSince": null,
+      "firstSeen": "2026-10-15T07:14:58.219Z"
     }
   ]
 }

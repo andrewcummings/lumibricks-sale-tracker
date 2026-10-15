@@ -1,6 +1,48 @@
 {
-  "generatedAt": "2026-10-14T18:27:36.624Z",
+  "generatedAt": "2026-10-15T07:14:58.219Z",
   "events": [
+    {
+      "t": "2026-10-15T07:14:58.219Z",
+      "source": "shopify",
+      "type": "NEW_PRODUCT",
+      "id": 15435150262508,
+      "title": "VIP LV5 Member Badge-Not for sale, points redemption only",
+      "url": "https://www.lumibricks.com/products/vip-lv5-member-badge",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/1_f4cae860-fa32-4837-923c-e48b25f76cec.webp?v=1791957335",
+      "price": 19.99,
+      "available": true
+    },
+    {
+      "t": "2026-10-15T07:14:58.219Z",
+      "source": "shopify",
+      "type": "NEW_PRODUCT",
+      "id": 15435137057004,
+      "title": "VIP LV4 Member Badge-Not for sale, points redemption only",
+      "url": "https://www.lumibricks.com/products/vip-lv4-member-badge",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/3_5280338b-16bf-4ab2-89b8-a0ce1a8186a6.webp?v=1791957335",
+      "price": 19.9,
+      "available": true
+    },
+    {
+      "t": "2026-10-15T07:14:58.219Z",
+      "source": "shopify",
+      "type": "NEW_PRODUCT",
+      "id": 9386928079084,
+      "title": "Cyberpunk Backpack-Not for sale, points redemption only",
+      "url": "https://www.lumibricks.com/products/cyberpunk-backpack",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/8a244ffec3e7f4051e5aaa5095781f6c.webp?v=1787284449",
+      "price": 39.99,
+      "available": true
+    },
+    {
+      "t": "2026-10-15T07:14:58.219Z",
+      "source": "shopify",
+      "type": "RESTOCK",
+      "id": 9344822313196,
+      "title": "Christmas Pub (Limited Edition Gift Set)",
+      "url": "https://www.lumibricks.com/products/christmas-pub-limited-edition-gift-set-15014-2",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/2_5f3af4ea-bd23-43bd-9110-5a301a69309a.webp?v=1787824442"
+    },
     {
       "t": "2026-10-14T18:27:36.624Z",
       "source": "shopify",
@@ -5360,50 +5402,6 @@
       "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/surf_shop_20004_1.png?v=1768382413",
       "price": 88,
       "from": 96.8
-    },
-    {
-      "t": "2026-06-22T16:43:16.664Z",
-      "source": "shopify",
-      "type": "PRICE_DROP",
-      "id": 8945489543404,
-      "title": "Sunset Stopover",
-      "url": "https://www.lumibricks.com/products/sunset-stopover-l9082",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/Lumibricks_Sunset_Stopover_L9082_-_1.jpg?v=1757389767",
-      "price": 24,
-      "from": 26.4
-    },
-    {
-      "t": "2026-06-22T16:43:16.664Z",
-      "source": "shopify",
-      "type": "PRICE_DROP",
-      "id": 9041051123948,
-      "title": "Sunrise Lighthouse",
-      "url": "https://www.lumibricks.com/products/sunrise-lighthouse-18007",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/1_9719b815-7119-4c7a-b003-b4ed9be0c6d2.webp?v=1781263333",
-      "price": 68,
-      "from": 72.25
-    },
-    {
-      "t": "2026-06-22T16:43:16.664Z",
-      "source": "shopify",
-      "type": "PRICE_DROP",
-      "id": 8981696512236,
-      "title": "Street MOD Garage",
-      "url": "https://www.lumibricks.com/products/street-mod-garage-l9088",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/Lumibricks_Street_MOD_Garage_L9088_1.jpg?v=1757389766",
-      "price": 80,
-      "from": 88
-    },
-    {
-      "t": "2026-06-22T16:43:16.664Z",
-      "source": "shopify",
-      "type": "PRICE_DROP",
-      "id": 8869585682668,
-      "title": "Steampunk Watch Tower",
-      "url": "https://www.lumibricks.com/products/steampunk-watch-tower-2744pcs-f9070",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/Steampunk_Watch_Tower_F9070_1.jpg?v=1757389768",
-      "price": 144,
-      "from": 153
     }
   ]
 }

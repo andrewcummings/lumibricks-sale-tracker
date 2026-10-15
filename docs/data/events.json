@@ -1,6 +1,15 @@
 {
-  "generatedAt": "2026-10-15T12:27:59.216Z",
+  "generatedAt": "2026-10-15T22:04:45.164Z",
   "events": [
+    {
+      "t": "2026-10-15T22:04:45.164Z",
+      "source": "shopify",
+      "type": "OUT_OF_STOCK",
+      "id": 9344822313196,
+      "title": "Christmas Pub (Limited Edition Gift Set)",
+      "url": "https://www.lumibricks.com/products/christmas-pub-limited-edition-gift-set-15014-2",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/2_5f3af4ea-bd23-43bd-9110-5a301a69309a.webp?v=1787824442"
+    },
     {
       "t": "2026-10-15T12:27:59.216Z",
       "source": "amazon",
@@ -5391,17 +5400,6 @@
       "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/3034a1133efe01daba919094b70c6310_dc0e6bda-648c-4a80-ae85-0609d228a2cf.jpg?v=1773127725",
       "price": 97.6,
       "from": 88
-    },
-    {
-      "t": "2026-06-22T18:28:05.737Z",
-      "source": "shopify",
-      "type": "PRICE_DROP",
-      "id": 9132933677292,
-      "title": "Wheat Field with Cypresses",
-      "url": "https://www.lumibricks.com/products/wheat-field-with-cypresses-21001",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/wheat_field_with_cypresses_21001_1.jpg?v=1773042650",
-      "price": 96,
-      "from": 104
     }
   ]
 }

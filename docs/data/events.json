@@ -1,6 +1,15 @@
 {
-  "generatedAt": "2026-10-18T05:39:19.223Z",
+  "generatedAt": "2026-10-19T15:27:40.270Z",
   "events": [
+    {
+      "t": "2026-10-19T15:27:40.270Z",
+      "source": "shopify",
+      "type": "RESTOCK",
+      "id": 8739355197676,
+      "title": "7 Ports USB Hub 2.0 USB Splitter White-Not for sale, points redemption only",
+      "url": "https://www.lumibricks.com/products/7-ports-usb-hub-2-0-usb-splitter-white-not-for-sale-points-redemption-only",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/white-usb-hub-usb-splitter_700x_b455aa4a-b981-41df-bd8e-cc9c9483f2cf.webp?v=1733724824"
+    },
     {
       "t": "2026-10-18T05:39:19.223Z",
       "source": "shopify",
@@ -5387,17 +5396,6 @@
       "title": "Bamboo House",
       "url": "https://www.lumibricks.com/products/bamboo-house-l9075",
       "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/Lumibricks_Bamboo_House_L9075_-_2.jpg?v=1757389767"
-    },
-    {
-      "t": "2026-06-23T07:29:05.503Z",
-      "source": "shopify",
-      "type": "PRICE_DROP",
-      "id": 9146340933868,
-      "title": "Garden Cottage",
-      "url": "https://www.lumibricks.com/products/garden-cottage-10013",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/3034a1133efe01daba919094b70c6310_dc0e6bda-648c-4a80-ae85-0609d228a2cf.jpg?v=1773127725",
-      "price": 88,
-      "from": 97.6
     }
   ]
 }

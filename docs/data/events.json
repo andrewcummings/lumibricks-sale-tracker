@@ -1,6 +1,15 @@
 {
-  "generatedAt": "2026-10-19T15:27:40.270Z",
+  "generatedAt": "2026-10-20T11:18:35.116Z",
   "events": [
+    {
+      "t": "2026-10-20T11:18:35.116Z",
+      "source": "shopify",
+      "type": "RESTOCK",
+      "id": 8976834101484,
+      "title": "1x3 USB connector 45cm-Not for Sale, points redemption only",
+      "url": "https://www.lumibricks.com/products/1x3-usb-connector",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/1x3_USB_connector_LLA03.jpg?v=1757389767"
+    },
     {
       "t": "2026-10-19T15:27:40.270Z",
       "source": "shopify",
@@ -5387,15 +5396,6 @@
       "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/Lumibricks_Bamboo_House_L9075_-_2.jpg?v=1757389767",
       "price": 92,
       "from": 101.2
-    },
-    {
-      "t": "2026-06-23T09:20:05.360Z",
-      "source": "shopify",
-      "type": "RESTOCK",
-      "id": 8901501419756,
-      "title": "Bamboo House",
-      "url": "https://www.lumibricks.com/products/bamboo-house-l9075",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/Lumibricks_Bamboo_House_L9075_-_2.jpg?v=1757389767"
     }
   ]
 }

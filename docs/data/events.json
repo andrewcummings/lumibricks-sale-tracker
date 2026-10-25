@@ -1,6 +1,15 @@
 {
-  "generatedAt": "2026-10-25T11:13:05.168Z",
+  "generatedAt": "2026-10-25T15:56:22.204Z",
   "events": [
+    {
+      "t": "2026-10-25T15:56:22.204Z",
+      "source": "shopify",
+      "type": "OUT_OF_STOCK",
+      "id": 10316206604524,
+      "title": "The Creation of the Replicant (GWP, Limited to 700 Sets)",
+      "url": "https://www.lumibricks.com/products/the-creation-of-the-replicant-23011",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/1_b03a428e-3300-4d7e-af68-63b648242e42.webp?v=1790236658"
+    },
     {
       "t": "2026-10-25T11:13:05.168Z",
       "source": "shopify",
@@ -5379,19 +5388,6 @@
       "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/1_8addfb95-62e8-405b-a879-5c261289600d.jpg?v=1714016594",
       "price": 29.6,
       "available": true
-    },
-    {
-      "t": "2026-06-24T05:28:41.705Z",
-      "source": "shopify",
-      "type": "SALE_START",
-      "id": 8392497299692,
-      "title": "Carpentry Van",
-      "url": "https://www.lumibricks.com/products/carpentry-van",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/1_8addfb95-62e8-405b-a879-5c261289600d.jpg?v=1714016594",
-      "price": 29.6,
-      "compareAt": 36.99,
-      "discountPct": 20,
-      "promo": "SUMMERSALE20"
     }
   ]
 }

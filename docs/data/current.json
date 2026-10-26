@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-26T05:55:31.972Z",
+  "generatedAt": "2026-10-26T12:45:00.718Z",
   "store": "https://www.lumibricks.com",
   "totals": {
     "products": 146,
@@ -111,24 +111,6 @@
       "promo": "BESTDEAL15",
       "available": true,
       "lowestEver": 104,
-      "atLowestEver": false,
-      "saleSince": "2026-06-14T18:18:51.284Z",
-      "firstSeen": "2026-06-14T16:21:48.924Z"
-    },
-    {
-      "id": 8984717361388,
-      "title": "Alpine Observatory",
-      "handle": "alpine-observatory-l9091",
-      "url": "https://www.lumibricks.com/products/alpine-observatory-l9091",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/20003_L9091.png?v=1788518609",
-      "productType": "X SERIES",
-      "price": 114.75,
-      "compareAt": 134.99,
-      "onSale": true,
-      "discountPct": 15,
-      "promo": "BESTDEAL15",
-      "available": true,
-      "lowestEver": 108,
       "atLowestEver": false,
       "saleSince": "2026-06-14T18:18:51.284Z",
       "firstSeen": "2026-06-14T16:21:48.924Z"
@@ -1569,6 +1551,24 @@
       "promo": "FIRSTORDER12",
       "available": true,
       "lowestEver": 43.2,
+      "atLowestEver": false,
+      "saleSince": "2026-06-14T18:18:51.284Z",
+      "firstSeen": "2026-06-14T16:21:48.924Z"
+    },
+    {
+      "id": 8984717361388,
+      "title": "Alpine Observatory",
+      "handle": "alpine-observatory-l9091",
+      "url": "https://www.lumibricks.com/products/alpine-observatory-l9091",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/20003_L9091.png?v=1788518609",
+      "productType": "X SERIES",
+      "price": 118.8,
+      "compareAt": 134.99,
+      "onSale": true,
+      "discountPct": 12,
+      "promo": "FIRSTORDER12",
+      "available": true,
+      "lowestEver": 108,
       "atLowestEver": false,
       "saleSince": "2026-06-14T18:18:51.284Z",
       "firstSeen": "2026-06-14T16:21:48.924Z"

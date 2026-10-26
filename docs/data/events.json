@@ -1,6 +1,17 @@
 {
-  "generatedAt": "2026-10-26T05:55:31.972Z",
+  "generatedAt": "2026-10-26T12:45:00.718Z",
   "events": [
+    {
+      "t": "2026-10-26T12:45:00.718Z",
+      "source": "shopify",
+      "type": "PRICE_RISE",
+      "id": 8984717361388,
+      "title": "Alpine Observatory",
+      "url": "https://www.lumibricks.com/products/alpine-observatory-l9091",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/20003_L9091.png?v=1788518609",
+      "price": 118.8,
+      "from": 114.75
+    },
     {
       "t": "2026-10-26T05:55:31.972Z",
       "source": "shopify",
@@ -5379,19 +5390,6 @@
       "title": "Old West Post Office",
       "url": "https://www.lumibricks.com/products/old-west-post-office",
       "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/1_374dfd6c-7631-400c-b4dd-7646accdb446.jpg?v=1734425633"
-    },
-    {
-      "t": "2026-06-24T05:28:41.705Z",
-      "source": "shopify",
-      "type": "SALE_START",
-      "id": 8636093825260,
-      "title": "Cow Barn",
-      "url": "https://www.lumibricks.com/products/cow-barn-1368pcs",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/1_7208ff9b-834e-470c-81d7-f22a82a0b1d3.jpg?v=1724743067",
-      "price": 64,
-      "compareAt": 79.99,
-      "discountPct": 20,
-      "promo": "SUMMERSALE20"
     }
   ]
 }

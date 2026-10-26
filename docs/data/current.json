@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-10-25T15:56:22.204Z",
+  "generatedAt": "2026-10-26T05:55:31.972Z",
   "store": "https://www.lumibricks.com",
   "totals": {
-    "products": 145,
-    "onSale": 127,
+    "products": 146,
+    "onSale": 128,
     "maxDiscountPct": 15
   },
   "products": [
@@ -276,6 +276,24 @@
       "atLowestEver": false,
       "saleSince": "2026-06-14T18:18:51.284Z",
       "firstSeen": "2026-06-14T16:21:48.924Z"
+    },
+    {
+      "id": 15470106214636,
+      "title": "Detective's Office",
+      "handle": "detectives-office-17018",
+      "url": "https://www.lumibricks.com/products/detectives-office-17018",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/5_98c6e3c5-00b6-4feb-82d9-b67bd4dcbe9f.webp?v=1792982256",
+      "productType": "Cyberpunk",
+      "price": 123.2,
+      "compareAt": 139.99,
+      "onSale": true,
+      "discountPct": 12,
+      "promo": "FIRSTORDER12",
+      "available": true,
+      "lowestEver": 123.2,
+      "atLowestEver": false,
+      "saleSince": "2026-10-26T05:55:31.972Z",
+      "firstSeen": "2026-10-26T05:55:31.972Z"
     },
     {
       "id": 9394098241772,

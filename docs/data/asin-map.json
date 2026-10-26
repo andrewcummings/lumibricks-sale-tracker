@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-19T15:21:09.265Z",
+  "generatedAt": "2026-10-26T14:55:56.491Z",
   "map": {
     "7933167501548": {
       "title": "A-Frame Cabin",
@@ -1084,6 +1084,14 @@
       "score": 0.5,
       "status": "matched",
       "checkedAt": "2026-10-12T17:30:22.698Z"
+    },
+    "15470106214636": {
+      "title": "Detective's Office",
+      "asin": "B0HDNCF6S2",
+      "amazonTitle": "Lumibricks Cyberpunk Detective's Office, Lighting Building Set , 2134Pcs",
+      "score": 1,
+      "status": "matched",
+      "checkedAt": "2026-10-26T14:55:56.491Z"
     }
   }
 }

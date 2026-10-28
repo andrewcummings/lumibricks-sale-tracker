@@ -1,6 +1,15 @@
 {
-  "generatedAt": "2026-10-27T16:20:55.403Z",
+  "generatedAt": "2026-10-28T08:11:18.230Z",
   "events": [
+    {
+      "t": "2026-10-28T08:11:18.230Z",
+      "source": "shopify",
+      "type": "OUT_OF_STOCK",
+      "id": 8739355197676,
+      "title": "7 Ports USB Hub 2.0 USB Splitter White-Not for sale, points redemption only",
+      "url": "https://www.lumibricks.com/products/7-ports-usb-hub-2-0-usb-splitter-white-not-for-sale-points-redemption-only",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/white-usb-hub-usb-splitter_700x_b455aa4a-b981-41df-bd8e-cc9c9483f2cf.webp?v=1733724824"
+    },
     {
       "t": "2026-10-27T16:20:55.403Z",
       "source": "shopify",
@@ -5382,15 +5391,6 @@
       "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/1_9719b815-7119-4c7a-b003-b4ed9be0c6d2.webp?v=1781263333",
       "price": 74.4,
       "from": 68
-    },
-    {
-      "t": "2026-06-25T12:58:33.574Z",
-      "source": "shopify",
-      "type": "OUT_OF_STOCK",
-      "id": 8636093825260,
-      "title": "Cow Barn",
-      "url": "https://www.lumibricks.com/products/cow-barn-1368pcs",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/1_7208ff9b-834e-470c-81d7-f22a82a0b1d3.jpg?v=1724743067"
     }
   ]
 }

@@ -1,6 +1,15 @@
 {
-  "generatedAt": "2026-10-30T06:56:37.960Z",
+  "generatedAt": "2026-10-30T23:34:37.260Z",
   "events": [
+    {
+      "t": "2026-10-30T23:34:37.260Z",
+      "source": "shopify",
+      "type": "OUT_OF_STOCK",
+      "id": 9319921975532,
+      "title": "The Bodega 26",
+      "url": "https://www.lumibricks.com/products/the-bodega-26-19017",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/6829be9c976086cdf9509a06ae0629d8_aaf29563-3423-463a-aebb-dfa1505cd639.webp?v=1787709401"
+    },
     {
       "t": "2026-10-30T06:56:37.960Z",
       "source": "shopify",
@@ -5382,17 +5391,6 @@
       "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/alien_frontier_bounty_hub_20007_1.jpg?v=1763446400",
       "price": 123.2,
       "from": 112
-    },
-    {
-      "t": "2026-06-27T09:04:12.416Z",
-      "source": "shopify",
-      "type": "PRICE_RISE",
-      "id": 9027576955116,
-      "title": "Alchemist's Moving Castle",
-      "url": "https://www.lumibricks.com/products/alchemists-moving-castle-11010",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/alchemist_s_moving_castle_L9103_1.jpg?v=1762323713",
-      "price": 124.1,
-      "from": 116.8
     }
   ]
 }

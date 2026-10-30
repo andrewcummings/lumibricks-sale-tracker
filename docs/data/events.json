@@ -1,6 +1,15 @@
 {
-  "generatedAt": "2026-10-28T08:11:18.230Z",
+  "generatedAt": "2026-10-30T00:44:02.817Z",
   "events": [
+    {
+      "t": "2026-10-30T00:44:02.817Z",
+      "source": "shopify",
+      "type": "OUT_OF_STOCK",
+      "id": 8895713149164,
+      "title": "Gelato Store",
+      "url": "https://www.lumibricks.com/products/gelato-store-f9078",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/15005_F9078.webp?v=1788507913"
+    },
     {
       "t": "2026-10-28T08:11:18.230Z",
       "source": "shopify",
@@ -5380,17 +5389,6 @@
       "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/products/steampunk-train-station-funwhole-f9007.jpg?v=1678090501",
       "price": 96,
       "from": 100
-    },
-    {
-      "t": "2026-06-25T13:49:16.738Z",
-      "source": "shopify",
-      "type": "PRICE_RISE",
-      "id": 9041051123948,
-      "title": "Sunrise Lighthouse",
-      "url": "https://www.lumibricks.com/products/sunrise-lighthouse-18007",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/1_9719b815-7119-4c7a-b003-b4ed9be0c6d2.webp?v=1781263333",
-      "price": 74.4,
-      "from": 68
     }
   ]
 }

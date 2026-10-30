@@ -1,6 +1,30 @@
 {
-  "generatedAt": "2026-10-30T00:44:02.817Z",
+  "generatedAt": "2026-10-30T06:56:37.960Z",
   "events": [
+    {
+      "t": "2026-10-30T06:56:37.960Z",
+      "source": "shopify",
+      "type": "NEW_PRODUCT",
+      "id": 15470049558764,
+      "title": "Edinburgh Corner",
+      "url": "https://www.lumibricks.com/products/edinburgh-corner-15021",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/2dff6af33c5ad8730873a7e30e699947_f6533880-f77e-47c0-a189-0c737bdc88e0.webp?v=1792984132",
+      "price": 140.8,
+      "available": true
+    },
+    {
+      "t": "2026-10-30T06:56:37.960Z",
+      "source": "shopify",
+      "type": "SALE_START",
+      "id": 15470049558764,
+      "title": "Edinburgh Corner",
+      "url": "https://www.lumibricks.com/products/edinburgh-corner-15021",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/2dff6af33c5ad8730873a7e30e699947_f6533880-f77e-47c0-a189-0c737bdc88e0.webp?v=1792984132",
+      "price": 140.8,
+      "compareAt": 159.99,
+      "discountPct": 12,
+      "promo": "FIRSTORDER12"
+    },
     {
       "t": "2026-10-30T00:44:02.817Z",
       "source": "shopify",
@@ -5369,26 +5393,6 @@
       "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/alchemist_s_moving_castle_L9103_1.jpg?v=1762323713",
       "price": 124.1,
       "from": 116.8
-    },
-    {
-      "t": "2026-06-26T18:46:39.909Z",
-      "source": "shopify",
-      "type": "OUT_OF_STOCK",
-      "id": 8976834101484,
-      "title": "1x3 USB connector 45cm (Not for Sale – Points Only)",
-      "url": "https://www.lumibricks.com/products/1x3-usb-connector",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/1x3_USB_connector_LLA03.jpg?v=1757389767"
-    },
-    {
-      "t": "2026-06-26T07:32:10.631Z",
-      "source": "shopify",
-      "type": "PRICE_DROP",
-      "id": 7774482497772,
-      "title": "Steampunk Train Station",
-      "url": "https://www.lumibricks.com/products/steampunk-train-station",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/products/steampunk-train-station-funwhole-f9007.jpg?v=1678090501",
-      "price": 96,
-      "from": 100
     }
   ]
 }

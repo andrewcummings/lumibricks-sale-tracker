@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-10-30T00:44:02.817Z",
+  "generatedAt": "2026-10-30T06:56:37.960Z",
   "store": "https://www.lumibricks.com",
   "totals": {
-    "products": 146,
-    "onSale": 128,
+    "products": 147,
+    "onSale": 129,
     "maxDiscountPct": 15
   },
   "products": [
@@ -258,6 +258,24 @@
       "atLowestEver": false,
       "saleSince": "2026-06-14T18:18:51.284Z",
       "firstSeen": "2026-06-14T16:21:48.924Z"
+    },
+    {
+      "id": 15470049558764,
+      "title": "Edinburgh Corner",
+      "handle": "edinburgh-corner-15021",
+      "url": "https://www.lumibricks.com/products/edinburgh-corner-15021",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/2dff6af33c5ad8730873a7e30e699947_f6533880-f77e-47c0-a189-0c737bdc88e0.webp?v=1792984132",
+      "productType": "Town Life",
+      "price": 140.8,
+      "compareAt": 159.99,
+      "onSale": true,
+      "discountPct": 12,
+      "promo": "FIRSTORDER12",
+      "available": true,
+      "lowestEver": 140.8,
+      "atLowestEver": false,
+      "saleSince": "2026-10-30T06:56:37.960Z",
+      "firstSeen": "2026-10-30T06:56:37.960Z"
     },
     {
       "id": 15470106214636,

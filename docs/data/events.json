@@ -1,6 +1,30 @@
 {
-  "generatedAt": "2026-10-30T23:34:37.260Z",
+  "generatedAt": "2026-10-31T05:07:45.678Z",
   "events": [
+    {
+      "t": "2026-10-31T05:07:45.678Z",
+      "source": "shopify",
+      "type": "NEW_PRODUCT",
+      "id": 15469788365036,
+      "title": "Football Fan Pub",
+      "url": "https://www.lumibricks.com/products/football-fan-pub-20008",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/550a1bedced0b3e0430ab7c0194a7b26_02583b5d-65e5-4017-a64f-4af5d9d66f9b.webp?v=1792655342",
+      "price": 96.8,
+      "available": true
+    },
+    {
+      "t": "2026-10-31T05:07:45.678Z",
+      "source": "shopify",
+      "type": "SALE_START",
+      "id": 15469788365036,
+      "title": "Football Fan Pub",
+      "url": "https://www.lumibricks.com/products/football-fan-pub-20008",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/550a1bedced0b3e0430ab7c0194a7b26_02583b5d-65e5-4017-a64f-4af5d9d66f9b.webp?v=1792655342",
+      "price": 96.8,
+      "compareAt": 109.99,
+      "discountPct": 12,
+      "promo": "FIRSTORDER12"
+    },
     {
       "t": "2026-10-30T23:34:37.260Z",
       "source": "shopify",
@@ -5369,28 +5393,6 @@
       "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/1_bcbd6029-a8bc-4529-ba90-20b2f70137f1.jpg?v=1721296842",
       "price": 140.8,
       "from": 128
-    },
-    {
-      "t": "2026-06-27T09:04:12.416Z",
-      "source": "shopify",
-      "type": "PRICE_RISE",
-      "id": 8984717361388,
-      "title": "Alpine Observatory",
-      "url": "https://www.lumibricks.com/products/alpine-observatory-l9091",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/alpine_observatory_l9091_1.jpg?v=1756707352",
-      "price": 114.75,
-      "from": 108
-    },
-    {
-      "t": "2026-06-27T09:04:12.416Z",
-      "source": "shopify",
-      "type": "PRICE_RISE",
-      "id": 9041053221100,
-      "title": "Alien Frontier: Bounty Hub",
-      "url": "https://www.lumibricks.com/products/alien-frontier-bounty-hub",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/alien_frontier_bounty_hub_20007_1.jpg?v=1763446400",
-      "price": 123.2,
-      "from": 112
     }
   ]
 }

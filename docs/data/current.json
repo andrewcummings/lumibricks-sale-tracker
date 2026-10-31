@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-10-30T23:34:37.260Z",
+  "generatedAt": "2026-10-31T05:07:45.678Z",
   "store": "https://www.lumibricks.com",
   "totals": {
-    "products": 147,
-    "onSale": 129,
+    "products": 148,
+    "onSale": 130,
     "maxDiscountPct": 15
   },
   "products": [
@@ -258,6 +258,24 @@
       "atLowestEver": false,
       "saleSince": "2026-06-14T18:18:51.284Z",
       "firstSeen": "2026-06-14T16:21:48.924Z"
+    },
+    {
+      "id": 15469788365036,
+      "title": "Football Fan Pub",
+      "handle": "football-fan-pub-20008",
+      "url": "https://www.lumibricks.com/products/football-fan-pub-20008",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/550a1bedced0b3e0430ab7c0194a7b26_02583b5d-65e5-4017-a64f-4af5d9d66f9b.webp?v=1792655342",
+      "productType": "X SERIES",
+      "price": 96.8,
+      "compareAt": 109.99,
+      "onSale": true,
+      "discountPct": 12,
+      "promo": "FIRSTORDER12",
+      "available": true,
+      "lowestEver": 96.8,
+      "atLowestEver": false,
+      "saleSince": "2026-10-31T05:07:45.678Z",
+      "firstSeen": "2026-10-31T05:07:45.678Z"
     },
     {
       "id": 15470049558764,

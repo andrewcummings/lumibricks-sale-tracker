@@ -1,6 +1,15 @@
 {
-  "generatedAt": "2026-11-01T14:03:23.272Z",
+  "generatedAt": "2026-11-01T14:54:19.970Z",
   "events": [
+    {
+      "t": "2026-11-01T14:54:19.970Z",
+      "source": "shopify",
+      "type": "RESTOCK",
+      "id": 9319921975532,
+      "title": "The Bodega 26",
+      "url": "https://www.lumibricks.com/products/the-bodega-26-19017",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/6829be9c976086cdf9509a06ae0629d8_aaf29563-3423-463a-aebb-dfa1505cd639.webp?v=1787709401"
+    },
     {
       "t": "2026-11-01T14:03:23.272Z",
       "source": "amazon",
@@ -5382,17 +5391,6 @@
       "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/Factory_House_of_Music_2654pcs_F9068_1.jpg?v=1757400114",
       "price": 149.6,
       "from": 136
-    },
-    {
-      "t": "2026-06-27T09:04:12.416Z",
-      "source": "shopify",
-      "type": "PRICE_RISE",
-      "id": 9199091482860,
-      "title": "Cyberpunk Police HQ",
-      "url": "https://www.lumibricks.com/products/cyberpunk-police-hq-17009",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/7aa9b238bc765e6ac8641e694ffbd757_da4eda30-12aa-4e70-90e7-af1357d749f7.webp?v=1779069423",
-      "price": 96.8,
-      "from": 88
     }
   ]
 }

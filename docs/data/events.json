@@ -1,6 +1,38 @@
 {
-  "generatedAt": "2026-11-01T14:54:19.970Z",
+  "generatedAt": "2026-11-02T15:26:55.263Z",
   "events": [
+    {
+      "t": "2026-11-02T15:26:55.263Z",
+      "type": "REMOVED",
+      "id": 9275120320748,
+      "title": "Underground Dance Battle-For Points Redemption, Free Shipping",
+      "url": "https://www.lumibricks.com/products/underground-dance-battle-for-points-redemption-free-shipping-excl-vat-for-eu",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/1_42aa9a46-5d41-44ca-a317-01b14a3605d6.jpg?v=1757389768"
+    },
+    {
+      "t": "2026-11-02T15:26:55.263Z",
+      "source": "shopify",
+      "type": "NEW_PRODUCT",
+      "id": 15470145077484,
+      "title": "Neoncity Exchange",
+      "url": "https://www.lumibricks.com/products/neoncity-exchange-17012",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/6829be9c976086cdf9509a06ae0629d8_ca1c2dd3-23a2-40dd-8959-a4bb1be71fef.webp?v=1793341253",
+      "price": 114.4,
+      "available": true
+    },
+    {
+      "t": "2026-11-02T15:26:55.263Z",
+      "source": "shopify",
+      "type": "SALE_START",
+      "id": 15470145077484,
+      "title": "Neoncity Exchange",
+      "url": "https://www.lumibricks.com/products/neoncity-exchange-17012",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/6829be9c976086cdf9509a06ae0629d8_ca1c2dd3-23a2-40dd-8959-a4bb1be71fef.webp?v=1793341253",
+      "price": 114.4,
+      "compareAt": 129.99,
+      "discountPct": 12,
+      "promo": "FIRSTORDER12"
+    },
     {
       "t": "2026-11-01T14:54:19.970Z",
       "source": "shopify",
@@ -5358,39 +5390,6 @@
       "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/1_45266e34-0636-4b29-a7fd-2bf7c2c99753.webp?v=1777549144",
       "price": 61.6,
       "from": 56
-    },
-    {
-      "t": "2026-06-27T09:04:12.416Z",
-      "source": "shopify",
-      "type": "PRICE_RISE",
-      "id": 9004351619308,
-      "title": "Floating Train Station",
-      "url": "https://www.lumibricks.com/products/floating-train-station-l9098",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/L9098.jpg?v=1779873152",
-      "price": 144.5,
-      "from": 136
-    },
-    {
-      "t": "2026-06-27T09:04:12.416Z",
-      "source": "shopify",
-      "type": "PRICE_RISE",
-      "id": 8238832812268,
-      "title": "Farm Store",
-      "url": "https://www.lumibricks.com/products/farm-store",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/1_cb96f23c-e036-48a2-88f7-9dd5057b68f2.jpg?v=1710411824",
-      "price": 70.4,
-      "from": 64
-    },
-    {
-      "t": "2026-06-27T09:04:12.416Z",
-      "source": "shopify",
-      "type": "PRICE_RISE",
-      "id": 8838360432876,
-      "title": "Factory House of Music",
-      "url": "https://www.lumibricks.com/products/factory-house-of-music-265pcs-f9068",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/Factory_House_of_Music_2654pcs_F9068_1.jpg?v=1757400114",
-      "price": 149.6,
-      "from": 136
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-26T14:55:56.491Z",
+  "generatedAt": "2026-11-02T17:57:47.018Z",
   "map": {
     "7933167501548": {
       "title": "A-Frame Cabin",
@@ -1092,6 +1092,30 @@
       "score": 1,
       "status": "matched",
       "checkedAt": "2026-10-26T14:55:56.491Z"
+    },
+    "15470145077484": {
+      "title": "Neoncity Exchange",
+      "asin": "B0HDNBN7PZ",
+      "amazonTitle": "LUMIBRICKS Cyberpunk Neoncity Exchange, Building Set with Lights, 1902 pcs",
+      "score": 1,
+      "status": "matched",
+      "checkedAt": "2026-11-02T17:57:47.018Z"
+    },
+    "15469788365036": {
+      "title": "Football Fan Pub",
+      "asin": "B0HDN9MXXY",
+      "amazonTitle": "LUMIBRICKS Football Fan Pub, Lighting Builiding Set for Adults,1813 Pcs",
+      "score": 1,
+      "status": "matched",
+      "checkedAt": "2026-11-02T17:57:47.018Z"
+    },
+    "15470049558764": {
+      "title": "Edinburgh Corner",
+      "asin": "B0HHP29HN6",
+      "amazonTitle": "Lumibricks Edinburgh Corner - Town Life Lighting Building Set, 3178 pcs",
+      "score": 1,
+      "status": "matched",
+      "checkedAt": "2026-11-02T17:57:47.018Z"
     }
   }
 }

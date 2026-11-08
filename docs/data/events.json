@@ -1,6 +1,24 @@
 {
-  "generatedAt": "2026-11-07T02:40:05.309Z",
+  "generatedAt": "2026-11-08T07:06:04.369Z",
   "events": [
+    {
+      "t": "2026-11-08T07:06:04.369Z",
+      "source": "shopify",
+      "type": "OUT_OF_STOCK",
+      "id": 9319921975532,
+      "title": "The Bodega 26",
+      "url": "https://www.lumibricks.com/products/the-bodega-26-19017",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/6829be9c976086cdf9509a06ae0629d8_aaf29563-3423-463a-aebb-dfa1505cd639.webp?v=1787709401"
+    },
+    {
+      "t": "2026-11-08T07:06:04.369Z",
+      "source": "shopify",
+      "type": "RESTOCK",
+      "id": 8901501419756,
+      "title": "Bamboo House",
+      "url": "https://www.lumibricks.com/products/bamboo-house-l9075",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/10009_L9075.webp?v=1788510736"
+    },
     {
       "t": "2026-11-07T02:40:05.309Z",
       "source": "shopify",
@@ -5366,28 +5384,6 @@
       "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/L9095.jpg?v=1779873280",
       "price": 110.5,
       "from": 104
-    },
-    {
-      "t": "2026-06-27T09:04:12.416Z",
-      "source": "shopify",
-      "type": "PRICE_RISE",
-      "id": 8875297669356,
-      "title": "Future Bus",
-      "url": "https://www.lumibricks.com/products/future-bus-605pcs-f9060",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/F9060.jpg?v=1779873280",
-      "price": 35.2,
-      "from": 32
-    },
-    {
-      "t": "2026-06-27T09:04:12.416Z",
-      "source": "shopify",
-      "type": "PRICE_RISE",
-      "id": 8677550653676,
-      "title": "Forge House",
-      "url": "https://www.lumibricks.com/products/forge-house-1595pcs",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/1_e808049c-3583-473d-adab-22a463039f8e.jpg?v=1727681182",
-      "price": 79.2,
-      "from": 72
     }
   ]
 }

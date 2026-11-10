@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-11-10T08:10:48.776Z",
+  "generatedAt": "2026-11-10T16:55:47.896Z",
   "store": "https://www.lumibricks.com",
   "totals": {
-    "products": 149,
-    "onSale": 132,
+    "products": 150,
+    "onSale": 133,
     "maxDiscountPct": 15
   },
   "products": [
@@ -258,6 +258,24 @@
       "atLowestEver": false,
       "saleSince": "2026-06-14T18:18:51.284Z",
       "firstSeen": "2026-06-14T16:21:48.924Z"
+    },
+    {
+      "id": 15470148387052,
+      "title": "Neoncity Club",
+      "handle": "neoncity-club-17020",
+      "url": "https://www.lumibricks.com/products/neoncity-club-17020",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/1200x1200-_1.webp?v=1794295252",
+      "productType": "Cyberpunk",
+      "price": 140.8,
+      "compareAt": 159.99,
+      "onSale": true,
+      "discountPct": 12,
+      "promo": "FIRSTORDER12",
+      "available": true,
+      "lowestEver": 140.8,
+      "atLowestEver": false,
+      "saleSince": "2026-11-10T16:55:47.896Z",
+      "firstSeen": "2026-11-10T16:55:47.896Z"
     },
     {
       "id": 8901501419756,

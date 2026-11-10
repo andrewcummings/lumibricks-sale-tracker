@@ -1,6 +1,24 @@
 {
-  "generatedAt": "2026-11-08T07:06:04.369Z",
+  "generatedAt": "2026-11-10T08:10:48.776Z",
   "events": [
+    {
+      "t": "2026-11-10T08:10:48.776Z",
+      "source": "shopify",
+      "type": "RESTOCK",
+      "id": 8557541163244,
+      "title": "The Hen House",
+      "url": "https://www.lumibricks.com/products/the-hen-house",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/F9034.webp?v=1788517051"
+    },
+    {
+      "t": "2026-11-10T08:10:48.776Z",
+      "source": "shopify",
+      "type": "RESTOCK",
+      "id": 9319921975532,
+      "title": "The Bodega 26",
+      "url": "https://www.lumibricks.com/products/the-bodega-26-19017",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/6829be9c976086cdf9509a06ae0629d8_aaf29563-3423-463a-aebb-dfa1505cd639.webp?v=1787709401"
+    },
     {
       "t": "2026-11-08T07:06:04.369Z",
       "source": "shopify",
@@ -5362,28 +5380,6 @@
       "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/Gas_Station_F9065_1.jpg?v=1757389768",
       "price": 83.6,
       "from": 76
-    },
-    {
-      "t": "2026-06-27T09:04:12.416Z",
-      "source": "shopify",
-      "type": "PRICE_RISE",
-      "id": 9146340933868,
-      "title": "Garden Cottage",
-      "url": "https://www.lumibricks.com/products/garden-cottage-10013",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/3034a1133efe01daba919094b70c6310_dc0e6bda-648c-4a80-ae85-0609d228a2cf.jpg?v=1773127725",
-      "price": 107.36,
-      "from": 97.6
-    },
-    {
-      "t": "2026-06-27T09:04:12.416Z",
-      "source": "shopify",
-      "type": "PRICE_RISE",
-      "id": 9004339560684,
-      "title": "Game Stack",
-      "url": "https://www.lumibricks.com/products/game-stack-l9095",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/L9095.jpg?v=1779873280",
-      "price": 110.5,
-      "from": 104
     }
   ]
 }

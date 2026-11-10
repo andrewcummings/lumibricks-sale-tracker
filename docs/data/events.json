@@ -1,6 +1,15 @@
 {
-  "generatedAt": "2026-11-10T16:55:47.896Z",
+  "generatedAt": "2026-11-10T22:15:09.276Z",
   "events": [
+    {
+      "t": "2026-11-10T22:15:09.276Z",
+      "source": "shopify",
+      "type": "OUT_OF_STOCK",
+      "id": 8557541163244,
+      "title": "The Hen House",
+      "url": "https://www.lumibricks.com/products/the-hen-house",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/F9034.webp?v=1788517051"
+    },
     {
       "t": "2026-11-10T16:55:47.896Z",
       "source": "shopify",
@@ -5371,17 +5380,6 @@
       "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/1_773ade56-5df7-4d31-ace7-47016932674c.jpg?v=1737366191",
       "price": 38.72,
       "from": 35.2
-    },
-    {
-      "t": "2026-06-27T09:04:12.416Z",
-      "source": "shopify",
-      "type": "PRICE_RISE",
-      "id": 8734292181228,
-      "title": "General Store",
-      "url": "https://www.lumibricks.com/products/general-store-1895pcs",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/1_3b08e07f-70dc-4b8b-b14f-644512b2b231.jpg?v=1733128549",
-      "price": 88,
-      "from": 80
     }
   ]
 }

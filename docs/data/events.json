@@ -1,6 +1,14 @@
 {
-  "generatedAt": "2026-11-10T22:15:09.276Z",
+  "generatedAt": "2026-11-11T10:37:46.944Z",
   "events": [
+    {
+      "t": "2026-11-11T10:37:46.944Z",
+      "type": "REMOVED",
+      "id": 8557541163244,
+      "title": "The Hen House",
+      "url": "https://www.lumibricks.com/products/the-hen-house",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/F9034.webp?v=1788517051"
+    },
     {
       "t": "2026-11-10T22:15:09.276Z",
       "source": "shopify",
@@ -5369,17 +5377,6 @@
       "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/1200_ef6baa16-7ec0-48e9-b560-68bf9f8ab8b2.webp?v=1778666529",
       "price": 37.84,
       "from": 34.4
-    },
-    {
-      "t": "2026-06-27T09:04:12.416Z",
-      "source": "shopify",
-      "type": "PRICE_RISE",
-      "id": 8776890450156,
-      "title": "Graffiti Bus Stop",
-      "url": "https://www.lumibricks.com/products/graffiti-bus-stop-514pcs",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/1_773ade56-5df7-4d31-ace7-47016932674c.jpg?v=1737366191",
-      "price": 38.72,
-      "from": 35.2
     }
   ]
 }

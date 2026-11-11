@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-11-10T22:15:09.276Z",
+  "generatedAt": "2026-11-11T10:37:46.944Z",
   "store": "https://www.lumibricks.com",
   "totals": {
-    "products": 150,
-    "onSale": 133,
+    "products": 149,
+    "onSale": 132,
     "maxDiscountPct": 15
   },
   "products": [
@@ -2326,24 +2326,6 @@
       "available": true,
       "lowestEver": 128,
       "atLowestEver": false,
-      "saleSince": "2026-06-14T18:18:51.284Z",
-      "firstSeen": "2026-06-14T16:21:48.924Z"
-    },
-    {
-      "id": 8557541163244,
-      "title": "The Hen House",
-      "handle": "the-hen-house",
-      "url": "https://www.lumibricks.com/products/the-hen-house",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/F9034.webp?v=1788517051",
-      "productType": "Farm Life",
-      "price": 22,
-      "compareAt": 24.99,
-      "onSale": true,
-      "discountPct": 12,
-      "promo": "FIRSTORDER12",
-      "available": false,
-      "lowestEver": 22,
-      "atLowestEver": true,
       "saleSince": "2026-06-14T18:18:51.284Z",
       "firstSeen": "2026-06-14T16:21:48.924Z"
     },

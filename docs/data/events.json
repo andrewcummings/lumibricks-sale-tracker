@@ -1,6 +1,15 @@
 {
-  "generatedAt": "2026-11-11T10:37:46.944Z",
+  "generatedAt": "2026-11-12T18:03:25.586Z",
   "events": [
+    {
+      "t": "2026-11-12T18:03:25.586Z",
+      "source": "shopify",
+      "type": "RESTOCK",
+      "id": 8895713149164,
+      "title": "Gelato Store",
+      "url": "https://www.lumibricks.com/products/gelato-store-f9078",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/15005_F9078.webp?v=1788507913"
+    },
     {
       "t": "2026-11-11T10:37:46.944Z",
       "type": "REMOVED",
@@ -5366,17 +5375,6 @@
       "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/1_9d515891-7506-4a4a-9466-0c765accade1.webp?v=1781001443",
       "price": 132,
       "from": 120
-    },
-    {
-      "t": "2026-06-27T09:04:12.416Z",
-      "source": "shopify",
-      "type": "PRICE_RISE",
-      "id": 9210632143084,
-      "title": "Graffiti Crew",
-      "url": "https://www.lumibricks.com/products/graffiti-crew-19013",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/1200_ef6baa16-7ec0-48e9-b560-68bf9f8ab8b2.webp?v=1778666529",
-      "price": 37.84,
-      "from": 34.4
     }
   ]
 }

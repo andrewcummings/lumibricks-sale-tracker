@@ -1,6 +1,116 @@
 {
-  "generatedAt": "2026-11-12T18:03:25.586Z",
+  "generatedAt": "2026-11-15T14:31:10.602Z",
   "events": [
+    {
+      "t": "2026-11-15T14:31:10.602Z",
+      "source": "amazon",
+      "type": "PRICE_DROP",
+      "id": 8948785283308,
+      "title": "Night Glow Drive-in",
+      "url": "https://www.amazon.com/dp/B0F6MQH4P3",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/18004.webp?v=1788514557",
+      "price": 93.49,
+      "from": 109.99
+    },
+    {
+      "t": "2026-11-15T14:31:10.602Z",
+      "source": "amazon",
+      "type": "PRICE_DROP",
+      "id": 8875297669356,
+      "title": "Future Bus",
+      "url": "https://www.amazon.com/dp/B0FJFHYM82",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/F9060.webp?v=1786954463",
+      "price": 33.99,
+      "from": 39.99
+    },
+    {
+      "t": "2026-11-15T14:31:10.602Z",
+      "source": "amazon",
+      "type": "PRICE_DROP",
+      "id": 8677550653676,
+      "title": "Forge House",
+      "url": "https://www.amazon.com/dp/B0FJFGDP51",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/F9040.webp?v=1788233366",
+      "price": 76.49,
+      "from": 89.99
+    },
+    {
+      "t": "2026-11-15T14:31:10.602Z",
+      "source": "amazon",
+      "type": "PRICE_DROP",
+      "id": 8984028610796,
+      "title": "Castle Banquet Hall",
+      "url": "https://www.amazon.com/dp/B0FB3S3KQM",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/12010_L9071.webp?v=1788233366",
+      "price": 144.49,
+      "from": 169.99
+    },
+    {
+      "t": "2026-11-15T14:31:10.602Z",
+      "source": "amazon",
+      "type": "PRICE_DROP",
+      "id": 9027579216108,
+      "title": "Castle Armory",
+      "url": "https://www.amazon.com/dp/B0FRMYM9RL",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/12011.webp?v=1788233366",
+      "price": 127.49,
+      "from": 149.99
+    },
+    {
+      "t": "2026-11-15T14:31:10.602Z",
+      "source": "amazon",
+      "type": "PRICE_DROP",
+      "id": 9132932694252,
+      "title": "Beach Lifeguard Tower",
+      "url": "https://www.amazon.com/dp/B0GDD6Y4G1",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/18008.webp?v=1788514826",
+      "price": 55.24,
+      "from": 64.99
+    },
+    {
+      "t": "2026-11-15T14:31:10.602Z",
+      "source": "amazon",
+      "type": "PRICE_RISE",
+      "id": 8966977978604,
+      "title": "Waterfall Cabin",
+      "url": "https://www.amazon.com/dp/B0FB3LX6WL",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/20260810-102254.jpg?v=1786328636",
+      "price": 119.99,
+      "from": 101.99
+    },
+    {
+      "t": "2026-11-15T14:31:10.602Z",
+      "source": "amazon",
+      "type": "PRICE_RISE",
+      "id": 8986609090796,
+      "title": "Vineyard Estate",
+      "url": "https://www.amazon.com/dp/B0FGQ16612",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/16010_L9086.webp?v=1788517942",
+      "price": 118.99,
+      "from": 111.99
+    },
+    {
+      "t": "2026-11-15T14:31:10.602Z",
+      "source": "amazon",
+      "type": "PRICE_RISE",
+      "id": 8838360432876,
+      "title": "Factory House of Music",
+      "url": "https://www.amazon.com/dp/B0DW3WPT15",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/19005_F9068_-LIVE_HOUSE.webp?v=1788508980",
+      "price": 164.99,
+      "from": 115.49
+    },
+    {
+      "t": "2026-11-15T14:31:10.602Z",
+      "source": "amazon",
+      "type": "PRICE_DROP",
+      "id": 8901501419756,
+      "title": "Bamboo House",
+      "url": "https://www.amazon.com/dp/B0F21DRX47",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/10009_L9075.webp?v=1788510736",
+      "price": 97.74,
+      "from": 103.49
+    },
     {
       "t": "2026-11-12T18:03:25.586Z",
       "source": "shopify",
@@ -5265,116 +5375,6 @@
       "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/7aa9b238bc765e6ac8641e694ffbd757_16c6f04c-a58f-467b-a47b-f9d143738e21.webp?v=1781007929",
       "price": 105.6,
       "from": 96
-    },
-    {
-      "t": "2026-06-27T09:04:12.416Z",
-      "source": "shopify",
-      "type": "PRICE_RISE",
-      "id": 9004365775084,
-      "title": "King's Castle Treasury",
-      "url": "https://www.lumibricks.com/products/kings-castle-treasury-l9105",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/a9d19422fb3663d572adf3009db9fdff_3bdcc99a-36cf-417e-955d-25207a355bad.webp?v=1781263032",
-      "price": 145.2,
-      "from": 132
-    },
-    {
-      "t": "2026-06-27T09:04:12.416Z",
-      "source": "shopify",
-      "type": "PRICE_RISE",
-      "id": 8875237900524,
-      "title": "Izakaya",
-      "url": "https://www.lumibricks.com/products/izakaya-1987pcs-f9073",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/F9073_7f484d4a-653f-4be0-82fa-9d1fb13c87e2.jpg?v=1779873280",
-      "price": 110.5,
-      "from": 104
-    },
-    {
-      "t": "2026-06-27T09:04:12.416Z",
-      "source": "shopify",
-      "type": "PRICE_RISE",
-      "id": 9074919669996,
-      "title": "Italian Homestyle Restaurant",
-      "url": "https://www.lumibricks.com/products/ltalian-homestyle-restaurant-15010",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/italian_homestyle_restaurant_15010_1.png?v=1765501819",
-      "price": 124.96,
-      "from": 113.6
-    },
-    {
-      "t": "2026-06-27T09:04:12.416Z",
-      "source": "shopify",
-      "type": "PRICE_RISE",
-      "id": 9077998387436,
-      "title": "Iron Empire Printed Bricks Pack",
-      "url": "https://www.lumibricks.com/products/iron-empire-printed-bricks-pack-11018",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/iron_empire_printed_bricks_pack_11018_1.jpg?v=1764582789",
-      "price": 26.4,
-      "from": 24
-    },
-    {
-      "t": "2026-06-27T09:04:12.416Z",
-      "source": "shopify",
-      "type": "PRICE_RISE",
-      "id": 9004365644012,
-      "title": "Interstellar Drive-In",
-      "url": "https://www.lumibricks.com/products/interstellar-drive-in-l9104",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/interstellar_drive_in_18006_15.jpg?v=1761704620",
-      "price": 105.6,
-      "from": 96
-    },
-    {
-      "t": "2026-06-27T09:04:12.416Z",
-      "source": "shopify",
-      "type": "PRICE_RISE",
-      "id": 8023667507436,
-      "title": "Hunting Cabin",
-      "url": "https://www.lumibricks.com/products/hunting-cabin",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/1_ed241477-1ae9-4f7b-b015-8e7fdde19b6d.jpg?v=1696649600",
-      "price": 85,
-      "from": 80
-    },
-    {
-      "t": "2026-06-27T09:04:12.416Z",
-      "source": "shopify",
-      "type": "PRICE_RISE",
-      "id": 8941147521260,
-      "title": "Horse Stable",
-      "url": "https://www.lumibricks.com/products/horse-stable-f9080",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/Lumibricks_horse_stable_f9080_-_1.jpg?v=1757389768",
-      "price": 55.44,
-      "from": 50.4
-    },
-    {
-      "t": "2026-06-27T09:04:12.416Z",
-      "source": "shopify",
-      "type": "PRICE_RISE",
-      "id": 8774298861804,
-      "title": "Home Greenhouse",
-      "url": "https://www.lumibricks.com/products/home-greenhouse-1428pcs",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/img_v3_02lc_56d2aadf-698f-4ff0-acf5-89b806597f4g.jpg?v=1744714174",
-      "price": 66,
-      "from": 60
-    },
-    {
-      "t": "2026-06-27T09:04:12.416Z",
-      "source": "shopify",
-      "type": "PRICE_RISE",
-      "id": 8982836773100,
-      "title": "Heritage Tram and Station",
-      "url": "https://www.lumibricks.com/products/heritage-tram-and-station-l9084",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/Lumibricks_heritage_tram_and_station_l9084_1.jpg?v=1757389767",
-      "price": 66,
-      "from": 60
-    },
-    {
-      "t": "2026-06-27T09:04:12.416Z",
-      "source": "shopify",
-      "type": "PRICE_RISE",
-      "id": 9233535140076,
-      "title": "Greenway Clinic",
-      "url": "https://www.lumibricks.com/products/greenway-clinic-15011",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/1_9d515891-7506-4a4a-9466-0c765accade1.webp?v=1781001443",
-      "price": 132,
-      "from": 120
     }
   ]
 }

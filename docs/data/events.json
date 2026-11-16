@@ -1,6 +1,39 @@
 {
-  "generatedAt": "2026-11-16T01:45:47.048Z",
+  "generatedAt": "2026-11-16T20:12:23.770Z",
   "events": [
+    {
+      "t": "2026-11-16T20:12:23.770Z",
+      "source": "shopify",
+      "type": "NEW_PRODUCT",
+      "id": 7604079231212,
+      "title": "Wood Cabin",
+      "url": "https://www.lumibricks.com/products/funwhole-wood-cabin-building-set",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/products/light-up-wood-cabin-fh9001.jpg?v=1658279999",
+      "price": 96.8,
+      "available": true
+    },
+    {
+      "t": "2026-11-16T20:12:23.770Z",
+      "source": "shopify",
+      "type": "SALE_START",
+      "id": 7604079231212,
+      "title": "Wood Cabin",
+      "url": "https://www.lumibricks.com/products/funwhole-wood-cabin-building-set",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/products/light-up-wood-cabin-fh9001.jpg?v=1658279999",
+      "price": 96.8,
+      "compareAt": 109.99,
+      "discountPct": 12,
+      "promo": "FIRSTORDER12"
+    },
+    {
+      "t": "2026-11-16T20:12:23.770Z",
+      "source": "shopify",
+      "type": "RESTOCK",
+      "id": 9319922434284,
+      "title": "Christmas Pub",
+      "url": "https://www.lumibricks.com/products/christmas-pub-15014",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/Christmas_Pub_09.webp?v=1787821979"
+    },
     {
       "t": "2026-11-16T01:45:47.048Z",
       "source": "shopify",
@@ -5342,39 +5375,6 @@
       "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/1_1c88abc0-eddd-42ef-9639-e528dc11edf8.webp?v=1781263626",
       "price": 114.4,
       "from": 104
-    },
-    {
-      "t": "2026-06-27T09:04:12.416Z",
-      "source": "shopify",
-      "type": "PRICE_RISE",
-      "id": 8737986019564,
-      "title": "Medieval Water Mill",
-      "url": "https://www.lumibricks.com/products/water-mill-1278pcs",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/6391ace427ade714b70fb966024ae804_2a203ce3-5741-4838-a3db-3d6c1934015f.jpg?v=1735031025",
-      "price": 66,
-      "from": 60
-    },
-    {
-      "t": "2026-06-27T09:04:12.416Z",
-      "source": "shopify",
-      "type": "PRICE_RISE",
-      "id": 8130969764076,
-      "title": "Medieval Watchtower",
-      "url": "https://www.lumibricks.com/products/medieval-watchtower",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/1_e48bb422-74a6-4850-be3c-8232fb241e92.jpg?v=1704783602",
-      "price": 79.2,
-      "from": 72
-    },
-    {
-      "t": "2026-06-27T09:04:12.416Z",
-      "source": "shopify",
-      "type": "PRICE_RISE",
-      "id": 8973539115244,
-      "title": "Medieval Troupe Carriage",
-      "url": "https://www.lumibricks.com/products/medieval-troupe-carriage-l9063",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/Lumibricks_Medieval_Troupe_Carriage_L9063_1.jpg?v=1757389767",
-      "price": 66,
-      "from": 60
     }
   ]
 }

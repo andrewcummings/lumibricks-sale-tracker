@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-11-16T09:21:21.602Z",
+  "generatedAt": "2026-11-16T20:12:23.770Z",
   "store": "https://www.lumibricks.com",
   "totals": {
-    "products": 151,
-    "onSale": 133,
+    "products": 153,
+    "onSale": 135,
     "maxDiscountPct": 15
   },
   "products": [
@@ -260,6 +260,42 @@
       "firstSeen": "2026-06-14T16:21:48.924Z"
     },
     {
+      "id": 8636093825260,
+      "title": "Cow Barn",
+      "handle": "cow-barn-1368pcs",
+      "url": "https://www.lumibricks.com/products/cow-barn-1368pcs",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/6_52c29bd5-8238-4f35-8a21-2e58693183ed.jpg?v=1724743103",
+      "productType": "Farm Life",
+      "price": 70.4,
+      "compareAt": 79.99,
+      "onSale": true,
+      "discountPct": 12,
+      "promo": "FIRSTORDER12",
+      "available": false,
+      "lowestEver": 64,
+      "atLowestEver": false,
+      "saleSince": "2026-06-24T05:28:41.705Z",
+      "firstSeen": "2026-06-14T16:21:48.924Z"
+    },
+    {
+      "id": 7604079231212,
+      "title": "Wood Cabin",
+      "handle": "funwhole-wood-cabin-building-set",
+      "url": "https://www.lumibricks.com/products/funwhole-wood-cabin-building-set",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/products/light-up-wood-cabin-fh9001.jpg?v=1658279999",
+      "productType": "Retro House",
+      "price": 96.8,
+      "compareAt": 109.99,
+      "onSale": true,
+      "discountPct": 12,
+      "promo": "FIRSTORDER12",
+      "available": true,
+      "lowestEver": 96.8,
+      "atLowestEver": false,
+      "saleSince": "2026-11-16T20:12:23.770Z",
+      "firstSeen": "2026-11-16T20:12:23.770Z"
+    },
+    {
       "id": 7933167501548,
       "title": "A-Frame Cabin",
       "handle": "a-frame-cabin",
@@ -487,7 +523,7 @@
       "onSale": true,
       "discountPct": 12,
       "promo": "FIRSTORDER12",
-      "available": false,
+      "available": true,
       "lowestEver": 105.6,
       "atLowestEver": true,
       "saleSince": "2026-09-01T04:43:18.837Z",

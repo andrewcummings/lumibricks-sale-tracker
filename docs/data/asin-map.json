@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T18:28:13.188Z",
+  "generatedAt": "2026-11-16T18:04:06.484Z",
   "map": {
     "7933167501548": {
       "title": "A-Frame Cabin",
@@ -1116,6 +1116,22 @@
       "score": 1,
       "status": "matched",
       "checkedAt": "2026-11-02T17:57:47.018Z"
+    },
+    "15470148387052": {
+      "title": "Neoncity Club",
+      "asin": "B0HHNV2LJM",
+      "amazonTitle": "LUMIBRICKS Cyber Neoncity Club Building Set for Adults，LED Lights，2595pcs",
+      "score": 1,
+      "status": "matched",
+      "checkedAt": "2026-11-16T18:04:06.484Z"
+    },
+    "8059896987884": {
+      "title": "Jungle Off Roader",
+      "asin": "B0CV2DXV6N",
+      "amazonTitle": "LEGO City Jungle Explorer Off-Road Truck, Jungle Toy Building Set for Kids Aged 6 and Up, Fun Birthday Gift Idea, Off-Road Truck Vehicle, 3 Adventurer Minifigures, Tiger Figure and Car Toy, 60426",
+      "score": 0.67,
+      "status": "matched",
+      "checkedAt": "2026-11-16T18:04:06.484Z"
     }
   }
 }

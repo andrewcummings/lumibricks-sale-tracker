@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-11-12T18:03:25.586Z",
+  "generatedAt": "2026-11-16T01:45:47.048Z",
   "store": "https://www.lumibricks.com",
   "totals": {
-    "products": 149,
-    "onSale": 132,
+    "products": 151,
+    "onSale": 133,
     "maxDiscountPct": 15
   },
   "products": [
@@ -257,6 +257,24 @@
       "lowestEver": 80,
       "atLowestEver": false,
       "saleSince": "2026-06-14T18:18:51.284Z",
+      "firstSeen": "2026-06-14T16:21:48.924Z"
+    },
+    {
+      "id": 7933167501548,
+      "title": "A-Frame Cabin",
+      "handle": "a-frame-cabin",
+      "url": "https://www.lumibricks.com/products/a-frame-cabin",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/7_bbec1968-c6dc-48ec-9b6d-40819488bcd7.jpg?v=1686213940",
+      "productType": "Retro House",
+      "price": 88,
+      "compareAt": 99.99,
+      "onSale": true,
+      "discountPct": 12,
+      "promo": "FIRSTORDER12",
+      "available": true,
+      "lowestEver": 88,
+      "atLowestEver": true,
+      "saleSince": "2026-11-16T01:45:47.048Z",
       "firstSeen": "2026-06-14T16:21:48.924Z"
     },
     {
@@ -2526,6 +2544,24 @@
       "atLowestEver": false,
       "saleSince": null,
       "firstSeen": "2026-08-19T06:54:36.876Z"
+    },
+    {
+      "id": 8059896987884,
+      "title": "Jungle Off Roader",
+      "handle": "jungle-off-roader",
+      "url": "https://www.lumibricks.com/products/jungle-off-roader",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/F9020-2.jpg?v=1698743544",
+      "productType": "Vacation",
+      "price": 29.99,
+      "compareAt": null,
+      "onSale": false,
+      "discountPct": 0,
+      "promo": null,
+      "available": true,
+      "lowestEver": 29.99,
+      "atLowestEver": false,
+      "saleSince": null,
+      "firstSeen": "2026-11-16T01:45:47.048Z"
     },
     {
       "id": 9269731000556,

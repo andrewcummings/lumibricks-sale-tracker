@@ -1,6 +1,39 @@
 {
-  "generatedAt": "2026-11-15T14:31:10.602Z",
+  "generatedAt": "2026-11-16T01:45:47.048Z",
   "events": [
+    {
+      "t": "2026-11-16T01:45:47.048Z",
+      "source": "shopify",
+      "type": "NEW_PRODUCT",
+      "id": 8059896987884,
+      "title": "Jungle Off Roader",
+      "url": "https://www.lumibricks.com/products/jungle-off-roader",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/F9020-2.jpg?v=1698743544",
+      "price": 29.99,
+      "available": true
+    },
+    {
+      "t": "2026-11-16T01:45:47.048Z",
+      "source": "shopify",
+      "type": "SALE_START",
+      "id": 7933167501548,
+      "title": "A-Frame Cabin",
+      "url": "https://www.lumibricks.com/products/a-frame-cabin",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/7_bbec1968-c6dc-48ec-9b6d-40819488bcd7.jpg?v=1686213940",
+      "price": 88,
+      "compareAt": 99.99,
+      "discountPct": 12,
+      "promo": "FIRSTORDER12"
+    },
+    {
+      "t": "2026-11-16T01:45:47.048Z",
+      "source": "shopify",
+      "type": "RESTOCK",
+      "id": 7933167501548,
+      "title": "A-Frame Cabin",
+      "url": "https://www.lumibricks.com/products/a-frame-cabin",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/7_bbec1968-c6dc-48ec-9b6d-40819488bcd7.jpg?v=1686213940"
+    },
     {
       "t": "2026-11-15T14:31:10.602Z",
       "source": "amazon",
@@ -5342,39 +5375,6 @@
       "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/Lumibricks_Medieval_Troupe_Carriage_L9063_1.jpg?v=1757389767",
       "price": 66,
       "from": 60
-    },
-    {
-      "t": "2026-06-27T09:04:12.416Z",
-      "source": "shopify",
-      "type": "PRICE_RISE",
-      "id": 8756237271276,
-      "title": "Medieval Tailor Shop",
-      "url": "https://www.lumibricks.com/products/medieval-tailor-shop-1994pcs",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/1_2b2cda62-493a-4368-a573-a53ebe16567d.jpg?v=1735109715",
-      "price": 96.8,
-      "from": 88
-    },
-    {
-      "t": "2026-06-27T09:04:12.416Z",
-      "source": "shopify",
-      "type": "PRICE_RISE",
-      "id": 9107108888812,
-      "title": "Medieval Guard Post",
-      "url": "https://www.lumibricks.com/products/medieval-guard-post-12013",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/medieval_guard_post_12013_1.png?v=1770280652",
-      "price": 132,
-      "from": 120
-    },
-    {
-      "t": "2026-06-27T09:04:12.416Z",
-      "source": "shopify",
-      "type": "PRICE_RISE",
-      "id": 9233548443884,
-      "title": "Luna Cottage",
-      "url": "https://www.lumibricks.com/products/luna-cottage-10014",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/7aa9b238bc765e6ac8641e694ffbd757_16c6f04c-a58f-467b-a47b-f9d143738e21.webp?v=1781007929",
-      "price": 105.6,
-      "from": 96
     }
   ]
 }

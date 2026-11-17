@@ -1,6 +1,15 @@
 {
-  "generatedAt": "2026-11-17T03:37:10.890Z",
+  "generatedAt": "2026-11-17T21:42:31.370Z",
   "events": [
+    {
+      "t": "2026-11-17T21:42:31.370Z",
+      "source": "shopify",
+      "type": "OUT_OF_STOCK",
+      "id": 8636093825260,
+      "title": "Cow Barn",
+      "url": "https://www.lumibricks.com/products/cow-barn-1368pcs",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/6_52c29bd5-8238-4f35-8a21-2e58693183ed.jpg?v=1724743103"
+    },
     {
       "t": "2026-11-17T03:37:10.890Z",
       "source": "shopify",
@@ -5360,17 +5369,6 @@
       "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/1_e30dce8b-5985-454a-a441-c860dd921129.jpg?v=1701312287",
       "price": 30.8,
       "from": 28
-    },
-    {
-      "t": "2026-06-27T09:04:12.416Z",
-      "source": "shopify",
-      "type": "PRICE_RISE",
-      "id": 8627552911596,
-      "title": "Mountain Cabin",
-      "url": "https://www.lumibricks.com/products/mountain-cabin-2255pcs",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/1_e6a2a19c-23ff-48d8-b15f-3edfae5c0ba6.jpg?v=1724139185",
-      "price": 96.8,
-      "from": 88
     }
   ]
 }

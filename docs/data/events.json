@@ -1,6 +1,31 @@
 {
-  "generatedAt": "2026-11-17T21:42:31.370Z",
+  "generatedAt": "2026-11-18T03:32:28.129Z",
   "events": [
+    {
+      "t": "2026-11-18T03:32:28.129Z",
+      "type": "REMOVED",
+      "id": 7604079231212,
+      "title": "Wood Cabin",
+      "url": "https://www.lumibricks.com/products/funwhole-wood-cabin-building-set",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/products/light-up-wood-cabin-fh9001.jpg?v=1658279999"
+    },
+    {
+      "t": "2026-11-18T03:32:28.129Z",
+      "source": "shopify",
+      "type": "RESTOCK",
+      "id": 8557541163244,
+      "title": "The Hen House",
+      "url": "https://www.lumibricks.com/products/the-hen-house",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/F9034.webp?v=1788517051"
+    },
+    {
+      "t": "2026-11-18T03:32:28.129Z",
+      "type": "REMOVED",
+      "id": 8636093825260,
+      "title": "Cow Barn",
+      "url": "https://www.lumibricks.com/products/cow-barn-1368pcs",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/6_52c29bd5-8238-4f35-8a21-2e58693183ed.jpg?v=1724743103"
+    },
     {
       "t": "2026-11-17T21:42:31.370Z",
       "source": "shopify",
@@ -5336,39 +5361,6 @@
       "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/3034a1133efe01daba919094b70c6310.jpg?v=1769050858",
       "price": 123.2,
       "from": 112
-    },
-    {
-      "t": "2026-06-27T09:04:12.416Z",
-      "source": "shopify",
-      "type": "PRICE_RISE",
-      "id": 8905360408812,
-      "title": "Old West Gold Mine",
-      "url": "https://www.lumibricks.com/products/gold-mine-f9077",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/1_75474291-98e3-46f7-a701-2560e3970e1e.webp?v=1781262906",
-      "price": 35.2,
-      "from": 32
-    },
-    {
-      "t": "2026-06-27T09:04:12.416Z",
-      "source": "shopify",
-      "type": "PRICE_RISE",
-      "id": 9003793350892,
-      "title": "Old West Blacksmith",
-      "url": "https://www.lumibricks.com/products/old-west-blacksmith-l9089",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/old_west_blacksmith_l9089_1.jpg?v=1758104968",
-      "price": 88,
-      "from": 80
-    },
-    {
-      "t": "2026-06-27T09:04:12.416Z",
-      "source": "shopify",
-      "type": "PRICE_RISE",
-      "id": 8101390680300,
-      "title": "Newsstand",
-      "url": "https://www.lumibricks.com/products/newsstand",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/1_e30dce8b-5985-454a-a441-c860dd921129.jpg?v=1701312287",
-      "price": 30.8,
-      "from": 28
     }
   ]
 }

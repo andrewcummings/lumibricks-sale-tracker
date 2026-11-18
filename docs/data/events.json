@@ -1,6 +1,15 @@
 {
-  "generatedAt": "2026-11-18T03:32:28.129Z",
+  "generatedAt": "2026-11-18T12:53:19.275Z",
   "events": [
+    {
+      "t": "2026-11-18T12:53:19.275Z",
+      "source": "shopify",
+      "type": "RESTOCK",
+      "id": 9344822313196,
+      "title": "Christmas Pub (Limited Edition Gift Set) - Restocking",
+      "url": "https://www.lumibricks.com/products/christmas-pub-limited-edition-gift-set-15014-2",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/2_5f3af4ea-bd23-43bd-9110-5a301a69309a.webp?v=1787824442"
+    },
     {
       "t": "2026-11-18T03:32:28.129Z",
       "type": "REMOVED",
@@ -5350,17 +5359,6 @@
       "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/ore_factory_l9101_1.png?v=1759988606",
       "price": 149.6,
       "from": 136
-    },
-    {
-      "t": "2026-06-27T09:04:12.416Z",
-      "source": "shopify",
-      "type": "PRICE_RISE",
-      "id": 9107284263148,
-      "title": "Old West Inn",
-      "url": "https://www.lumibricks.com/products/old-west-inn-14014",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/3034a1133efe01daba919094b70c6310.jpg?v=1769050858",
-      "price": 123.2,
-      "from": 112
     }
   ]
 }

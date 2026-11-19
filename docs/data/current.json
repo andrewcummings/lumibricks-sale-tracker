@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-18T12:53:19.275Z",
+  "generatedAt": "2026-11-19T03:05:06.536Z",
   "store": "https://www.lumibricks.com",
   "totals": {
     "products": 152,
@@ -289,7 +289,7 @@
       "onSale": true,
       "discountPct": 12,
       "promo": "FIRSTORDER12",
-      "available": true,
+      "available": false,
       "lowestEver": 88,
       "atLowestEver": true,
       "saleSince": "2026-11-16T01:45:47.048Z",
@@ -477,7 +477,7 @@
     },
     {
       "id": 9344822313196,
-      "title": "Christmas Pub (Limited Edition Gift Set) - Restocking",
+      "title": "Christmas Pub (Limited Edition Gift Set)",
       "handle": "christmas-pub-limited-edition-gift-set-15014-2",
       "url": "https://www.lumibricks.com/products/christmas-pub-limited-edition-gift-set-15014-2",
       "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/2_5f3af4ea-bd23-43bd-9110-5a301a69309a.webp?v=1787824442",

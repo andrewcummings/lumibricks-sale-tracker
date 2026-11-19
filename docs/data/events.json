@@ -1,6 +1,15 @@
 {
-  "generatedAt": "2026-11-18T12:53:19.275Z",
+  "generatedAt": "2026-11-19T03:05:06.536Z",
   "events": [
+    {
+      "t": "2026-11-19T03:05:06.536Z",
+      "source": "shopify",
+      "type": "OUT_OF_STOCK",
+      "id": 7933167501548,
+      "title": "A-Frame Cabin",
+      "url": "https://www.lumibricks.com/products/a-frame-cabin",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/7_bbec1968-c6dc-48ec-9b6d-40819488bcd7.jpg?v=1686213940"
+    },
     {
       "t": "2026-11-18T12:53:19.275Z",
       "source": "shopify",
@@ -5348,17 +5357,6 @@
       "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/1_6250a073-0a41-4278-b0d8-090f476e1b2a.webp?v=1781056119",
       "price": 79.2,
       "from": 72
-    },
-    {
-      "t": "2026-06-27T09:04:12.416Z",
-      "source": "shopify",
-      "type": "PRICE_RISE",
-      "id": 9004362825964,
-      "title": "Ore Factory",
-      "url": "https://www.lumibricks.com/products/ore-factory-l9101",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/ore_factory_l9101_1.png?v=1759988606",
-      "price": 149.6,
-      "from": 136
     }
   ]
 }

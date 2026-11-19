@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-19T03:05:06.536Z",
+  "generatedAt": "2026-11-19T12:44:31.318Z",
   "store": "https://www.lumibricks.com",
   "totals": {
     "products": 152,
@@ -289,7 +289,7 @@
       "onSale": true,
       "discountPct": 12,
       "promo": "FIRSTORDER12",
-      "available": false,
+      "available": true,
       "lowestEver": 88,
       "atLowestEver": true,
       "saleSince": "2026-11-16T01:45:47.048Z",
@@ -2629,7 +2629,7 @@
       "onSale": false,
       "discountPct": 0,
       "promo": null,
-      "available": false,
+      "available": true,
       "lowestEver": 11.89,
       "atLowestEver": true,
       "saleSince": null,
@@ -2701,7 +2701,7 @@
       "onSale": false,
       "discountPct": 0,
       "promo": null,
-      "available": false,
+      "available": true,
       "lowestEver": 13.99,
       "atLowestEver": true,
       "saleSince": null,

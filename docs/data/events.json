@@ -1,6 +1,14 @@
 {
-  "generatedAt": "2026-11-19T12:44:31.318Z",
+  "generatedAt": "2026-11-20T11:16:44.456Z",
   "events": [
+    {
+      "t": "2026-11-20T11:16:44.456Z",
+      "type": "REMOVED",
+      "id": 7933167501548,
+      "title": "A-Frame Cabin",
+      "url": "https://www.lumibricks.com/products/a-frame-cabin",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/7_bbec1968-c6dc-48ec-9b6d-40819488bcd7.jpg?v=1686213940"
+    },
     {
       "t": "2026-11-19T12:44:31.318Z",
       "source": "shopify",
@@ -5340,17 +5348,6 @@
       "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/1_d8fe61e5-068e-423e-950c-9722a381993d.jpg?v=1733895758",
       "price": 114.75,
       "from": 108
-    },
-    {
-      "t": "2026-06-27T09:04:12.416Z",
-      "source": "shopify",
-      "type": "PRICE_RISE",
-      "id": 9199088697580,
-      "title": "Ranger Camp",
-      "url": "https://www.lumibricks.com/products/ranger-camp-12014",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/7aa9b238bc765e6ac8641e694ffbd757.webp?v=1777545603",
-      "price": 30.8,
-      "from": 28
     }
   ]
 }

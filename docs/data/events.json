@@ -1,6 +1,15 @@
 {
-  "generatedAt": "2026-11-20T11:16:44.456Z",
+  "generatedAt": "2026-11-25T02:09:48.490Z",
   "events": [
+    {
+      "t": "2026-11-25T02:09:48.490Z",
+      "source": "shopify",
+      "type": "OUT_OF_STOCK",
+      "id": 8945489543404,
+      "title": "Sunset Stopover",
+      "url": "https://www.lumibricks.com/products/sunset-stopover-l9082",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/L9082.webp?v=1788514259"
+    },
     {
       "t": "2026-11-20T11:16:44.456Z",
       "type": "REMOVED",
@@ -5337,17 +5346,6 @@
       "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/sequoia_bandit_camp_14012_1.png?v=1760583071",
       "price": 57.2,
       "from": 52
-    },
-    {
-      "t": "2026-06-27T09:04:12.416Z",
-      "source": "shopify",
-      "type": "PRICE_RISE",
-      "id": 8740988616940,
-      "title": "Record Store",
-      "url": "https://www.lumibricks.com/products/record-store-1980pcs",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/1_d8fe61e5-068e-423e-950c-9722a381993d.jpg?v=1733895758",
-      "price": 114.75,
-      "from": 108
     }
   ]
 }

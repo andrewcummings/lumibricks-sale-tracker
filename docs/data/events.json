@@ -1,6 +1,15 @@
 {
-  "generatedAt": "2026-11-25T12:28:52.752Z",
+  "generatedAt": "2026-11-26T04:51:16.196Z",
   "events": [
+    {
+      "t": "2026-11-26T04:51:16.196Z",
+      "source": "shopify",
+      "type": "RESTOCK",
+      "id": 8130969764076,
+      "title": "Medieval Watchtower",
+      "url": "https://www.lumibricks.com/products/medieval-watchtower",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/F9027V2.0.webp?v=1788232950"
+    },
     {
       "t": "2026-11-25T12:28:52.752Z",
       "source": "shopify",
@@ -5331,17 +5340,6 @@
       "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/skate_park_19011_1.jpg?v=1773042934",
       "price": 96.8,
       "from": 88
-    },
-    {
-      "t": "2026-06-27T09:04:12.416Z",
-      "source": "shopify",
-      "type": "PRICE_RISE",
-      "id": 8127059034348,
-      "title": "Sheriff's Office",
-      "url": "https://www.lumibricks.com/products/sheriffs-office",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/1_ffe1ea41-1dd1-48ae-ade1-22085107ec2c.jpg?v=1704266586",
-      "price": 61.6,
-      "from": 56
     }
   ]
 }

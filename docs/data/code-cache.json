@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-25T12:28:52.752Z",
+  "generatedAt": "2026-11-26T04:51:16.196Z",
   "codes": {
     "BESTDEAL15": {
       "status": "manual",
@@ -76,6 +76,11 @@
     "8127059034348": {
       "original": 69.99,
       "final": 61.6,
+      "code": "FIRSTORDER12"
+    },
+    "8130969764076": {
+      "original": 89.99,
+      "final": 79.2,
       "code": "FIRSTORDER12"
     },
     "8557541163244": {

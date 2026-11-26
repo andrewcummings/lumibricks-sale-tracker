@@ -1,6 +1,15 @@
 {
-  "generatedAt": "2026-11-26T14:54:42.657Z",
+  "generatedAt": "2026-11-26T23:39:20.357Z",
   "events": [
+    {
+      "t": "2026-11-26T23:39:20.357Z",
+      "source": "shopify",
+      "type": "OUT_OF_STOCK",
+      "id": 8130969764076,
+      "title": "Medieval Watchtower",
+      "url": "https://www.lumibricks.com/products/medieval-watchtower",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/F9027V2.0.webp?v=1788232950"
+    },
     {
       "t": "2026-11-26T14:54:42.657Z",
       "source": "shopify",
@@ -5325,17 +5334,6 @@
       "title": "Ski Lodge",
       "url": "https://www.lumibricks.com/products/ski-lodge-2187pcs",
       "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/1_a3e27fc6-fd3b-43a1-96a1-d5834dbff094.jpg?v=1728532568",
-      "price": 88,
-      "from": 80
-    },
-    {
-      "t": "2026-06-27T09:04:12.416Z",
-      "source": "shopify",
-      "type": "PRICE_RISE",
-      "id": 8707953656044,
-      "title": "Skate Shop",
-      "url": "https://www.lumibricks.com/products/skate-shop-1573pcs",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/1_31b0f443-4d19-4ee4-b5b6-18088c47af18.jpg?v=1731031603",
       "price": 88,
       "from": 80
     }

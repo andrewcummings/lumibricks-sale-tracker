@@ -1,6 +1,15 @@
 {
-  "generatedAt": "2026-11-26T04:51:16.196Z",
+  "generatedAt": "2026-11-26T14:54:42.657Z",
   "events": [
+    {
+      "t": "2026-11-26T14:54:42.657Z",
+      "source": "shopify",
+      "type": "OUT_OF_STOCK",
+      "id": 8059896987884,
+      "title": "Jungle Off Roader",
+      "url": "https://www.lumibricks.com/products/jungle-off-roader",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/F9020-2.jpg?v=1698743544"
+    },
     {
       "t": "2026-11-26T04:51:16.196Z",
       "source": "shopify",
@@ -5329,17 +5338,6 @@
       "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/1_31b0f443-4d19-4ee4-b5b6-18088c47af18.jpg?v=1731031603",
       "price": 88,
       "from": 80
-    },
-    {
-      "t": "2026-06-27T09:04:12.416Z",
-      "source": "shopify",
-      "type": "PRICE_RISE",
-      "id": 9132931580140,
-      "title": "Skate Park",
-      "url": "https://www.lumibricks.com/products/skate-park-19011",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/skate_park_19011_1.jpg?v=1773042934",
-      "price": 96.8,
-      "from": 88
     }
   ]
 }

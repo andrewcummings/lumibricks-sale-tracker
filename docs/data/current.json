@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-11-26T23:39:20.357Z",
+  "generatedAt": "2026-11-27T07:54:18.724Z",
   "store": "https://www.lumibricks.com",
   "totals": {
-    "products": 151,
-    "onSale": 133,
+    "products": 149,
+    "onSale": 132,
     "maxDiscountPct": 15
   },
   "products": [
@@ -1632,7 +1632,7 @@
       "title": "Floating Train Station",
       "handle": "floating-train-station-l9098",
       "url": "https://www.lumibricks.com/products/floating-train-station-l9098",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/L9098.webp?v=1786954464",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/1_e8c39e73-c1e5-43d4-b6fe-4aef0150a9a2.jpg?v=1795750211",
       "productType": "Cyberpunk",
       "price": 149.6,
       "compareAt": 169.99,
@@ -2348,24 +2348,6 @@
       "firstSeen": "2026-06-14T16:21:48.924Z"
     },
     {
-      "id": 8130969764076,
-      "title": "Medieval Watchtower",
-      "handle": "medieval-watchtower",
-      "url": "https://www.lumibricks.com/products/medieval-watchtower",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/F9027V2.0.webp?v=1788232950",
-      "productType": "Middle Ages",
-      "price": 79.2,
-      "compareAt": 89.99,
-      "onSale": true,
-      "discountPct": 12,
-      "promo": "FIRSTORDER12",
-      "available": false,
-      "lowestEver": 67.5,
-      "atLowestEver": false,
-      "saleSince": "2026-06-14T18:18:51.284Z",
-      "firstSeen": "2026-06-14T16:21:48.924Z"
-    },
-    {
       "id": 8127059034348,
       "title": "Sheriff's Office",
       "handle": "sheriffs-office",
@@ -2544,24 +2526,6 @@
       "atLowestEver": false,
       "saleSince": null,
       "firstSeen": "2026-08-19T06:54:36.876Z"
-    },
-    {
-      "id": 8059896987884,
-      "title": "Jungle Off Roader",
-      "handle": "jungle-off-roader",
-      "url": "https://www.lumibricks.com/products/jungle-off-roader",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/F9020-2.jpg?v=1698743544",
-      "productType": "Vacation",
-      "price": 29.99,
-      "compareAt": null,
-      "onSale": false,
-      "discountPct": 0,
-      "promo": null,
-      "available": false,
-      "lowestEver": 29.99,
-      "atLowestEver": true,
-      "saleSince": null,
-      "firstSeen": "2026-11-16T01:45:47.048Z"
     },
     {
       "id": 9269731000556,

@@ -1,6 +1,22 @@
 {
-  "generatedAt": "2026-11-26T23:39:20.357Z",
+  "generatedAt": "2026-11-27T07:54:18.724Z",
   "events": [
+    {
+      "t": "2026-11-27T07:54:18.724Z",
+      "type": "REMOVED",
+      "id": 8130969764076,
+      "title": "Medieval Watchtower",
+      "url": "https://www.lumibricks.com/products/medieval-watchtower",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/F9027V2.0.webp?v=1788232950"
+    },
+    {
+      "t": "2026-11-27T07:54:18.724Z",
+      "type": "REMOVED",
+      "id": 8059896987884,
+      "title": "Jungle Off Roader",
+      "url": "https://www.lumibricks.com/products/jungle-off-roader",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/F9020-2.jpg?v=1698743544"
+    },
     {
       "t": "2026-11-26T23:39:20.357Z",
       "source": "shopify",
@@ -5312,28 +5328,6 @@
       "title": "Steamboat",
       "url": "https://www.lumibricks.com/products/steamboat-11016",
       "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/steamboat_11016_1.jpg?v=1763428829",
-      "price": 88,
-      "from": 80
-    },
-    {
-      "t": "2026-06-27T09:04:12.416Z",
-      "source": "shopify",
-      "type": "PRICE_RISE",
-      "id": 9004345327852,
-      "title": "Spa Cabin",
-      "url": "https://www.lumibricks.com/products/spa-cabin-l9096",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/spa_cabin_L9096_1.jpg?v=1758680752",
-      "price": 96.8,
-      "from": 88
-    },
-    {
-      "t": "2026-06-27T09:04:12.416Z",
-      "source": "shopify",
-      "type": "PRICE_RISE",
-      "id": 8685511246060,
-      "title": "Ski Lodge",
-      "url": "https://www.lumibricks.com/products/ski-lodge-2187pcs",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/1_a3e27fc6-fd3b-43a1-96a1-d5834dbff094.jpg?v=1728532568",
       "price": 88,
       "from": 80
     }

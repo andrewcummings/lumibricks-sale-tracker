@@ -1,6 +1,15 @@
 {
-  "generatedAt": "2026-11-27T19:07:23.913Z",
+  "generatedAt": "2026-11-28T10:04:58.101Z",
   "events": [
+    {
+      "t": "2026-11-28T10:04:58.101Z",
+      "source": "shopify",
+      "type": "OUT_OF_STOCK",
+      "id": 8945489543404,
+      "title": "Sunset Stopover",
+      "url": "https://www.lumibricks.com/products/sunset-stopover-l9082",
+      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/L9082.webp?v=1788514259"
+    },
     {
       "t": "2026-11-27T19:07:23.913Z",
       "source": "amazon",
@@ -5327,15 +5336,6 @@
       "title": "Cow Barn",
       "url": "https://www.lumibricks.com/products/cow-barn-1368pcs",
       "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/1_7208ff9b-834e-470c-81d7-f22a82a0b1d3.jpg?v=1724743067"
-    },
-    {
-      "t": "2026-07-05T17:19:43.627Z",
-      "source": "shopify",
-      "type": "OUT_OF_STOCK",
-      "id": 9004272648428,
-      "title": "Midnight Haunted Mansion",
-      "url": "https://www.lumibricks.com/products/midnight-haunted-mansion-l9092",
-      "image": "https://cdn.shopify.com/s/files/1/0631/7060/9388/files/1_1c88abc0-eddd-42ef-9639-e528dc11edf8.webp?v=1781263626"
     }
   ]
 }
